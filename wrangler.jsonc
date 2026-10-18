@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "exam-desk",
+  "name": "yyexams",
   "main": "src/worker.js",
   "compatibility_date": "2026-06-01",
   "build": { "command": "node scripts/bundle-exams.mjs" },
@@ -11,6 +11,6 @@
     "run_worker_first": ["/api/*"]
   },
   // The database is created automatically on the first deploy.
-  "d1_databases": [{ "binding": "DB", "database_name": "exam-desk" }],
+  "d1_databases": [{ "binding": "DB", "database_name": "yyexams" }],
   "observability": { "enabled": true }
 }
