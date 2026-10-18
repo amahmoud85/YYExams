@@ -1,0 +1,208 @@
+{
+ "id": "science-5",
+ "year": 8,
+ "order": 10,
+ "subject": "Science",
+ "title": "Science Exam 5",
+ "short": "Exam 5",
+ "topic": "Motion & Pressure · Periodic Table · Investigative skills",
+ "minutes": 50,
+ "intro": "AQA Higher style. You may use a calculator. Show your working for calculations and write full sentences for the longer answers.",
+ "questions": [
+  {
+   "id": "1",
+   "type": "mc",
+   "marks": 1,
+   "q": "Which unit is used for pressure?",
+   "options": [
+    "N",
+    "m/s",
+    "Pa",
+    "Nm"
+   ],
+   "key": 2,
+   "ms": "Pa (pascal), which is the same as N/m²."
+  },
+  {
+   "id": "2",
+   "type": "work",
+   "marks": 3,
+   "q": "A cyclist travels 4.5 km in 15 minutes.<br>Calculate the cyclist's average speed in m/s.",
+   "key": {
+    "num": 5
+   },
+   "ms": "5 m/s. M1 4.5 km = 4500 m and 15 min = 900 s, M1 speed = distance ÷ time, A1 4500 ÷ 900 = 5."
+  },
+  {
+   "id": "3",
+   "type": "written",
+   "marks": 2,
+   "q": "Explain the difference between average speed and instantaneous speed.",
+   "ms": "Average speed is total distance ÷ total time for the whole journey (1). Instantaneous speed is the speed at one particular moment, e.g. shown on a speedometer (1)."
+  },
+  {
+   "id": "4a",
+   "type": "num",
+   "marks": 1,
+   "q": "Car A travels at 70 km/h. Car B travels at 55 km/h in the same direction.<br>What is the speed of car A relative to car B, in km/h?",
+   "key": 15,
+   "ms": "15 km/h (70 − 55)."
+  },
+  {
+   "id": "4b",
+   "type": "written",
+   "marks": 2,
+   "q": "The two cars now drive towards each other at the same speeds. Explain why their relative speed is 125 km/h.",
+   "ms": "Moving in opposite directions, so the speeds add (1): 70 + 55 = 125 km/h (1)."
+  },
+  {
+   "id": "5a",
+   "type": "mc",
+   "marks": 1,
+   "q": "The distance-time graph shows a runner's journey.<svg class=\"graph\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"Distance-time graph\"><g class=\"grid\"><line x1=\"50\" y1=\"20\" x2=\"50\" y2=\"180\"/><line x1=\"92\" y1=\"20\" x2=\"92\" y2=\"180\"/><line x1=\"133\" y1=\"20\" x2=\"133\" y2=\"180\"/><line x1=\"175\" y1=\"20\" x2=\"175\" y2=\"180\"/><line x1=\"217\" y1=\"20\" x2=\"217\" y2=\"180\"/><line x1=\"258\" y1=\"20\" x2=\"258\" y2=\"180\"/><line x1=\"300\" y1=\"20\" x2=\"300\" y2=\"180\"/><line x1=\"50\" y1=\"180\" x2=\"300\" y2=\"180\"/><line x1=\"50\" y1=\"148\" x2=\"300\" y2=\"148\"/><line x1=\"50\" y1=\"116\" x2=\"300\" y2=\"116\"/><line x1=\"50\" y1=\"84\" x2=\"300\" y2=\"84\"/><line x1=\"50\" y1=\"52\" x2=\"300\" y2=\"52\"/><line x1=\"50\" y1=\"20\" x2=\"300\" y2=\"20\"/></g><polyline class=\"plot\" points=\"50,180 133,116 217,116 300,20\"/><g class=\"lbl\"><text x=\"50\" y=\"196\" text-anchor=\"middle\">0</text><text x=\"92\" y=\"196\" text-anchor=\"middle\">2</text><text x=\"133\" y=\"196\" text-anchor=\"middle\">4</text><text x=\"175\" y=\"196\" text-anchor=\"middle\">6</text><text x=\"217\" y=\"196\" text-anchor=\"middle\">8</text><text x=\"258\" y=\"196\" text-anchor=\"middle\">10</text><text x=\"300\" y=\"196\" text-anchor=\"middle\">12</text><text x=\"42\" y=\"184\" text-anchor=\"end\">0</text><text x=\"42\" y=\"152\" text-anchor=\"end\">20</text><text x=\"42\" y=\"120\" text-anchor=\"end\">40</text><text x=\"42\" y=\"88\" text-anchor=\"end\">60</text><text x=\"42\" y=\"56\" text-anchor=\"end\">80</text><text x=\"42\" y=\"24\" text-anchor=\"end\">100</text><text class=\"sec\" x=\"79\" y=\"135\" text-anchor=\"middle\">A</text><text class=\"sec\" x=\"175\" y=\"103\" text-anchor=\"middle\">B</text><text class=\"sec\" x=\"246\" y=\"49\" text-anchor=\"middle\">C</text><text x=\"175\" y=\"214\" text-anchor=\"middle\">Time (s)</text><text x=\"12\" y=\"100\" text-anchor=\"middle\" transform=\"rotate(-90 12 100)\">Distance (m)</text></g></svg>Describe the motion in section B.",
+   "options": [
+    "Moving at a steady speed",
+    "Speeding up",
+    "Stationary (not moving)",
+    "Moving backwards"
+   ],
+   "key": 2,
+   "ms": "Stationary: the line is flat, so the distance is not changing."
+  },
+  {
+   "id": "5b",
+   "type": "work",
+   "marks": 2,
+   "q": "Use the graph to calculate the speed in section C.",
+   "key": {
+    "num": 15
+   },
+   "ms": "15 m/s. M1 gradient = (100 − 40) ÷ (12 − 8) = 60 ÷ 4, A1 15."
+  },
+  {
+   "id": "5c",
+   "type": "written",
+   "marks": 2,
+   "q": "Is the runner faster in section A or section C? Use the graph to explain how you can tell.",
+   "ms": "Section C (1): the line is steeper / speed in A is 40 ÷ 4 = 10 m/s and in C is 15 m/s (1)."
+  },
+  {
+   "id": "6",
+   "type": "written",
+   "marks": 3,
+   "q": "Explain why atmospheric pressure is lower at the top of a mountain than at sea level.",
+   "ms": "There is less air (a smaller column of air) above you, so less weight of air pushing down (1); air is less dense / fewer particles in each cm³ (1); so fewer collisions of particles with a surface each second (1)."
+  },
+  {
+   "id": "7",
+   "type": "written",
+   "marks": 4,
+   "q": "A sealed can of gas is heated. Explain, in terms of particles, why the pressure inside the can increases.",
+   "ms": "Particles gain (kinetic) energy (1); they move faster (1); they hit the walls of the can more often (1) and with more force (1), so pressure increases."
+  },
+  {
+   "id": "8",
+   "type": "work",
+   "marks": 3,
+   "q": "A box has a weight of 600 N. Its base measures 0.5 m by 0.4 m.<br>Calculate the pressure the box exerts on the floor. Give the unit.",
+   "key": {
+    "num": 3000
+   },
+   "ms": "3000 Pa (N/m²). M1 area = 0.5 × 0.4 = 0.2 m², M1 pressure = force ÷ area = 600 ÷ 0.2, A1 3000 Pa."
+  },
+  {
+   "id": "9",
+   "type": "written",
+   "marks": 3,
+   "q": "Explain why people wear snowshoes to walk on soft snow. Use the equation for pressure in your answer.",
+   "ms": "Pressure = force ÷ area (1); snowshoes increase the area in contact with the snow (1); weight is the same, so the pressure is lower and they sink less (1)."
+  },
+  {
+   "id": "10",
+   "type": "written",
+   "marks": 3,
+   "q": "A dam holds back the water of a lake. The wall is much thicker at the bottom than at the top. Explain why.",
+   "ms": "Pressure in a liquid increases with depth (1) because there is more water (more weight) above pushing down (1); so the force on the bottom of the wall is greatest and it must be stronger/thicker there (1)."
+  },
+  {
+   "id": "11",
+   "type": "work",
+   "marks": 2,
+   "q": "A force of 20 N is used on a spanner, 0.3 m from the nut.<br>Calculate the moment of the force.",
+   "key": {
+    "num": 6
+   },
+   "ms": "6 Nm. M1 moment = force × perpendicular distance from pivot = 20 × 0.3, A1 6 Nm."
+  },
+  {
+   "id": "12",
+   "type": "work",
+   "marks": 3,
+   "q": "A see-saw is balanced. A child weighing 300 N sits 2 m from the pivot. Another child sits 1.5 m from the pivot on the other side.<br>Calculate the weight of the second child.",
+   "key": {
+    "num": 400
+   },
+   "ms": "400 N. M1 clockwise moment = anticlockwise moment, M1 300 × 2 = W × 1.5, A1 W = 600 ÷ 1.5 = 400 N."
+  },
+  {
+   "id": "13",
+   "type": "written",
+   "marks": 6,
+   "q": "Compare how pressure acts in solids, liquids and gases. Use ideas about particles in your answer.",
+   "ms": "Level 3 (5-6): clear comparison of all three with particle explanations. Level 2 (3-4): two states explained or three described. Level 1 (1-2): simple points. Points: solids pass pressure in the direction of the force, particles fixed in place; pressure on a surface depends on force and area; liquids: particles close together so liquids cannot be compressed, pressure acts in all directions and increases with depth (hydraulics); gases: particles far apart and moving randomly, pressure caused by particles colliding with the walls, gases can be compressed, pressure increases with temperature or less volume."
+  },
+  {
+   "id": "14",
+   "type": "mc",
+   "marks": 1,
+   "q": "Elements in the same group of the periodic table have…",
+   "options": [
+    "the same number of electron shells",
+    "similar chemical properties",
+    "the same mass",
+    "the same state at room temperature"
+   ],
+   "key": 1,
+   "ms": "Similar chemical properties (same number of electrons in the outer shell)."
+  },
+  {
+   "id": "15",
+   "type": "written",
+   "marks": 3,
+   "q": "The table shows the boiling points of some Group 0 elements.<table class=\"data\"><tr><th>Element</th><th>Boiling point (°C)</th></tr><tr><td>Helium</td><td>−269</td></tr><tr><td>Neon</td><td>−246</td></tr><tr><td>Argon</td><td>−186</td></tr><tr><td>Krypton</td><td>−153</td></tr><tr><td>Xenon</td><td>?</td></tr></table>Describe the trend in boiling point and predict the boiling point of xenon.",
+   "ms": "Boiling point increases going down the group (1). Prediction between −140 and −90 °C (1) (actual −108 °C), with the reason that it continues the pattern / bigger atoms (1)."
+  },
+  {
+   "id": "16a",
+   "type": "num",
+   "marks": 1,
+   "q": "A student times a trolley rolling down a ramp from the same height four times.<table class=\"data\"><tr><th>Repeat</th><th>Time (s)</th></tr><tr><td>1</td><td>2.4</td></tr><tr><td>2</td><td>2.6</td></tr><tr><td>3</td><td>3.9</td></tr><tr><td>4</td><td>2.5</td></tr></table>Which result is anomalous?",
+   "key": 3.9,
+   "ms": "3.9 s, because it is much bigger than the others."
+  },
+  {
+   "id": "16b",
+   "type": "work",
+   "marks": 2,
+   "q": "Calculate the mean time, ignoring the anomalous result.",
+   "key": {
+    "num": 2.5
+   },
+   "ms": "2.5 s. M1 (2.4 + 2.6 + 2.5) ÷ 3 = 7.5 ÷ 3, A1 2.5."
+  },
+  {
+   "id": "17",
+   "type": "written",
+   "marks": 2,
+   "q": "The student repeats the test at different ramp heights. As the height goes up, the time goes down. Describe the relationship and name the type of graph she should draw.",
+   "ms": "Negative relationship / as height increases, time decreases (1). Line graph or scatter graph, because both variables are continuous (1)."
+  },
+  {
+   "id": "18",
+   "type": "written",
+   "marks": 2,
+   "q": "Give one variable the student should keep the same, and explain why.",
+   "ms": "Any one control (1): same trolley/mass, same ramp surface, same length of ramp, same starting position, same person timing. Reason (1): so it is a fair test / only the height affects the time."
+  }
+ ]
+}

@@ -7,6 +7,8 @@
  "topic": "Motion & Pressure · Investigative skills",
  "minutes": 45,
  "intro": "Write the equation, put in the numbers, then give the answer with its unit. Question 8 is a 6-mark answer.",
+ "order": 6,
+ "archived": true,
  "questions": [
   {
    "id": "1",
@@ -203,6 +205,5 @@
    "q": "Ola drops a ball onto sand from different heights and measures the depth of each crater. Name the independent and dependent variables, and explain why a line graph is the right graph to draw.",
    "ms": "1 IV drop height; 1 DV crater depth; 1 both variables are continuous (numbers that can take any value), so a line graph."
   }
- ],
- "order": 6
+ ]
 }

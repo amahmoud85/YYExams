@@ -1,0 +1,239 @@
+{
+ "id": "maths-7",
+ "year": 8,
+ "order": 8,
+ "subject": "Maths",
+ "title": "Maths Exam 7",
+ "short": "Exam 7",
+ "topic": "Algebra · Number revisit · Non-calculator · Higher",
+ "minutes": 50,
+ "intro": "Edexcel Higher style. No calculator. Type powers with ^ (for example x^2). Show your working: method marks count even if the final answer slips.",
+ "questions": [
+  {
+   "id": "1",
+   "type": "expr",
+   "marks": 1,
+   "q": "Simplify 4<i>a</i> + 3<i>b</i> − <i>a</i> + 5<i>b</i>",
+   "key": {
+    "expr": "3a+8b",
+    "noParen": true
+   },
+   "hint": "Type it like 2a + 7b",
+   "ms": "3a + 8b."
+  },
+  {
+   "id": "2",
+   "type": "expr",
+   "marks": 1,
+   "q": "Simplify 3<i>x</i><sup>2</sup> × 5<i>x</i><sup>3</sup>",
+   "key": {
+    "expr": "15x^5",
+    "noParen": true,
+    "maxLen": 6
+   },
+   "hint": "Type it like 7x^4",
+   "ms": "15x⁵. Multiply the numbers, add the powers."
+  },
+  {
+   "id": "3",
+   "type": "expr",
+   "marks": 2,
+   "q": "Expand and simplify 3(2<i>x</i> − 5) − 2(<i>x</i> − 4)",
+   "key": {
+    "expr": "4x-7",
+    "noParen": true,
+    "maxLen": 5
+   },
+   "ms": "4x − 7. M1 6x − 15 − 2x + 8 (watch −2 × −4 = +8), A1."
+  },
+  {
+   "id": "4",
+   "type": "expr",
+   "marks": 2,
+   "q": "Expand and simplify (<i>x</i> + 6)(<i>x</i> − 4)",
+   "key": {
+    "expr": "x^2+2x-24",
+    "noParen": true,
+    "maxLen": 11
+   },
+   "hint": "Type it like x^2 + 3x - 10",
+   "ms": "x² + 2x − 24. M1 all four terms x² − 4x + 6x − 24, A1."
+  },
+  {
+   "id": "5",
+   "type": "text",
+   "marks": 2,
+   "q": "Factorise fully 15<i>x</i><sup>2</sup> − 10<i>x</i>",
+   "key": [
+    "5x(3x-2)",
+    "5x(-2+3x)",
+    "(3x-2)5x",
+    "(3x-2)(5x)"
+   ],
+   "hint": "Type it like 2x(x+5)",
+   "ms": "5x(3x − 2). B1 for a partial factorisation such as 5(3x² − 2x) or x(15x − 10)."
+  },
+  {
+   "id": "6",
+   "type": "work",
+   "marks": 3,
+   "q": "Solve 5(<i>x</i> − 3) = 2<i>x</i> + 9",
+   "key": {
+    "num": 8
+   },
+   "ms": "x = 8. M1 5x − 15 = 2x + 9, M1 3x = 24, A1 x = 8."
+  },
+  {
+   "id": "7",
+   "type": "work",
+   "marks": 3,
+   "q": "Solve <span class=\"frac\"><span>3<i>x</i> + 1</span><span>4</span></span> = <i>x</i> − 2",
+   "key": {
+    "num": 9
+   },
+   "ms": "x = 9. M1 3x + 1 = 4(x − 2), M1 3x + 1 = 4x − 8, A1 x = 9."
+  },
+  {
+   "id": "8",
+   "type": "work",
+   "marks": 3,
+   "q": "Solve 7 − 2<i>x</i> = 3(<i>x</i> + 4)",
+   "key": {
+    "num": -1
+   },
+   "ms": "x = −1. M1 7 − 2x = 3x + 12, M1 −5 = 5x, A1 x = −1."
+  },
+  {
+   "id": "9",
+   "type": "expr",
+   "marks": 2,
+   "q": "Make <i>t</i> the subject of the formula <i>s</i> = <span class=\"frac\"><span>(<i>u</i> + <i>v</i>)<i>t</i></span><span>2</span></span>",
+   "key": {
+    "expr": "2s/(u+v)"
+   },
+   "hint": "Type it like t = 3a/(b+c)",
+   "ms": "t = 2s/(u + v). M1 2s = (u + v)t, A1 divide by (u + v)."
+  },
+  {
+   "id": "10",
+   "type": "work",
+   "marks": 2,
+   "q": "<i>v</i><sup>2</sup> = <i>u</i><sup>2</sup> + 2<i>as</i><br><i>u</i> = 3, <i>a</i> = 4, <i>s</i> = 5<br>Work out the positive value of <i>v</i>.",
+   "key": {
+    "num": 7
+   },
+   "ms": "7. M1 v² = 9 + 40 = 49, A1 v = 7."
+  },
+  {
+   "id": "11",
+   "type": "expr",
+   "marks": 2,
+   "q": "Here are the first four terms of an arithmetic sequence.<br>7, 11, 15, 19, …<br>Find an expression, in terms of <i>n</i>, for the <i>n</i>th term.",
+   "key": {
+    "expr": "4n+3",
+    "noParen": true
+   },
+   "hint": "Type it like 5n - 2",
+   "ms": "4n + 3. B1 4n, B1 + 3."
+  },
+  {
+   "id": "12",
+   "type": "work",
+   "marks": 2,
+   "q": "Is 100 a term in the sequence 7, 11, 15, 19, …? You must give a reason.",
+   "ms": "No. M1 4n + 3 = 100 so n = 24.25 (or terms 99 and 103 found), A1 not a whole number so 100 is not a term."
+  },
+  {
+   "id": "13",
+   "type": "num",
+   "marks": 1,
+   "q": "The <i>n</i>th term of a sequence is 2<i>n</i><sup>2</sup> + 1. Work out the 5th term.",
+   "key": 51,
+   "ms": "51. 2 × 5² + 1 = 2 × 25 + 1 (square first, then × 2)."
+  },
+  {
+   "id": "14",
+   "type": "work",
+   "marks": 3,
+   "q": "Solve the simultaneous equations<br>3<i>x</i> + 2<i>y</i> = 16<br><i>x</i> − 2<i>y</i> = 0",
+   "key": {
+    "pairs": {
+     "x": 4,
+     "y": 2
+    }
+   },
+   "hint": "Type it like x = 3, y = -1",
+   "ms": "x = 4, y = 2. M1 add to eliminate y: 4x = 16, M1 substitute, A1 both."
+  },
+  {
+   "id": "15",
+   "type": "work",
+   "marks": 4,
+   "q": "2 pens and 3 rulers cost £3.30<br>4 pens and 1 ruler cost £3.10<br>Work out the cost of one pen. Give your answer in pence.",
+   "key": {
+    "num": 60
+   },
+   "ms": "60p. M1 2p + 3r = 330 and 4p + r = 310, M1 eliminate one letter (e.g. ×2 first equation: 4p + 6r = 660, subtract: 5r = 350), M1 r = 70, A1 p = 60."
+  },
+  {
+   "id": "16",
+   "type": "mc",
+   "marks": 1,
+   "q": "Work out (−4)<sup>2</sup> × (−1)<sup>3</sup>",
+   "options": [
+    "16",
+    "−16",
+    "−64",
+    "64"
+   ],
+   "key": 1,
+   "ms": "−16. (−4)² = 16, (−1)³ = −1, 16 × (−1) = −16."
+  },
+  {
+   "id": "17",
+   "type": "mc",
+   "marks": 1,
+   "q": "Which is the best estimate of <span class=\"frac\"><span>8.1 × 0.49</span><span>0.0198</span></span>?",
+   "options": [
+    "2",
+    "20",
+    "200",
+    "2000"
+   ],
+   "key": 2,
+   "ms": "200. 8 × 0.5 = 4, and 4 ÷ 0.02 = 200. Dividing by a small decimal makes the answer much bigger."
+  },
+  {
+   "id": "18",
+   "type": "factors",
+   "marks": 2,
+   "q": "360 = 2<sup>3</sup> × 3<sup>2</sup> × 5<br>Write 360<sup>2</sup> as a product of its prime factors in index form.",
+   "key": {
+    "2": 6,
+    "3": 4,
+    "5": 2
+   },
+   "ms": "2⁶ × 3⁴ × 5². Squaring doubles each power. B1 for two powers correct."
+  },
+  {
+   "id": "19",
+   "type": "work",
+   "marks": 3,
+   "q": "A square has an area of 45 cm<sup>2</sup>.<br>Work out the perimeter of the square. Give your answer in the form <i>a</i>√5",
+   "key": {
+    "text": [
+     "12√5"
+    ]
+   },
+   "hint": "Use the √ button",
+   "ms": "12√5 cm. M1 side = √45, M1 √45 = 3√5, A1 4 × 3√5 = 12√5."
+  },
+  {
+   "id": "20",
+   "type": "work",
+   "marks": 3,
+   "q": "Show that 3(<i>x</i> + 5) − 2(<i>x</i> + 1) ≡ <i>x</i> + 13 and explain why this is an identity.",
+   "ms": "M1 3x + 15 − 2x − 2, A1 = x + 13, B1 true for every value of x (both sides are always equal), so it is an identity."
+  }
+ ]
+}

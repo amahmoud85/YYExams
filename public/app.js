@@ -124,8 +124,8 @@ async function viewHome() {
     for (const x of exams.filter(e => e.year === y && e.subject === s).reverse()) {
       const a = el("a", { className: "examcard", href: "#/exam/" + x.id });
       a.innerHTML = `<div class="t"><b>${esc(x.title)}</b><span class="hint">${esc(x.topic)} · ${x.questions} questions · ${x.total} marks</span></div>
-        <div class="row">${x.hidden ? `<span class="pill muted">Hidden</span>` : ""}${statusPill(x)}</div>`;
-      if (admin) {
+        <div class="row">${x.archived ? `<span class="pill muted">Archived</span>` : x.hidden ? `<span class="pill muted">Hidden</span>` : ""}${statusPill(x)}</div>`;
+      if (admin && !x.archived) {
         const t = el("button", { className: "linkbtn", type: "button", textContent: x.hidden ? "Show to boys" : "Hide from boys" });
         t.onclick = async ev => { ev.preventDefault(); ev.stopPropagation(); await api("/admin/exams/" + x.id, { method: "PUT", body: { hidden: !x.hidden } }); route(); };
         a.querySelector(".row").append(t);

@@ -7,6 +7,8 @@
  "topic": "Algebra 3: expressions, equations, formulae · Non-calculator · Higher",
  "minutes": 45,
  "intro": "No calculator. Type powers with ^ (for example x^2). Show your working: method marks count even if the final answer slips.",
+ "order": 2,
+ "archived": true,
  "questions": [
   {
    "id": "1",
@@ -222,6 +224,5 @@
    "key": 1,
    "ms": "4 cm². √8 × √2 = √16 = 4."
   }
- ],
- "order": 2
+ ]
 }

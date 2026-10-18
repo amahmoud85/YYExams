@@ -34,6 +34,8 @@ Worker on first request, so there are no migrations to run.
     conclusion-style question (the box is then labelled "Conclusion").
   - `written`: extended writing, no key, always marked by a parent.
 - `hint` (optional) shows under the answer box.
+- `"archived": true` (exam level) takes an exam off the boys' list for good but keeps it, and its
+  results, for parents. Use it when replacing a set of exams.
 
 Run `npm test` after adding an exam: it checks every key marks itself as correct.
 Year 8 exam style: Maths = Edexcel Higher, Science = AQA Higher with extended writing.

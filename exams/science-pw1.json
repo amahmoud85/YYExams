@@ -7,6 +7,8 @@
  "topic": "Health & Lifestyle · Periodic Table · Motion & Pressure",
  "minutes": 45,
  "intro": "Write in full sentences for the longer questions. Use the number of marks as a guide to how many points to make.",
+ "order": 4,
+ "archived": true,
  "questions": [
   {
    "id": "1",
@@ -230,6 +232,5 @@
    "key": 2.5,
    "ms": "2.5 s"
   }
- ],
- "order": 4
+ ]
 }

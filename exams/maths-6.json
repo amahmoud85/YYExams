@@ -1,0 +1,269 @@
+{
+ "id": "maths-6",
+ "year": 8,
+ "order": 7,
+ "subject": "Maths",
+ "title": "Maths Exam 6",
+ "short": "Exam 6",
+ "topic": "Number · Non-calculator · Higher",
+ "minutes": 50,
+ "intro": "Edexcel Higher style. No calculator. Show your working in the working box: method marks count even if the final answer slips.",
+ "questions": [
+  {
+   "id": "1",
+   "type": "mc",
+   "marks": 1,
+   "q": "Work out (−3)<sup>2</sup> × (−2)",
+   "options": [
+    "−18",
+    "18",
+    "−12",
+    "12"
+   ],
+   "key": 0,
+   "ms": "−18. (−3)² = 9 (even power is positive), then 9 × (−2) = −18."
+  },
+  {
+   "id": "2",
+   "type": "num",
+   "marks": 1,
+   "q": "Work out (−2)<sup>3</sup> − (−5)",
+   "key": -3,
+   "ms": "−3. (−2)³ = −8, and −8 − (−5) = −8 + 5 = −3."
+  },
+  {
+   "id": "3",
+   "type": "num",
+   "marks": 1,
+   "q": "Work out −24 ÷ (−3) × (−2)",
+   "key": -16,
+   "ms": "−16. −24 ÷ (−3) = 8, then 8 × (−2) = −16."
+  },
+  {
+   "id": "4",
+   "type": "mc",
+   "marks": 1,
+   "q": "Which is the best estimate of 59.6 ÷ 0.31?",
+   "options": [
+    "2",
+    "20",
+    "200",
+    "2000"
+   ],
+   "key": 2,
+   "ms": "200. 60 ÷ 0.3 = 200. Dividing by a number less than 1 makes the answer bigger."
+  },
+  {
+   "id": "5",
+   "type": "work",
+   "marks": 3,
+   "q": "Work out an estimate for the value of <span class=\"frac\"><span>8.93 × 41.2</span><span>0.196</span></span>",
+   "key": {
+    "num": 1800
+   },
+   "ms": "1800. M1 round each number to 1 s.f.: 9, 40, 0.2. M1 9 × 40 = 360. A1 360 ÷ 0.2 = 1800."
+  },
+  {
+   "id": "6a",
+   "type": "num",
+   "marks": 1,
+   "q": "You are given that 37 × 84 = 3108.<br>Work out 3.7 × 0.84",
+   "key": 3.108,
+   "ms": "3.108. 3.7 has 1 decimal place and 0.84 has 2, so the answer has 3: 3108 ÷ 1000."
+  },
+  {
+   "id": "6b",
+   "type": "num",
+   "marks": 1,
+   "q": "Using 37 × 84 = 3108, work out 310.8 ÷ 8.4",
+   "key": 37,
+   "ms": "37. 310.8 ÷ 8.4 = 3108 ÷ 84 = 37."
+  },
+  {
+   "id": "7",
+   "type": "text",
+   "marks": 1,
+   "q": "Round 0.0040372 to 2 significant figures.",
+   "key": [
+    "0.0040"
+   ],
+   "ms": "0.0040. The first significant figure is the 4; keep the zero after it to show 2 s.f."
+  },
+  {
+   "id": "8",
+   "type": "num",
+   "marks": 1,
+   "q": "Round 7 914 360 to 2 significant figures.",
+   "key": 7900000,
+   "ms": "7 900 000."
+  },
+  {
+   "id": "9",
+   "type": "factors",
+   "marks": 2,
+   "q": "Write 504 as a product of its prime factors. Give your answer in index form.",
+   "key": {
+    "2": 3,
+    "3": 2,
+    "7": 1
+   },
+   "ms": "2³ × 3² × 7. M1 a correct factor tree or repeated division, A1 index form."
+  },
+  {
+   "id": "10",
+   "type": "factors",
+   "marks": 2,
+   "q": "504<sup>2</sup> = 254 016<br>Write 254 016 as a product of its prime factors in index form.",
+   "key": {
+    "2": 6,
+    "3": 4,
+    "7": 2
+   },
+   "hint": "Use your answer to question 9",
+   "ms": "2⁶ × 3⁴ × 7². Squaring doubles every power: (2³ × 3² × 7)² = 2⁶ × 3⁴ × 7². B1 for two powers correct."
+  },
+  {
+   "id": "11a",
+   "type": "work",
+   "marks": 2,
+   "q": "72 = 2<sup>3</sup> × 3<sup>2</sup> and 120 = 2<sup>3</sup> × 3 × 5<br>Find the highest common factor (HCF) of 72 and 120.",
+   "key": {
+    "num": 24
+   },
+   "ms": "24. M1 common primes 2³ × 3, A1 24."
+  },
+  {
+   "id": "11b",
+   "type": "work",
+   "marks": 2,
+   "q": "Find the lowest common multiple (LCM) of 72 and 120.",
+   "key": {
+    "num": 360
+   },
+   "ms": "360. M1 2³ × 3² × 5 (highest power of each prime), A1 360."
+  },
+  {
+   "id": "12",
+   "type": "work",
+   "marks": 3,
+   "q": "A red bus leaves the station every 12 minutes. A blue bus leaves the station every 18 minutes. Both buses leave the station at 9 am.<br>After how many minutes will both buses next leave the station at the same time?",
+   "key": {
+    "num": 36
+   },
+   "ms": "36 minutes (9:36 am). M1 list multiples or prime factors 12 = 2² × 3, 18 = 2 × 3², M1 LCM method, A1 36."
+  },
+  {
+   "id": "13",
+   "type": "text",
+   "marks": 1,
+   "q": "Write 0.000 507 in standard form.",
+   "key": [
+    "5.07x10^-4"
+   ],
+   "hint": "Type it like 3.2 × 10^-5",
+   "ms": "5.07 × 10⁻⁴."
+  },
+  {
+   "id": "14",
+   "type": "mc",
+   "marks": 1,
+   "q": "Which of these numbers is the largest?",
+   "options": [
+    "3.2 × 10⁴",
+    "0.4 × 10⁵",
+    "31 000",
+    "2.9 × 10⁴"
+   ],
+   "key": 1,
+   "ms": "0.4 × 10⁵ = 40 000. The others are 32 000, 31 000 and 29 000."
+  },
+  {
+   "id": "15",
+   "type": "text",
+   "marks": 2,
+   "q": "Work out (6 × 10<sup>5</sup>) × (7 × 10<sup>−2</sup>). Give your answer in standard form.",
+   "key": [
+    "4.2x10^4"
+   ],
+   "hint": "Type it like 3.2 × 10^-5",
+   "ms": "4.2 × 10⁴. M1 42 × 10³, A1 4.2 × 10⁴."
+  },
+  {
+   "id": "16",
+   "type": "text",
+   "marks": 2,
+   "q": "Work out (3.6 × 10<sup>7</sup>) + (5 × 10<sup>6</sup>). Give your answer in standard form.",
+   "key": [
+    "4.1x10^7"
+   ],
+   "hint": "Type it like 3.2 × 10^-5",
+   "ms": "4.1 × 10⁷. M1 36 000 000 + 5 000 000 = 41 000 000 (or 3.6 × 10⁷ + 0.5 × 10⁷), A1 4.1 × 10⁷."
+  },
+  {
+   "id": "17",
+   "type": "text",
+   "marks": 2,
+   "q": "Simplify <span class=\"frac\"><span>5<sup>3</sup> × 5<sup>−1</sup></span><span>5<sup>4</sup></span></span>. Give your answer as a power of 5.",
+   "key": [
+    "5^-2"
+   ],
+   "hint": "Type it like 5^3",
+   "ms": "5⁻². M1 5³ × 5⁻¹ = 5², A1 5² ÷ 5⁴ = 5⁻²."
+  },
+  {
+   "id": "18",
+   "type": "mc",
+   "marks": 1,
+   "q": "Work out the value of 16<sup>−½</sup>",
+   "options": [
+    "−8",
+    "¼",
+    "−4",
+    "⅛"
+   ],
+   "key": 1,
+   "ms": "¼. 16^½ = 4, and the negative power gives the reciprocal: 1/4."
+  },
+  {
+   "id": "19",
+   "type": "text",
+   "marks": 2,
+   "q": "Simplify fully √72",
+   "key": [
+    "6√2"
+   ],
+   "hint": "Use the √ button",
+   "ms": "6√2. M1 √72 = √36 × √2, A1 6√2."
+  },
+  {
+   "id": "20a",
+   "type": "work",
+   "marks": 2,
+   "q": "A rectangle has length √50 cm and width √8 cm.<br>Work out the area of the rectangle.",
+   "key": {
+    "num": 20
+   },
+   "ms": "20 cm². M1 √50 × √8 = √400, A1 20."
+  },
+  {
+   "id": "20b",
+   "type": "work",
+   "marks": 3,
+   "q": "Work out the perimeter of the rectangle. Give your answer in the form <i>a</i>√2",
+   "key": {
+    "text": [
+     "14√2"
+    ]
+   },
+   "hint": "Use the √ button",
+   "ms": "14√2 cm. M1 √50 = 5√2, M1 √8 = 2√2, A1 2(5√2 + 2√2) = 14√2."
+  },
+  {
+   "id": "21",
+   "type": "work",
+   "marks": 2,
+   "q": "Show that (√3 + 2)(√3 − 2) is an integer.",
+   "ms": "M1 3 − 2√3 + 2√3 − 4 (all four terms), A1 = −1, which is an integer (−1 stated with a conclusion)."
+  }
+ ]
+}

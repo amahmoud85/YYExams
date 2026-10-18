@@ -7,6 +7,8 @@
  "topic": "Algebra 3: sequences, simultaneous equations · Non-calculator · Higher",
  "minutes": 45,
  "intro": "No calculator. For simultaneous equations, give both answers like x = 2, y = 3. Show your working in the box.",
+ "order": 3,
+ "archived": true,
  "questions": [
   {
    "id": "1",
@@ -214,6 +216,5 @@
    },
    "ms": "4. M1 5 − √5 + √5 − 1, A1."
   }
- ],
- "order": 3
+ ]
 }

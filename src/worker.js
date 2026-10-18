@@ -106,7 +106,8 @@ const publicExam = e => ({
   questions: e.questions.map(({ key, ms, ...q }) => q.type === "work" && key === undefined ? { conclusion: true, ...q } : q),
 });
 // A student sees the exams for their year group that aren't hidden; a parent sees everything.
-const canSee = (me, e, hidden) => me.role === "admin" || (!hidden.has(e.id) && (me.year === null || me.year === undefined || e.year === me.year));
+// Archived exams ("archived": true in the file) stay on the site for parents and old results only.
+const canSee = (me, e, hidden) => me.role === "admin" || (!e.archived && !hidden.has(e.id) && (me.year === null || me.year === undefined || e.year === me.year));
 async function hiddenSet(env) {
   const { results } = await env.DB.prepare("SELECT exam_id FROM exam_state WHERE hidden = 1").all();
   return new Set(results.map(r => r.exam_id));
@@ -210,7 +211,7 @@ async function route(req, env, url) {
         const s = byExam[e.id];
         return {
           id: e.id, year: e.year, subject: e.subject, title: e.title, short: e.short, topic: e.topic, minutes: e.minutes,
-          questions: e.questions.length, total: totalMarks(e), hidden: hidden.has(e.id),
+          questions: e.questions.length, total: totalMarks(e), hidden: hidden.has(e.id), archived: !!e.archived,
           status: s ? (s.score !== null ? "marked" : "sent") : started.has(e.id) ? "started" : "new",
           score: s ? s.score : null, auto: s ? s.auto : null, autoMax: s ? s.auto_max : null,
         };

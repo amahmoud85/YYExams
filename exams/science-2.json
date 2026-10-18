@@ -7,6 +7,8 @@
  "topic": "Health & Lifestyle · Periodic Table · Investigative skills",
  "minutes": 45,
  "intro": "Write in full sentences. Question 7 is a 6-mark answer: plan it in order and use science words.",
+ "order": 5,
+ "archived": true,
  "questions": [
   {
    "id": "1",
@@ -183,6 +185,5 @@
    "q": "Explain why scientists repeat their readings.",
    "ms": "1 to spot anomalous results; 1 to calculate a mean / make results more repeatable (reliable)."
   }
- ],
- "order": 5
+ ]
 }

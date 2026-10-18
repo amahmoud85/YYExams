@@ -7,6 +7,8 @@
  "topic": "Number · Non-calculator · Higher",
  "minutes": 45,
  "intro": "No calculator. Show your working in the working box: method marks count even if the final answer slips.",
+ "order": 1,
+ "archived": true,
  "questions": [
   {
    "id": "1",
@@ -211,6 +213,5 @@
    "q": "Sam says √(2<sup>6</sup> × 5<sup>4</sup>) = 200. Is Sam correct? Show how you decide.",
    "ms": "Yes. M1 square root halves the powers: 2³ × 5², A1 8 × 25 = 200 so Sam is correct."
   }
- ],
- "order": 1
+ ]
 }

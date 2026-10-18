@@ -1,0 +1,213 @@
+{
+ "id": "science-4",
+ "year": 8,
+ "order": 9,
+ "subject": "Science",
+ "title": "Science Exam 4",
+ "short": "Exam 4",
+ "topic": "Health & Lifestyle · Periodic Table · Investigative skills",
+ "minutes": 50,
+ "intro": "AQA Higher style. Write full sentences for the longer answers. Use the number of marks as a guide to how many points to make.",
+ "questions": [
+  {
+   "id": "1",
+   "type": "mc",
+   "marks": 1,
+   "q": "Which reagent turns blue-black when starch is present?",
+   "options": [
+    "Biuret solution",
+    "Iodine solution",
+    "Benedict's solution",
+    "Ethanol"
+   ],
+   "key": 1,
+   "ms": "Iodine solution (orange-brown to blue-black)."
+  },
+  {
+   "id": "2",
+   "type": "mc",
+   "marks": 1,
+   "q": "What is a positive result for the Biuret test for protein?",
+   "options": [
+    "Blue to purple (lilac)",
+    "Orange to blue-black",
+    "Blue to brick red",
+    "A cloudy white layer"
+   ],
+   "key": 0,
+   "ms": "Blue to purple/lilac."
+  },
+  {
+   "id": "3",
+   "type": "written",
+   "marks": 3,
+   "q": "Describe how a student could test a food sample for sugar (glucose). Give the positive result.",
+   "ms": "1 mark each: add Benedict's solution to the food sample (in solution); heat in a hot water bath (about 80 °C) for a few minutes; positive result: blue changes to green, yellow, orange or brick red."
+  },
+  {
+   "id": "4",
+   "type": "written",
+   "marks": 2,
+   "q": "Give the role of fibre and the role of protein in a balanced diet.",
+   "ms": "Fibre: keeps food moving through the gut / prevents constipation (1). Protein: growth and repair of cells and tissues (1)."
+  },
+  {
+   "id": "5",
+   "type": "written",
+   "marks": 4,
+   "q": "Ali is 14 and plays football every day. His uncle is 45 and works in an office.<br>Explain why Ali and his uncle need different amounts of energy from their food each day. Give other factors that affect how much energy a person needs.",
+   "ms": "Up to 4: Ali is more active, so his muscles use more energy (1); he is still growing, so needs energy/protein for growth (1); other factors (1 each, max 2): body mass/size, sex, pregnancy, climate/keeping warm, age."
+  },
+  {
+   "id": "6",
+   "type": "written",
+   "marks": 6,
+   "q": "Yassin eats a cheese sandwich. The bread contains starch and the cheese contains fat and protein.<br>Describe how the food is digested and absorbed as it passes through the digestive system. Name the enzymes involved.",
+   "ms": "Level 3 (5-6): detailed, logical sequence through the organs with enzymes and products, and absorption. Level 2 (3-4): several organs and enzymes, some links. Level 1 (1-2): simple points. Points: teeth break food into smaller pieces (bigger surface area); saliva contains amylase, which starts breaking starch into sugars; oesophagus moves food by peristalsis; stomach acid kills bacteria, protease starts digesting protein into amino acids; bile from the liver breaks fat into droplets; in the small intestine amylase, protease and lipase finish digestion (fat to fatty acids and glycerol); small molecules are absorbed through villi into the blood; large intestine absorbs water."
+  },
+  {
+   "id": "7",
+   "type": "mc",
+   "marks": 1,
+   "q": "Which enzyme breaks down protein?",
+   "options": [
+    "Amylase",
+    "Lipase",
+    "Protease",
+    "Carbohydrase"
+   ],
+   "key": 2,
+   "ms": "Protease (proteins to amino acids)."
+  },
+  {
+   "id": "8",
+   "type": "written",
+   "marks": 2,
+   "q": "Enzymes are described as biological catalysts. Explain what this means.",
+   "ms": "Speed up reactions (in the body) (1) without being used up / changed themselves (1)."
+  },
+  {
+   "id": "9",
+   "type": "written",
+   "marks": 2,
+   "q": "Describe two ways that bacteria in the large intestine help the body.",
+   "ms": "Any two: help break down / digest fibre; make vitamins (e.g. vitamin K); stop harmful bacteria growing (compete with them)."
+  },
+  {
+   "id": "10",
+   "type": "written",
+   "marks": 4,
+   "q": "Describe the effects of smoking cigarettes on the body. Refer to tar, nicotine and carbon monoxide in your answer.",
+   "ms": "1 mark each, max 4: tar coats the lungs/alveoli and can cause cancer; tar damages cilia so mucus and germs build up (coughs, bronchitis); nicotine is addictive; nicotine raises heart rate/blood pressure; carbon monoxide reduces the oxygen the blood can carry (so less oxygen for respiration)."
+  },
+  {
+   "id": "11",
+   "type": "text",
+   "marks": 1,
+   "q": "A lack of a mineral or vitamin in the diet causes poor growth or illness. What is the name for this?",
+   "key": [
+    "deficiency",
+    "adeficiency",
+    "mineraldeficiency",
+    "vitamindeficiency",
+    "deficiencie"
+   ],
+   "ms": "Deficiency."
+  },
+  {
+   "id": "12",
+   "type": "mc",
+   "marks": 1,
+   "q": "Which element is in Group 1 and Period 3 of the periodic table?",
+   "options": [
+    "Lithium",
+    "Sodium",
+    "Magnesium",
+    "Potassium"
+   ],
+   "key": 1,
+   "ms": "Sodium."
+  },
+  {
+   "id": "13",
+   "type": "written",
+   "marks": 2,
+   "q": "Give two physical properties of metals that most non-metals do not have.",
+   "ms": "Any two: good conductors of electricity; good conductors of heat; shiny; malleable; ductile; high density; sonorous; high melting point."
+  },
+  {
+   "id": "14a",
+   "type": "written",
+   "marks": 1,
+   "q": "The table shows the melting points of some Group 1 metals.<table class=\"data\"><tr><th>Element</th><th>Melting point (°C)</th></tr><tr><td>Lithium</td><td>181</td></tr><tr><td>Sodium</td><td>98</td></tr><tr><td>Potassium</td><td>63</td></tr><tr><td>Rubidium</td><td>?</td></tr><tr><td>Caesium</td><td>29</td></tr></table>Predict the melting point of rubidium.",
+   "ms": "Any value between 30 and 62 °C (actual 39 °C)."
+  },
+  {
+   "id": "14b",
+   "type": "written",
+   "marks": 4,
+   "q": "Potassium reacts with water. It fizzes, moves around on the surface and burns with a lilac flame.<br>Predict how rubidium would react with water. Explain your answer and name the products.",
+   "ms": "Reacts more vigorously/violently than potassium, may explode (1); because reactivity increases down Group 1 (1); products: rubidium hydroxide (1) and hydrogen (1). Allow: the solution is alkaline."
+  },
+  {
+   "id": "15",
+   "type": "written",
+   "marks": 3,
+   "q": "Describe how the colour, melting point and reactivity of the Group 7 elements (halogens) change as you go down the group.",
+   "ms": "Colour gets darker (1); melting/boiling point increases (1); reactivity decreases (1)."
+  },
+  {
+   "id": "16",
+   "type": "text",
+   "marks": 1,
+   "q": "Chlorine is bubbled into potassium bromide solution. A more reactive halogen displaces a less reactive one. Name the halogen that is displaced.",
+   "key": [
+    "bromine"
+   ],
+   "ms": "Bromine (chlorine is more reactive than bromine)."
+  },
+  {
+   "id": "17",
+   "type": "written",
+   "marks": 2,
+   "q": "Explain why the Group 0 elements (noble gases) are very unreactive, and give one use that depends on this.",
+   "ms": "They have a full outer shell of electrons (so they do not gain, lose or share electrons) (1). Use: helium in balloons / argon in light bulbs / neon in signs (1)."
+  },
+  {
+   "id": "18",
+   "type": "num",
+   "marks": 1,
+   "q": "A student burns a crisp under a test tube of water and records the temperature rise. She repeats it three times.<table class=\"data\"><tr><th>Repeat</th><th>Temperature rise (°C)</th></tr><tr><td>1</td><td>24</td></tr><tr><td>2</td><td>27</td></tr><tr><td>3</td><td>24</td></tr></table>Calculate the mean temperature rise.",
+   "key": 25,
+   "ms": "25 °C. (24 + 27 + 24) ÷ 3 = 75 ÷ 3."
+  },
+  {
+   "id": "19",
+   "type": "written",
+   "marks": 3,
+   "q": "The student then burns different foods to compare how much energy they release.<br>Name the independent variable, the dependent variable and one control variable.",
+   "ms": "Independent: type of food (1). Dependent: temperature rise of the water (1). Control (1): mass of food; volume of water; distance from flame to tube; starting temperature of water; same tube."
+  },
+  {
+   "id": "20",
+   "type": "mc",
+   "marks": 1,
+   "q": "Which type of graph should the student use to show the temperature rise for each different food?",
+   "options": [
+    "Line graph",
+    "Scatter graph",
+    "Bar chart",
+    "Pie chart"
+   ],
+   "key": 2,
+   "ms": "Bar chart, because the type of food is categoric data."
+  },
+  {
+   "id": "21",
+   "type": "written",
+   "marks": 2,
+   "q": "Suggest one reason why the temperature rise is lower than the true energy in the food, and one way to improve the experiment.",
+   "ms": "Reason (1): heat lost to the air / surroundings or the tube; food not fully burnt. Improvement (1): put a shield/insulation around it, keep the food close to the tube, make sure it burns completely."
+  }
+ ]
+}
