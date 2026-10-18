@@ -1,0 +1,242 @@
+{
+  "id": "y9-science-2",
+  "year": 9,
+  "subject": "Science",
+  "title": "Year 9 Science Exam 2",
+  "short": "Exam 2",
+  "topic": "Inheritance & chemical reactions · AQA Higher · Paper A",
+  "minutes": 60,
+  "order": 2,
+  "intro": "Calculator allowed. Relative atomic masses (A<sub>r</sub>): C = 12, O = 16, Ca = 40, Cu = 64. For longer answers write in full sentences and use key words. Describe = say what happens; Explain = say what happens and why (use because and so); Compare = similarities and differences (use whereas); Evaluate = points for and against, then a justified conclusion. 6-mark questions are marked on how well your ideas link together: plan for a minute, then write about 6 linked points.",
+  "questions": [
+    {
+      "id": "1a",
+      "type": "mc",
+      "marks": 1,
+      "q": "Polydactyly is an inherited condition in which a person has extra fingers or toes. It is caused by a <strong>dominant</strong> allele, D.<br>Which term describes a genotype with two identical alleles, such as dd?",
+      "options": [
+        "heterozygous",
+        "homozygous",
+        "phenotype",
+        "recessive"
+      ],
+      "key": 1,
+      "ms": "homozygous (1)."
+    },
+    {
+      "id": "1b",
+      "type": "written",
+      "marks": 3,
+      "q": "A father with polydactyly has the genotype <strong>Dd</strong>. The mother does not have polydactyly.<br>Write out a genetic diagram to show the possible genotypes of their children: give the mother's genotype, both parents' gametes and the four offspring genotypes.",
+      "ms": "Mother's genotype dd (1); gametes D and d from the father, d and d from the mother (1); offspring Dd, Dd, dd, dd (1)."
+    },
+    {
+      "id": "1c",
+      "type": "num",
+      "marks": 1,
+      "q": "Give the probability that their child will have polydactyly, as a percentage. (%)",
+      "key": 50,
+      "ms": "50% (1)."
+    },
+    {
+      "id": "1d",
+      "type": "written",
+      "marks": 2,
+      "q": "Explain why a person with polydactyly could have either the genotype DD or the genotype Dd.",
+      "ms": "D is dominant, so only one copy is needed for it to be expressed (1); so DD and Dd both give the polydactyly phenotype (1)."
+    },
+    {
+      "id": "1e",
+      "type": "written",
+      "marks": 3,
+      "q": "Height in humans shows continuous variation. Explain why height varies so much between people.",
+      "ms": "Any three: controlled by many genes (1); also affected by the environment (1), e.g. diet / nutrition (1); gives a range of values rather than separate groups (1)."
+    },
+    {
+      "id": "2a",
+      "type": "written",
+      "marks": 6,
+      "q": "Peppered moths rest on tree trunks during the day, where birds hunt them. The moths are either pale or dark.<br>• Before the 1800s, most tree trunks in England were pale, and most peppered moths were pale.<br>• During the Industrial Revolution, soot from factories made tree trunks black.<br>• By 1895, about 98% of peppered moths near cities were dark.<br>Explain how natural selection caused the dark form of the peppered moth to become more common.",
+      "ms": "Level-marked. Level 3 (5–6): detailed and coherent, points linked in a logical sequence, correct terms. Level 2 (3–4): several relevant points with some linking. Level 1 (1–2): simple, separate statements. 0: nothing relevant. Indicative: variation in colour caused by mutation / different alleles; soot made trunks dark; pale moths no longer camouflaged so eaten by birds; dark moths camouflaged, less likely eaten; dark moths survived and reproduced; passed on the dark allele; over many generations the dark allele became more common. Level 3 links camouflage to survival AND to passing on alleles over generations."
+    },
+    {
+      "id": "2b",
+      "type": "written",
+      "marks": 2,
+      "q": "A horse and a donkey can mate. Their offspring is called a mule. Mules are infertile. Explain why horses and donkeys are classified as different species.",
+      "ms": "Members of the same species breed to produce fertile offspring (1); mules are infertile, so horses and donkeys are different species (1)."
+    },
+    {
+      "id": "2c",
+      "type": "written",
+      "marks": 2,
+      "q": "Explain how the introduction of a new predator into a habitat could cause a species to become extinct.",
+      "ms": "Prey has no adaptations to escape the new predator (1); it eats so many that the population falls until none survive (1). Allow: outcompetes another species for food."
+    },
+    {
+      "id": "3a",
+      "type": "written",
+      "marks": 2,
+      "q": "A student investigates how the number of ferns changes with distance from the edge of a woodland, out into an open field. She also measures the light intensity at each point.<br>Name <strong>one</strong> abiotic factor, other than light intensity, that could affect where ferns grow. Name the equipment she could use to measure it.",
+      "ms": "Factor (1) with matching equipment (1): soil moisture + moisture meter; temperature + thermometer; soil pH + pH meter / indicator."
+    },
+    {
+      "id": "3b",
+      "type": "mc",
+      "marks": 1,
+      "q": "Her results are shown in the table.<table class=\"data\"><tr><th>Distance from woodland edge (m)</th><td>0</td><td>5</td><td>10</td><td>15</td><td>20</td><td>25</td></tr><tr><th>Light intensity (lux)</th><td>800</td><td>2 500</td><td>6 000</td><td>12 000</td><td>18 000</td><td>20 000</td></tr><tr><th>Mean number of ferns per quadrat</th><td>14</td><td>11</td><td>7</td><td>3</td><td>1</td><td>1</td></tr></table>Which type of graph should she use to show the relationship between light intensity and the number of ferns?",
+      "options": [
+        "bar chart",
+        "pie chart",
+        "scatter graph",
+        "histogram"
+      ],
+      "key": 2,
+      "ms": "scatter graph (1)."
+    },
+    {
+      "id": "3c",
+      "type": "written",
+      "marks": 1,
+      "q": "Describe the relationship between light intensity and the number of ferns.",
+      "ms": "As light intensity increases, the number of ferns decreases / negative correlation (1)."
+    },
+    {
+      "id": "3d",
+      "type": "written",
+      "marks": 6,
+      "q": "The student concludes: <em>\"Light intensity is the only factor that affects where ferns grow.\"</em><br>Evaluate her conclusion. Suggest how she could improve her investigation to make her conclusion more valid.",
+      "ms": "Level-marked. Level 3 (5–6): detailed and coherent, points linked in a logical sequence, correct terms. Level 2 (3–4): several relevant points with some linking. Level 1 (1–2): simple, separate statements. 0: nothing relevant. Evaluation: strong negative correlation; correlation does not prove causation; other abiotic factors change too (moisture, temperature, wind); biotic factors (competition from grasses); only one transect so may not be representative. Improvements: several transects; measure other factors at each quadrat; more quadrats / smaller intervals; conclusion: light likely important but not shown to be the only factor. No improvements caps at Level 2."
+    },
+    {
+      "id": "4a",
+      "type": "text",
+      "marks": 2,
+      "q": "Balance these equations:<br>CH₄ + ___ O₂ → CO₂ + ___ H₂O<br>___ Na + Cl₂ → ___ NaCl",
+      "key": [
+        "2,2,2,2"
+      ],
+      "hint": "Type the four missing numbers in order, first equation then second, like 1,2,3,4",
+      "ms": "CH₄ + 2O₂ → CO₂ + 2H₂O (1); 2Na + Cl₂ → 2NaCl (1)."
+    },
+    {
+      "id": "4b",
+      "type": "num",
+      "marks": 1,
+      "q": "When calcium carbonate is heated, it breaks down: CaCO₃ → CaO + CO₂<br>Calculate the relative formula mass (M<sub>r</sub>) of calcium carbonate, CaCO₃.",
+      "key": 100,
+      "ms": "40 + 12 + (3 × 16) = 100 (1)."
+    },
+    {
+      "id": "4c",
+      "type": "work",
+      "marks": 3,
+      "q": "The M<sub>r</sub> of calcium oxide, CaO, is 56. Calculate the maximum mass of calcium oxide that can be made from 25 g of calcium carbonate. (g)",
+      "key": {
+        "num": 14
+      },
+      "ms": "14 g. 100 g CaCO₃ gives 56 g CaO (1); 25 ÷ 100 = 0.25 (1); 0.25 × 56 = 14 g (1). Correct answer alone scores 3."
+    },
+    {
+      "id": "4d",
+      "type": "work",
+      "marks": 2,
+      "q": "A student heats 25 g of calcium carbonate and makes 11.2 g of calcium oxide. Calculate the percentage yield. (%)",
+      "key": {
+        "num": 80
+      },
+      "ms": "(11.2 ÷ 14) × 100 (1) = 80% (1). Allow ecf from 4(c)."
+    },
+    {
+      "id": "4e",
+      "type": "written",
+      "marks": 2,
+      "q": "Mass is conserved in chemical reactions. Explain why the mass of the solid decreases when calcium carbonate is heated in an open tube.",
+      "ms": "Carbon dioxide gas is produced (1); it escapes into the air, so it is not weighed (1)."
+    },
+    {
+      "id": "5a",
+      "type": "mc",
+      "marks": 1,
+      "q": "Reactivity series (most reactive first): potassium, sodium, calcium, magnesium, aluminium, <em>(carbon)</em>, zinc, iron, lead, copper, gold.<br>Which metal is found in the Earth's crust as the uncombined element?",
+      "options": [
+        "aluminium",
+        "gold",
+        "iron",
+        "zinc"
+      ],
+      "key": 1,
+      "ms": "gold (1)."
+    },
+    {
+      "id": "5b",
+      "type": "written",
+      "marks": 1,
+      "q": "Copper can be extracted by heating copper oxide with carbon. Write a word equation for this reaction.",
+      "ms": "copper oxide + carbon → copper + carbon dioxide (1)."
+    },
+    {
+      "id": "5c",
+      "type": "written",
+      "marks": 2,
+      "q": "Identify the substance that is reduced and the substance that is oxidised in this reaction. Explain your answer in terms of oxygen.",
+      "ms": "Copper oxide is reduced because it loses oxygen (1); carbon is oxidised because it gains oxygen (1)."
+    },
+    {
+      "id": "5d",
+      "type": "written",
+      "marks": 6,
+      "q": "Explain how the method used to extract a metal from its ore depends on the metal's position in the reactivity series. Use examples from the reactivity series in your answer.",
+      "ms": "Level-marked. Level 3 (5–6): detailed and coherent, points linked in a logical sequence, correct terms. Level 2 (3–4): several relevant points with some linking. Level 1 (1–2): simple, separate statements. 0: nothing relevant. Indicative: unreactive metals like gold found pure, separated physically; metals less reactive than carbon (zinc, iron, lead, copper) extracted by heating the oxide with carbon; carbon more reactive so removes oxygen, oxide reduced; e.g. iron oxide + carbon → iron + carbon dioxide; metals more reactive than carbon (potassium to aluminium) can't be reduced by carbon; extracted by electrolysis of the molten compound, e.g. aluminium from aluminium oxide; electrolysis is expensive (electricity). Level 3 covers all three methods linked to reactivity, with examples."
+    },
+    {
+      "id": "6a",
+      "type": "mc",
+      "marks": 1,
+      "q": "Which of these is a <strong>behavioural</strong> adaptation?",
+      "options": [
+        "a cactus has spines",
+        "a snake produces venom",
+        "swallows migrate in winter",
+        "a polar bear has thick fur"
+      ],
+      "key": 2,
+      "ms": "swallows migrate in winter (1)."
+    },
+    {
+      "id": "6b",
+      "type": "written",
+      "marks": 4,
+      "q": "Compare continuous and discontinuous variation. Give <strong>one</strong> example of each in humans.",
+      "ms": "Continuous can take any value in a range (1), whereas discontinuous falls into distinct groups (1). Continuous example: height / mass / hand span (1). Discontinuous example: blood group / tongue rolling / natural eye colour (1)."
+    },
+    {
+      "id": "6c",
+      "type": "written",
+      "marks": 2,
+      "q": "Strawberry plants can reproduce asexually by growing runners. Give <strong>one</strong> advantage and <strong>one</strong> disadvantage of asexual reproduction for the strawberry plant.",
+      "ms": "Advantage: quick / one parent / no pollination needed (1). Disadvantage: no variation, so all could be killed by the same disease or environmental change (1)."
+    },
+    {
+      "id": "6d",
+      "type": "written",
+      "marks": 2,
+      "q": "The catalyst inside a catalytic converter is made of platinum, arranged in a honeycomb structure. Explain why a honeycomb structure is used.",
+      "ms": "Large surface area (1), so more gas molecules touch the catalyst and the reaction is faster / less platinum needed (1)."
+    },
+    {
+      "id": "6e",
+      "type": "mc",
+      "marks": 1,
+      "q": "Which of these is a <strong>biotic</strong> factor?",
+      "options": [
+        "rainfall",
+        "temperature",
+        "a new disease",
+        "soil pH"
+      ],
+      "key": 2,
+      "ms": "a new disease (1)."
+    }
+  ]
+}

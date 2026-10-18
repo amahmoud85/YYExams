@@ -1,0 +1,214 @@
+{
+  "id": "y9-science-4",
+  "year": 9,
+  "subject": "Science",
+  "title": "Year 9 Science Exam 4",
+  "short": "Exam 4",
+  "topic": "Biology · Inheritance, variation and evolution · AQA Higher",
+  "minutes": 45,
+  "order": 4,
+  "intro": "Answer every question. For longer answers, write in full sentences and use key words. The 6-mark question is marked on how well you link your ideas together.",
+  "questions": [
+    {
+      "id": "1",
+      "type": "mc",
+      "marks": 1,
+      "q": "What is a gene?",
+      "options": [
+        "A long strand of DNA",
+        "A section of DNA that holds the information for one characteristic",
+        "The nucleus of a cell",
+        "A type of cell division"
+      ],
+      "key": 1,
+      "ms": "Answer: B. B1."
+    },
+    {
+      "id": "2",
+      "type": "mc",
+      "marks": 1,
+      "q": "How many chromosomes are in a human sperm cell?",
+      "options": [
+        "23",
+        "46",
+        "92",
+        "12"
+      ],
+      "key": 0,
+      "ms": "Answer: A: 23. B1."
+    },
+    {
+      "id": "3",
+      "type": "mc",
+      "marks": 1,
+      "q": "Which of these shows continuous variation?",
+      "options": [
+        "Blood group",
+        "Natural eye colour",
+        "Height",
+        "Tongue rolling"
+      ],
+      "key": 2,
+      "ms": "Answer: C: Height. B1."
+    },
+    {
+      "id": "4",
+      "type": "mc",
+      "marks": 1,
+      "q": "Which of these is an abiotic factor?",
+      "options": [
+        "Predators",
+        "Light intensity",
+        "Disease",
+        "Competition for mates"
+      ],
+      "key": 1,
+      "ms": "Answer: B: Light intensity. B1."
+    },
+    {
+      "id": "5",
+      "type": "mc",
+      "marks": 1,
+      "q": "Which type of graph should be used to show the number of students with each blood group?",
+      "options": [
+        "Bar chart",
+        "Line graph",
+        "Scatter graph",
+        "Histogram"
+      ],
+      "key": 0,
+      "ms": "Answer: A: Bar chart. B1. Blood group is discontinuous data."
+    },
+    {
+      "id": "6",
+      "type": "written",
+      "marks": 2,
+      "q": "Describe what is meant by a <em>species</em>.",
+      "ms": "Answer: A group of organisms with many characteristics in common that can breed together to produce fertile offspring.. B1 for organisms with lots of characteristics in common / similar. B1 for can mate to produce fertile offspring (must say fertile)."
+    },
+    {
+      "id": "7",
+      "type": "written",
+      "marks": 3,
+      "q": "Sort these human characteristics into <strong>inherited</strong>, <strong>environmental</strong> or <strong>both</strong>:<br>natural eye colour · a tattoo · body mass · blood group · a scar",
+      "ms": "Answer: Inherited: natural eye colour, blood group. Environmental: tattoo, scar. Both: body mass.. 3 marks for all five correct, 2 marks for four correct, 1 mark for two or three correct."
+    },
+    {
+      "id": "8a",
+      "type": "written",
+      "marks": 2,
+      "q": "In pea plants, the allele for tall (T) is dominant. The allele for short (t) is recessive. Two plants that are both Tt are crossed.<br>Complete a Punnett square for this cross. Write the four offspring genotypes.",
+      "ms": "Answer: TT, Tt, Tt, tt. B1 for parent gametes T, t and T, t. B1 for offspring TT, Tt, Tt, tt."
+    },
+    {
+      "id": "8b",
+      "type": "num",
+      "marks": 1,
+      "q": "What percentage of the offspring would you expect to be short? (%)",
+      "key": 25,
+      "ms": "Answer: 25%. B1 for 25% (only tt is short)."
+    },
+    {
+      "id": "8c",
+      "type": "mc",
+      "marks": 1,
+      "q": "What is the expected ratio of tall to short plants?",
+      "options": [
+        "1 : 1",
+        "3 : 1",
+        "1 : 3",
+        "2 : 1"
+      ],
+      "key": 1,
+      "ms": "Answer: B: 3 : 1. B1."
+    },
+    {
+      "id": "9",
+      "type": "written",
+      "marks": 3,
+      "q": "Using an example, describe the difference between a <em>dominant</em> and a <em>recessive</em> allele.",
+      "ms": "Answer: A dominant allele is expressed when only one copy is present (e.g. T for tall). A recessive allele is only expressed when two copies are present (e.g. tt gives short).. B1 dominant: shows with one copy. B1 recessive: needs two copies to show / is hidden by dominant. B1 for a correct example with genotypes."
+    },
+    {
+      "id": "10",
+      "type": "written",
+      "marks": 3,
+      "q": "Two cuttings are taken from the same plant, so they have identical DNA. One grows on a sunny windowsill and one grows in a dark cupboard. After two weeks they look very different.<br>Explain why.",
+      "ms": "Answer: Same genes, so the difference is environmental. The windowsill plant gets more light, so more photosynthesis: it grows bigger and greener. The cupboard plant is pale/yellow, tall and thin.. B1 same genes / genetic information so the difference is caused by the environment. B1 different light intensity. B1 linked effect: more light means more photosynthesis, so more growth / greener leaves."
+    },
+    {
+      "id": "11",
+      "type": "written",
+      "marks": 6,
+      "q": "Explain how a population of bacteria can become resistant to an antibiotic.<br>Use ideas about natural selection in your answer.",
+      "ms": "Answer: Level 3 answer points: variation in the bacteria; a random mutation makes some bacteria resistant; the antibiotic kills the non-resistant bacteria; resistant bacteria survive (less competition); they reproduce quickly and pass on the resistance gene; over many generations most of the population is resistant; overuse or not finishing a course speeds this up.. Level-marked. Level 3 (5–6): a clear, linked sequence from mutation to a resistant population over many generations, using the key words. Level 2 (3–4): most steps, some links missing. Level 1 (1–2): simple points, e.g. 'some bacteria survive the antibiotic'."
+    },
+    {
+      "id": "12",
+      "type": "written",
+      "marks": 4,
+      "q": "The Arctic fox lives in cold, snowy places.<br>Describe <strong>two structural</strong> adaptations and <strong>one behavioural</strong> adaptation of the Arctic fox, and explain how each one helps it survive.",
+      "ms": "Answer: Structural: thick fur for insulation; white fur for camouflage against snow; small ears to reduce heat loss; fur on paws for grip and warmth. Behavioural: curls up with tail over face, digs dens in snow, stores food or follows polar bears to scavenge.. B1 per correct adaptation with its explanation, up to 3 adaptations (two structural, one behavioural). B1 more for the explanations being clearly linked to survival (for example reduces heat loss, hides from prey)."
+    },
+    {
+      "id": "13a",
+      "type": "written",
+      "marks": 4,
+      "q": "A student wants to find out how the number of daisies changes from the shady edge of a wood out into an open field.<br>Describe how she could use a transect line and a quadrat to collect her data.",
+      "ms": "Answer: Lay a tape measure from the wood into the field. Place a quadrat at regular intervals (e.g. every 2 m). Count the daisies in each quadrat. Repeat with more transects and calculate a mean.. B1 lay a tape/transect line from the wood into the field. B1 place a quadrat at regular intervals along it. B1 count the daisies in each quadrat. B1 repeat the transect (in different places) and calculate a mean."
+    },
+    {
+      "id": "13b",
+      "type": "written",
+      "marks": 1,
+      "q": "Name one abiotic factor she could measure along the transect.",
+      "ms": "Answer: Light intensity (or soil moisture, soil pH, temperature). B1 for any abiotic factor."
+    },
+    {
+      "id": "14a",
+      "type": "num",
+      "marks": 1,
+      "q": "She counted these numbers of daisies in five quadrats:<table class=\"data\"><tr><th>Quadrat</th><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td></tr><tr><th>Number of daisies</th><td>12</td><td>15</td><td>11</td><td>31</td><td>14</td></tr></table><br>Write down the anomalous result.",
+      "key": 31,
+      "ms": "Answer: 31. B1 for 31."
+    },
+    {
+      "id": "14b",
+      "type": "work",
+      "marks": 2,
+      "q": "Calculate the mean number of daisies per quadrat, leaving out the anomalous result.",
+      "key": {
+        "num": 13
+      },
+      "ms": "Answer: 13. M1 for (12 + 15 + 11 + 14) ÷ 4. A1 for 13."
+    },
+    {
+      "id": "15a",
+      "type": "written",
+      "marks": 2,
+      "q": "Only two northern white rhinos are still alive.<br>Give two factors that could have caused the number of rhinos to fall.",
+      "ms": "Answer: Any two: hunting/poaching (a new predator), habitat destruction, new diseases, more competition, changes to the environment such as climate change.. B1 each, up to 2."
+    },
+    {
+      "id": "15b",
+      "type": "written",
+      "marks": 2,
+      "q": "Explain how a gene bank could help stop a species becoming extinct.",
+      "ms": "Answer: It stores genetic material (sperm, eggs, embryos, seeds or tissue) from the species, which can be used in the future to produce new individuals or for research / breeding.. B1 stores genetic samples (e.g. sperm, eggs, seeds). B1 used later to breed / produce new individuals."
+    },
+    {
+      "id": "16",
+      "type": "written",
+      "marks": 4,
+      "q": "Describe and explain two ways that people can help to maintain biodiversity.",
+      "ms": "Answer: Any two with explanations: breeding programmes for endangered species (increase numbers); protecting or restoring habitats / nature reserves (organisms have somewhere to live); reducing deforestation; replanting hedgerows; reducing pollution or recycling; gene banks.. B1 for each method (2). B1 for each explanation of how it helps (2)."
+    },
+    {
+      "id": "17",
+      "type": "written",
+      "marks": 3,
+      "q": "Lynx eat snowshoe hares. A disease kills many of the hares.<br>Explain what will happen to the number of lynx, and why.",
+      "ms": "Answer: The lynx population falls, because there is less food so more lynx starve / fewer survive to reproduce, and there is more competition between lynx for the hares that are left.. B1 lynx numbers fall. B1 less food (fewer hares). B1 more competition / fewer survive to breed (predator and prey are interdependent)."
+    }
+  ]
+}

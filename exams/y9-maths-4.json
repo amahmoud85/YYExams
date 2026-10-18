@@ -1,0 +1,301 @@
+{
+  "id": "y9-maths-4",
+  "year": 9,
+  "subject": "Maths",
+  "title": "Year 9 Maths Exam 4",
+  "short": "Exam 4",
+  "topic": "Algebra · Non-calculator · Higher",
+  "minutes": 60,
+  "order": 4,
+  "intro": "Answer every question. Show your working in the working box: method marks are given even when the final answer is wrong. You may not use a calculator.",
+  "questions": [
+    {
+      "id": "1",
+      "type": "mc",
+      "marks": 1,
+      "q": "Which is the solution of 5 − 2<i>x</i> &gt; 11?",
+      "options": [
+        "<i>x</i> &gt; −3",
+        "<i>x</i> &lt; −3",
+        "<i>x</i> &gt; 3",
+        "<i>x</i> &lt; 3"
+      ],
+      "key": 1,
+      "ms": "Answer: B: x < −3. B1. −2x > 6, dividing by −2 flips the sign."
+    },
+    {
+      "id": "2",
+      "type": "mc",
+      "marks": 1,
+      "q": "Expand and simplify (<i>x</i> − 4)<sup>2</sup>",
+      "options": [
+        "<i>x</i><sup>2</sup> − 16",
+        "<i>x</i><sup>2</sup> + 16",
+        "<i>x</i><sup>2</sup> − 8<i>x</i> + 16",
+        "<i>x</i><sup>2</sup> − 8<i>x</i> − 16"
+      ],
+      "key": 2,
+      "ms": "Answer: C: x² − 8x + 16. B1."
+    },
+    {
+      "id": "3",
+      "type": "mc",
+      "marks": 1,
+      "q": "Solve <i>x</i><sup>2</sup> = 49",
+      "options": [
+        "<i>x</i> = 7",
+        "<i>x</i> = 7 or <i>x</i> = −7",
+        "<i>x</i> = 24.5",
+        "<i>x</i> = −7"
+      ],
+      "key": 1,
+      "ms": "Answer: B: x = 7 or x = −7. B1."
+    },
+    {
+      "id": "4",
+      "type": "work",
+      "marks": 2,
+      "q": "<i>n</i> is an integer and −3 &lt; 2<i>n</i> + 1 ≤ 9.<br>List all the possible values of <i>n</i>.",
+      "key": {
+        "text": [
+          "-1,0,1,2,3,4"
+        ]
+      },
+      "hint": "Type the values from smallest to largest, separated by commas, like -2,0,3",
+      "ms": "Answer: −1, 0, 1, 2, 3, 4. M1 for −2 < n ≤ 4 (or −4 < 2n ≤ 8). A1 for −1, 0, 1, 2, 3, 4 and no extras."
+    },
+    {
+      "id": "5",
+      "type": "work",
+      "marks": 2,
+      "q": "<i>x</i> is an integer.<br>2<i>x</i> + 3 &gt; 1 and 3<i>x</i> − 2 ≤ 10<br>List all the possible values of <i>x</i>.",
+      "key": {
+        "text": [
+          "0,1,2,3,4"
+        ]
+      },
+      "hint": "Type the values from smallest to largest, separated by commas, like -2,0,3",
+      "ms": "Answer: 0, 1, 2, 3, 4. M1 for x > −1 and x ≤ 4. A1 for 0, 1, 2, 3, 4 only."
+    },
+    {
+      "id": "6a",
+      "type": "text",
+      "marks": 1,
+      "q": "A taxi charges AED 12 plus AED 3 for every kilometre. Yahia has AED 50.<br>Write an inequality for the number of kilometres, <i>k</i>, that Yahia can travel.",
+      "key": [
+        "12+3k<=50",
+        "12+3k≤50",
+        "3k+12<=50",
+        "3k+12≤50"
+      ],
+      "hint": "Type it like x>4 or -2<x<=3 (use <= for ≤ and >= for ≥)",
+      "ms": "Answer: 12 + 3k ≤ 50. B1 for 12 + 3k ≤ 50 (accept 3k + 12 ≤ 50). Must be ≤, not =."
+    },
+    {
+      "id": "6b",
+      "type": "work",
+      "marks": 2,
+      "q": "Work out the greatest whole number of kilometres he can travel. (km)",
+      "key": {
+        "num": 12
+      },
+      "ms": "Answer: 12 km. M1 for 3k ≤ 38 or k ≤ 12.66… A1 for 12 (not 13, not 12.7)."
+    },
+    {
+      "id": "7",
+      "type": "work",
+      "marks": 3,
+      "q": "Expand and simplify (<i>x</i> + 2)(<i>x</i> − 3)(<i>x</i> + 1)",
+      "key": {
+        "text": [
+          "x^3-7x-6"
+        ]
+      },
+      "hint": "Use ^ for powers, like 2x^3+x^2-5",
+      "ms": "Answer: x³ − 7x − 6. M1 for expanding one pair correctly, e.g. x² − x − 6. M1 for multiplying by the third bracket with at most one error (6 terms). A1 for x³ − 7x − 6."
+    },
+    {
+      "id": "8",
+      "type": "text",
+      "marks": 2,
+      "q": "Factorise 3<i>x</i><sup>2</sup> + 10<i>x</i> − 8",
+      "key": [
+        "(3x-2)(x+4)",
+        "(x+4)(3x-2)"
+      ],
+      "hint": "Type it like (2x+1)(x-3)",
+      "ms": "Answer: (3x − 2)(x + 4). M1 for (3x ± 2)(x ± 4) or splitting 10x into 12x − 2x. A1 for (3x − 2)(x + 4)."
+    },
+    {
+      "id": "9",
+      "type": "text",
+      "marks": 2,
+      "q": "Factorise 6<i>x</i><sup>2</sup> − 11<i>x</i> + 3",
+      "key": [
+        "(3x-1)(2x-3)",
+        "(2x-3)(3x-1)"
+      ],
+      "hint": "Type it like (2x+1)(x-3)",
+      "ms": "Answer: (3x − 1)(2x − 3). M1 for brackets that give two of the three terms, or splitting −11x into −9x − 2x. A1 for (3x − 1)(2x − 3)."
+    },
+    {
+      "id": "10",
+      "type": "text",
+      "marks": 2,
+      "q": "Factorise fully 2<i>x</i><sup>2</sup> − 50",
+      "key": [
+        "2(x-5)(x+5)",
+        "2(x+5)(x-5)"
+      ],
+      "hint": "Type it like 3(x+1)(x-1)",
+      "ms": "Answer: 2(x − 5)(x + 5). M1 for 2(x² − 25) or (2x − 10)(x + 5) etc. A1 for 2(x − 5)(x + 5)."
+    },
+    {
+      "id": "11",
+      "type": "work",
+      "marks": 3,
+      "q": "Solve 2<i>x</i><sup>2</sup> + 7<i>x</i> − 15 = 0 by factorising.",
+      "key": {
+        "text": [
+          "1.5,-5",
+          "-5,1.5",
+          "3/2,-5",
+          "-5,3/2"
+        ]
+      },
+      "hint": "Type both answers separated by a comma, like 3,-2",
+      "ms": "Answer: x = 1.5 or x = −5 (from (2x − 3)(x + 5) = 0). M1 for (2x ± 3)(x ± 5). A1 for (2x − 3)(x + 5). A1 for x = 3/2 and x = −5."
+    },
+    {
+      "id": "12a",
+      "type": "written",
+      "marks": 1,
+      "q": "Sam solves <i>x</i>(<i>x</i> − 4) = 3(<i>x</i> − 4).<br>He divides both sides by (<i>x</i> − 4) and writes <i>x</i> = 3.<br>Explain what is wrong with Sam's method.",
+      "ms": "Answer: Dividing by (x − 4) loses the solution x = 4 (you cannot divide by x − 4 when it could be 0).. B1 for saying dividing by (x − 4) loses a solution, or that x − 4 could be zero, or that x = 4 also works."
+    },
+    {
+      "id": "12b",
+      "type": "work",
+      "marks": 2,
+      "q": "Solve <i>x</i>(<i>x</i> − 4) = 3(<i>x</i> − 4) correctly. Give all the solutions.",
+      "key": {
+        "text": [
+          "3,4",
+          "4,3"
+        ]
+      },
+      "hint": "Type both answers separated by a comma, like 3,-2",
+      "ms": "Answer: x = 3 or x = 4. M1 for (x − 4)(x − 3) = 0 or x² − 7x + 12 = 0. A1 for x = 3 and x = 4."
+    },
+    {
+      "id": "13a",
+      "type": "work",
+      "marks": 2,
+      "q": "The curve <i>y</i> = <i>x</i><sup>2</sup> − 6<i>x</i> + 5 is drawn.<br>Find the <i>x</i>-coordinates where the curve crosses the <i>x</i>-axis.",
+      "key": {
+        "text": [
+          "1,5",
+          "5,1"
+        ]
+      },
+      "hint": "Type both answers separated by a comma, like 3,-2",
+      "ms": "Answer: x = 1 and x = 5. M1 for (x − 1)(x − 5) = 0. A1 for 1 and 5."
+    },
+    {
+      "id": "13b",
+      "type": "num",
+      "marks": 1,
+      "q": "Write down the <i>x</i>-coordinate of the turning point.",
+      "key": 3,
+      "ms": "Answer: x = 3. B1 for 3 (midway between 1 and 5)."
+    },
+    {
+      "id": "13c",
+      "type": "work",
+      "marks": 2,
+      "q": "Find the minimum value of <i>y</i>.",
+      "key": {
+        "num": -4
+      },
+      "ms": "Answer: y = −4. M1 for substituting x = 3: 9 − 18 + 5. A1 for −4."
+    },
+    {
+      "id": "14a",
+      "type": "work",
+      "marks": 2,
+      "q": "A ball is thrown upwards. Its height, <i>h</i> metres, after <i>t</i> seconds is <i>h</i> = 20<i>t</i> − 5<i>t</i><sup>2</sup>.<br>Find the two times when the ball is at ground level. (seconds)",
+      "key": {
+        "text": [
+          "0,4",
+          "4,0"
+        ]
+      },
+      "hint": "Type both answers separated by a comma, like 3,-2",
+      "ms": "Answer: t = 0 and t = 4. M1 for 5t(4 − t) = 0. A1 for 0 and 4."
+    },
+    {
+      "id": "14b",
+      "type": "work",
+      "marks": 2,
+      "q": "Find the maximum height of the ball. (m)",
+      "key": {
+        "num": 20
+      },
+      "ms": "Answer: 20 m (at t = 2). M1 for using t = 2 (midway between 0 and 4). A1 for 20."
+    },
+    {
+      "id": "14c",
+      "type": "work",
+      "marks": 3,
+      "q": "For how many seconds is the ball <strong>at least</strong> 15 m above the ground? (seconds)",
+      "key": {
+        "num": 2
+      },
+      "ms": "Answer: 2 seconds (from t = 1 to t = 3). M1 for 20t − 5t² = 15 or t² − 4t + 3 = 0. M1 for t = 1 and t = 3. A1 for 2 seconds."
+    },
+    {
+      "id": "15a",
+      "type": "work",
+      "marks": 2,
+      "q": "A rectangle is (<i>x</i> + 5) cm long and (<i>x</i> − 2) cm wide. Its area is 30 cm<sup>2</sup>.<br>Show that <i>x</i><sup>2</sup> + 3<i>x</i> − 40 = 0",
+      "ms": "Answer: (x + 5)(x − 2) = x² + 3x − 10 = 30, so x² + 3x − 40 = 0. M1 for (x + 5)(x − 2) = 30. A1 for expanding to x² + 3x − 10 = 30 and rearranging (show-that: every step needed)."
+    },
+    {
+      "id": "15b",
+      "type": "work",
+      "marks": 3,
+      "q": "Solve <i>x</i><sup>2</sup> + 3<i>x</i> − 40 = 0 and hence find the length of the rectangle. (cm)",
+      "key": {
+        "num": 10
+      },
+      "ms": "Answer: x = 5 (x = −8 rejected), so the length is 10 cm. M1 for (x + 8)(x − 5) = 0. A1 for x = 5 (rejecting −8 because the width would be negative). A1 for length 10 cm."
+    },
+    {
+      "id": "16",
+      "type": "work",
+      "marks": 3,
+      "q": "Solve <i>x</i><sup>2</sup> − <i>x</i> − 12 &lt; 0",
+      "key": {
+        "text": [
+          "-3<x<4"
+        ]
+      },
+      "hint": "Type it like x>4 or -2<x<=3 (use <= for ≤ and >= for ≥)",
+      "ms": "Answer: −3 < x < 4. M1 for (x − 4)(x + 3). M1 for critical values −3 and 4. A1 for −3 < x < 4."
+    },
+    {
+      "id": "17",
+      "type": "work",
+      "marks": 3,
+      "q": "Prove that the sum of any three consecutive integers is always a multiple of 3.",
+      "ms": "Answer: n + (n + 1) + (n + 2) = 3n + 3 = 3(n + 1), which is a multiple of 3.. B1 for n, n + 1, n + 2. M1 for 3n + 3. A1 for 3(n + 1) with a statement that it is a multiple of 3."
+    },
+    {
+      "id": "18",
+      "type": "work",
+      "marks": 4,
+      "q": "Prove that the difference between the squares of two consecutive odd numbers is always a multiple of 8.",
+      "ms": "Answer: (2n + 3)² − (2n + 1)² = 4n² + 12n + 9 − 4n² − 4n − 1 = 8n + 8 = 8(n + 1). B1 for two consecutive odd numbers written as 2n + 1 and 2n + 3. M1 for expanding both squares. A1 for 8n + 8. A1 for 8(n + 1) with a conclusion."
+    }
+  ]
+}

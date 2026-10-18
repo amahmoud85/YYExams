@@ -1,0 +1,237 @@
+{
+  "id": "y9-science-3",
+  "year": 9,
+  "subject": "Science",
+  "title": "Year 9 Science Exam 3",
+  "short": "Exam 3",
+  "topic": "Inheritance & chemical reactions · AQA Higher · Paper B",
+  "minutes": 60,
+  "order": 3,
+  "intro": "Calculator allowed. Relative atomic masses (A<sub>r</sub>): H = 1, O = 16, Mg = 24, Ca = 40. For a method question, write numbered steps someone else could follow, with equipment, measurements and safety. For longer answers write in full sentences and use key words. Describe = say what happens; Explain = say what happens and why (use because and so); Compare = similarities and differences (use whereas); Evaluate = points for and against, then a justified conclusion. 6-mark questions are marked on how well your ideas link together: plan for a minute, then write about 6 linked points.",
+  "questions": [
+    {
+      "id": "1a",
+      "type": "written",
+      "marks": 2,
+      "q": "In guinea pigs, the allele for black fur (B) is dominant over the allele for white fur (b).<br>Explain the difference between a <em>genotype</em> and a <em>phenotype</em>. Use guinea pig fur colour as an example.",
+      "ms": "Genotype is the combination of alleles, e.g. Bb (1); phenotype is the characteristic that is expressed, e.g. black fur (1)."
+    },
+    {
+      "id": "1b",
+      "type": "written",
+      "marks": 3,
+      "q": "A black guinea pig is crossed with a white guinea pig. They have 10 offspring: 5 black and 5 white.<br>Use a genetic diagram to work out the genotype of the black parent. Explain your answer.",
+      "ms": "White parent must be bb (1); Bb × bb gives Bb, Bb, bb, bb, a 1 : 1 ratio (1); matches 5 : 5 so the black parent is Bb; if BB all offspring would be black (1)."
+    },
+    {
+      "id": "1c",
+      "type": "text",
+      "marks": 1,
+      "q": "Two guinea pigs with the genotype Bb are crossed. Give the expected ratio of black : white offspring.",
+      "key": [
+        "3:1"
+      ],
+      "hint": "Type it like 2:1",
+      "ms": "3 : 1 (1)."
+    },
+    {
+      "id": "1d",
+      "type": "text",
+      "marks": 1,
+      "q": "Put these structures in order of size, starting with the smallest: cell, chromosome, gene, nucleus.",
+      "key": [
+        "gene,chromosome,nucleus,cell"
+      ],
+      "hint": "Type the four words in order, separated by commas",
+      "ms": "gene → chromosome → nucleus → cell (1)."
+    },
+    {
+      "id": "1e",
+      "type": "written",
+      "marks": 2,
+      "q": "Explain how a mutation could lead to a new characteristic appearing in a population.",
+      "ms": "A mutation changes the DNA / base sequence of a gene (1); this creates a new allele, which may give a new characteristic / phenotype (1)."
+    },
+    {
+      "id": "1f",
+      "type": "written",
+      "marks": 2,
+      "q": "Fur colour in guinea pigs is an example of discontinuous variation, whereas body mass is an example of continuous variation. Explain the difference between these two types of variation.",
+      "ms": "Discontinuous falls into distinct groups with no values in between (1), whereas continuous can take any value within a range (1)."
+    },
+    {
+      "id": "2a",
+      "type": "written",
+      "marks": 6,
+      "q": "Biodiversity is the variety of all the different species of organisms on Earth, or within an ecosystem.<br>Explain why it is important to maintain biodiversity, and describe techniques that can be used to protect it.",
+      "ms": "Level-marked. Level 3 (5–6): detailed and coherent, points linked in a logical sequence, correct terms. Level 2 (3–4): several relevant points with some linking. Level 1 (1–2): simple, separate statements. 0: nothing relevant. Why: high biodiversity makes ecosystems more stable; species depend on each other (food, shelter, pollination); losing one species affects food webs; humans rely on it for food, medicines, materials. Techniques: breeding programmes; protecting / regenerating habitats (reserves, replanting); field margins and hedgerows; reducing deforestation, pollution and CO₂; recycling; seed / gene banks. Level 3 explains why AND describes several techniques with reasons."
+    },
+    {
+      "id": "2b",
+      "type": "written",
+      "marks": 3,
+      "q": "Patients are told to complete the full course of antibiotics, even if they feel better. Explain why, using ideas about natural selection.",
+      "ms": "Some bacteria may be resistant / not all killed yet (1); if stopped early these survivors reproduce (1); pass on the resistance allele so a resistant population develops (1)."
+    },
+    {
+      "id": "2c",
+      "type": "written",
+      "marks": 2,
+      "q": "The Arabian oryx became extinct in the wild in 1972, mainly because of hunting. Captive breeding programmes, including in the UAE, have since returned it to the wild.<br>Suggest <strong>one</strong> reason why a population bred from a small number of captive animals may struggle to survive in the wild. Explain your answer.",
+      "ms": "Low genetic variation / inbreeding (1), so the whole population could be wiped out by a new disease or environmental change (1). Allow: lack survival behaviours (avoiding predators, finding food) (1) + explanation (1)."
+    },
+    {
+      "id": "3a",
+      "type": "written",
+      "marks": 6,
+      "q": "When magnesium is heated, it reacts with oxygen: 2Mg + O₂ → 2MgO<br>Describe a method to find the mass of magnesium oxide formed when a known mass of magnesium ribbon is heated in a crucible.",
+      "ms": "Level-marked. Level 3 (5–6): detailed and coherent, points linked in a logical sequence, correct terms. Level 2 (3–4): several relevant points with some linking. Level 1 (1–2): simple, separate statements. 0: nothing relevant. Indicative: weigh empty crucible and lid; add coiled magnesium and reweigh, subtract for mass of Mg; heat strongly on a pipe-clay triangle over a Bunsen; lift lid occasionally with tongs to let oxygen in; keep lid mostly on so MgO smoke doesn't escape; heat until it stops glowing, cool; reweigh and reheat to constant mass; final mass − crucible = mass of MgO; safety: eye protection, don't look at the burning magnesium. Level 3: logical method, how masses are found and why the lid is lifted."
+    },
+    {
+      "id": "3b",
+      "type": "written",
+      "marks": 2,
+      "q": "A student heats different masses of magnesium. Her results:<table class=\"data\"><tr><th>Mass of magnesium (g)</th><td>0.12</td><td>0.24</td><td>0.36</td><td>0.48</td><td>0.60</td></tr><tr><th>Mass of magnesium oxide (g)</th><td>0.20</td><td>0.40</td><td>0.52</td><td>0.80</td><td>1.00</td></tr></table>Identify the anomalous result. Suggest <strong>one</strong> reason for it.",
+      "ms": "0.52 g (for 0.36 g Mg) (1). Reason: some MgO escaped as smoke / not all Mg reacted / not heated to constant mass (1)."
+    },
+    {
+      "id": "3c",
+      "type": "written",
+      "marks": 2,
+      "q": "Name the independent variable and the dependent variable.",
+      "ms": "Independent: mass of magnesium (1). Dependent: mass of magnesium oxide (1)."
+    },
+    {
+      "id": "3d",
+      "type": "work",
+      "marks": 2,
+      "q": "Calculate the theoretical mass of magnesium oxide that should be made from 0.36 g of magnesium. (g)",
+      "key": {
+        "num": 0.6
+      },
+      "ms": "0.60 g. Mg : MgO = 24 : 40 or 48 g → 80 g (1); 0.36 × 40 ÷ 24 = 0.60 g (1). Allow the pattern in the other results (× 5/3)."
+    },
+    {
+      "id": "3e",
+      "type": "work",
+      "marks": 2,
+      "q": "Calculate the percentage yield for the 0.36 g sample. Give your answer to 2 significant figures. (%)",
+      "key": {
+        "num": 87
+      },
+      "ms": "(0.52 ÷ 0.60) × 100 = 86.7 (1) = 87% (1). Allow ecf from 3(d)."
+    },
+    {
+      "id": "4a",
+      "type": "written",
+      "marks": 2,
+      "q": "Define the term <strong>electrolysis</strong>.",
+      "ms": "Breaking down an ionic compound into simpler substances / elements (1) using an electric current (1)."
+    },
+    {
+      "id": "4b",
+      "type": "written",
+      "marks": 2,
+      "q": "Aluminium is extracted by the electrolysis of aluminium oxide. Explain why the aluminium oxide must be molten (melted) and not solid.",
+      "ms": "In a solid the ions are fixed / cannot move (1); when molten the ions are free to move and carry the current to the electrodes (1)."
+    },
+    {
+      "id": "4c",
+      "type": "written",
+      "marks": 2,
+      "q": "Predict whether each reaction will happen. Explain each prediction using the reactivity series.<br>(a) zinc + copper sulfate<br>(b) copper + magnesium sulfate",
+      "ms": "(a) Yes: zinc is more reactive than copper, so it displaces copper (1). (b) No: copper is less reactive than magnesium, so it cannot displace it (1)."
+    },
+    {
+      "id": "4d",
+      "type": "text",
+      "marks": 1,
+      "q": "Write a balanced symbol equation for the reaction between zinc (Zn) and copper sulfate (CuSO₄).",
+      "key": [
+        "zn+cuso4->znso4+cu",
+        "zn+cuso4→znso4+cu",
+        "zn+cuso4=znso4+cu"
+      ],
+      "hint": "Type it like Mg+H2SO4->MgSO4+H2",
+      "ms": "Zn + CuSO₄ → ZnSO₄ + Cu (1)."
+    },
+    {
+      "id": "4e",
+      "type": "written",
+      "marks": 3,
+      "q": "A catalytic converter changes carbon monoxide and nitrogen monoxide into less harmful gases.<br>Name the products formed from each gas, and explain why a catalyst is used.",
+      "ms": "Carbon monoxide → carbon dioxide (1); nitrogen monoxide → nitrogen (and oxygen) (1); a catalyst speeds up the reaction without being used up, so the gases are converted quickly as they pass through (1)."
+    },
+    {
+      "id": "5a",
+      "type": "mc",
+      "marks": 1,
+      "q": "Which of these is a <strong>functional</strong> adaptation?",
+      "options": [
+        "thick fur",
+        "hibernating in winter",
+        "producing very concentrated urine",
+        "sharp claws"
+      ],
+      "key": 2,
+      "ms": "producing very concentrated urine (1)."
+    },
+    {
+      "id": "5b",
+      "type": "written",
+      "marks": 6,
+      "q": "The Arabian camel lives in the deserts of the UAE. Daytime temperatures can be above 45 °C, and there is very little water.<br>Explain how structural, behavioural and functional adaptations help the camel to survive in the desert.",
+      "ms": "Level-marked. Level 3 (5–6): detailed and coherent, points linked in a logical sequence, correct terms. Level 2 (3–4): several relevant points with some linking. Level 1 (1–2): simple, separate statements. 0: nothing relevant. Structural: hump stores fat for energy / water; wide flat feet don't sink in sand; long eyelashes and closable nostrils keep out sand; thick fur on top shades skin. Behavioural: rests in the hottest part of the day; drinks large volumes quickly. Functional: little, concentrated urine and dry faeces; body temperature rises before sweating, saving water. Level 3 includes all three types, each linked to survival."
+    },
+    {
+      "id": "5c",
+      "type": "written",
+      "marks": 2,
+      "q": "The fennec fox also lives in the desert. It has very large ears. Suggest <strong>two</strong> ways its large ears help it to survive.",
+      "ms": "Any two: large surface area to lose heat / keep cool (1); hear prey, e.g. insects underground (1); hear predators coming (1)."
+    },
+    {
+      "id": "6a",
+      "type": "text",
+      "marks": 1,
+      "q": "Hydrogen peroxide has the formula H₂O₂. Give the ratio of hydrogen atoms to oxygen atoms in its simplest form.",
+      "key": [
+        "1:1"
+      ],
+      "hint": "Type it like 2:1",
+      "ms": "1 : 1 (1)."
+    },
+    {
+      "id": "6b",
+      "type": "num",
+      "marks": 1,
+      "q": "How many atoms in total are in one formula unit of calcium hydroxide, Ca(OH)₂?",
+      "key": 5,
+      "ms": "5 (1)."
+    },
+    {
+      "id": "6c",
+      "type": "work",
+      "marks": 2,
+      "q": "Calculate the relative formula mass (M<sub>r</sub>) of calcium hydroxide, Ca(OH)₂.",
+      "key": {
+        "num": 74
+      },
+      "ms": "40 + 2 × (16 + 1) (1) = 74 (1)."
+    },
+    {
+      "id": "6d",
+      "type": "mc",
+      "marks": 1,
+      "q": "Which of these is a <strong>biotic</strong> factor?",
+      "options": [
+        "light intensity",
+        "availability of prey",
+        "carbon dioxide level",
+        "wind speed"
+      ],
+      "key": 1,
+      "ms": "availability of prey (1)."
+    }
+  ]
+}

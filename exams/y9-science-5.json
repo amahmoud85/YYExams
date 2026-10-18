@@ -1,0 +1,286 @@
+{
+  "id": "y9-science-5",
+  "year": 9,
+  "subject": "Science",
+  "title": "Year 9 Science Exam 5",
+  "short": "Exam 5",
+  "topic": "Chemistry · Useful chemical reactions · AQA Higher",
+  "minutes": 45,
+  "order": 5,
+  "intro": "Answer every question. You may use a calculator. Show your working for calculations. The 6-mark question is marked on how well you link your ideas together.",
+  "questions": [
+    {
+      "id": "1",
+      "type": "mc",
+      "marks": 1,
+      "q": "A compound has one magnesium atom for every two chlorine atoms. What is its formula?",
+      "options": [
+        "MgCl",
+        "Mg₂Cl",
+        "MgCl₂",
+        "Mg₂Cl₂"
+      ],
+      "key": 2,
+      "ms": "Answer: C: MgCl₂. B1."
+    },
+    {
+      "id": "2",
+      "type": "mc",
+      "marks": 1,
+      "q": "What is the simplest ratio of hydrogen atoms to oxygen atoms in hydrogen peroxide, H₂O₂?",
+      "options": [
+        "2 : 1",
+        "1 : 1",
+        "2 : 2",
+        "1 : 2"
+      ],
+      "key": 1,
+      "ms": "Answer: B: 1 : 1. B1."
+    },
+    {
+      "id": "3",
+      "type": "mc",
+      "marks": 1,
+      "q": "Which metal must be extracted from its ore by electrolysis?",
+      "options": [
+        "Iron",
+        "Zinc",
+        "Copper",
+        "Aluminium"
+      ],
+      "key": 3,
+      "ms": "Answer: D: Aluminium. B1."
+    },
+    {
+      "id": "4",
+      "type": "mc",
+      "marks": 1,
+      "q": "What does a catalyst do?",
+      "options": [
+        "Speeds up a reaction and gets used up",
+        "Speeds up a reaction without being used up",
+        "Slows down a reaction",
+        "Changes the products of a reaction"
+      ],
+      "key": 1,
+      "ms": "Answer: B. B1."
+    },
+    {
+      "id": "5",
+      "type": "mc",
+      "marks": 1,
+      "q": "Which metals are used in a catalytic converter?",
+      "options": [
+        "Platinum, palladium and rhodium",
+        "Iron, copper and zinc",
+        "Sodium, potassium and calcium",
+        "Gold, silver and lead"
+      ],
+      "key": 0,
+      "ms": "Answer: A. B1."
+    },
+    {
+      "id": "6",
+      "type": "num",
+      "marks": 1,
+      "q": "Use these relative atomic masses for questions 6 to 11.<table class=\"data\"><tr><th>Element</th><td>H</td><td>C</td><td>O</td><td>Mg</td><td>Ca</td></tr><tr><th>Relative atomic mass, A<sub>r</sub></th><td>1</td><td>12</td><td>16</td><td>24</td><td>40</td></tr></table><br>Calculate the relative formula mass, M<sub>r</sub>, of carbon dioxide, CO₂.",
+      "key": 44,
+      "ms": "Answer: 44. B1 for 12 + (2 × 16) = 44."
+    },
+    {
+      "id": "7",
+      "type": "work",
+      "marks": 2,
+      "q": "Calculate the M<sub>r</sub> of calcium carbonate, CaCO₃.",
+      "key": {
+        "num": 100
+      },
+      "ms": "Answer: 100. M1 for 40 + 12 + (3 × 16). A1 for 100."
+    },
+    {
+      "id": "8",
+      "type": "work",
+      "marks": 2,
+      "q": "Calculate the M<sub>r</sub> of magnesium hydroxide, Mg(OH)₂.",
+      "key": {
+        "num": 58
+      },
+      "ms": "Answer: 58. M1 for 24 + 2 × (16 + 1). A1 for 58. (The bracket doubles both O and H.)"
+    },
+    {
+      "id": "9a",
+      "type": "text",
+      "marks": 1,
+      "q": "Balance these equations. Type them with normal numbers, for example 2H2 + O2 → 2H2O.<br>Mg + O₂ → MgO",
+      "key": [
+        "2mg+o2->2mgo",
+        "2mg+o2→2mgo",
+        "2mg+o2=2mgo"
+      ],
+      "hint": "Type it like 2H2+O2->2H2O",
+      "ms": "Answer: 2Mg + O₂ → 2MgO. B1."
+    },
+    {
+      "id": "9b",
+      "type": "text",
+      "marks": 2,
+      "q": "Fe₂O₃ + CO → Fe + CO₂",
+      "key": [
+        "fe2o3+3co->2fe+3co2",
+        "fe2o3+3co→2fe+3co2",
+        "fe2o3+3co=2fe+3co2"
+      ],
+      "hint": "Type it like 2H2+O2->2H2O",
+      "ms": "Answer: Fe₂O₃ + 3CO → 2Fe + 3CO₂. B1 for 2Fe. B1 for 3CO and 3CO₂."
+    },
+    {
+      "id": "9c",
+      "type": "text",
+      "marks": 1,
+      "q": "Na + H₂O → NaOH + H₂",
+      "key": [
+        "2na+2h2o->2naoh+h2",
+        "2na+2h2o→2naoh+h2",
+        "2na+2h2o=2naoh+h2"
+      ],
+      "hint": "Type it like 2H2+O2->2H2O",
+      "ms": "Answer: 2Na + 2H₂O → 2NaOH + H₂. B1."
+    },
+    {
+      "id": "10",
+      "type": "work",
+      "marks": 3,
+      "q": "Calcium carbonate breaks down when heated: CaCO₃ → CaO + CO₂<br>Calculate the mass of calcium oxide made from 25 g of calcium carbonate. (g)",
+      "key": {
+        "num": 14
+      },
+      "ms": "Answer: 14 g. M1 for M<sub>r</sub> CaO = 56 (and CaCO₃ = 100). M1 for 25 ÷ 100 × 56 (or 100 g → 56 g, scaled). A1 for 14 g."
+    },
+    {
+      "id": "11",
+      "type": "work",
+      "marks": 3,
+      "q": "Magnesium burns in oxygen: 2Mg + O₂ → 2MgO<br>Calculate the mass of magnesium oxide made from 6 g of magnesium. (g)",
+      "key": {
+        "num": 10
+      },
+      "ms": "Answer: 10 g. M1 for 2 × 24 = 48 and 2 × 40 = 80. M1 for 6 ÷ 48 × 80. A1 for 10 g."
+    },
+    {
+      "id": "12a",
+      "type": "work",
+      "marks": 2,
+      "q": "In a reaction, the theoretical yield is 10.0 g. The student actually makes 8.5 g of product.<br>Calculate the percentage yield. (%)",
+      "key": {
+        "num": 85
+      },
+      "ms": "Answer: 85%. M1 for 8.5 ÷ 10 × 100. A1 for 85%."
+    },
+    {
+      "id": "12b",
+      "type": "written",
+      "marks": 2,
+      "q": "Give two reasons why the actual yield is less than the theoretical yield.",
+      "ms": "Answer: Any two: some product is lost when transferring or filtering; the reaction may not go to completion; side reactions make other products; some reactant is lost or impure.. B1 each, up to 2."
+    },
+    {
+      "id": "13",
+      "type": "written",
+      "marks": 2,
+      "q": "Explain why gold is found as the pure metal in the ground, but iron is found as iron oxide.",
+      "ms": "Answer: Gold is very unreactive (at the bottom of the reactivity series), so it does not react with oxygen. Iron is more reactive, so it has reacted with oxygen to form a compound.. B1 gold is unreactive / low in the reactivity series. B1 iron is more reactive so it reacts with oxygen (forms compounds)."
+    },
+    {
+      "id": "14a",
+      "type": "mc",
+      "marks": 1,
+      "q": "Zinc is added to copper sulfate solution. What happens?",
+      "options": [
+        "Zinc displaces copper, because zinc is more reactive",
+        "No reaction, because zinc is less reactive",
+        "Copper displaces zinc",
+        "Hydrogen gas is given off"
+      ],
+      "key": 0,
+      "ms": "Answer: A. B1."
+    },
+    {
+      "id": "14b",
+      "type": "mc",
+      "marks": 1,
+      "q": "Copper is added to magnesium sulfate solution. What happens?",
+      "options": [
+        "Copper displaces magnesium",
+        "No reaction, because copper is less reactive than magnesium",
+        "Magnesium metal forms on the copper",
+        "The solution turns blue straight away"
+      ],
+      "key": 1,
+      "ms": "Answer: B. B1."
+    },
+    {
+      "id": "14c",
+      "type": "written",
+      "marks": 1,
+      "q": "Write a word equation for the reaction in 14(a).",
+      "ms": "Answer: zinc + copper sulfate → zinc sulfate + copper. B1."
+    },
+    {
+      "id": "15",
+      "type": "written",
+      "marks": 4,
+      "q": "Explain how a catalytic converter makes car exhaust gases less harmful. Name the harmful gases and what they are changed into.",
+      "ms": "Answer: It contains platinum/palladium/rhodium catalysts on a honeycomb with a large surface area. Carbon monoxide → carbon dioxide; nitrogen oxides → nitrogen (and oxygen); unburnt hydrocarbons → carbon dioxide and water.. B1 contains catalysts (Pt, Pd, Rh) / speeds up reactions. B1 CO → CO₂. B1 nitrogen oxides → nitrogen. B1 unburnt hydrocarbons → CO₂ + H₂O, or honeycomb gives a large surface area."
+    },
+    {
+      "id": "16a",
+      "type": "num",
+      "marks": 1,
+      "q": "A student heats different masses of magnesium in a crucible and measures the mass of magnesium oxide made.<table class=\"data\"><tr><th>Mass of magnesium (g)</th><td>0.12</td><td>0.24</td><td>0.36</td><td>0.48</td><td>0.60</td></tr><tr><th>Mass of magnesium oxide (g)</th><td>0.20</td><td>0.40</td><td>0.48</td><td>0.80</td><td>1.00</td></tr></table><br>Which mass of magnesium gave the anomalous result? (g)",
+      "key": 0.36,
+      "ms": "Answer: 0.36 g (it should give about 0.60 g of oxide). B1."
+    },
+    {
+      "id": "16b",
+      "type": "written",
+      "marks": 1,
+      "q": "Suggest a reason for the anomalous result.",
+      "ms": "Answer: Not heated for long enough so not all the magnesium reacted, or some magnesium oxide smoke escaped when the lid was lifted.. B1 for a sensible reason."
+    },
+    {
+      "id": "16c",
+      "type": "written",
+      "marks": 2,
+      "q": "Name the independent variable and the dependent variable.",
+      "ms": "Answer: Independent: mass of magnesium. Dependent: mass of magnesium oxide.. B1 each."
+    },
+    {
+      "id": "16d",
+      "type": "written",
+      "marks": 2,
+      "q": "Describe the relationship between the mass of magnesium and the mass of magnesium oxide.",
+      "ms": "Answer: As the mass of magnesium increases, the mass of magnesium oxide increases. It is directly proportional: doubling the magnesium doubles the oxide (oxide ≈ 1.67 × magnesium).. B1 positive relationship. B1 directly proportional with evidence (doubling) or the multiplier."
+    },
+    {
+      "id": "16e",
+      "type": "mc",
+      "marks": 1,
+      "q": "Which type of graph should she draw for these results?",
+      "options": [
+        "Bar chart",
+        "Line graph (scatter with a line of best fit)",
+        "Pie chart",
+        "Histogram"
+      ],
+      "key": 1,
+      "ms": "Answer: B. B1. Both variables are continuous."
+    },
+    {
+      "id": "17",
+      "type": "written",
+      "marks": 6,
+      "q": "Copper is extracted by heating copper oxide with carbon. Aluminium is extracted from aluminium oxide by electrolysis.<br>Explain why the two metals are extracted in different ways, and compare the two methods.",
+      "ms": "Answer: Level 3 answer points: reactivity series; carbon is more reactive than copper, so it can remove oxygen from copper oxide (reduction / displacement); aluminium is more reactive than carbon, so carbon cannot reduce it; electrolysis breaks down molten aluminium oxide using electricity; electrolysis needs a lot of energy to melt the ore and run the current, so it is expensive; heating with carbon is cheaper; carbon method makes carbon dioxide.. Level-marked. Level 3 (5–6): explains both methods using the position of carbon in the reactivity series, and compares cost/energy. Level 2 (3–4): explains one method clearly and makes a comparison. Level 1 (1–2): simple statements such as 'aluminium is more reactive'."
+    }
+  ]
+}
