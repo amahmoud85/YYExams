@@ -1,0 +1,14 @@
+{
+  "name": "exam-desk",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "exams": "node scripts/bundle-exams.mjs",
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "test": "node --test test/*.test.js"
+  },
+  "devDependencies": {
+    "wrangler": "4.151.1"
+  }
+}

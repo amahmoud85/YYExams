@@ -1,0 +1,187 @@
+{
+ "id": "science-2",
+ "subject": "Science",
+ "title": "Science Exam 2",
+ "short": "Exam 2",
+ "topic": "Health & Lifestyle · Periodic Table · Investigative skills",
+ "minutes": 45,
+ "intro": "Write in full sentences. Question 7 is a 6-mark answer: plan it in order and use science words.",
+ "questions": [
+  {
+   "id": "1",
+   "type": "mc",
+   "marks": 1,
+   "q": "What is the main job of carbohydrates in the diet?",
+   "options": [
+    "Growth and repair",
+    "Providing energy",
+    "Keeping food moving through the gut",
+    "Insulation"
+   ],
+   "key": 1,
+   "ms": "Providing energy"
+  },
+  {
+   "id": "2",
+   "type": "mc",
+   "marks": 1,
+   "q": "Which test shows that a food contains lipids (fats)?",
+   "options": [
+    "Iodine turns blue-black",
+    "Benedict's turns brick-red",
+    "Ethanol gives a cloudy white emulsion",
+    "Biuret turns purple"
+   ],
+   "key": 2,
+   "ms": "Ethanol emulsion test: cloudy white layer."
+  },
+  {
+   "id": "3",
+   "type": "written",
+   "marks": 2,
+   "q": "Explain why a person with too little iron in their diet may feel tired.",
+   "ms": "1 iron is needed to make haemoglobin / red blood cells; 1 so less oxygen is carried, less respiration, less energy released."
+  },
+  {
+   "id": "4",
+   "type": "written",
+   "marks": 3,
+   "q": "Describe two health problems that can be caused by eating too much fat and sugar over a long time. Explain how one of them happens.",
+   "ms": "1 each for two problems: obesity, heart disease, type 2 diabetes, tooth decay, high blood pressure; 1 explanation, e.g. fat builds up in arteries so less blood reaches the heart, or more energy eaten than used is stored as fat."
+  },
+  {
+   "id": "5",
+   "type": "written",
+   "marks": 2,
+   "q": "Explain how bacteria in the large intestine help the body.",
+   "ms": "Any 2: break down substances we can't digest (fibre); make vitamins (e.g. vitamin K); compete with / stop harmful bacteria growing."
+  },
+  {
+   "id": "6",
+   "type": "written",
+   "marks": 3,
+   "q": "Enzymes are described as biological catalysts. Explain what this means, using protease as an example.",
+   "ms": "1 speed up reactions; 1 not used up / can be used again; 1 protease breaks proteins down into amino acids."
+  },
+  {
+   "id": "7",
+   "type": "written",
+   "marks": 6,
+   "q": "Describe what happens to a piece of bread as it travels from the mouth to the end of the small intestine. Include what happens to the starch in the bread.",
+   "ms": "Level 3 (5–6): clear ordered journey with enzymes and absorption. Level 2 (3–4): most stages, some detail. Level 1 (1–2): a few correct points. Points: teeth chew into smaller pieces / larger surface area; saliva contains amylase; amylase breaks starch into sugar (maltose); swallowed down oesophagus by peristalsis; stomach churns, acid kills bacteria; small intestine: enzymes from pancreas finish digestion to glucose; glucose absorbed into blood through villi."
+  },
+  {
+   "id": "8",
+   "type": "written",
+   "marks": 2,
+   "q": "Explain one way that drinking too much alcohol harms the body.",
+   "ms": "1 effect: damages liver / slows the nervous system / addictive; 1 consequence: liver disease (cirrhosis), slower reactions so more accidents, dependence."
+  },
+  {
+   "id": "9",
+   "type": "mc",
+   "marks": 1,
+   "q": "Which element is in Group 7 and Period 2?",
+   "options": [
+    "Chlorine",
+    "Fluorine",
+    "Oxygen",
+    "Neon"
+   ],
+   "key": 1,
+   "ms": "Fluorine"
+  },
+  {
+   "id": "10",
+   "type": "mc",
+   "marks": 1,
+   "q": "Which property is typical of a solid non-metal?",
+   "options": [
+    "Good conductor of electricity",
+    "Shiny",
+    "Brittle",
+    "Malleable"
+   ],
+   "key": 2,
+   "ms": "Brittle"
+  },
+  {
+   "id": "11",
+   "type": "written",
+   "marks": 2,
+   "q": "Give two physical properties of Group 1 metals that are different from most other metals.",
+   "ms": "Any 2: soft (can be cut with a knife); low density (float on water); low melting points."
+  },
+  {
+   "id": "12",
+   "type": "mc",
+   "marks": 1,
+   "q": "<table class=\"data\"><tr><th>Group 7 element</th><th>Melting point (°C)</th><th>Boiling point (°C)</th></tr><tr><td>Fluorine</td><td>−220</td><td>−188</td></tr><tr><td>Chlorine</td><td>−101</td><td>−34</td></tr><tr><td>Bromine</td><td>−7</td><td>59</td></tr><tr><td>Iodine</td><td>114</td><td>184</td></tr></table>What is the state of bromine at 20 °C?",
+   "options": [
+    "Solid",
+    "Liquid",
+    "Gas"
+   ],
+   "key": 1,
+   "ms": "Liquid (20 °C is between −7 and 59 °C)."
+  },
+  {
+   "id": "13",
+   "type": "written",
+   "marks": 2,
+   "q": "Describe the trend in melting point down Group 7. Use data from the table in question 12.",
+   "ms": "1 melting point increases down the group; 1 data quoted, e.g. fluorine −220 °C to iodine 114 °C."
+  },
+  {
+   "id": "14",
+   "type": "written",
+   "marks": 2,
+   "q": "Iodine solution is added to sodium chloride solution. Predict what happens and explain your answer.",
+   "ms": "1 no reaction / no displacement; 1 iodine is less reactive than chlorine (lower in Group 7)."
+  },
+  {
+   "id": "15",
+   "type": "written",
+   "marks": 2,
+   "q": "Argon is used inside some light bulbs. Explain why, using its position in the Periodic Table.",
+   "ms": "1 argon is in Group 0 / a noble gas so it is unreactive (full outer shell); 1 so the hot filament does not react / burn."
+  },
+  {
+   "id": "16",
+   "type": "written",
+   "marks": 4,
+   "q": "Josh investigates how temperature affects how quickly the enzyme amylase breaks down starch. Name the independent variable, the dependent variable and two control variables.",
+   "ms": "1 IV temperature; 1 DV time for starch to be broken down (iodine no longer turns blue-black); 2 controls: volume/concentration of amylase, volume/concentration of starch, pH."
+  },
+  {
+   "id": "17",
+   "type": "num",
+   "marks": 2,
+   "q": "Josh's times were 34 s, 36 s, 62 s and 35 s. The 62 s result is anomalous. Calculate the mean time, leaving out the anomaly.",
+   "key": 35,
+   "ms": "35 s. M1 (34 + 36 + 35) ÷ 3, A1."
+  },
+  {
+   "id": "18",
+   "type": "mc",
+   "marks": 1,
+   "q": "Which type of graph should you use to show the number of students in a class choosing each favourite food?",
+   "options": [
+    "Line graph",
+    "Bar chart",
+    "Scatter graph",
+    "Pie chart only"
+   ],
+   "key": 1,
+   "ms": "Bar chart (categoric data)."
+  },
+  {
+   "id": "19",
+   "type": "written",
+   "marks": 2,
+   "q": "Explain why scientists repeat their readings.",
+   "ms": "1 to spot anomalous results; 1 to calculate a mean / make results more repeatable (reliable)."
+  }
+ ],
+ "order": 5
+}

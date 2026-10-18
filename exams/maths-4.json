@@ -1,0 +1,226 @@
+{
+ "id": "maths-4",
+ "subject": "Maths",
+ "title": "Maths Exam 4",
+ "short": "Exam 4",
+ "topic": "Algebra 3: expressions, equations, formulae · Non-calculator · Higher",
+ "minutes": 45,
+ "intro": "No calculator. Type powers with ^ (for example x^2). Show your working: method marks count even if the final answer slips.",
+ "questions": [
+  {
+   "id": "1",
+   "type": "mc",
+   "marks": 1,
+   "q": "Simplify 4<i>a</i> + 3<i>b</i> − <i>a</i> + 2<i>b</i>",
+   "options": [
+    "3a + 5b",
+    "5a + 5b",
+    "3a + b",
+    "8ab"
+   ],
+   "key": 0,
+   "ms": "3a + 5b"
+  },
+  {
+   "id": "2",
+   "type": "num",
+   "marks": 2,
+   "q": "<i>a</i> = −3. Work out the value of <i>a</i><sup>2</sup> + 2<i>a</i>",
+   "key": 3,
+   "ms": "3. M1 (−3)² = 9 and 2 × (−3) = −6, A1 9 − 6 = 3."
+  },
+  {
+   "id": "3",
+   "type": "num",
+   "marks": 2,
+   "q": "<i>p</i> = −2 and <i>q</i> = 5. Work out the value of 3<i>p</i><sup>2</sup><i>q</i>",
+   "key": 60,
+   "ms": "60. M1 p² = 4 (square before multiplying by 3), A1 3 × 4 × 5 = 60."
+  },
+  {
+   "id": "4",
+   "type": "num",
+   "marks": 2,
+   "q": "<i>x</i> = −2. Work out the value of <i>x</i><sup>3</sup> − 4<i>x</i>",
+   "key": 0,
+   "ms": "0. M1 (−2)³ = −8 and −4 × (−2) = +8, A1 −8 + 8 = 0."
+  },
+  {
+   "id": "5",
+   "type": "expr",
+   "marks": 1,
+   "q": "Expand 5(2<i>x</i> − 3)",
+   "key": {
+    "expr": "10x-15",
+    "noParen": true
+   },
+   "ms": "10x − 15"
+  },
+  {
+   "id": "6",
+   "type": "expr",
+   "marks": 2,
+   "q": "Expand and simplify 3(<i>x</i> + 4) − 2(<i>x</i> − 5)",
+   "key": {
+    "expr": "x+22",
+    "noParen": true,
+    "maxLen": 6
+   },
+   "ms": "x + 22. M1 3x + 12 − 2x + 10 (watch −2 × −5 = +10), A1."
+  },
+  {
+   "id": "7",
+   "type": "expr",
+   "marks": 2,
+   "q": "Expand and simplify (<i>x</i> + 5)(<i>x</i> − 3)",
+   "key": {
+    "expr": "x^2+2x-15",
+    "noParen": true,
+    "maxLen": 11
+   },
+   "ms": "x² + 2x − 15. M1 four terms x² − 3x + 5x − 15, A1."
+  },
+  {
+   "id": "8",
+   "type": "text",
+   "marks": 2,
+   "q": "Factorise fully 12<i>x</i> + 18",
+   "key": [
+    "6(2x+3)",
+    "6(3+2x)",
+    "(2x+3)6",
+    "(3+2x)6"
+   ],
+   "hint": "Type it like 2(x+5)",
+   "ms": "6(2x + 3). B1 partly factorised, e.g. 2(6x + 9) or 3(4x + 6); B2 fully."
+  },
+  {
+   "id": "9",
+   "type": "text",
+   "marks": 2,
+   "q": "Factorise fully 8<i>x</i><sup>2</sup> − 12<i>x</i>",
+   "key": [
+    "4x(2x-3)",
+    "4x(-3+2x)",
+    "(2x-3)4x",
+    "(2x-3)(4x)",
+    "4x(2x-3)"
+   ],
+   "hint": "Type it like 2x(x+5)",
+   "ms": "4x(2x − 3). B1 partly factorised, e.g. 4(2x² − 3x) or x(8x − 12); B2 fully."
+  },
+  {
+   "id": "10",
+   "type": "num",
+   "marks": 2,
+   "q": "Solve 4<i>x</i> − 7 = 21",
+   "key": 7,
+   "ms": "x = 7. M1 4x = 28, A1."
+  },
+  {
+   "id": "11",
+   "type": "work",
+   "marks": 3,
+   "q": "Solve 5(<i>x</i> + 2) = 3<i>x</i> + 18",
+   "key": {
+    "num": 4
+   },
+   "ms": "x = 4. M1 5x + 10 = 3x + 18, M1 2x = 8, A1."
+  },
+  {
+   "id": "12",
+   "type": "num",
+   "marks": 2,
+   "q": "Solve <span class=\"frac\"><span><i>x</i></span><span>3</span></span> + 4 = 9",
+   "key": 15,
+   "ms": "x = 15. M1 x/3 = 5, A1."
+  },
+  {
+   "id": "13",
+   "type": "work",
+   "marks": 3,
+   "q": "Solve 7 − 2<i>x</i> = 3<i>x</i> − 8",
+   "key": {
+    "num": 3
+   },
+   "ms": "x = 3. M1 collect x terms on one side (15 = 5x), M1 correct rearrangement, A1."
+  },
+  {
+   "id": "14",
+   "type": "work",
+   "marks": 3,
+   "q": "A rectangle has length (2<i>x</i> + 5) cm and width <i>x</i> cm. Its perimeter is 40 cm. Form and solve an equation to find <i>x</i>.",
+   "key": {
+    "num": 5
+   },
+   "ms": "x = 5. M1 2(2x + 5) + 2x = 40, M1 6x + 10 = 40, A1 x = 5."
+  },
+  {
+   "id": "15",
+   "type": "num",
+   "marks": 2,
+   "q": "<i>v</i> = <i>u</i> + <i>at</i>. Work out <i>v</i> when <i>u</i> = 4, <i>a</i> = −2 and <i>t</i> = 6.",
+   "key": -8,
+   "ms": "−8. M1 4 + (−2)(6) = 4 − 12, A1."
+  },
+  {
+   "id": "16",
+   "type": "expr",
+   "marks": 2,
+   "q": "Make <i>t</i> the subject of <i>v</i> = <i>u</i> + <i>at</i>",
+   "key": {
+    "expr": "(v-u)/a"
+   },
+   "hint": "Type it like t = (v-u)/a",
+   "ms": "t = (v − u)/a. M1 at = v − u, A1."
+  },
+  {
+   "id": "17",
+   "type": "expr",
+   "marks": 2,
+   "q": "Make <i>x</i> the subject of <i>y</i> = 3<i>x</i> − 7",
+   "key": {
+    "expr": "(y+7)/3"
+   },
+   "hint": "Use brackets, e.g. x = (y+7)/3",
+   "ms": "x = (y + 7)/3. M1 3x = y + 7, A1."
+  },
+  {
+   "id": "18",
+   "type": "work",
+   "marks": 3,
+   "q": "Number revisit. Estimate the value of <span class=\"frac\"><span>297 × 0.51</span><span>0.0198</span></span>",
+   "key": {
+    "num": 7500
+   },
+   "ms": "7500. M1 300, 0.5, 0.02. M1 300 × 0.5 = 150. A1 150 ÷ 0.02 = 7500 (dividing by a small decimal makes it bigger)."
+  },
+  {
+   "id": "19",
+   "type": "factors",
+   "marks": 2,
+   "q": "Number revisit. 600 = 2<sup>3</sup> × 3 × 5<sup>2</sup>. Write 600<sup>2</sup> as a product of prime factors in index form.",
+   "key": {
+    "2": 6,
+    "3": 2,
+    "5": 4
+   },
+   "ms": "2⁶ × 3² × 5⁴. Double every power. M1 two powers right, A1 all."
+  },
+  {
+   "id": "20",
+   "type": "mc",
+   "marks": 1,
+   "q": "Number revisit. A rectangle measures √8 cm by √2 cm. What is its area?",
+   "options": [
+    "√10 cm²",
+    "4 cm²",
+    "2√2 cm²",
+    "16 cm²"
+   ],
+   "key": 1,
+   "ms": "4 cm². √8 × √2 = √16 = 4."
+  }
+ ],
+ "order": 2
+}

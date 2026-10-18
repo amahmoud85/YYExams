@@ -1,0 +1,234 @@
+{
+ "id": "science-pw1",
+ "subject": "Science",
+ "title": "Science Exam 1",
+ "short": "Exam 1",
+ "topic": "Health & Lifestyle · Periodic Table · Motion & Pressure",
+ "minutes": 45,
+ "intro": "Write in full sentences for the longer questions. Use the number of marks as a guide to how many points to make.",
+ "questions": [
+  {
+   "id": "1",
+   "type": "mc",
+   "marks": 1,
+   "q": "Which nutrient is mainly used for growth and repair of cells?",
+   "options": [
+    "Carbohydrate",
+    "Protein",
+    "Lipid",
+    "Fibre"
+   ],
+   "key": 1,
+   "ms": "Protein"
+  },
+  {
+   "id": "2",
+   "type": "mc",
+   "marks": 1,
+   "q": "A student adds Benedict's solution to a food sample and heats it. Sugar is present. What colour change do they see?",
+   "options": [
+    "Brown to blue-black",
+    "Blue to purple",
+    "Blue to brick-red",
+    "Colourless to cloudy white"
+   ],
+   "key": 2,
+   "ms": "Blue to brick-red (or orange-red)."
+  },
+  {
+   "id": "3",
+   "type": "written",
+   "marks": 3,
+   "q": "Describe how to test a food sample for protein. Include the result you would see if protein is present.",
+   "ms": "1 add Biuret solution (or copper sulfate then sodium hydroxide) to the food in solution; 1 blue at the start; 1 turns purple/lilac if protein present."
+  },
+  {
+   "id": "4",
+   "type": "written",
+   "marks": 2,
+   "q": "A 13-year-old who trains for swimming every day needs more energy from food than a 13-year-old who does little exercise. Explain why.",
+   "ms": "1 more physical activity / more muscle movement; 1 respiration releases more energy, so more energy (kJ) is needed from food. Also accept growth if linked."
+  },
+  {
+   "id": "5",
+   "type": "written",
+   "marks": 2,
+   "q": "Name the enzyme that breaks down fats (lipids). Name the products it makes.",
+   "ms": "1 lipase; 1 fatty acids and glycerol."
+  },
+  {
+   "id": "6",
+   "type": "written",
+   "marks": 3,
+   "q": "Describe what happens to food in the small intestine.",
+   "ms": "Any 3: enzymes finish digestion; large molecules broken into small soluble molecules; small molecules absorbed into the blood; villi give a large surface area; thin walls / good blood supply."
+  },
+  {
+   "id": "7",
+   "type": "written",
+   "marks": 2,
+   "q": "Explain one way that smoking tobacco harms the body.",
+   "ms": "1 named harmful substance (tar / nicotine / carbon monoxide); 1 linked effect: tar damages cilia or causes cancer, CO reduces oxygen carried by blood, nicotine is addictive / raises heart rate."
+  },
+  {
+   "id": "8",
+   "type": "mc",
+   "marks": 1,
+   "q": "Which element is in Group 1 and Period 3 of the Periodic Table?",
+   "options": [
+    "Lithium",
+    "Sodium",
+    "Magnesium",
+    "Aluminium"
+   ],
+   "key": 1,
+   "ms": "Sodium"
+  },
+  {
+   "id": "9",
+   "type": "mc",
+   "marks": 1,
+   "q": "Element X is shiny, conducts electricity and has a high melting point. Its oxide is basic. What is X most likely to be?",
+   "options": [
+    "A metal",
+    "A non-metal",
+    "A noble gas",
+    "A halogen"
+   ],
+   "key": 0,
+   "ms": "A metal"
+  },
+  {
+   "id": "10a",
+   "type": "mc",
+   "marks": 1,
+   "q": "<table class=\"data\"><tr><th>Group 1 element</th><th>Melting point (°C)</th></tr><tr><td>Lithium</td><td>181</td></tr><tr><td>Sodium</td><td>98</td></tr><tr><td>Potassium</td><td>63</td></tr><tr><td>Rubidium</td><td>?</td></tr></table>Use the table to predict the melting point of rubidium.",
+   "options": [
+    "120 °C",
+    "70 °C",
+    "39 °C",
+    "−10 °C"
+   ],
+   "key": 2,
+   "ms": "39 °C (melting point decreases down the group, by a smaller amount each time)."
+  },
+  {
+   "id": "10b",
+   "type": "written",
+   "marks": 2,
+   "q": "Describe how the reactivity of Group 1 metals changes as you go down the group. Give an example of a reaction that shows this.",
+   "ms": "1 more reactive going down; 1 example: potassium reacts more violently with water than sodium/lithium (fizzes, lilac flame, moves faster)."
+  },
+  {
+   "id": "11",
+   "type": "written",
+   "marks": 2,
+   "q": "Explain why the elements in Group 0 (the noble gases) are very unreactive.",
+   "ms": "1 full outer shell of electrons; 1 so they do not need to gain, lose or share electrons (stable)."
+  },
+  {
+   "id": "12",
+   "type": "written",
+   "marks": 3,
+   "q": "Chlorine gas is bubbled into potassium bromide solution. Predict what you would see and explain why it happens.",
+   "ms": "1 solution turns orange/brown; 1 bromine is displaced (potassium chloride + bromine formed); 1 because chlorine is more reactive than bromine (higher in Group 7)."
+  },
+  {
+   "id": "13",
+   "type": "work",
+   "marks": 2,
+   "q": "A car travels 150 km in 2.5 hours. Calculate its average speed in km/h.",
+   "key": {
+    "num": 60
+   },
+   "ms": "60 km/h. M1 speed = distance ÷ time, A1 150 ÷ 2.5 = 60."
+  },
+  {
+   "id": "14",
+   "type": "written",
+   "marks": 2,
+   "q": "Explain the difference between average speed and instantaneous speed.",
+   "ms": "1 average = total distance ÷ total time for the whole journey; 1 instantaneous = speed at one particular moment (e.g. speedometer reading)."
+  },
+  {
+   "id": "15",
+   "type": "num",
+   "marks": 1,
+   "q": "Car A drives at 70 km/h. Car B drives at 50 km/h in the same direction. What is the speed of car A relative to car B, in km/h?",
+   "key": 20,
+   "ms": "20 km/h"
+  },
+  {
+   "id": "16a",
+   "type": "mc",
+   "marks": 1,
+   "q": "<svg class=\"graph\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"Distance-time graph: rises from 0 to 10 m over 0 to 2 s, flat at 10 m from 2 to 4 s, rises to 20 m at 5 s\">\n<g class=\"grid\">\n<line x1=\"50\" y1=\"20\" x2=\"50\" y2=\"180\"/><line x1=\"100\" y1=\"20\" x2=\"100\" y2=\"180\"/><line x1=\"150\" y1=\"20\" x2=\"150\" y2=\"180\"/><line x1=\"200\" y1=\"20\" x2=\"200\" y2=\"180\"/><line x1=\"250\" y1=\"20\" x2=\"250\" y2=\"180\"/><line x1=\"300\" y1=\"20\" x2=\"300\" y2=\"180\"/>\n<line x1=\"50\" y1=\"180\" x2=\"300\" y2=\"180\"/><line x1=\"50\" y1=\"140\" x2=\"300\" y2=\"140\"/><line x1=\"50\" y1=\"100\" x2=\"300\" y2=\"100\"/><line x1=\"50\" y1=\"60\" x2=\"300\" y2=\"60\"/><line x1=\"50\" y1=\"20\" x2=\"300\" y2=\"20\"/>\n</g>\n<polyline class=\"plot\" points=\"50,180 150,100 250,100 300,20\"/>\n<g class=\"lbl\">\n<text x=\"50\" y=\"196\" text-anchor=\"middle\">0</text><text x=\"100\" y=\"196\" text-anchor=\"middle\">1</text><text x=\"150\" y=\"196\" text-anchor=\"middle\">2</text><text x=\"200\" y=\"196\" text-anchor=\"middle\">3</text><text x=\"250\" y=\"196\" text-anchor=\"middle\">4</text><text x=\"300\" y=\"196\" text-anchor=\"middle\">5</text>\n<text x=\"42\" y=\"184\" text-anchor=\"end\">0</text><text x=\"42\" y=\"144\" text-anchor=\"end\">5</text><text x=\"42\" y=\"104\" text-anchor=\"end\">10</text><text x=\"42\" y=\"64\" text-anchor=\"end\">15</text><text x=\"42\" y=\"24\" text-anchor=\"end\">20</text>\n<text x=\"175\" y=\"214\" text-anchor=\"middle\">Time (s)</text>\n<text x=\"12\" y=\"100\" text-anchor=\"middle\" transform=\"rotate(-90 12 100)\">Distance (m)</text>\n</g>\n</svg>The distance-time graph shows a cyclist's journey. What is the cyclist doing between 2 s and 4 s?",
+   "options": [
+    "Speeding up",
+    "Moving at a steady speed",
+    "Stationary (not moving)",
+    "Moving backwards"
+   ],
+   "key": 2,
+   "ms": "Stationary: the line is flat, so distance is not changing."
+  },
+  {
+   "id": "16b",
+   "type": "num",
+   "marks": 2,
+   "q": "Use the graph to work out the cyclist's speed in the first 2 seconds, in m/s.",
+   "key": 5,
+   "ms": "5 m/s. M1 10 m ÷ 2 s, A1."
+  },
+  {
+   "id": "17",
+   "type": "work",
+   "marks": 3,
+   "q": "A box weighs 600 N. Its base measures 0.5 m by 0.4 m. Calculate the pressure the box puts on the floor, in Pa.",
+   "key": {
+    "num": 3000
+   },
+   "ms": "3000 Pa. M1 area = 0.5 × 0.4 = 0.2 m², M1 pressure = force ÷ area, A1 600 ÷ 0.2 = 3000 Pa."
+  },
+  {
+   "id": "18",
+   "type": "written",
+   "marks": 2,
+   "q": "Explain why wearing snowshoes stops a person sinking into deep snow.",
+   "ms": "1 snowshoes have a larger surface area; 1 same weight (force) spread over a larger area gives lower pressure."
+  },
+  {
+   "id": "19",
+   "type": "written",
+   "marks": 2,
+   "q": "Explain why atmospheric pressure is lower at the top of a mountain than at sea level.",
+   "ms": "1 less air above you / smaller weight of air pushing down; 1 air is less dense (fewer particles colliding) higher up."
+  },
+  {
+   "id": "20",
+   "type": "work",
+   "marks": 2,
+   "q": "A force of 40 N is applied to a spanner, 0.25 m from the pivot. Calculate the moment of the force in N m.",
+   "key": {
+    "num": 10
+   },
+   "ms": "10 N m. M1 moment = force × distance from pivot, A1 40 × 0.25 = 10."
+  },
+  {
+   "id": "21",
+   "type": "written",
+   "marks": 3,
+   "q": "Mia investigates how the height of a ramp affects the speed of a toy car at the bottom. Name the independent variable, the dependent variable and one control variable.",
+   "ms": "1 IV height of ramp; 1 DV speed of the car; 1 control: same car / same mass / same surface / same length of ramp / same release method."
+  },
+  {
+   "id": "22",
+   "type": "num",
+   "marks": 1,
+   "q": "Mia times the car three times: 2.4 s, 2.6 s and 2.5 s. Calculate the mean time in seconds.",
+   "key": 2.5,
+   "ms": "2.5 s"
+  }
+ ],
+ "order": 4
+}
