@@ -29,7 +29,7 @@ Worker on first request, so there are no migrations to run.
   - `expr`: `key` = {"expr": "3n+2", "noParen": true, "maxLen": 6}; checked by evaluation.
   - `work`: working box + final answer. `key` = {"num": 12} | {"text": [...]} | {"pairs": {"x": 2, "y": -1}};
     right final answer = full marks, otherwise the parent marks the working. Omit `key` for a
-    conclusion-style question (set `"conclusion": true` to label the box "Conclusion").
+    conclusion-style question (the box is then labelled "Conclusion").
   - `written`: extended writing, no key, always marked by a parent.
 - `hint` (optional) shows under the answer box.
 

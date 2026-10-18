@@ -89,7 +89,7 @@ const examById = id => EXAMS.find(e => e.id === id);
 const publicExam = e => ({
   ...Object.fromEntries(Object.entries(e).filter(([k]) => k !== "questions")),
   total: totalMarks(e),
-  questions: e.questions.map(({ key, ms, ...q }) => q),
+  questions: e.questions.map(({ key, ms, ...q }) => q.type === "work" && key === undefined ? { conclusion: true, ...q } : q),
 });
 async function hiddenSet(env) {
   const { results } = await env.DB.prepare("SELECT exam_id FROM exam_state WHERE hidden = 1").all();
