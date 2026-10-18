@@ -61,7 +61,7 @@ function showError(e) {
 // ---------- login and first-time setup ----------
 function viewLogin() {
   setBar(false);
-  page("Weekly exams · Year 8", "Exam Desk");
+  page("Weekly exams", "Exam Desk");
   const f = el("form", { className: "form card" });
   f.innerHTML = `<label>Username<input type="text" name="username" autocomplete="username" autocapitalize="none" spellcheck="false" required></label>
     <label>Password<input type="password" name="password" autocomplete="current-password" required></label>
@@ -112,7 +112,7 @@ async function viewHome() {
   setBar(false);
   const { exams } = await api("/exams");
   const admin = me.role === "admin";
-  page("Weekly exams · Year 8", `Hi ${esc(me.name)}`, `<span>${admin ? "Every exam is listed here. Hidden ones don't show for the boys." : "Pick an exam to start. Your answers save as you go."}</span>`);
+  page(me.year ? `Weekly exams · Year ${me.year}` : "Weekly exams", `Hi ${esc(me.name)}`, `<span>${admin ? "Every exam is listed here. Hidden ones don't show for the boys." : "Pick an exam to start. Your answers save as you go."}</span>`);
   if (!exams.length) main.append(el("div", { className: "empty", textContent: "No exams yet." }));
   // Parents see every year group; a student only gets their own year from the server.
   const years = [...new Set(exams.map(e => e.year))];
