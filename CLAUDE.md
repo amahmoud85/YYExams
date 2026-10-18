@@ -9,7 +9,7 @@ Worker on first request, so there are no migrations to run.
 
 ```json
 {
-  "id": "maths-6", "subject": "Maths", "title": "Maths Exam 6", "short": "Exam 6",
+  "id": "maths-6", "year": 8, "subject": "Maths", "title": "Maths Exam 6", "short": "Exam 6",
   "topic": "Number · Non-calculator · Higher", "minutes": 45, "order": 7,
   "intro": "No calculator. Show your working...",
   "questions": [
@@ -18,6 +18,8 @@ Worker on first request, so there are no migrations to run.
 }
 ```
 
+- `year` (required) is the year group: a student only sees exams for the year on their account
+  (Yassin = Year 8, Yahia = Year 9). Ids must be unique across all years, so prefix Year 9 ones: `y9-maths-1`.
 - `subject` groups exams on the home page ("Maths", "Science"). `order` sorts them; newest last.
 - `q` is HTML (`<sup>`, `<i>`, `<span class="frac"><span>top</span><span>bottom</span></span>`,
   `<svg class="graph">`, `<table class="data">`). `ms` is plain text shown only to parents.
@@ -34,4 +36,4 @@ Worker on first request, so there are no migrations to run.
 - `hint` (optional) shows under the answer box.
 
 Run `npm test` after adding an exam: it checks every key marks itself as correct.
-Exam style: Maths = Edexcel Higher, Science = AQA Higher with extended writing.
+Year 8 exam style: Maths = Edexcel Higher, Science = AQA Higher with extended writing.

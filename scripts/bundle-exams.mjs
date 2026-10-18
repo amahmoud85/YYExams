@@ -9,7 +9,8 @@ const dir = join(root, "exams");
 const ids = new Set();
 const exams = readdirSync(dir).filter(f => f.endsWith(".json")).map(f => {
   const e = JSON.parse(readFileSync(join(dir, f), "utf8"));
-  for (const k of ["id", "subject", "title", "questions"]) if (!e[k]) throw new Error(`${f}: missing "${k}"`);
+  for (const k of ["id", "year", "subject", "title", "questions"]) if (!e[k]) throw new Error(`${f}: missing "${k}"`);
+  if (!Number.isInteger(e.year)) throw new Error(`${f}: "year" must be a whole number like 8`);
   if (ids.has(e.id)) throw new Error(`${f}: duplicate exam id ${e.id}`);
   ids.add(e.id);
   const qids = new Set();
@@ -20,6 +21,6 @@ const exams = readdirSync(dir).filter(f => f.endsWith(".json")).map(f => {
     if (q.type === "mc" && !Array.isArray(q.options)) throw new Error(`${f}: question ${q.id} needs options`);
   }
   return e;
-}).sort((a, b) => (a.order ?? 999) - (b.order ?? 999) || a.id.localeCompare(b.id));
+}).sort((a, b) => a.year - b.year || (a.order ?? 999) - (b.order ?? 999) || a.id.localeCompare(b.id));
 writeFileSync(join(root, "src", "exams-data.js"), "// Generated from exams/*.json by scripts/bundle-exams.mjs. Do not edit.\nexport default " + JSON.stringify(exams) + ";\n");
 console.log(`bundled ${exams.length} exams`);

@@ -113,12 +113,15 @@ async function viewHome() {
   const { exams } = await api("/exams");
   const admin = me.role === "admin";
   page("Weekly exams · Year 8", `Hi ${esc(me.name)}`, `<span>${admin ? "Every exam is listed here. Hidden ones don't show for the boys." : "Pick an exam to start. Your answers save as you go."}</span>`);
-  const subjects = [...new Set(exams.map(e => e.subject))];
   if (!exams.length) main.append(el("div", { className: "empty", textContent: "No exams yet." }));
-  for (const s of subjects) {
-    const sec = el("section", { className: "subject" }, el("h2", { textContent: s }));
+  // Parents see every year group; a student only gets their own year from the server.
+  const years = [...new Set(exams.map(e => e.year))];
+  const groups = [];
+  for (const y of years) for (const s of [...new Set(exams.filter(e => e.year === y).map(e => e.subject))]) groups.push([y, s]);
+  for (const [y, s] of groups) {
+    const sec = el("section", { className: "subject" }, el("h2", { textContent: years.length > 1 ? `Year ${y} ${s}` : s }));
     const list = el("div", { className: "examlist" });
-    for (const x of exams.filter(e => e.subject === s).reverse()) {
+    for (const x of exams.filter(e => e.year === y && e.subject === s).reverse()) {
       const a = el("a", { className: "examcard", href: "#/exam/" + x.id });
       a.innerHTML = `<div class="t"><b>${esc(x.title)}</b><span class="hint">${esc(x.topic)} · ${x.questions} questions · ${x.total} marks</span></div>
         <div class="row">${x.hidden ? `<span class="pill muted">Hidden</span>` : ""}${statusPill(x)}</div>`;
@@ -406,16 +409,30 @@ async function viewReview(id) {
 }
 
 // ---------- accounts (parent) ----------
+function yearSelect(cur) {
+  const sel = el("select", {}, el("option", { value: "", textContent: "All years" }));
+  for (let y = 7; y <= 11; y++) sel.append(el("option", { value: y, textContent: "Year " + y, selected: cur === y }));
+  if (cur === null || cur === undefined) sel.value = "";
+  return sel;
+}
 async function viewAccounts() {
   setBar(false);
   const { users } = await api("/admin/users");
   page("Parent", "Accounts", "<span>Each boy logs in with his own username and password.</span>");
   const t = el("table", { className: "users card" });
-  t.innerHTML = "<thead><tr><th>Name</th><th>Username</th><th>Type</th><th></th></tr></thead>";
+  t.innerHTML = "<thead><tr><th>Name</th><th>Username</th><th>Year</th><th></th></tr></thead>";
   const tb = el("tbody");
   for (const u of users) {
     const tr = el("tr");
-    tr.innerHTML = `<td>${esc(u.name)}</td><td class="mathin">${esc(u.username)}</td><td>${u.role === "admin" ? "Parent" : "Student"}</td>`;
+    tr.innerHTML = `<td>${esc(u.name)}</td><td class="mathin">${esc(u.username)}</td><td></td>`;
+    const yc = tr.lastChild;
+    if (u.role === "admin") yc.textContent = "Parent";
+    else {
+      const sel = yearSelect(u.year);
+      sel.setAttribute("aria-label", `Year group for ${u.name}`);
+      sel.onchange = async () => { try { await api(`/admin/users/${u.id}`, { method: "PUT", body: { year: sel.value } }); } catch (e) { alert(e.message); route(); } };
+      yc.append(sel);
+    }
     const td = el("td", { className: "row" });
     const pw = el("button", { className: "linkbtn", type: "button", textContent: "New password" });
     pw.onclick = async () => {
@@ -443,12 +460,16 @@ async function viewAccounts() {
     <label>Username<input type="text" name="username" required autocapitalize="none" spellcheck="false" placeholder="e.g. yassin"></label>
     <label>Password<input type="text" name="password" required minlength="6" autocomplete="off"></label>
     <label>Type<select name="role"><option value="student">Student</option><option value="admin">Parent</option></select></label>
+    <label id="yearlab">Year group</label>
     <div class="err" id="err" role="alert"></div>
     <button class="btn" type="submit">Add account</button>`;
+  const ysel = yearSelect(8); ysel.name = "year";
+  $("#yearlab", f).append(ysel);
+  f.role.onchange = () => { $("#yearlab", f).hidden = f.role.value !== "student"; };
   f.onsubmit = async ev => {
     ev.preventDefault();
     try {
-      await api("/admin/users", { method: "POST", body: { name: f.name.value, username: f.username.value, password: f.password.value, role: f.role.value } });
+      await api("/admin/users", { method: "POST", body: { name: f.name.value, username: f.username.value, password: f.password.value, role: f.role.value, year: f.year.value } });
       route();
     } catch (e) { $("#err", f).textContent = e.message; }
   };

@@ -20,7 +20,15 @@ const SCHEMA = [
   `CREATE TABLE IF NOT EXISTS login_attempts (username TEXT NOT NULL, at INTEGER NOT NULL)`,
 ];
 let schemaReady = null;
-const ensureSchema = env => (schemaReady ??= env.DB.batch(SCHEMA.map(s => env.DB.prepare(s))).catch(e => { schemaReady = null; throw e; }));
+// Columns added after the first release; adding one that already exists is ignored.
+const ADDED_COLUMNS = ["ALTER TABLE users ADD COLUMN year INTEGER"];
+async function migrate(env) {
+  await env.DB.batch(SCHEMA.map(s => env.DB.prepare(s)));
+  for (const sql of ADDED_COLUMNS) {
+    try { await env.DB.prepare(sql).run(); } catch (e) { if (!/duplicate column/i.test(String(e))) throw e; }
+  }
+}
+const ensureSchema = env => (schemaReady ??= migrate(env).catch(e => { schemaReady = null; throw e; }));
 
 // ---------- helpers ----------
 class HttpError extends Error { constructor(status, msg) { super(msg); this.status = status; } }
@@ -51,6 +59,12 @@ function cleanUsername(u) {
   if (!/^[a-z0-9._-]{2,30}$/.test(u)) throw new HttpError(400, "Usernames are 2 to 30 letters or numbers, with no spaces.");
   return u;
 }
+function cleanYear(y) {
+  if (y === null || y === undefined || y === "") return null;
+  const n = Number(y);
+  if (!Number.isInteger(n) || n < 1 || n > 13) throw new HttpError(400, "Year should be a number from 1 to 13.");
+  return n;
+}
 function checkPassword(p) {
   if (typeof p !== "string" || p.length < 6) throw new HttpError(400, "Passwords need at least 6 characters.");
   if (p.length > 200) throw new HttpError(400, "That password is too long.");
@@ -79,7 +93,7 @@ async function currentUser(req, env) {
   }
   const token = getCookie(req, "sid");
   if (!token) return null;
-  return env.DB.prepare(`SELECT u.id, u.username, u.display_name, u.role FROM sessions s JOIN users u ON u.id = s.user_id
+  return env.DB.prepare(`SELECT u.id, u.username, u.display_name, u.role, u.year FROM sessions s JOIN users u ON u.id = s.user_id
                          WHERE s.token_hash = ? AND s.expires_at > ?`).bind(await sha256(token), Date.now()).first();
 }
 
@@ -91,6 +105,8 @@ const publicExam = e => ({
   total: totalMarks(e),
   questions: e.questions.map(({ key, ms, ...q }) => q.type === "work" && key === undefined ? { conclusion: true, ...q } : q),
 });
+// A student sees the exams for their year group that aren't hidden; a parent sees everything.
+const canSee = (me, e, hidden) => me.role === "admin" || (!hidden.has(e.id) && (me.year === null || me.year === undefined || e.year === me.year));
 async function hiddenSet(env) {
   const { results } = await env.DB.prepare("SELECT exam_id FROM exam_state WHERE hidden = 1").all();
   return new Set(results.map(r => r.exam_id));
@@ -177,7 +193,7 @@ async function route(req, env, url) {
   }
 
   const me = await currentUser(req, env);
-  if (path === "/api/me") return json({ user: me ? { username: me.username, name: me.display_name, role: me.role } : null });
+  if (path === "/api/me") return json({ user: me ? { username: me.username, name: me.display_name, role: me.role, year: me.year ?? null } : null });
   if (!me) throw new HttpError(401, "Please log in.");
   const admin = me.role === "admin";
   const needAdmin = () => { if (!admin) throw new HttpError(403, "Only a parent account can do that."); };
@@ -190,10 +206,10 @@ async function route(req, env, url) {
     const byExam = Object.fromEntries(mine.map(r => [r.exam_id, r]));
     const started = new Set(drafts.map(r => r.exam_id));
     return json({
-      exams: EXAMS.filter(e => admin || !hidden.has(e.id)).map(e => {
+      exams: EXAMS.filter(e => canSee(me, e, hidden)).map(e => {
         const s = byExam[e.id];
         return {
-          id: e.id, subject: e.subject, title: e.title, short: e.short, topic: e.topic, minutes: e.minutes,
+          id: e.id, year: e.year, subject: e.subject, title: e.title, short: e.short, topic: e.topic, minutes: e.minutes,
           questions: e.questions.length, total: totalMarks(e), hidden: hidden.has(e.id),
           status: s ? (s.score !== null ? "marked" : "sent") : started.has(e.id) ? "started" : "new",
           score: s ? s.score : null, auto: s ? s.auto : null, autoMax: s ? s.auto_max : null,
@@ -205,7 +221,7 @@ async function route(req, env, url) {
   // GET /api/exams/:id: one exam (no keys), plus this user's draft or submission.
   if (seg[0] === "exams" && seg.length === 2 && method === "GET") {
     const exam = examById(seg[1]);
-    if (!exam || (!admin && (await hiddenSet(env)).has(exam.id))) throw new HttpError(404, "That exam isn't available.");
+    if (!exam || !canSee(me, exam, await hiddenSet(env))) throw new HttpError(404, "That exam isn't available.");
     const sub = await env.DB.prepare(SUB_SELECT + " WHERE s.user_id = ? AND s.exam_id = ?").bind(me.id, exam.id).first();
     const draft = sub ? null : await env.DB.prepare("SELECT answers, updated_at FROM drafts WHERE user_id = ? AND exam_id = ?").bind(me.id, exam.id).first();
     return json({
@@ -232,7 +248,7 @@ async function route(req, env, url) {
   if (seg[0] === "exams" && seg[2] === "submit" && method === "POST") {
     if (me.id === 0) throw new HttpError(400, "The API token can't sit exams.");
     const exam = examById(seg[1]);
-    if (!exam || (!admin && (await hiddenSet(env)).has(exam.id))) throw new HttpError(404, "That exam isn't available.");
+    if (!exam || !canSee(me, exam, await hiddenSet(env))) throw new HttpError(404, "That exam isn't available.");
     const answers = cleanAnswers(exam, (await body(req)).answers);
     const r = mark(exam, answers);
     const res = await env.DB.prepare(`INSERT INTO submissions (user_id, exam_id, answers, per, pts, auto, auto_max, to_review, total, submitted_at)
@@ -307,7 +323,7 @@ async function route(req, env, url) {
   if (seg[0] === "admin" && seg[1] === "users") {
     needAdmin();
     if (seg.length === 2 && method === "GET") {
-      const { results } = await env.DB.prepare("SELECT id, username, display_name AS name, role, created_at AS createdAt FROM users ORDER BY role, display_name").all();
+      const { results } = await env.DB.prepare("SELECT id, username, display_name AS name, role, year, created_at AS createdAt FROM users ORDER BY role, year, display_name").all();
       return json({ users: results });
     }
     if (seg.length === 2 && method === "POST") {
@@ -315,10 +331,11 @@ async function route(req, env, url) {
       const username = cleanUsername(b.username), password = checkPassword(b.password);
       const role = b.role === "admin" ? "admin" : "student";
       const name = String(b.name || username).trim().slice(0, 40);
+      const year = role === "student" ? cleanYear(b.year) : null;
       const { hash, salt } = await hashPassword(password);
       try {
-        await env.DB.prepare("INSERT INTO users (username, display_name, role, pw_hash, pw_salt, created_at) VALUES (?, ?, ?, ?, ?, ?)")
-          .bind(username, name, role, hash, salt, now()).run();
+        await env.DB.prepare("INSERT INTO users (username, display_name, role, year, pw_hash, pw_salt, created_at) VALUES (?, ?, ?, ?, ?, ?, ?)")
+          .bind(username, name, role, year, hash, salt, now()).run();
       } catch (e) {
         if (/UNIQUE/.test(String(e))) throw new HttpError(409, "That username is taken.");
         throw e;
@@ -326,6 +343,11 @@ async function route(req, env, url) {
       return json({ ok: true });
     }
     const id = Number(seg[2]);
+    if (seg.length === 3 && method === "PUT") {
+      const r = await env.DB.prepare("UPDATE users SET year = ? WHERE id = ? AND role = 'student'").bind(cleanYear((await body(req)).year), id).run();
+      if (!r.meta.changes) throw new HttpError(404, "No such student.");
+      return json({ ok: true });
+    }
     if (seg.length === 4 && seg[3] === "password" && method === "PUT") {
       const { hash, salt } = await hashPassword(checkPassword((await body(req)).password));
       const r = await env.DB.prepare("UPDATE users SET pw_hash = ?, pw_salt = ? WHERE id = ?").bind(hash, salt, id).run();
