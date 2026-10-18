@@ -97,9 +97,9 @@
       "marks": 2,
       "q": "Expand and simplify (3<i>x</i> + 2)(<i>x</i> − 5).",
       "key": {
-        "expr": "3x^2-13x-10"
+        "expr": "3x^2-13x-10",
+        "noParen": true
       },
-      "noParen": true,
       "hint": "Use ^ for powers, like 2x^3+x^2-5",
       "ms": "Answer: 3x² − 13x − 10. M1 for all four terms 3x² − 15x + 2x − 10. A1."
     },

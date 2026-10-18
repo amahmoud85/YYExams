@@ -5,7 +5,8 @@ import { check, mark, finalScore } from "../src/marking.js";
 
 const exams = readdirSync("exams").map(f => JSON.parse(readFileSync("exams/" + f, "utf8")));
 
-test("every exam marks full answers as full marks on auto questions", () => {
+test("every exam's answer key marks itself as right", () => {
+  const wrongByExam = {};
   for (const e of exams) {
     const ans = {};
     for (const q of e.questions) {
@@ -18,8 +19,9 @@ test("every exam marks full answers as full marks on auto questions", () => {
     }
     const r = mark(e, ans);
     const wrong = e.questions.filter(q => q.key !== undefined && r.per[q.id] !== true).map(q => q.id);
-    assert.deepEqual(wrong, [], e.id);
+    if (wrong.length) wrongByExam[e.id] = wrong;
   }
+  assert.deepEqual(wrongByExam, {}, "these questions would mark a correct answer wrong");
 });
 
 test("typical answer formats", () => {
@@ -30,6 +32,16 @@ test("typical answer formats", () => {
   assert.equal(check({ type: "factors", key: { 2: 3, 5: 1 } }, { answer: "2³ × 5" }), true);
   assert.equal(check({ type: "written" }, { answer: "anything" }), null);
   assert.equal(check({ type: "mc", key: 2 }, {}), false);
+});
+
+test("list answers with commas", () => {
+  const roots = { type: "text", key: ["6,-2", "-2,6"] };
+  assert.equal(check(roots, { answer: "6, −2" }), true);
+  assert.equal(check(roots, { answer: "x = -2 and x = 6" }), true);
+  assert.equal(check(roots, { answer: "6" }), false);
+  assert.equal(check({ type: "work", key: { text: ["(-1,-9)"] } }, { answer: "(−1, −9)" }), true);
+  assert.equal(check({ type: "text", key: ["gene,chromosome,nucleus,cell"] }, { answer: "Gene, Chromosome, Nucleus, Cell" }), true);
+  assert.equal(check({ type: "text", key: ["-1,0,1,2,3,4"] }, { answer: "-1, 0, 1, 2, 3" }), false);
 });
 
 test("final score uses reviewer marks over auto marks", () => {

@@ -97,6 +97,14 @@ function sameFactors(a, b) {
   return ka.length === kb.length && kb.every(k => a[k] === b[k]);
 }
 
+// Text answers. A key with commas is a list (roots, integer values, coordinates, balancing numbers):
+// both sides are split on commas, semicolons or "and", and compared piece by piece in order.
+// Keys list every accepted order. Without a comma, commas are dropped as thousands separators.
+const listText = s => String(s ?? "").toLowerCase().replace(/[−–—]/g, "-").split(/,|;|\band\b/).map(norm).filter(Boolean).join(",");
+function sameText(val, keys) {
+  return keys.some(k => k.includes(",") ? listText(val) === listText(k) : norm(val) === k);
+}
+
 // true = right, false = wrong, null = needs a person to mark.
 export function check(q, a) {
   const k = q.key;
@@ -105,12 +113,12 @@ export function check(q, a) {
   if (k === undefined) return null;
   if (q.type === "mc") return Number(val) === k;
   if (q.type === "num") return Math.abs(asNum(val) - k) < 1e-9;
-  if (q.type === "text") return k.includes(norm(val));
+  if (q.type === "text") return sameText(val, k);
   if (q.type === "factors") return sameFactors(asFactors(val), k);
   if (q.type === "expr") return sameExpr(val, k);
   if (q.type === "work") {
     if (k.num !== undefined) return Math.abs(asNum(val) - k.num) < 1e-9;
-    if (k.text) return k.text.includes(norm(val));
+    if (k.text) return sameText(val, k.text);
     if (k.pairs) return samePairs(val, k.pairs);
   }
   return null;

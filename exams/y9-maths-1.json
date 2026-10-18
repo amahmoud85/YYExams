@@ -126,9 +126,9 @@
       "marks": 2,
       "q": "Expand and simplify (<i>x</i> + 6)(<i>x</i> − 4).",
       "key": {
-        "expr": "x^2+2x-24"
+        "expr": "x^2+2x-24",
+        "noParen": true
       },
-      "noParen": true,
       "hint": "Use ^ for powers, like 2x^3+x^2-5",
       "ms": "Answer: x² + 2x − 24. M1 for all four terms x² − 4x + 6x − 24. A1 for x² + 2x − 24."
     },
@@ -138,9 +138,9 @@
       "marks": 2,
       "q": "Expand and simplify (2<i>x</i> − 3)<sup>2</sup>.",
       "key": {
-        "expr": "4x^2-12x+9"
+        "expr": "4x^2-12x+9",
+        "noParen": true
       },
-      "noParen": true,
       "hint": "Use ^ for powers, like 2x^3+x^2-5",
       "ms": "Answer: 4x² − 12x + 9. M1 for 4x² − 6x − 6x + 9. A1. Common mistake: 4x² + 9 (missing the middle terms)."
     },
