@@ -1,0 +1,242 @@
+{
+  "id": "y9-science-4-v2",
+  "year": 9,
+  "subject": "Science",
+  "title": "Year 9 Science Exam 4",
+  "short": "Exam 4",
+  "topic": "Biology · Inheritance, variation and evolution · AQA Higher",
+  "minutes": 60,
+  "order": 4,
+  "intro": "You may use a calculator. For longer answers write in full sentences and use key words. Describe = say what happens; Explain = say what happens and why (use because and so); Compare = similarities and differences (use whereas); Evaluate = points for and against, then a justified conclusion. 6-mark questions are marked on how well your ideas link together: plan for a minute, then write about 6 linked points.",
+  "questions": [
+    {
+      "id": "1",
+      "type": "mc",
+      "marks": 1,
+      "q": "What is an allele?",
+      "options": [
+        "A section of DNA found on every chromosome",
+        "A different form of the same gene",
+        "A thread-like structure found in the nucleus",
+        "The full set of genes in an organism"
+      ],
+      "key": 1,
+      "ms": "B1: a different form (version) of the same gene."
+    },
+    {
+      "id": "2",
+      "type": "mc",
+      "marks": 1,
+      "q": "A person has the alleles Hh for a characteristic. Which word describes this genotype?",
+      "options": [
+        "Homozygous dominant",
+        "Heterozygous",
+        "Homozygous recessive",
+        "Phenotype"
+      ],
+      "key": 1,
+      "ms": "B1: heterozygous (two different alleles)."
+    },
+    {
+      "id": "3",
+      "type": "mc",
+      "marks": 1,
+      "q": "Which of these is an example of discontinuous variation?",
+      "options": [
+        "Height",
+        "Hand span",
+        "Blood group",
+        "Body mass"
+      ],
+      "key": 2,
+      "ms": "B1: blood group. It falls into separate groups (A, B, AB, O) with nothing in between."
+    },
+    {
+      "id": "4",
+      "type": "mc",
+      "marks": 1,
+      "q": "Which of these is a <strong>biotic</strong> factor?",
+      "options": [
+        "Light intensity",
+        "Number of predators",
+        "Carbon dioxide concentration",
+        "Amount of rainfall"
+      ],
+      "key": 1,
+      "ms": "B1: number of predators. Biotic factors are living; the others are abiotic (non-living)."
+    },
+    {
+      "id": "5",
+      "type": "mc",
+      "marks": 1,
+      "q": "Which type of reproduction produces offspring that are genetically identical to the parent?",
+      "options": [
+        "Sexual reproduction",
+        "Reproduction using gametes",
+        "Asexual reproduction",
+        "Cross-pollination"
+      ],
+      "key": 2,
+      "ms": "B1: asexual reproduction (one parent, no mixing of genes)."
+    },
+    {
+      "id": "6a",
+      "type": "written",
+      "marks": 2,
+      "q": "In rabbits, the allele for brown fur (B) is dominant over the allele for white fur (b).<br>Two brown rabbits have some white babies. Explain how this is possible.",
+      "ms": "B1: both parents must be heterozygous / carriers (Bb). B1: each parent passes on the recessive allele b, so the white babies are bb."
+    },
+    {
+      "id": "6b",
+      "type": "written",
+      "marks": 3,
+      "q": "A heterozygous brown rabbit (Bb) mates with a white rabbit (bb).<br>Use a Punnett square for this cross. Type the gametes of each parent and the genotypes of the four offspring.",
+      "ms": "B1: gametes B and b from the brown parent, b and b from the white parent. B1: offspring Bb, Bb, bb, bb. B1: phenotypes linked correctly (Bb = brown, bb = white)."
+    },
+    {
+      "id": "6c",
+      "type": "num",
+      "marks": 1,
+      "q": "What percentage of the offspring would you expect to have white fur? (%)",
+      "key": 50,
+      "ms": "Answer: 50%. B1 (2 out of 4 offspring are bb)."
+    },
+    {
+      "id": "6d",
+      "type": "written",
+      "marks": 2,
+      "q": "The rabbits in 6(b) have a litter of 8 babies: 6 are brown and 2 are white.<br>Explain why this is different from the expected ratio.",
+      "ms": "B1: the ratio is only a probability / fertilisation is random (which sperm meets which egg is chance). B1: with a small number of offspring, results are less likely to match the expected ratio; a larger number would get closer to 1 : 1."
+    },
+    {
+      "id": "7",
+      "type": "written",
+      "marks": 4,
+      "q": "Ali and Omar are identical twins. Ali grew up in Dubai and Omar grew up in London.<br>As adults they have the same eye colour and the same blood group, but Ali has darker skin and Omar is 6 kg heavier.<br>Explain these similarities and differences.",
+      "ms": "B1: identical twins have the same genes / DNA (from one fertilised egg). B1: eye colour and blood group are inherited / controlled by genes only, so they are the same. B1: skin colour and body mass are also affected by the environment. B1: a specific link, e.g. more sun in Dubai darkens skin; different diet or exercise changes mass."
+    },
+    {
+      "id": "8",
+      "type": "written",
+      "marks": 6,
+      "q": "The Arabian sand gazelle lives in the deserts of the UAE. It has pale, sandy-coloured fur. Scientists think its ancestors had darker fur.<br>Explain how natural selection could have led to the sand gazelle having pale fur.",
+      "ms": "6 marks, level-marked. Level 3 (5-6 marks): a detailed, logically linked answer covering most points. Level 2 (3-4 marks): several relevant points, some linked. Level 1 (1-2 marks): simple, separate statements. Indicative content: there was variation in fur colour in the population; caused by mutations / different alleles; predators (e.g. wolves, caracals) could see darker gazelles more easily on pale sand; pale gazelles were camouflaged, so were less likely to be eaten and more likely to survive; survivors reproduced; passed on the alleles for pale fur to their offspring; over many generations the allele for pale fur became more common, so most of the population now has pale fur."
+    },
+    {
+      "id": "9",
+      "type": "written",
+      "marks": 3,
+      "q": "Explain why doctors should not give antibiotics to people who have a cold.",
+      "ms": "B1: colds are caused by viruses. B1: antibiotics only kill bacteria / do not work on viruses. B1: overusing antibiotics increases the chance of antibiotic-resistant bacteria developing (resistant bacteria survive and reproduce)."
+    },
+    {
+      "id": "10",
+      "type": "written",
+      "marks": 3,
+      "q": "Emperor penguins live in Antarctica, where it is very cold and windy.<br>Give one structural, one behavioural and one functional adaptation of emperor penguins, and explain how each one helps them survive.",
+      "ms": "B1 structural, e.g. thick layer of fat (blubber) / dense waterproof feathers, insulates the body. B1 behavioural, e.g. huddling in large groups, reduces heat loss from each penguin / taking turns in the middle. B1 functional, e.g. slowing their metabolism or heart rate to save energy / special blood vessels in the feet that reduce heat loss. Each mark needs the adaptation and how it helps."
+    },
+    {
+      "id": "11a",
+      "type": "written",
+      "marks": 1,
+      "q": "A student uses a transect and quadrats to study how the number of dandelions changes with distance from a large tree. Her results and light readings are in the table below.<br><table class=\"data\"><tr><th>Distance from tree (m)</th><td>0</td><td>2</td><td>4</td><td>6</td><td>8</td></tr><tr><th>Light intensity (units)</th><td>150</td><td>320</td><td>480</td><td>630</td><td>700</td></tr><tr><th>Trial 1</th><td>1</td><td>4</td><td>7</td><td>9</td><td>10</td></tr><tr><th>Trial 2</th><td>2</td><td>3</td><td>8</td><td>15</td><td>11</td></tr><tr><th>Trial 3</th><td>0</td><td>5</td><td>6</td><td>10</td><td>12</td></tr></table><br>Name the independent variable in her investigation.",
+      "ms": "B1: distance from the tree."
+    },
+    {
+      "id": "11b",
+      "type": "mc",
+      "marks": 1,
+      "q": "Which of these is a control variable in her investigation?",
+      "options": [
+        "Number of dandelions",
+        "Distance from the tree",
+        "Light intensity",
+        "Size of the quadrat"
+      ],
+      "key": 3,
+      "ms": "B1: size of the quadrat (kept the same each time to make it a fair test)."
+    },
+    {
+      "id": "11c",
+      "type": "num",
+      "marks": 1,
+      "q": "One result in the table is anomalous. Write down the anomalous value.",
+      "key": 15,
+      "ms": "Answer: 15 (Trial 2 at 6 m). B1: it is much higher than the other two results at 6 m (9 and 10)."
+    },
+    {
+      "id": "11d",
+      "type": "work",
+      "marks": 2,
+      "q": "Calculate the mean number of dandelions at 6 m. Do not include the anomalous result.",
+      "key": {
+        "num": 9.5
+      },
+      "ms": "Answer: 9.5. M1 for (9 + 10) ÷ 2. A1 for 9.5."
+    },
+    {
+      "id": "11e",
+      "type": "written",
+      "marks": 3,
+      "q": "Describe the relationship between distance from the tree and the number of dandelions. Use the light intensity data to explain it.",
+      "ms": "B1: as distance from the tree increases, the number of dandelions increases (e.g. mean of 1 at 0 m, 11 at 8 m). B1: light intensity also increases with distance, because the tree's leaves cause shade. B1: more light means more photosynthesis, so more dandelions can grow / survive."
+    },
+    {
+      "id": "11f",
+      "type": "mc",
+      "marks": 1,
+      "q": "Which type of graph should she draw to show how the mean number of dandelions changes with distance?",
+      "options": [
+        "Bar chart",
+        "Pie chart",
+        "Line graph",
+        "Histogram of blood groups"
+      ],
+      "key": 2,
+      "ms": "B1: line graph, because both distance and number of dandelions are continuous (numerical) data."
+    },
+    {
+      "id": "11g",
+      "type": "written",
+      "marks": 2,
+      "q": "Suggest two ways she could make her results more repeatable or more valid.",
+      "ms": "B1 each for any two: repeat the transect in other places / around other trees; use more quadrats at each distance; place quadrats at the same time of day; use a light meter at every quadrat; count the same way every time (e.g. a plant counts if more than half is inside)."
+    },
+    {
+      "id": "12a",
+      "type": "written",
+      "marks": 2,
+      "q": "Give two factors that may cause a species to become extinct.",
+      "ms": "B1 each for any two: new predators; new diseases; new competitors; changes to the environment / climate change; habitat destruction; hunting."
+    },
+    {
+      "id": "12b",
+      "type": "written",
+      "marks": 4,
+      "q": "The Arabian leopard is critically endangered. Only a few hundred are left in the wild.<br>Describe and explain two ways people could help to stop the Arabian leopard becoming extinct.",
+      "ms": "For each of two ways: B1 the method and B1 the explanation. E.g. captive breeding programmes, so numbers increase and animals can be released into the wild; protecting its habitat / nature reserves, so it has space, shelter and prey; banning hunting, so fewer are killed; protecting its prey animals, so it has enough food; gene banks (storing sperm/eggs), so genetic variety is kept for the future."
+    },
+    {
+      "id": "13",
+      "type": "written",
+      "marks": 2,
+      "q": "A lion and a tiger can mate in a zoo. Their offspring is called a liger. Ligers are usually infertile.<br>Explain why lions and tigers are classed as different species.",
+      "ms": "B1: a species is a group of organisms that can mate to produce fertile offspring. B1: ligers are infertile (cannot reproduce), so lions and tigers are different species."
+    },
+    {
+      "id": "14",
+      "type": "written",
+      "marks": 3,
+      "q": "A farmer grows a field of banana plants. All the plants were grown asexually from one parent plant.<br>A new disease arrives. Explain why the disease could kill all of the banana plants.",
+      "ms": "B1: asexual reproduction produces clones / genetically identical plants. B1: there is no variation in the population. B1: so if one plant is not resistant to the disease, none are resistant / no plants have alleles to survive it. (Contrast with sexual reproduction, which produces variation, may be credited.)"
+    },
+    {
+      "id": "15",
+      "type": "written",
+      "marks": 4,
+      "q": "Grey squirrels were brought to the UK from North America. Since then the number of native red squirrels has fallen a lot.<br>Suggest and explain why the number of red squirrels has fallen. Use the idea of competition in your answer.",
+      "ms": "B1: grey and red squirrels compete for the same resources, e.g. food (nuts, seeds), space / territory, nesting sites. B1: grey squirrels are bigger / better competitors, so they get more of the resources. B1: red squirrels get less food / shelter, so fewer survive and reproduce. B1: grey squirrels may also carry a disease (squirrel pox) that kills red squirrels / any other valid linked point."
+    }
+  ]
+}

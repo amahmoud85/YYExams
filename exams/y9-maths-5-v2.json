@@ -1,0 +1,305 @@
+{
+  "id": "y9-maths-5-v2",
+  "year": 9,
+  "subject": "Maths",
+  "title": "Year 9 Maths Exam 5",
+  "short": "Exam 5",
+  "topic": "Algebra · Calculator · Higher",
+  "minutes": 70,
+  "order": 5,
+  "intro": "You may use a calculator. Show your working in the working box: method marks are given even when the final answer is wrong. Round only at the end, and give answers to the accuracy the question asks for.",
+  "questions": [
+    {
+      "id": "1",
+      "type": "mc",
+      "marks": 1,
+      "q": "What is the largest integer that satisfies 5<i>x</i> + 2 &lt; 30?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "28"
+      ],
+      "key": 1,
+      "ms": "B1: 5. 5x < 28 so x < 5.6, and the largest integer below 5.6 is 5."
+    },
+    {
+      "id": "2",
+      "type": "mc",
+      "marks": 1,
+      "q": "Expand and simplify (3<i>x</i> − 2)<sup>2</sup>.",
+      "options": [
+        "9x² + 4",
+        "9x² − 6x + 4",
+        "9x² − 12x + 4",
+        "3x² − 12x + 4"
+      ],
+      "key": 2,
+      "ms": "B1: 9x² − 12x + 4. (3x − 2)(3x − 2) = 9x² − 6x − 6x + 4. Common mistake: 9x² + 4 (missing the middle terms)."
+    },
+    {
+      "id": "3",
+      "type": "mc",
+      "marks": 1,
+      "q": "A quadratic curve crosses the <i>x</i>-axis at <i>x</i> = −2 and <i>x</i> = 6. What is the <i>x</i>-coordinate of its turning point?",
+      "options": [
+        "4",
+        "−4",
+        "3",
+        "2"
+      ],
+      "key": 3,
+      "ms": "B1: 2. The turning point is halfway between the roots: (−2 + 6) ÷ 2 = 2."
+    },
+    {
+      "id": "4",
+      "type": "work",
+      "marks": 3,
+      "q": "<i>x</i> is an integer. List all the values of <i>x</i> such that −8 ≤ 3<i>x</i> + 4 &lt; 20.",
+      "key": {
+        "text": [
+          "-4,-3,-2,-1,0,1,2,3,4,5"
+        ]
+      },
+      "hint": "Type the values from smallest to largest, separated by commas, like -2,0,3",
+      "ms": "Answer: −4, −3, −2, −1, 0, 1, 2, 3, 4, 5. M1 for −12 ≤ 3x < 16. M1 for −4 ≤ x < 5.33… A1 for the full list."
+    },
+    {
+      "id": "5a",
+      "type": "text",
+      "marks": 2,
+      "q": "A lift can carry <strong>at most</strong> 800 kg. Five people are already inside. They weigh 72.5 kg, 81 kg, 64.8 kg, 90.2 kg and 77 kg.<br>A worker wants to add <i>n</i> boxes that each weigh 24 kg.<br>Write an inequality in terms of <i>n</i> to show this information.",
+      "key": [
+        "385.5+24n<=800",
+        "385.5+24n≤800",
+        "24n+385.5<=800",
+        "24n+385.5≤800"
+      ],
+      "hint": "Type it like 100+5n<=300 (use <= for ≤)",
+      "ms": "Answer: 385.5 + 24n ≤ 800. M1 for the total 385.5 kg. A1 for the inequality (must be ≤)."
+    },
+    {
+      "id": "5b",
+      "type": "work",
+      "marks": 3,
+      "q": "Work out the greatest number of boxes the worker can add.",
+      "key": {
+        "num": 17
+      },
+      "ms": "Answer: 17 boxes. M1 for 24n ≤ 414.5. M1 for n ≤ 17.27… A1 for 17 (round down: 18 boxes would go over 800 kg)."
+    },
+    {
+      "id": "6",
+      "type": "work",
+      "marks": 3,
+      "q": "A square has sides of length (2<i>x</i> − 3) cm. Its perimeter is <strong>at least</strong> 30 cm and <strong>less than</strong> 50 cm.<br><i>x</i> is an integer. Find all the possible values of <i>x</i>.",
+      "key": {
+        "text": [
+          "6,7"
+        ]
+      },
+      "hint": "Type the values from smallest to largest, separated by commas, like -2,0,3",
+      "ms": "Answer: 6, 7. M1 for 30 ≤ 4(2x − 3) < 50 or 30 ≤ 8x − 12 < 50. M1 for 5.25 ≤ x < 7.75. A1 for 6 and 7 only."
+    },
+    {
+      "id": "7",
+      "type": "expr",
+      "marks": 3,
+      "q": "Expand and simplify (2<i>x</i> + 1)(<i>x</i> − 3)(<i>x</i> + 2).",
+      "key": {
+        "expr": "2x^3-x^2-13x-6",
+        "noParen": true
+      },
+      "hint": "Use ^ for powers, like 2x^3+x^2-5",
+      "ms": "Answer: 2x³ − x² − 13x − 6. M1 for expanding two brackets, e.g. (2x + 1)(x − 3) = 2x² − 5x − 3. M1 for multiplying by the third bracket with at least 4 correct terms out of 6 (2x³ + 4x² − 5x² − 10x − 3x − 6). A1 cao."
+    },
+    {
+      "id": "8",
+      "type": "text",
+      "marks": 2,
+      "q": "Factorise 10<i>x</i><sup>2</sup> − 11<i>x</i> − 6.",
+      "key": [
+        "(5x+2)(2x-3)",
+        "(2x-3)(5x+2)"
+      ],
+      "hint": "Type it like (2x+1)(x-3)",
+      "ms": "Answer: (5x + 2)(2x − 3). M1 for 10x² − 15x + 4x − 6, or brackets that give two of the three terms. A1. Check: a × c = −60, and −15 × 4 = −60, −15 + 4 = −11."
+    },
+    {
+      "id": "9",
+      "type": "text",
+      "marks": 2,
+      "q": "Factorise fully 8<i>x</i><sup>2</sup> − 18.",
+      "key": [
+        "2(2x-3)(2x+3)",
+        "2(2x+3)(2x-3)"
+      ],
+      "hint": "Type it like 3(x+1)(x-1)",
+      "ms": "Answer: 2(2x − 3)(2x + 3). M1 for 2(4x² − 9). A1 for the difference of two squares step."
+    },
+    {
+      "id": "10",
+      "type": "work",
+      "marks": 3,
+      "q": "Solve 4<i>x</i><sup>2</sup> + 4<i>x</i> − 3 = 0 by factorising.",
+      "key": {
+        "text": [
+          "1/2,-3/2",
+          "-3/2,1/2",
+          "0.5,-1.5",
+          "-1.5,0.5"
+        ]
+      },
+      "hint": "Type both answers separated by a comma, like 1/2,-3",
+      "ms": "Answer: x = 1/2 or x = −3/2. M1 for 4x² + 6x − 2x − 3 or (2x − 1)(2x + 3). M1 for setting each bracket to 0. A1 for both (0.5 and −1.5 also accepted)."
+    },
+    {
+      "id": "11",
+      "type": "work",
+      "marks": 3,
+      "q": "Solve <i>x</i>(<i>x</i> + 5) = 4(<i>x</i> + 5). Give <strong>all</strong> the solutions.",
+      "key": {
+        "text": [
+          "-5,4",
+          "4,-5"
+        ]
+      },
+      "hint": "Type both answers separated by a comma, like 3,-2",
+      "ms": "Answer: x = −5 or x = 4. M1 for (x + 5)(x − 4) = 0 or x² + x − 20 = 0. M1 for factorising. A1 for both. Dividing by (x + 5) gives only x = 4: max M1 A0."
+    },
+    {
+      "id": "12",
+      "type": "work",
+      "marks": 3,
+      "q": "Solve 3<i>x</i><sup>2</sup> + 4<i>x</i> − 9 = 0. Give your answers correct to 2 decimal places.<br><i>x</i> = <span class=\"frac\"><span>−<i>b</i> ± √(<i>b</i><sup>2</sup> − 4<i>ac</i>)</span><span>2<i>a</i></span></span>",
+      "key": {
+        "text": [
+          "1.19,-2.52",
+          "-2.52,1.19"
+        ]
+      },
+      "hint": "Type both answers separated by a comma, like 3,-2",
+      "ms": "Answer: x = 1.19 or x = −2.52. M1 for correct substitution (a = 3, b = 4, c = −9). M1 for √124 or 11.13… A1 for both answers."
+    },
+    {
+      "id": "13",
+      "type": "work",
+      "marks": 3,
+      "q": "Harriet uses the quadratic formula to solve an equation of the form <i>a</i><i>x</i><sup>2</sup> + <i>b</i><i>x</i> + <i>c</i> = 0. She correctly writes<br><i>x</i> = <span class=\"frac\"><span>3 ± √(9 + 40)</span><span>4</span></span><br>Find the values of <i>a</i>, <i>b</i> and <i>c</i>, and write down Harriet's equation.",
+      "key": {
+        "text": [
+          "2x^2-3x-5=0",
+          "2x^2-3x-5"
+        ]
+      },
+      "hint": "Type the equation like 3x^2+2x-1=0",
+      "ms": "Answer: 2x² − 3x − 5 = 0. B1 for a = 2 (2a = 4). B1 for b = −3 (−b = 3). B1 for c = −5 (9 − 4 × 2 × c = 49, so −8c = 40)."
+    },
+    {
+      "id": "14a",
+      "type": "work",
+      "marks": 3,
+      "q": "A ball is kicked upwards. Its height, <i>h</i> metres, after <i>t</i> seconds is <i>h</i> = 25<i>t</i> − 4.9<i>t</i><sup>2</sup>.<br>Find the maximum height of the ball. Give your answer to 1 decimal place. (m)",
+      "key": {
+        "num": 31.9
+      },
+      "ms": "Answer: 31.9 m. M1 for the ball landing at t = 25 ÷ 4.9 = 5.10… M1 for the top at t = 2.55… (halfway). A1 for 31.9 (accept 31.8 to 31.9)."
+    },
+    {
+      "id": "14b",
+      "type": "work",
+      "marks": 4,
+      "q": "For how long is the ball <strong>at least</strong> 20 m above the ground? Give your answer to 2 decimal places. (seconds)",
+      "key": {
+        "num": 3.12
+      },
+      "ms": "Answer: 3.12 seconds. M1 for 4.9t² − 25t + 20 = 0. M1 for correct substitution into the quadratic formula. A1 for t = 0.99… and t = 4.11… A1 for 3.12 (accept 3.11 to 3.12)."
+    },
+    {
+      "id": "15a",
+      "type": "work",
+      "marks": 3,
+      "q": "A rectangular garden is 12 m long and 8 m wide. A path <i>x</i> m wide goes all the way round the garden. The total area of the garden and path is 165 m<sup>2</sup>.<br>Show that 4<i>x</i><sup>2</sup> + 40<i>x</i> − 69 = 0.",
+      "ms": "M1 for (12 + 2x) and (8 + 2x). M1 for (12 + 2x)(8 + 2x) = 165 expanded to 96 + 40x + 4x² = 165. A1 for 4x² + 40x − 69 = 0 (every step shown)."
+    },
+    {
+      "id": "15b",
+      "type": "work",
+      "marks": 3,
+      "q": "Solve 4<i>x</i><sup>2</sup> + 40<i>x</i> − 69 = 0 to find the width of the path. (m)",
+      "key": {
+        "num": 1.5
+      },
+      "ms": "Answer: 1.5 m. M1 for correct substitution into the formula, or (2x − 3)(2x + 23) = 0. A1 for x = 1.5 and x = −11.5. A1 for choosing 1.5 m and rejecting −11.5 because a width cannot be negative."
+    },
+    {
+      "id": "16a",
+      "type": "work",
+      "marks": 2,
+      "q": "The curve <i>y</i> = −<i>x</i><sup>2</sup> + 2<i>x</i> + 15 is drawn.<br>Find the <i>x</i>-coordinates where the curve crosses the <i>x</i>-axis.",
+      "key": {
+        "text": [
+          "5,-3",
+          "-3,5"
+        ]
+      },
+      "hint": "Type both answers separated by a comma, like 3,-2",
+      "ms": "Answer: x = 5 and x = −3. M1 for −(x² − 2x − 15) = 0 or (5 − x)(x + 3) = 0. A1 for both."
+    },
+    {
+      "id": "16b",
+      "type": "work",
+      "marks": 2,
+      "q": "Find the coordinates of the turning point of the curve.",
+      "key": {
+        "text": [
+          "(1,16)"
+        ]
+      },
+      "hint": "Type it like (2,-5)",
+      "ms": "Answer: (1, 16). M1 for x = 1 (halfway between −3 and 5). A1 for y = −1 + 2 + 15 = 16."
+    },
+    {
+      "id": "16c",
+      "type": "mc",
+      "marks": 1,
+      "q": "Is the turning point a maximum or a minimum?",
+      "options": [
+        "Maximum",
+        "Minimum"
+      ],
+      "key": 0,
+      "ms": "B1: Maximum. The x² term is negative, so the curve is an upside-down U (∩ shape)."
+    },
+    {
+      "id": "17",
+      "type": "work",
+      "marks": 4,
+      "q": "Solve 2<i>x</i><sup>2</sup> + 9<i>x</i> − 18 &gt; 0",
+      "key": {
+        "text": [
+          "x<-6orx>1.5",
+          "x>1.5orx<-6",
+          "x<-6orx>3/2",
+          "x>3/2orx<-6"
+        ]
+      },
+      "hint": "Type it like x<-2 or x>4",
+      "ms": "Answer: x < −6 or x > 1.5. M1 for (2x − 3)(x + 6). A1 for critical values 1.5 and −6. M1 for choosing the outside regions (U-shaped curve is above the x-axis outside its roots). A1 for x < −6 or x > 1.5."
+    },
+    {
+      "id": "18",
+      "type": "work",
+      "marks": 3,
+      "q": "Prove that the sum of the squares of any two consecutive integers is always odd.",
+      "ms": "M1 for n² + (n + 1)². M1 for 2n² + 2n + 1. A1 for 2(n² + n) + 1 with a statement: 2(n² + n) is even, so adding 1 makes it odd. Numerical examples only: 0 marks."
+    },
+    {
+      "id": "19",
+      "type": "work",
+      "marks": 3,
+      "q": "Sami says: “<i>n</i><sup>2</sup> + <i>n</i> is always odd, for any whole number <i>n</i>.”<br>Show that Sami is wrong, and prove what is <strong>always</strong> true about <i>n</i><sup>2</sup> + <i>n</i>.",
+      "ms": "B1 for a counter-example, e.g. n = 2 gives 6, which is even. M1 for n² + n = n(n + 1). A1 for explaining that n and n + 1 are consecutive, so one of them is even, so the product is always even."
+    }
+  ]
+}

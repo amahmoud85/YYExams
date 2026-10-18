@@ -44,6 +44,12 @@ test("list answers with commas", () => {
   assert.equal(check({ type: "text", key: ["-1,0,1,2,3,4"] }, { answer: "-1, 0, 1, 2, 3" }), false);
 });
 
+test("letters at the end are only units after a number", () => {
+  assert.equal(check({ type: "text", key: ["3n-40>n"] }, { answer: "3n − 40 > n" }), true);
+  assert.equal(check({ type: "text", key: ["14√2"] }, { answer: "14√2 cm" }), true);
+  assert.equal(check({ type: "num", key: 6 }, { answer: "6 Nm" }), true);
+});
+
 test("final score uses reviewer marks over auto marks", () => {
   const e = { questions: [{ id: "1", marks: 2 }, { id: "2", marks: 3 }] };
   assert.deepEqual(finalScore(e, { 1: 2, 2: null }, {}), { score: 2, pending: 1 });

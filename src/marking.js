@@ -9,7 +9,7 @@ export function norm(s) {
   s = s.replace(/[−–—]/g, "-").replace(/[×*✕]/g, "x").replace(/·/g, ".");
   s = s.replace(/sqrt|root/g, "√").replace(/\s+/g, "").replace(/,/g, "");
   s = s.replace(/^([a-z]+|answer)?=/, "");
-  s = s.replace(/(cm\^2|cm2|cm|km\/h|m\/s|nm|n|pa|°c|s|m)$/, "");
+  s = s.replace(/(?<=[\d√)])(cm\^2|cm2|cm|km\/h|m\/s|nm|n|pa|°c|s|m)$/, ""); // units only after a number
   return s;
 }
 
