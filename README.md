@@ -17,6 +17,10 @@ Runs on Cloudflare Workers with a D1 database (both on the free plan).
 
 From then on every push to `main` redeploys the site.
 
+Alternative without the Cloudflare GitHub app: add repository secrets `CLOUDFLARE_API_TOKEN`
+(a token with Workers Scripts: Edit and D1: Edit) and `CLOUDFLARE_ACCOUNT_ID`; the workflow in
+`.github/workflows/deploy.yml` then deploys on every push to `main`.
+
 ## Adding an exam
 
 Add one file to `exams/`, for example `exams/maths-6.json`, and push. See `CLAUDE.md` for the
