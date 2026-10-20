@@ -346,13 +346,16 @@ async function viewResult(id) {
     box.append(ul); main.append(box);
   }
   if (!exam) return;
-  const grid = el("div", { className: "ans card" });
+  const box = el("div", { className: "card" });
   for (const q of exam.questions) {
     const t = tick(s.per, s.pts, s.manual, q);
-    grid.append(el("div", { className: "k", textContent: "Q" + q.id }), el("div", { className: "v", textContent: answerText(q, s.answers[q.id]) }), el("div", { className: "tick " + t[0], textContent: t[1] }));
-    if (q.answer) grid.append(el("div", { className: "right" + (t[0] === "y" ? "" : " miss"), innerHTML: "<b>Answer:</b> " + esc(q.answer) }));
+    const r = el("div", { className: "rq" });
+    r.innerHTML = `<div class="qtop"><div class="qnum">${esc(q.id)}</div><div class="qtext">${q.q}</div><span class="tick ${t[0]}">${esc(t[1])}</span></div>`;
+    r.append(el("div", { className: "lbl", textContent: "Your answer" }), el("div", { className: "studans", textContent: answerText(q, s.answers[q.id]) }));
+    if (q.answer) r.append(el("div", { className: "lbl", textContent: "Mark scheme answer" }), el("div", { className: "ms" + (t[0] === "y" ? " ok" : ""), textContent: q.answer }));
+    box.append(r);
   }
-  main.append(el("h2", { textContent: "Your answers" }), grid);
+  main.append(el("h2", { textContent: "Your answers" }), box);
 }
 
 // Parent: mark one submission.
