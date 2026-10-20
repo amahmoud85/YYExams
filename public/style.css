@@ -98,8 +98,6 @@ details summary{cursor:pointer;color:var(--accent);font-weight:700}
 .ans{display:grid;grid-template-columns:auto 1fr auto;gap:6px 12px;font-size:15px;margin-top:8px;align-items:start}
 .ans .k{font-family:var(--f-mono);color:var(--muted)}
 .ans .v{min-width:0;overflow-wrap:anywhere;white-space:pre-wrap}
-.ans .right{grid-column:2 / -1;font-size:14px;color:var(--muted);margin:-2px 0 6px}
-.ans .right.miss{background:var(--wait-soft);color:inherit;border-radius:8px;padding:6px 10px}
 .tick{font-weight:700} .tick.y{color:var(--good)} .tick.n{color:var(--bad)} .tick.p{color:var(--wait)}
 .empty{color:var(--muted);background:var(--paper);border:1.5px dashed var(--line);border-radius:var(--r);padding:18px}
 .copybox{font-family:var(--f-mono);font-size:13px;min-height:140px}
@@ -129,6 +127,8 @@ section.subject{margin-top:22px}
 .rq:first-child{border-top:0;padding-top:0}
 .rq .qtop{align-items:baseline}
 .rq .studans{background:var(--bg);border-radius:8px;padding:10px 12px;white-space:pre-wrap;overflow-wrap:anywhere;font-size:15px}
+.rq .lbl{font-size:13px;font-weight:700;color:var(--muted);margin-bottom:-4px}
+.rq .ms.ok{background:var(--good-soft)}
 .rq .ms{font-size:15px;background:var(--wait-soft);border-radius:8px;padding:8px 12px}
 .markin{display:flex;gap:8px;align-items:center;font-weight:700}
 .markin input{width:80px}
