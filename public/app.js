@@ -350,8 +350,11 @@ async function viewResult(id) {
   for (const q of exam.questions) {
     const t = tick(s.per, s.pts, s.manual, q);
     grid.append(el("div", { className: "k", textContent: "Q" + q.id }), el("div", { className: "v", textContent: answerText(q, s.answers[q.id]) }), el("div", { className: "tick " + t[0], textContent: t[1] }));
+    if (q.answer) grid.append(el("div", { className: "right" + (t[0] === "y" ? "" : " miss"), innerHTML: "<b>Answer:</b> " + esc(q.answer) }));
   }
   main.append(el("h2", { textContent: "Your answers" }), grid);
+  if (exam.questions.some(q => tick(s.per, s.pts, s.manual, q)[1] === "to mark"))
+    main.append(el("p", { className: "hint", textContent: "Answers for the questions still to mark appear here once they have been marked." }));
 }
 
 // Parent: mark one submission.

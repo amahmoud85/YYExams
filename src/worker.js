@@ -105,6 +105,15 @@ const publicExam = e => ({
   total: totalMarks(e),
   questions: e.questions.map(({ key, ms, ...q }) => q.type === "work" && key === undefined ? { conclusion: true, ...q } : q),
 });
+// After submitting: the public exam plus the correct answer (mark-scheme note) for each question
+// that is already decided, either checked automatically or marked by a parent. Still no keys.
+function resultExam(e, r) {
+  const pts = JSON.parse(r.pts), manual = r.manual ? JSON.parse(r.manual) : {};
+  const done = q => manual[q.id] !== undefined || (pts[q.id] !== null && pts[q.id] !== undefined);
+  const ms = new Map(e.questions.filter(done).map(q => [q.id, q.ms]));
+  const p = publicExam(e);
+  return { ...p, questions: p.questions.map(q => ms.get(q.id) ? { ...q, answer: ms.get(q.id) } : q) };
+}
 // A student sees the exams for their year group that aren't hidden; a parent sees everything.
 // Archived exams ("archived": true in the file) stay on the site for parents and old results only.
 const canSee = (me, e, hidden) => me.role === "admin" || (!e.archived && !hidden.has(e.id) && (me.year === null || me.year === undefined || e.year === me.year));
@@ -269,11 +278,12 @@ async function route(req, env, url) {
   }
 
   // GET /api/results/:id: one submission. A parent also gets the full exam with keys and mark scheme.
+  // A student gets the correct answer for each question once it has been marked (see resultExam).
   if (seg[0] === "results" && seg.length === 2 && method === "GET") {
     const r = await env.DB.prepare(SUB_SELECT + " WHERE s.id = ?").bind(Number(seg[1])).first();
     if (!r || (!admin && r.user_id !== me.id)) throw new HttpError(404, "Result not found.");
     const exam = examById(r.exam_id);
-    return json({ submission: subRow(r, true), exam: exam ? (admin ? { ...exam, total: totalMarks(exam) } : publicExam(exam)) : null });
+    return json({ submission: subRow(r, true), exam: exam ? (admin ? { ...exam, total: totalMarks(exam) } : resultExam(exam, r)) : null });
   }
 
   // PUT /api/results/:id (parent): marks per question and review lines. {manual:{qid:marks}, review:["Q3 = ...", ...]}
