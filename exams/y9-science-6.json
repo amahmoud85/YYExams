@@ -1,0 +1,296 @@
+{
+  "id": "y9-science-6",
+  "year": 9,
+  "subject": "Science",
+  "title": "Year 9 Science Exam 6",
+  "short": "Exam 6",
+  "topic": "Inheritance · Chemical reactions · Investigative skills · AQA Higher",
+  "minutes": 60,
+  "order": 6,
+  "intro": "You may use a calculator. For longer answers write in full sentences and use key words. Describe = say what happens; Explain = say what happens and why (use because and so); Compare = similarities and differences (use whereas); Evaluate = points for and against, then a justified conclusion. 6-mark questions are marked on how well your ideas link together: plan for a minute, then write about 6 linked points. Show your working for calculations. Relative atomic masses (Aᵣ): H = 1, C = 12, O = 16, Na = 23, Mg = 24, S = 32, Cl = 35.5, Ca = 40, Fe = 56.",
+  "questions": [
+    {
+      "id": "1",
+      "type": "mc",
+      "marks": 1,
+      "q": "Where are genes found?",
+      "options": [
+        "On chromosomes in the nucleus",
+        "In the cell membrane",
+        "Only in the cytoplasm",
+        "In the cell wall"
+      ],
+      "key": 0,
+      "ms": "B1: on chromosomes in the nucleus. A gene is a short section of DNA on a chromosome."
+    },
+    {
+      "id": "2",
+      "type": "mc",
+      "marks": 1,
+      "q": "What is a mutation?",
+      "options": [
+        "A change in the environment",
+        "A change in the DNA",
+        "A type of asexual reproduction",
+        "An adaptation to the cold"
+      ],
+      "key": 1,
+      "ms": "B1: a change in the DNA. Mutations make new alleles, which cause variation."
+    },
+    {
+      "id": "3",
+      "type": "mc",
+      "marks": 1,
+      "q": "Which of these is an example of <strong>continuous</strong> variation?",
+      "options": [
+        "Blood group",
+        "Whether you can roll your tongue",
+        "Arm length",
+        "Whether your earlobes are attached"
+      ],
+      "key": 2,
+      "ms": "B1: arm length. It can be any value in a range; the others fall into separate groups."
+    },
+    {
+      "id": "4",
+      "type": "mc",
+      "marks": 1,
+      "q": "What is the ratio of hydrogen : sulfur : oxygen atoms in sulfuric acid, H₂SO₄?",
+      "options": [
+        "2 : 1 : 4",
+        "1 : 2 : 4",
+        "2 : 4 : 1",
+        "4 : 1 : 2"
+      ],
+      "key": 0,
+      "ms": "B1: 2 : 1 : 4."
+    },
+    {
+      "id": "5",
+      "type": "mc",
+      "marks": 1,
+      "q": "Which of these is an <strong>abiotic</strong> factor?",
+      "options": [
+        "Number of rabbits",
+        "Soil pH",
+        "A new disease",
+        "Number of competitors"
+      ],
+      "key": 1,
+      "ms": "B1: soil pH. Abiotic factors are non-living; the others are living (biotic)."
+    },
+    {
+      "id": "6a",
+      "type": "written",
+      "marks": 2,
+      "q": "Cystic fibrosis is an inherited disorder caused by a recessive allele (f). The dominant allele (F) does not cause the disorder.<br>Two parents are both carriers (Ff). Use a Punnett square for this cross. Type the gametes of each parent and the genotypes of the four offspring.",
+      "ms": "B1: gametes F and f from each parent. B1: offspring FF, Ff, Ff, ff."
+    },
+    {
+      "id": "6b",
+      "type": "num",
+      "marks": 1,
+      "q": "What is the percentage chance that their child will have cystic fibrosis? (%)",
+      "key": 25,
+      "ms": "Answer: 25%. B1 (1 out of 4 offspring is ff)."
+    },
+    {
+      "id": "6c",
+      "type": "mc",
+      "marks": 1,
+      "q": "What is the expected ratio of children <strong>without</strong> cystic fibrosis to children <strong>with</strong> cystic fibrosis?",
+      "options": [
+        "1 : 1",
+        "1 : 3",
+        "3 : 1",
+        "2 : 1"
+      ],
+      "key": 2,
+      "ms": "B1: 3 : 1 (FF, Ff, Ff do not have it; ff has it)."
+    },
+    {
+      "id": "6d",
+      "type": "written",
+      "marks": 2,
+      "q": "Explain why the parents do not have cystic fibrosis, even though they each carry the allele for it.",
+      "ms": "B1: the allele for cystic fibrosis is recessive. B1: they also have one dominant allele (F), which is enough to stop the disorder showing; a person needs two copies of f (ff) to have it."
+    },
+    {
+      "id": "7",
+      "type": "written",
+      "marks": 6,
+      "q": "MRSA is a type of bacteria that is resistant to many antibiotics.<br>Explain how a population of antibiotic-resistant bacteria develops, and why doctors ask patients to finish their course of antibiotics.",
+      "ms": "6 marks, level-marked. Level 3 (5-6 marks): a detailed, logically linked answer covering most points. Level 2 (3-4 marks): several relevant points, some linked. Level 1 (1-2 marks): simple, separate statements. Indicative content: a random mutation in the DNA of a bacterium makes it resistant to the antibiotic; there is variation in the population; when the antibiotic is used, the bacteria without the mutation are killed; the resistant bacteria survive; they reproduce (very quickly, by splitting) and pass on the resistance allele/gene; the population of resistant bacteria grows; this is natural selection; the antibiotic no longer works against them; finishing the course kills all the bacteria, so none survive to mutate or become resistant; not over-prescribing (e.g. not for viral infections) also reduces resistance."
+    },
+    {
+      "id": "8",
+      "type": "written",
+      "marks": 3,
+      "q": "Some plant species are at risk of extinction. Describe how a seed bank (a type of gene bank) can help to stop a plant species becoming extinct.",
+      "ms": "B1: seeds of the species are collected and stored (cold and dry, so they stay alive for a long time). B1: if the plants die out in the wild, the seeds can be grown and replanted. B1: it keeps the genetic variation / different alleles of the species, e.g. alleles for disease resistance, for the future."
+    },
+    {
+      "id": "9",
+      "type": "written",
+      "marks": 4,
+      "q": "Biodiversity is the variety of all the different species in an area. The UAE has protected areas such as the Ras Al Khor Wildlife Sanctuary.<br>Describe and explain two ways that people can help to maintain biodiversity.",
+      "ms": "For each of two ways: B1 the method and B1 the explanation. E.g. protecting habitats / nature reserves, so species have food and shelter and are not disturbed; breeding programmes for endangered species, so their numbers increase; replanting hedgerows / mangroves / forests, so more species have places to live; reducing pollution or deforestation, so fewer habitats are destroyed; recycling, so less land is used for landfill."
+    },
+    {
+      "id": "10a",
+      "type": "work",
+      "marks": 2,
+      "q": "Calculate the relative formula mass (Mᵣ) of magnesium hydroxide, Mg(OH)₂.<br><table class=\"data\"><tr><th>Element</th><td>H</td><td>C</td><td>O</td><td>Na</td><td>Mg</td><td>S</td><td>Cl</td><td>Ca</td><td>Fe</td></tr><tr><th>Relative atomic mass, Aᵣ</th><td>1</td><td>12</td><td>16</td><td>23</td><td>24</td><td>32</td><td>35.5</td><td>40</td><td>56</td></tr></table>",
+      "key": {
+        "num": 58
+      },
+      "ms": "Answer: 58. M1 for 24 + 2 × (16 + 1). A1 for 58."
+    },
+    {
+      "id": "10b",
+      "type": "work",
+      "marks": 2,
+      "q": "Calculate the relative formula mass (Mᵣ) of sodium carbonate, Na₂CO₃.",
+      "key": {
+        "num": 106
+      },
+      "ms": "Answer: 106. M1 for 2 × 23 + 12 + 3 × 16. A1 for 106."
+    },
+    {
+      "id": "11a",
+      "type": "text",
+      "marks": 1,
+      "q": "Balance these equations. Type them with normal numbers, for example 2H2 + O2 → 2H2O.<br>Na + Cl₂ → NaCl",
+      "key": [
+        "2na+cl2->2nacl",
+        "2na+cl2→2nacl",
+        "2na+cl2=2nacl"
+      ],
+      "hint": "Type it like 2H2+O2->2H2O",
+      "ms": "Answer: 2Na + Cl₂ → 2NaCl. B1."
+    },
+    {
+      "id": "11b",
+      "type": "text",
+      "marks": 1,
+      "q": "CH₄ + O₂ → CO₂ + H₂O",
+      "key": [
+        "ch4+2o2->co2+2h2o",
+        "ch4+2o2→co2+2h2o",
+        "ch4+2o2=co2+2h2o"
+      ],
+      "hint": "Type it like 2H2+O2->2H2O",
+      "ms": "Answer: CH₄ + 2O₂ → CO₂ + 2H₂O. B1."
+    },
+    {
+      "id": "11c",
+      "type": "text",
+      "marks": 2,
+      "q": "Fe + O₂ → Fe₂O₃",
+      "key": [
+        "4fe+3o2->2fe2o3",
+        "4fe+3o2→2fe2o3",
+        "4fe+3o2=2fe2o3"
+      ],
+      "hint": "Type it like 2H2+O2->2H2O",
+      "ms": "Answer: 4Fe + 3O₂ → 2Fe₂O₃. B2. B1 for 2Fe₂O₃ with Fe balanced but O₂ wrong."
+    },
+    {
+      "id": "12a",
+      "type": "work",
+      "marks": 3,
+      "q": "Magnesium burns in oxygen: 2Mg + O₂ → 2MgO<br>Calculate the maximum mass of magnesium oxide that can be made from 6 g of magnesium. (g)",
+      "key": {
+        "num": 10
+      },
+      "ms": "Answer: 10 g. M1 for Mᵣ of MgO = 40. M1 for 48 g of Mg makes 80 g of MgO (or 6 ÷ 24 = 0.25). A1 for 80 × 6 ÷ 48 = 10 g."
+    },
+    {
+      "id": "12b",
+      "type": "work",
+      "marks": 2,
+      "q": "A student burns 6 g of magnesium and collects 8.5 g of magnesium oxide. Calculate the percentage yield. (%)",
+      "key": {
+        "num": 85
+      },
+      "ms": "Answer: 85%. M1 for 8.5 ÷ 10 × 100. A1 for 85. (Follow through from their answer to 12(a).)"
+    },
+    {
+      "id": "12c",
+      "type": "written",
+      "marks": 2,
+      "q": "Give two reasons why the percentage yield is less than 100%.",
+      "ms": "B1 each for any two: some magnesium oxide escaped as white smoke when the lid was lifted; not all of the magnesium reacted (not heated for long enough); some product was left behind or spilled when it was moved or weighed; the magnesium was not pure / had an oxide coating already."
+    },
+    {
+      "id": "13a",
+      "type": "mc",
+      "marks": 1,
+      "q": "A student measures the hand span of 30 students in her year group. Her results are in the table.<br><table class=\"data\"><tr><th>Hand span (cm)</th><td>16 to 17</td><td>17 to 18</td><td>18 to 19</td><td>19 to 20</td><td>20 to 21</td></tr><tr><th>Number of students</th><td>3</td><td>7</td><td>11</td><td>6</td><td>3</td></tr></table><br>What type of variation is hand span?",
+      "options": [
+        "Continuous",
+        "Discontinuous",
+        "Environmental only",
+        "Categoric"
+      ],
+      "key": 0,
+      "ms": "B1: continuous. Hand span can be any value in a range."
+    },
+    {
+      "id": "13b",
+      "type": "mc",
+      "marks": 1,
+      "q": "Which type of graph should she draw to show these results?",
+      "options": [
+        "Bar chart with gaps between the bars",
+        "Pie chart",
+        "Histogram (bars touching)",
+        "Scatter graph"
+      ],
+      "key": 2,
+      "ms": "B1: histogram, because hand span is continuous data in groups, so the bars touch."
+    },
+    {
+      "id": "13c",
+      "type": "mc",
+      "marks": 1,
+      "q": "Which group is the modal class (the most common)?",
+      "options": [
+        "16 to 17 cm",
+        "17 to 18 cm",
+        "18 to 19 cm",
+        "19 to 20 cm"
+      ],
+      "key": 2,
+      "ms": "B1: 18 to 19 cm (11 students)."
+    },
+    {
+      "id": "13d",
+      "type": "written",
+      "marks": 2,
+      "q": "Explain whether hand span is caused by inherited variation, environmental variation, or both.",
+      "ms": "B1: both. B1: genes inherited from parents control how large the hand can grow, and the environment (e.g. diet / nutrition, injury, sport) also affects it."
+    },
+    {
+      "id": "13e",
+      "type": "written",
+      "marks": 2,
+      "q": "Give one strength and one weakness of her investigation.",
+      "ms": "B1 strength, e.g. 30 students is a reasonable sample / all measured with the same ruler and method / results grouped clearly. B1 weakness, e.g. only one year group (all the same age) / sample too small to be sure about the whole school / measured to the nearest cm, so not very precise / different people stretch their hands differently."
+    },
+    {
+      "id": "14",
+      "type": "written",
+      "marks": 6,
+      "q": "Compare sexual and asexual reproduction.<br>In your answer, give advantages and disadvantages of each.",
+      "ms": "6 marks, level-marked. A Level 3 answer gives similarities and differences, with advantages and disadvantages of both. Level 3 (5-6 marks): a detailed, logically linked answer covering most points. Level 2 (3-4 marks): several relevant points, some linked. Level 1 (1-2 marks): simple, separate statements. Indicative content: sexual reproduction needs two parents, whereas asexual needs only one; sexual involves gametes (sperm and egg) fusing in fertilisation, whereas asexual has no gametes; sexual produces offspring with variation (mix of genes from both parents), whereas asexual produces clones (genetically identical); ADVANTAGES of sexual: variation means some may survive a disease or change in the environment, which helps natural selection; DISADVANTAGES of sexual: needs to find a mate, takes more time and energy, fewer offspring; ADVANTAGES of asexual: fast, only one parent needed, many offspring, good characteristics copied exactly; DISADVANTAGES of asexual: no variation, so a disease or change in conditions could wipe out the whole population. Similarity: both produce new offspring / pass on DNA to the next generation."
+    },
+    {
+      "id": "15",
+      "type": "written",
+      "marks": 4,
+      "q": "Coral reefs in the Arabian Gulf are home to many species of fish.<br>Explain how one <strong>abiotic</strong> factor and one <strong>biotic</strong> factor could reduce the number of fish on a reef.",
+      "ms": "B1 abiotic factor, e.g. rising sea temperature / pollution / lower oxygen in the water / change in salt or pH. B1 explanation, e.g. hotter water kills the coral (coral bleaching), so fish lose food and shelter. B1 biotic factor, e.g. a new predator / a new disease / more competition for food / less food (fewer prey). B1 explanation, e.g. a new predator eats the fish, so fewer survive to reproduce."
+    }
+  ]
+}

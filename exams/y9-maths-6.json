@@ -1,0 +1,305 @@
+{
+  "id": "y9-maths-6",
+  "year": 9,
+  "subject": "Maths",
+  "title": "Year 9 Maths Exam 6",
+  "short": "Exam 6",
+  "topic": "Algebra · Non-calculator · Higher",
+  "minutes": 60,
+  "order": 6,
+  "intro": "You must not use a calculator. Show your working in the working box: method marks are given even when the final answer is wrong. \"Show that\" means write every step to reach the given answer. \"Prove\" means use algebra, not just numbers.",
+  "questions": [
+    {
+      "id": "1",
+      "type": "mc",
+      "marks": 1,
+      "q": "A number line has a <strong>filled circle at −3</strong> and an arrow going to the right. Which inequality does it show?",
+      "options": [
+        "x > −3",
+        "x ≥ −3",
+        "x ≤ −3",
+        "x < −3"
+      ],
+      "key": 1,
+      "ms": "B1: x ≥ −3. Filled circle means −3 is included (≥); arrow to the right means bigger numbers."
+    },
+    {
+      "id": "2",
+      "type": "mc",
+      "marks": 1,
+      "q": "Expand 3<i>x</i>(2<i>x</i> − 5).",
+      "options": [
+        "6x² − 5",
+        "6x² − 15x",
+        "5x² − 15x",
+        "6x − 15x²"
+      ],
+      "key": 1,
+      "ms": "B1: 6x² − 15x. Multiply 3x by both terms: 3x × 2x = 6x², 3x × −5 = −15x."
+    },
+    {
+      "id": "3",
+      "type": "mc",
+      "marks": 1,
+      "q": "Factorise <i>x</i><sup>2</sup> + 2<i>x</i> − 24.",
+      "options": [
+        "(x + 8)(x − 3)",
+        "(x − 6)(x + 4)",
+        "(x + 6)(x − 4)",
+        "(x + 12)(x − 2)"
+      ],
+      "key": 2,
+      "ms": "B1: (x + 6)(x − 4), since 6 × −4 = −24 and 6 + (−4) = 2."
+    },
+    {
+      "id": "4",
+      "type": "work",
+      "marks": 3,
+      "q": "<i>x</i> is an integer. List all the values of <i>x</i> such that −7 &lt; 3<i>x</i> + 2 ≤ 14.",
+      "key": {
+        "text": [
+          "-2,-1,0,1,2,3,4"
+        ]
+      },
+      "hint": "Type the values from smallest to largest, separated by commas, like -2,0,3",
+      "ms": "Answer: −2, −1, 0, 1, 2, 3, 4. M1 for −9 < 3x ≤ 12. M1 for −3 < x ≤ 4. A1 for the full list (−3 is not included, 4 is included)."
+    },
+    {
+      "id": "5",
+      "type": "work",
+      "marks": 3,
+      "q": "A van can carry a load of <strong>at most</strong> 900 kg. The driver weighs 85 kg and there are already 4 crates in the van, each weighing 120 kg.<br>Boxes weighing 45 kg each are added. Write an inequality and solve it to find the greatest number of boxes that can be added.",
+      "key": {
+        "num": 7
+      },
+      "ms": "Answer: 7 boxes. M1 for 85 + 480 + 45b ≤ 900 (or 565 + 45b ≤ 900). M1 for 45b ≤ 335 so b ≤ 7.4… A1 for 7 (8 boxes would give 925 kg, which is too much)."
+    },
+    {
+      "id": "6a",
+      "type": "text",
+      "marks": 1,
+      "q": "Sara has <i>n</i> coins. Kareem has 4 times as many coins as Sara, but he then spends 45 of them. Kareem still has <strong>more</strong> coins than Sara.<br>Write down an inequality in terms of <i>n</i> to show this information.",
+      "key": [
+        "4n-45>n",
+        "n<4n-45"
+      ],
+      "hint": "Type it like 2n+5>n (use >= for ≥)",
+      "ms": "Answer: 4n − 45 > n. B1 (must be >, not ≥)."
+    },
+    {
+      "id": "6b",
+      "type": "work",
+      "marks": 2,
+      "q": "Use your inequality to find the least number of coins that Sara could have.",
+      "key": {
+        "num": 16
+      },
+      "ms": "Answer: 16. M1 for 3n > 45 or n > 15. A1 for 16 (n must be a whole number greater than 15, so 15 is not allowed: 4 × 15 − 45 = 15, which is not more than 15)."
+    },
+    {
+      "id": "7",
+      "type": "work",
+      "marks": 3,
+      "q": "Zayd chooses an integer. He divides it by 3 and then adds 12. His answer is <strong>less than</strong> 30.<br>What is the largest integer Zayd could have chosen?",
+      "key": {
+        "num": 53
+      },
+      "ms": "Answer: 53. M1 for n ÷ 3 + 12 < 30. M1 for n ÷ 3 < 18, so n < 54. A1 for 53 (54 gives exactly 30, which is not less than 30)."
+    },
+    {
+      "id": "8",
+      "type": "expr",
+      "marks": 3,
+      "q": "Expand and simplify (<i>x</i> − 1)(<i>x</i> + 5)(<i>x</i> − 3).",
+      "key": {
+        "expr": "x^3+x^2-17x+15",
+        "noParen": true
+      },
+      "hint": "Use ^ for powers, like 2x^3+x^2-5",
+      "ms": "Answer: x³ + x² − 17x + 15. M1 for expanding two brackets, e.g. (x − 1)(x + 5) = x² + 4x − 5. M1 for multiplying by the third bracket with at least 4 correct terms out of 6 (x³ − 3x² + 4x² − 12x − 5x + 15). A1 cao."
+    },
+    {
+      "id": "9",
+      "type": "text",
+      "marks": 2,
+      "q": "Factorise 3<i>x</i><sup>2</sup> − 13<i>x</i> − 10.",
+      "key": [
+        "(3x+2)(x-5)",
+        "(x-5)(3x+2)"
+      ],
+      "hint": "Type it like (2x+1)(x-3)",
+      "ms": "Answer: (3x + 2)(x − 5). M1 for splitting the middle term: 3x² − 15x + 2x − 10, or brackets that give two of the three terms. A1. Check: a × c = −30, and −15 × 2 = −30, −15 + 2 = −13."
+    },
+    {
+      "id": "10",
+      "type": "text",
+      "marks": 2,
+      "q": "Factorise 4<i>x</i><sup>2</sup> + 4<i>x</i> − 15.",
+      "key": [
+        "(2x-3)(2x+5)",
+        "(2x+5)(2x-3)"
+      ],
+      "hint": "Type it like (2x+1)(x-3)",
+      "ms": "Answer: (2x − 3)(2x + 5). M1 for 4x² + 10x − 6x − 15, or brackets that give two of the three terms. A1. Check: a × c = −60, and 10 × −6 = −60, 10 + (−6) = 4."
+    },
+    {
+      "id": "11",
+      "type": "text",
+      "marks": 2,
+      "q": "Factorise fully 2<i>x</i><sup>2</sup> − 98.",
+      "key": [
+        "2(x-7)(x+7)",
+        "2(x+7)(x-7)"
+      ],
+      "hint": "Type it like 3(x+1)(x-1)",
+      "ms": "Answer: 2(x − 7)(x + 7). M1 for 2(x² − 49). A1 for the difference of two squares step. Common mistake: stopping at 2(x² − 49)."
+    },
+    {
+      "id": "12",
+      "type": "work",
+      "marks": 3,
+      "q": "Solve 5<i>x</i><sup>2</sup> − 13<i>x</i> − 6 = 0 by factorising.",
+      "key": {
+        "text": [
+          "3,-2/5",
+          "-2/5,3",
+          "3,-0.4",
+          "-0.4,3"
+        ]
+      },
+      "hint": "Type both answers separated by a comma, like 1/2,-3",
+      "ms": "Answer: x = 3 or x = −2/5. M1 for 5x² − 15x + 2x − 6 or (5x + 2)(x − 3). M1 for setting each bracket to 0. A1 for both answers (accept −0.4)."
+    },
+    {
+      "id": "13a",
+      "type": "written",
+      "marks": 1,
+      "q": "Nadia is solving <i>x</i>(<i>x</i> + 4) = 5<i>x</i>.<br>She divides both sides by <i>x</i> and gets <i>x</i> + 4 = 5, so <i>x</i> = 1.<br>Explain what Nadia has done wrong.",
+      "ms": "B1: dividing by x loses the solution x = 0. When x = 0, you would be dividing by zero, which is not allowed."
+    },
+    {
+      "id": "13b",
+      "type": "work",
+      "marks": 2,
+      "q": "Solve <i>x</i>(<i>x</i> + 4) = 5<i>x</i> correctly. Give <strong>all</strong> the solutions.",
+      "key": {
+        "text": [
+          "0,1",
+          "1,0"
+        ]
+      },
+      "hint": "Type both answers separated by a comma, like 3,-2",
+      "ms": "Answer: x = 0 or x = 1. M1 for x² + 4x − 5x = 0, so x² − x = 0, or x(x − 1) = 0. A1 for both."
+    },
+    {
+      "id": "14a",
+      "type": "work",
+      "marks": 2,
+      "q": "The curve <i>y</i> = (<i>x</i> + 5)(<i>x</i> − 3) is drawn.<br>Write down the <i>x</i>-coordinates where the curve crosses the <i>x</i>-axis.",
+      "key": {
+        "text": [
+          "-5,3",
+          "3,-5"
+        ]
+      },
+      "hint": "Type both answers separated by a comma, like 3,-2",
+      "ms": "Answer: x = −5 and x = 3. M1 for setting each bracket to 0. A1 for both (watch the signs: x + 5 = 0 gives x = −5)."
+    },
+    {
+      "id": "14b",
+      "type": "num",
+      "marks": 1,
+      "q": "Find the <i>y</i>-coordinate where the curve crosses the <i>y</i>-axis.",
+      "key": -15,
+      "ms": "Answer: −15. B1: put x = 0, so y = 5 × (−3) = −15."
+    },
+    {
+      "id": "14c",
+      "type": "work",
+      "marks": 2,
+      "q": "Find the coordinates of the turning point of the curve.",
+      "key": {
+        "text": [
+          "(-1,-16)"
+        ]
+      },
+      "hint": "Type it like (2,-5)",
+      "ms": "Answer: (−1, −16). M1 for x = −1 (halfway between −5 and 3). A1 for y = (4)(−4) = −16."
+    },
+    {
+      "id": "15a",
+      "type": "work",
+      "marks": 2,
+      "q": "A ball is thrown upwards. Its height, <i>h</i> metres, after <i>t</i> seconds is <i>h</i> = 40<i>t</i> − 5<i>t</i><sup>2</sup>.<br>After how many seconds does the ball land back on the ground?",
+      "key": {
+        "num": 8
+      },
+      "ms": "Answer: 8 seconds. M1 for 5t(8 − t) = 0 or 40t − 5t² = 0. A1 for t = 8 (t = 0 is when it is thrown)."
+    },
+    {
+      "id": "15b",
+      "type": "work",
+      "marks": 2,
+      "q": "Find the maximum height of the ball. (m)",
+      "key": {
+        "num": 80
+      },
+      "ms": "Answer: 80 m. M1 for t = 4 (halfway between 0 and 8). A1 for h = 160 − 80 = 80."
+    },
+    {
+      "id": "15c",
+      "type": "work",
+      "marks": 3,
+      "q": "For how many seconds is the ball <strong>at least</strong> 60 m above the ground? (seconds)",
+      "key": {
+        "num": 4
+      },
+      "ms": "Answer: 4 seconds. M1 for 40t − 5t² = 60 rearranged to t² − 8t + 12 = 0. M1 for (t − 2)(t − 6) = 0, so t = 2 and t = 6. A1 for 6 − 2 = 4 seconds."
+    },
+    {
+      "id": "16a",
+      "type": "work",
+      "marks": 2,
+      "q": "A rectangle has length (2<i>x</i> + 1) cm and width (<i>x</i> − 2) cm. Its area is 25 cm<sup>2</sup>.<br>Show that 2<i>x</i><sup>2</sup> − 3<i>x</i> − 27 = 0.",
+      "ms": "M1 for (2x + 1)(x − 2) = 25. A1 for expanding to 2x² − 4x + x − 2 = 25, then 2x² − 3x − 27 = 0 (every step shown)."
+    },
+    {
+      "id": "16b",
+      "type": "work",
+      "marks": 3,
+      "q": "Solve 2<i>x</i><sup>2</sup> − 3<i>x</i> − 27 = 0 and use your answer to find the <strong>perimeter</strong> of the rectangle. (cm)",
+      "key": {
+        "num": 25
+      },
+      "ms": "Answer: 25 cm. M1 for (2x − 9)(x + 3) = 0. A1 for x = 4.5 (reject x = −3 because the width x − 2 would be negative). A1 for length 10 cm, width 2.5 cm, so perimeter 2 × (10 + 2.5) = 25 cm."
+    },
+    {
+      "id": "17",
+      "type": "work",
+      "marks": 3,
+      "q": "Solve <i>x</i><sup>2</sup> + 2<i>x</i> − 15 &gt; 0",
+      "key": {
+        "text": [
+          "x<-5orx>3",
+          "x>3orx<-5"
+        ]
+      },
+      "hint": "Type it like x4 (use = for ≥)",
+      "ms": "Answer: x  3. M1 for (x + 5)(x − 3). M1 for critical values −5 and 3. A1 for x  3 (a U-shaped curve is above the x-axis outside its roots)."
+    },
+    {
+      "id": "18",
+      "type": "work",
+      "marks": 3,
+      "q": "Prove that (<i>n</i> + 5)<sup>2</sup> − (<i>n</i> + 1)<sup>2</sup> is always a multiple of 8 for every integer <i>n</i>.",
+      "ms": "M1 for expanding one bracket correctly: n² + 10n + 25 or n² + 2n + 1. M1 for 8n + 24. A1 for 8(n + 3) with a statement that this is a multiple of 8. Numerical examples only: 0 marks."
+    },
+    {
+      "id": "19",
+      "type": "work",
+      "marks": 3,
+      "q": "Prove that the product of any two consecutive even numbers is always a multiple of 8.",
+      "ms": "M1 for 2n and 2n + 2 (any even number can be written 2n). M1 for 2n(2n + 2) = 4n² + 4n = 4n(n + 1). A1 for explaining that n and n + 1 are consecutive, so one of them is even, so n(n + 1) is even and 4 × an even number is a multiple of 8."
+    }
+  ]
+}

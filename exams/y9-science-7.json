@@ -1,0 +1,280 @@
+{
+  "id": "y9-science-7",
+  "year": 9,
+  "subject": "Science",
+  "title": "Year 9 Science Exam 7",
+  "short": "Exam 7",
+  "topic": "Chemical reactions · Inheritance · Investigative skills · AQA Higher",
+  "minutes": 60,
+  "order": 7,
+  "intro": "You may use a calculator. For longer answers write in full sentences and use key words. Describe = say what happens; Explain = say what happens and why (use because and so); Compare = similarities and differences (use whereas); Evaluate = points for and against, then a justified conclusion. 6-mark questions are marked on how well your ideas link together: plan for a minute, then write about 6 linked points. Show your working for calculations. Relative atomic masses (Aᵣ): H = 1, C = 12, O = 16, Al = 27, Cl = 35.5, Ca = 40, Fe = 56, Br = 80, Pb = 207.",
+  "questions": [
+    {
+      "id": "1",
+      "type": "mc",
+      "marks": 1,
+      "q": "Which metal is extracted from its ore by electrolysis?",
+      "options": [
+        "Iron",
+        "Zinc",
+        "Aluminium",
+        "Copper"
+      ],
+      "key": 2,
+      "ms": "B1: aluminium. It is more reactive than carbon, so carbon cannot extract it."
+    },
+    {
+      "id": "2",
+      "type": "mc",
+      "marks": 1,
+      "q": "In terms of oxygen, what is reduction?",
+      "options": [
+        "Gain of oxygen",
+        "Loss of oxygen",
+        "Gain of carbon",
+        "Burning in air"
+      ],
+      "key": 1,
+      "ms": "B1: loss of oxygen. Oxidation is gain of oxygen."
+    },
+    {
+      "id": "3",
+      "type": "mc",
+      "marks": 1,
+      "q": "In a catalytic converter, nitrogen oxides are changed into which gas?",
+      "options": [
+        "Nitrogen",
+        "Carbon monoxide",
+        "Sulfur dioxide",
+        "Ammonia"
+      ],
+      "key": 0,
+      "ms": "B1: nitrogen (harmless, it makes up most of the air)."
+    },
+    {
+      "id": "4",
+      "type": "mc",
+      "marks": 1,
+      "q": "Two organisms belong to the same species. What does this mean?",
+      "options": [
+        "They can mate to produce fertile offspring",
+        "They look exactly the same",
+        "They live in the same habitat",
+        "They eat the same food"
+      ],
+      "key": 0,
+      "ms": "B1: they can mate to produce fertile offspring."
+    },
+    {
+      "id": "5",
+      "type": "mc",
+      "marks": 1,
+      "q": "An allele that only shows its characteristic when <strong>two copies</strong> are present is called:",
+      "options": [
+        "Dominant",
+        "Recessive",
+        "Heterozygous",
+        "A phenotype"
+      ],
+      "key": 1,
+      "ms": "B1: recessive."
+    },
+    {
+      "id": "6",
+      "type": "text",
+      "marks": 1,
+      "q": "Glucose has the formula C₆H₁₂O₆. Write the simplest ratio of carbon : hydrogen : oxygen atoms.",
+      "key": [
+        "1:2:1"
+      ],
+      "hint": "Type it like 2:3:1",
+      "ms": "Answer: 1 : 2 : 1. B1 (divide 6 : 12 : 6 by 6)."
+    },
+    {
+      "id": "7",
+      "type": "work",
+      "marks": 2,
+      "q": "Calculate the relative formula mass (Mᵣ) of calcium hydroxide, Ca(OH)₂.<br><table class=\"data\"><tr><th>Element</th><td>H</td><td>C</td><td>O</td><td>Al</td><td>Cl</td><td>Ca</td><td>Fe</td><td>Pb</td><td>Br</td></tr><tr><th>Relative atomic mass, Aᵣ</th><td>1</td><td>12</td><td>16</td><td>27</td><td>35.5</td><td>40</td><td>56</td><td>207</td><td>80</td></tr></table>",
+      "key": {
+        "num": 74
+      },
+      "ms": "Answer: 74. M1 for 40 + 2 × (16 + 1). A1 for 74."
+    },
+    {
+      "id": "8a",
+      "type": "text",
+      "marks": 1,
+      "q": "Balance these equations. Type them with normal numbers, for example 2H2 + O2 → 2H2O.<br>Al + Cl₂ → AlCl₃",
+      "key": [
+        "2al+3cl2->2alcl3",
+        "2al+3cl2→2alcl3",
+        "2al+3cl2=2alcl3"
+      ],
+      "hint": "Type it like 2H2+O2->2H2O",
+      "ms": "Answer: 2Al + 3Cl₂ → 2AlCl₃. B1."
+    },
+    {
+      "id": "8b",
+      "type": "text",
+      "marks": 2,
+      "q": "C₂H₆ + O₂ → CO₂ + H₂O",
+      "key": [
+        "2c2h6+7o2->4co2+6h2o",
+        "2c2h6+7o2→4co2+6h2o",
+        "2c2h6+7o2=4co2+6h2o"
+      ],
+      "hint": "Type it like 2H2+O2->2H2O",
+      "ms": "Answer: 2C₂H₆ + 7O₂ → 4CO₂ + 6H₂O. B2. B1 for C and H balanced (2C₂H₆ … 4CO₂ + 6H₂O) but O₂ wrong. Tip: if O₂ needs a half (3½), double everything."
+    },
+    {
+      "id": "8c",
+      "type": "text",
+      "marks": 2,
+      "q": "Fe₂O₃ + C → Fe + CO₂",
+      "key": [
+        "2fe2o3+3c->4fe+3co2",
+        "2fe2o3+3c→4fe+3co2",
+        "2fe2o3+3c=4fe+3co2"
+      ],
+      "hint": "Type it like 2H2+O2->2H2O",
+      "ms": "Answer: 2Fe₂O₃ + 3C → 4Fe + 3CO₂. B2. B1 for any two of the four numbers correct."
+    },
+    {
+      "id": "9a",
+      "type": "work",
+      "marks": 3,
+      "q": "Limestone (calcium carbonate) breaks down when heated: CaCO₃ → CaO + CO₂<br>Calculate the maximum mass of calcium oxide that can be made from 25 g of calcium carbonate. (g)",
+      "key": {
+        "num": 14
+      },
+      "ms": "Answer: 14 g. M1 for Mᵣ of CaCO₃ = 100 and Mᵣ of CaO = 56. M1 for 100 g of CaCO₃ makes 56 g of CaO (or 25 ÷ 100 = 0.25). A1 for 56 × 25 ÷ 100 = 14 g."
+    },
+    {
+      "id": "9b",
+      "type": "work",
+      "marks": 2,
+      "q": "In an experiment only 11.2 g of calcium oxide was made from 25 g of calcium carbonate. Calculate the percentage yield. (%)",
+      "key": {
+        "num": 80
+      },
+      "ms": "Answer: 80%. M1 for 11.2 ÷ 14 × 100. A1 for 80. (Follow through from their answer to 9(a).)"
+    },
+    {
+      "id": "9c",
+      "type": "num",
+      "marks": 1,
+      "q": "Use the idea of conservation of mass to find the mass of carbon dioxide given off when 25 g of calcium carbonate breaks down completely. (g)",
+      "key": 11,
+      "ms": "Answer: 11 g. B1: 25 − 14 = 11 g (mass of reactants = mass of products)."
+    },
+    {
+      "id": "10",
+      "type": "written",
+      "marks": 4,
+      "q": "Iron is extracted by heating iron oxide with carbon. Aluminium is extracted by electrolysis.<br>Explain why different methods are used, and suggest why aluminium is more expensive to extract than iron.",
+      "ms": "B1: iron is less reactive than carbon, so carbon can remove the oxygen from (reduce / displace) iron oxide. B1: aluminium is more reactive than carbon, so carbon cannot reduce aluminium oxide. B1: so aluminium oxide must be melted and electrolysed. B1: electrolysis uses a lot of electricity / energy (and high temperatures to melt the ore), which costs a lot."
+    },
+    {
+      "id": "11",
+      "type": "written",
+      "marks": 6,
+      "q": "A student wants to find the percentage yield of magnesium oxide when magnesium ribbon is heated in a crucible.<br>Describe a method the student could use. Include how to get the measurements needed and how to calculate the percentage yield.",
+      "ms": "6 marks, level-marked. A Level 3 answer is a clear method in a logical order that would give valid results, plus the calculation. Level 3 (5-6 marks): a detailed, logically linked answer covering most points. Level 2 (3-4 marks): several relevant points, some linked. Level 1 (1-2 marks): simple, separate statements. Indicative content: weigh the empty crucible and lid; add the magnesium ribbon (coiled) and weigh again to find the mass of magnesium; heat strongly with a Bunsen burner; lift the lid now and then to let oxygen in, but keep it mostly on so no magnesium oxide smoke escapes; keep heating until the magnesium stops glowing / no more change; let it cool and weigh the crucible, lid and contents; reheat and reweigh until the mass stays the same (constant mass); mass of magnesium oxide = final mass − mass of crucible and lid; work out the theoretical (maximum) mass from the equation 2Mg + O₂ → 2MgO (48 g Mg → 80 g MgO); percentage yield = actual mass ÷ theoretical mass × 100; safety: goggles, don't look directly at the bright flame, use tongs, crucible is hot."
+    },
+    {
+      "id": "12",
+      "type": "written",
+      "marks": 3,
+      "q": "Car engines release carbon monoxide and nitrogen oxides.<br>Explain why these gases are harmful and how a catalytic converter makes the exhaust less harmful.",
+      "ms": "B1: carbon monoxide is toxic / stops the blood carrying oxygen; nitrogen oxides cause acid rain or breathing problems. B1: the catalytic converter changes carbon monoxide into carbon dioxide. B1: and nitrogen oxides into nitrogen (and oxygen); the catalyst (platinum / rhodium) speeds this up without being used up."
+    },
+    {
+      "id": "13a",
+      "type": "written",
+      "marks": 2,
+      "q": "Molten lead bromide (PbBr₂) is broken down by electrolysis.<br>Name the product formed at each electrode.",
+      "ms": "B1: lead forms at the negative electrode (cathode). B1: bromine forms at the positive electrode (anode)."
+    },
+    {
+      "id": "13b",
+      "type": "written",
+      "marks": 2,
+      "q": "Explain why solid lead bromide cannot be electrolysed, but molten lead bromide can.",
+      "ms": "B1: lead bromide is ionic / made of Pb²⁺ and Br⁻ ions. B1: in the solid the ions are fixed in place and cannot move; when molten the ions are free to move and carry the charge to the electrodes."
+    },
+    {
+      "id": "14",
+      "type": "written",
+      "marks": 4,
+      "q": "The peppered moth can be pale or dark. Before 1800 most peppered moths in England were pale. Then smoke from factories covered tree trunks with black soot, and by 1900 most moths in cities were dark.<br>Explain why the dark form became more common in cities.",
+      "ms": "B1: there was variation: dark moths came from a mutation / allele for dark colour. B1: on sooty trees the dark moths were camouflaged, while pale moths were easy for birds (predators) to see and eat. B1: so dark moths were more likely to survive and reproduce. B1: they passed on the allele for dark colour to their offspring, so over many generations the dark form became more common (natural selection)."
+    },
+    {
+      "id": "15a",
+      "type": "written",
+      "marks": 1,
+      "q": "A student tests how well four antibiotic discs (A, B, C and D) kill bacteria growing on agar plates. Disc D has no antibiotic. After two days she measures the diameter of the clear zone around each disc, where bacteria have been killed.<br><table class=\"data\"><tr><th>Disc</th><td>A</td><td>B</td><td>C</td><td>D</td></tr><tr><th>Trial 1 (mm)</th><td>12</td><td>20</td><td>6</td><td>0</td></tr><tr><th>Trial 2 (mm)</th><td>13</td><td>22</td><td>5</td><td>0</td></tr><tr><th>Trial 3 (mm)</th><td>11</td><td>9</td><td>7</td><td>0</td></tr></table><br>Name the independent variable in her investigation.",
+      "ms": "B1: the type of antibiotic (the disc)."
+    },
+    {
+      "id": "15b",
+      "type": "mc",
+      "marks": 1,
+      "q": "Which type of graph should she use to show the mean clear zone for each disc?",
+      "options": [
+        "Line graph",
+        "Bar chart",
+        "Scatter graph",
+        "Histogram"
+      ],
+      "key": 1,
+      "ms": "B1: bar chart, because the type of antibiotic is categoric data."
+    },
+    {
+      "id": "15c",
+      "type": "num",
+      "marks": 1,
+      "q": "One result in the table is anomalous. Write down the anomalous value. (mm)",
+      "key": 9,
+      "ms": "Answer: 9 (Trial 3 for disc B). B1: it is much lower than the other two results for B (20 and 22)."
+    },
+    {
+      "id": "15d",
+      "type": "work",
+      "marks": 2,
+      "q": "Calculate the mean clear zone for disc B. Do not include the anomalous result. (mm)",
+      "key": {
+        "num": 21
+      },
+      "ms": "Answer: 21 mm. M1 for (20 + 22) ÷ 2. A1 for 21."
+    },
+    {
+      "id": "15e",
+      "type": "written",
+      "marks": 2,
+      "q": "Which antibiotic is the most effective? Give a reason using the data.",
+      "ms": "B1: antibiotic B. B1: it has the largest clear zone (mean 21 mm compared with 12 mm for A and 6 mm for C), so it killed the most bacteria."
+    },
+    {
+      "id": "15f",
+      "type": "written",
+      "marks": 2,
+      "q": "Give one control variable and explain why it must be kept the same.",
+      "ms": "B1 control variable, e.g. the concentration of antibiotic on each disc / size of disc / type of bacteria / temperature or time the plates are left. B1 explanation: so that only the type of antibiotic affects the size of the clear zone / to make it a fair test."
+    },
+    {
+      "id": "15g",
+      "type": "written",
+      "marks": 1,
+      "q": "Explain why the student included disc D with no antibiotic.",
+      "ms": "B1: it is a control, to show that the disc itself does not kill bacteria, so any clear zone is caused by the antibiotic."
+    },
+    {
+      "id": "16",
+      "type": "written",
+      "marks": 4,
+      "q": "Camels live in hot, dry deserts like those in the UAE.<br>Describe two adaptations of camels and explain how each one helps them survive.",
+      "ms": "For each of two adaptations: B1 the adaptation and B1 how it helps. E.g. hump stores fat, which can be broken down for energy when food is scarce (and keeps fat away from the rest of the body, so heat is lost more easily); long eyelashes and closable nostrils keep sand out; wide, flat feet spread the weight so they do not sink into sand; can drink a lot of water quickly and lose very little in urine/faeces; thick fur on the back reflects sunlight / insulates; body temperature can rise during the day so less water is lost in sweat."
+    }
+  ]
+}
