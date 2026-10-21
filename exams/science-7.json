@@ -1,0 +1,219 @@
+{
+ "id": "science-7",
+ "year": 8,
+ "order": 14,
+ "subject": "Science",
+ "title": "Science Exam 7",
+ "short": "Exam 7",
+ "topic": "Motion & Pressure · Periodic Table · Investigative skills",
+ "minutes": 55,
+ "intro": "AQA Higher style. You may use a calculator. Write the equation, convert units first (km → m, minutes → s), and always give the unit with your answer. Write full sentences for the longer answers.",
+ "questions": [
+  {
+   "id": "1",
+   "type": "mc",
+   "marks": 1,
+   "q": "Which equation is used to calculate pressure?",
+   "options": [
+    "pressure = force × area",
+    "pressure = force ÷ area",
+    "pressure = area ÷ force",
+    "pressure = force + area"
+   ],
+   "key": 1,
+   "ms": "Pressure = force ÷ area."
+  },
+  {
+   "id": "2",
+   "type": "work",
+   "marks": 3,
+   "q": "A runner runs 2.4 km in 10 minutes.<br>Calculate the runner's average speed in m/s.",
+   "key": {
+    "num": 4
+   },
+   "ms": "4 m/s. M1 2.4 km = 2400 m and 10 min = 600 s, M1 speed = distance ÷ time, A1 2400 ÷ 600 = 4."
+  },
+  {
+   "id": "3",
+   "type": "work",
+   "marks": 3,
+   "q": "A train travels at a steady speed of 40 m/s for 2.5 minutes.<br>Calculate the distance it travels, in kilometres.",
+   "key": {
+    "num": 6
+   },
+   "ms": "6 km. M1 2.5 min = 150 s, M1 distance = speed × time = 40 × 150 = 6000 m, A1 6 km."
+  },
+  {
+   "id": "4",
+   "type": "written",
+   "marks": 2,
+   "q": "Two cyclists ride side by side in the same direction, both at 6 m/s. State their relative speed and describe how each cyclist appears to the other.",
+   "ms": "Relative speed is 0 m/s (1); each cyclist appears not to be moving / stationary to the other (1)."
+  },
+  {
+   "id": "5a",
+   "type": "work",
+   "marks": 2,
+   "q": "The distance-time graph shows a car's journey.<svg class=\"graph\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"Distance-time graph\"><g class=\"grid\"><line x1=\"50\" y1=\"20\" x2=\"50\" y2=\"180\"/><line x1=\"100\" y1=\"20\" x2=\"100\" y2=\"180\"/><line x1=\"150\" y1=\"20\" x2=\"150\" y2=\"180\"/><line x1=\"200\" y1=\"20\" x2=\"200\" y2=\"180\"/><line x1=\"250\" y1=\"20\" x2=\"250\" y2=\"180\"/><line x1=\"300\" y1=\"20\" x2=\"300\" y2=\"180\"/><line x1=\"50\" y1=\"180\" x2=\"300\" y2=\"180\"/><line x1=\"50\" y1=\"140\" x2=\"300\" y2=\"140\"/><line x1=\"50\" y1=\"100\" x2=\"300\" y2=\"100\"/><line x1=\"50\" y1=\"60\" x2=\"300\" y2=\"60\"/><line x1=\"50\" y1=\"20\" x2=\"300\" y2=\"20\"/></g><polyline class=\"plot\" points=\"50,180 100,120 175,120 275,40 300,40\"/><g class=\"lbl\"><text x=\"50\" y=\"196\" text-anchor=\"middle\">0</text><text x=\"100\" y=\"196\" text-anchor=\"middle\">10</text><text x=\"150\" y=\"196\" text-anchor=\"middle\">20</text><text x=\"200\" y=\"196\" text-anchor=\"middle\">30</text><text x=\"250\" y=\"196\" text-anchor=\"middle\">40</text><text x=\"300\" y=\"196\" text-anchor=\"middle\">50</text><text x=\"42\" y=\"184\" text-anchor=\"end\">0</text><text x=\"42\" y=\"144\" text-anchor=\"end\">100</text><text x=\"42\" y=\"104\" text-anchor=\"end\">200</text><text x=\"42\" y=\"64\" text-anchor=\"end\">300</text><text x=\"42\" y=\"24\" text-anchor=\"end\">400</text><text class=\"sec\" x=\"68\" y=\"140\" text-anchor=\"middle\">A</text><text class=\"sec\" x=\"137\" y=\"112\" text-anchor=\"middle\">B</text><text class=\"sec\" x=\"212\" y=\"70\" text-anchor=\"middle\">C</text><text x=\"175\" y=\"214\" text-anchor=\"middle\">Time (s)</text><text x=\"12\" y=\"100\" text-anchor=\"middle\" transform=\"rotate(-90 12 100)\">Distance (m)</text></g></svg>Calculate the speed of the car in section C.",
+   "key": {
+    "num": 10
+   },
+   "ms": "10 m/s. M1 gradient of C only = (350 − 150) ÷ (45 − 25) = 200 ÷ 20, A1 10. (Use the start and end of section C, not the origin.)"
+  },
+  {
+   "id": "5b",
+   "type": "work",
+   "marks": 2,
+   "q": "Calculate the car's average speed for the first 45 seconds of the journey. Give your answer to 1 decimal place.",
+   "key": {
+    "num": 7.8
+   },
+   "ms": "7.8 m/s. M1 total distance ÷ total time = 350 ÷ 45, A1 7.8 (7.77…)."
+  },
+  {
+   "id": "5c",
+   "type": "written",
+   "marks": 2,
+   "q": "Was the car faster in section A or section C? Use the graph to explain how you can tell.",
+   "ms": "Section A (1): the line is steeper / speed in A = 150 ÷ 10 = 15 m/s compared with 10 m/s in C (1)."
+  },
+  {
+   "id": "6",
+   "type": "work",
+   "marks": 3,
+   "q": "A table exerts a pressure of 1500 Pa on the floor. The total area of its four legs touching the floor is 0.02 m².<br>Calculate the weight of the table.",
+   "key": {
+    "num": 30
+   },
+   "ms": "30 N. M1 pressure = force ÷ area, so force = pressure × area, M1 1500 × 0.02, A1 30 N."
+  },
+  {
+   "id": "7",
+   "type": "work",
+   "marks": 3,
+   "q": "A student weighs 500 N. Each of her shoes has an area of 125 cm² touching the ground.<br>Calculate the pressure she exerts on the ground when standing on both feet, in N/cm².",
+   "key": {
+    "num": 2
+   },
+   "ms": "2 N/cm². M1 total area = 2 × 125 = 250 cm², M1 pressure = force ÷ area = 500 ÷ 250, A1 2 N/cm²."
+  },
+  {
+   "id": "8",
+   "type": "written",
+   "marks": 3,
+   "q": "Explain why a sharp knife cuts food more easily than a blunt knife. Use the equation for pressure in your answer.",
+   "ms": "Pressure = force ÷ area (1); a sharp blade has a much smaller area in contact with the food (1); so the same force gives a bigger pressure (1)."
+  },
+  {
+   "id": "9",
+   "type": "written",
+   "marks": 4,
+   "q": "More air is pumped into a bicycle tyre. Explain, in terms of particles, why the pressure inside the tyre increases.",
+   "ms": "More air particles in the same volume (1); so particles collide with the inside wall of the tyre more often / more collisions per second (1); each collision exerts a force on the wall (1); so a bigger total force on the same area, so a bigger pressure (1)."
+  },
+  {
+   "id": "10",
+   "type": "written",
+   "marks": 6,
+   "q": "A diver swims down from the surface of the sea to a depth of 20 m. A climber climbs from sea level to the top of a high mountain.<br>Explain how the pressure on the diver and the pressure on the climber change. Use ideas about weight and particles in your answer.",
+   "ms": "Level 3 (5-6): both changes correctly described and explained with weight and particles. Level 2 (3-4): both changes described with some explanation, or one fully explained. Level 1 (1-2): simple statements of the changes. Diver: pressure increases with depth; more water above, so more weight pushing down; water is incompressible and passes the pressure on in all directions. Climber: atmospheric pressure decreases with height; less air above, so less weight of air pushing down; air is less dense higher up, so fewer particles in each cm³ and fewer collisions with a surface each second."
+  },
+  {
+   "id": "11",
+   "type": "work",
+   "marks": 2,
+   "q": "Mo pushes on a door handle with a force of 15 N. The handle is 0.8 m from the hinge.<br>Calculate the moment of the force.",
+   "key": {
+    "num": 12
+   },
+   "ms": "12 Nm. M1 moment = force × perpendicular distance from the pivot = 15 × 0.8, A1 12 Nm."
+  },
+  {
+   "id": "12",
+   "type": "work",
+   "marks": 3,
+   "q": "A see-saw is balanced. A man weighing 600 N sits 1.2 m to the left of the pivot. His daughter weighs 450 N.<br>How far to the right of the pivot must she sit, in metres?",
+   "key": {
+    "num": 1.6
+   },
+   "ms": "1.6 m. M1 anticlockwise moment = clockwise moment, M1 600 × 1.2 = 450 × d, so 720 = 450 × d, A1 d = 720 ÷ 450 = 1.6 m."
+  },
+  {
+   "id": "13",
+   "type": "written",
+   "marks": 2,
+   "q": "Explain why it is easier to open a door by pushing near the handle than by pushing near the hinge.",
+   "ms": "Moment = force × distance from the pivot (1); the handle is further from the hinge, so the same force gives a bigger turning effect / less force is needed (1)."
+  },
+  {
+   "id": "14",
+   "type": "written",
+   "marks": 3,
+   "q": "Potassium reacts quickly with water and burns with a lilac flame. Caesium is further down Group 1.<br>Predict how caesium reacts with water compared with potassium, and describe the trend in melting point going down Group 1.",
+   "ms": "Caesium reacts more violently / faster / may explode (1) because reactivity increases going down Group 1 (1). Melting point decreases going down Group 1 (1)."
+  },
+  {
+   "id": "15",
+   "type": "mc",
+   "marks": 1,
+   "q": "Going down Group 7, the halogens…",
+   "options": [
+    "become more reactive",
+    "become darker in colour",
+    "have lower melting points",
+    "change from solids to gases"
+   ],
+   "key": 1,
+   "ms": "Become darker in colour. They also become less reactive and their melting points increase."
+  },
+  {
+   "id": "16",
+   "type": "mc",
+   "marks": 1,
+   "q": "Going down Group 0 (the noble gases), the boiling point…",
+   "options": [
+    "increases",
+    "decreases",
+    "stays the same",
+    "goes up then down"
+   ],
+   "key": 0,
+   "ms": "Increases (helium −269 °C up to radon −62 °C)."
+  },
+  {
+   "id": "17a",
+   "type": "written",
+   "marks": 2,
+   "q": "A student places a heavy block on damp sand. She changes the area of the block's base touching the sand and measures the depth of the dent it makes.<br>Name the independent variable and the dependent variable.",
+   "ms": "Independent: area of the base touching the sand (1). Dependent: depth of the dent (1)."
+  },
+  {
+   "id": "17b",
+   "type": "written",
+   "marks": 2,
+   "q": "Her results:<table class=\"data\"><tr><th>Area (cm²)</th><th>Depth of dent (mm)</th></tr><tr><td>10</td><td>16</td></tr><tr><td>20</td><td>8</td></tr><tr><td>40</td><td>4</td></tr><tr><td>80</td><td>2</td></tr></table>Describe the relationship between the area and the depth of the dent.",
+   "ms": "As the area increases, the depth decreases (negative relationship) (1). When the area doubles, the depth halves (inversely proportional) (1)."
+  },
+  {
+   "id": "17c",
+   "type": "mc",
+   "marks": 1,
+   "q": "Another student compares the dents made by four kinds of shoe: trainer, high heel, boot and snowshoe. Which type of graph should he draw?",
+   "options": [
+    "Line graph",
+    "Scatter graph",
+    "Bar chart",
+    "Line of best fit"
+   ],
+   "key": 2,
+   "ms": "Bar chart, because the type of shoe is a categoric variable."
+  },
+  {
+   "id": "17d",
+   "type": "written",
+   "marks": 2,
+   "q": "The student measured the depth of each dent with a ruler, judging it by eye. Suggest <b>one</b> improvement to the method and explain how it would help.",
+   "ms": "Improvement (1): use a depth gauge or the depth rod of a vernier caliper / smooth the sand flat the same way each time / repeat each test and take a mean. Explanation (1): more precise readings / fairer test / reduces the effect of random errors. (A reason alone, with no change to the method, scores 0.)"
+  }
+ ]
+}

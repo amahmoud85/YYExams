@@ -1,0 +1,193 @@
+{
+ "id": "science-6",
+ "year": 8,
+ "order": 13,
+ "subject": "Science",
+ "title": "Science Exam 6",
+ "short": "Exam 6",
+ "topic": "Health & Lifestyle · Periodic Table · Investigative skills",
+ "minutes": 50,
+ "intro": "AQA Higher style. You may use a calculator. Read each question carefully: if it asks for two things, give two. Write full sentences for the longer answers.",
+ "questions": [
+  {
+   "id": "1",
+   "type": "mc",
+   "marks": 1,
+   "q": "Which nutrient is the body's main source of energy?",
+   "options": [
+    "Protein",
+    "Carbohydrates",
+    "Fibre",
+    "Minerals"
+   ],
+   "key": 1,
+   "ms": "Carbohydrates."
+  },
+  {
+   "id": "2",
+   "type": "written",
+   "marks": 2,
+   "q": "Name the substance used to test a food for lipids (fats), and give the positive result.",
+   "ms": "Ethanol (1); a cloudy white layer / emulsion forms when poured into water (1)."
+  },
+  {
+   "id": "3",
+   "type": "written",
+   "marks": 4,
+   "q": "A student has a solution made from an unknown food. Describe how she could test the solution for <b>starch</b> and for <b>protein</b>. Give the positive result for each test.",
+   "ms": "Starch: add a few drops of iodine solution (1), turns blue-black (1). Protein: add copper sulfate and sodium hydroxide solution (Biuret) (1), turns purple (1)."
+  },
+  {
+   "id": "4",
+   "type": "mc",
+   "marks": 1,
+   "q": "A student adds Benedict's solution to a food sample to test for sugar. What must she do next?",
+   "options": [
+    "Heat it in a water bath",
+    "Shake it with ethanol",
+    "Add sodium hydroxide",
+    "Put it in a fridge"
+   ],
+   "key": 0,
+   "ms": "Heat it in a water bath. Positive result: orange-red."
+  },
+  {
+   "id": "5",
+   "type": "written",
+   "marks": 3,
+   "q": "Explain the difference between <b>malnutrition</b> and a <b>deficiency</b>. Give a named example of a deficiency.",
+   "ms": "Malnutrition: not eating a balanced diet, so too much or too little of some nutrients (1). Deficiency: a lack of one particular vitamin or mineral (1). Named example (1): lack of iron causes anaemia / lack of vitamin C causes scurvy / lack of calcium or vitamin D causes weak bones (rickets)."
+  },
+  {
+   "id": "6",
+   "type": "written",
+   "marks": 6,
+   "q": "Yassin eats a portion of chips. The chips contain starch and fat.<br>Describe how the starch and the fat are digested and absorbed as the food passes through the digestive system. Name the organs in order and the enzymes involved.",
+   "ms": "Level 3 (5-6): organs in the correct order with the right enzymes, and absorption explained. Level 2 (3-4): most organs in order and at least one enzyme correct. Level 1 (1-2): some organs or enzymes named. Points: mouth, teeth chew food into smaller pieces and salivary glands add carbohydrase (amylase), which starts breaking starch into sugars; oesophagus carries food to the stomach; stomach churns food (physical digestion) with acid; small intestine: the pancreas adds carbohydrase to finish breaking starch into sugar and lipase to break fats into fatty acids and glycerol; bile from the gall bladder breaks fat into small droplets; small molecules are absorbed through the small intestine wall into the blood; large intestine absorbs water; rectum stores faeces, which leave through the anus."
+  },
+  {
+   "id": "7",
+   "type": "text",
+   "marks": 1,
+   "q": "Name the enzyme that breaks down lipids (fats).",
+   "key": [
+    "lipase",
+    "lipases"
+   ],
+   "ms": "Lipase."
+  },
+  {
+   "id": "8",
+   "type": "written",
+   "marks": 2,
+   "q": "Bile is made in the liver and stored in the gall bladder. It is not an enzyme. Suggest how bile helps the digestion of fats.",
+   "ms": "Bile breaks fat into small droplets (1), giving a bigger surface area for lipase to work on, so fats are digested faster (1)."
+  },
+  {
+   "id": "9",
+   "type": "written",
+   "marks": 3,
+   "q": "Explain why alcohol is called a depressant, and give <b>two</b> long-term effects of drinking large amounts of alcohol.",
+   "ms": "It slows down the body's reactions / nervous system (1). Any two (1 each): liver damage (cirrhosis), brain damage, stomach ulcers, heart disease, reduced fertility."
+  },
+  {
+   "id": "10",
+   "type": "written",
+   "marks": 2,
+   "q": "Cigarette smoke contains carbon monoxide. Explain why smokers often get out of breath more quickly than non-smokers.",
+   "ms": "Carbon monoxide stops the blood carrying as much oxygen (1), so less oxygen reaches the cells/muscles for respiration (1). (Also accept tar clogging the alveoli so less oxygen is absorbed.)"
+  },
+  {
+   "id": "11",
+   "type": "mc",
+   "marks": 1,
+   "q": "Which element is in Group 7 and Period 3 of the periodic table?",
+   "options": [
+    "Chlorine",
+    "Bromine",
+    "Sulfur",
+    "Argon"
+   ],
+   "key": 0,
+   "ms": "Chlorine (Cl). Group = column, period = row."
+  },
+  {
+   "id": "12",
+   "type": "written",
+   "marks": 3,
+   "q": "The table shows some properties of the Group 7 elements.<table class=\"data\"><tr><th>Element</th><th>Colour</th><th>State at room temperature</th><th>Melting point (°C)</th></tr><tr><td>Fluorine</td><td>pale yellow</td><td>gas</td><td>−220</td></tr><tr><td>Chlorine</td><td>green</td><td>gas</td><td>−101</td></tr><tr><td>Bromine</td><td>red-brown</td><td>liquid</td><td>−7</td></tr><tr><td>Iodine</td><td>grey-black</td><td>solid</td><td>114</td></tr><tr><td>Astatine</td><td>?</td><td>?</td><td>?</td></tr></table>Astatine is below iodine in Group 7. Predict its colour and its state at room temperature. Use the data to explain your predictions.",
+   "ms": "Black / very dark colour (1); solid (1); because the colour gets darker and the melting point increases going down the group, so astatine's melting point is above 114 °C (1)."
+  },
+  {
+   "id": "13",
+   "type": "written",
+   "marks": 4,
+   "q": "Compare how reactivity changes going down <b>Group 1</b> with how it changes going down <b>Group 7</b>. Give one example of evidence from a reaction for each group.",
+   "ms": "Group 1: reactivity increases going down (1); e.g. potassium reacts more violently with water than sodium or lithium (lilac flame) (1). Group 7: reactivity decreases going down (1); e.g. chlorine displaces bromine from potassium bromide, but bromine cannot displace chlorine (1)."
+  },
+  {
+   "id": "14",
+   "type": "text",
+   "marks": 1,
+   "q": "Bromine water is added to potassium iodide solution. The solution turns brown.<br>Name the element that is displaced (pushed out) in this reaction.",
+   "key": [
+    "iodine",
+    "i2",
+    "i"
+   ],
+   "ms": "Iodine. Bromine is more reactive than iodine, so it displaces it: bromine + potassium iodide → potassium bromide + iodine."
+  },
+  {
+   "id": "15",
+   "type": "written",
+   "marks": 2,
+   "q": "Iodine solution is added to potassium chloride solution. Explain why there is no reaction.",
+   "ms": "Iodine is less reactive than chlorine (1), so it cannot displace chlorine from the compound (1)."
+  },
+  {
+   "id": "16",
+   "type": "written",
+   "marks": 2,
+   "q": "Helium is a Group 0 element used to fill party balloons. Give <b>two</b> properties of helium that make it suitable for this use.",
+   "ms": "Any two (1 each): very low density / lighter than air, so the balloon floats; unreactive (full outer shell), so it does not catch fire or react; it is a gas at room temperature."
+  },
+  {
+   "id": "17a",
+   "type": "written",
+   "marks": 3,
+   "q": "A student investigates how temperature affects how quickly the enzyme amylase breaks down starch. Every 10 seconds she takes a drop of the mixture and tests it with iodine. She records the time when the iodine no longer turns blue-black.<br>Name the independent variable, the dependent variable, and one control variable.",
+   "ms": "Independent: temperature (1). Dependent: time taken for the starch to be broken down / for the iodine to stop turning blue-black (1). Control, any one (1): volume or concentration of starch, volume or concentration of amylase, pH, same drop size, same 10 second interval."
+  },
+  {
+   "id": "17b",
+   "type": "work",
+   "marks": 2,
+   "q": "Her results at 40 °C were:<table class=\"data\"><tr><th>Repeat</th><th>Time (s)</th></tr><tr><td>1</td><td>58</td></tr><tr><td>2</td><td>61</td></tr><tr><td>3</td><td>88</td></tr></table>Identify the anomalous result, then calculate the mean time without it.",
+   "key": {
+    "num": 59.5
+   },
+   "ms": "59.5 s. 88 s is anomalous (1). Mean = (58 + 61) ÷ 2 = 59.5 s (1)."
+  },
+  {
+   "id": "17c",
+   "type": "mc",
+   "marks": 1,
+   "q": "She tests temperatures of 20, 30, 40, 50 and 60 °C. Which type of graph should she draw?",
+   "options": [
+    "Bar chart",
+    "Line graph",
+    "Pie chart",
+    "Pictogram"
+   ],
+   "key": 1,
+   "ms": "Line graph, because temperature is a continuous variable. (Bar charts are for categoric data.)"
+  },
+  {
+   "id": "17d",
+   "type": "written",
+   "marks": 2,
+   "q": "Testing only every 10 seconds makes the times less accurate. Suggest <b>one</b> improvement to the method and explain how it would help.",
+   "ms": "Improvement (1): test more often, e.g. every 5 seconds / use a colorimeter / a timer started by the same person. Explanation (1): so the end point is found more precisely, giving more accurate times. (A reason alone, with no change to the method, scores 0.)"
+  }
+ ]
+}

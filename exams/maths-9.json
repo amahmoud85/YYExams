@@ -1,0 +1,247 @@
+{
+ "id": "maths-9",
+ "year": 8,
+ "order": 12,
+ "subject": "Maths",
+ "title": "Maths Exam 9",
+ "short": "Exam 9",
+ "topic": "Number · Calculator · Higher",
+ "minutes": 50,
+ "intro": "Edexcel Higher style. You may use a calculator. Show your working in the working box: method marks count even if the final answer slips.",
+ "questions": [
+  {
+   "id": "1",
+   "type": "work",
+   "marks": 2,
+   "q": "Use your calculator to work out <span class=\"frac\"><span>√(18.4 + 6.3<sup>2</sup>)</span><span>2.1 × 0.35</span></span><br>Give your answer correct to 3 significant figures.",
+   "key": {
+    "num": 10.4
+   },
+   "ms": "10.4. M1 7.621… or 0.735 seen (or 10.369… seen), A1 10.4."
+  },
+  {
+   "id": "2",
+   "type": "work",
+   "marks": 2,
+   "q": "Work out (−4.2)<sup>2</sup> − (−1.5)<sup>3</sup>",
+   "key": {
+    "num": 21.015
+   },
+   "ms": "21.015. M1 (−4.2)² = 17.64 or (−1.5)³ = −3.375, A1 17.64 − (−3.375) = 17.64 + 3.375 = 21.015."
+  },
+  {
+   "id": "3",
+   "type": "num",
+   "marks": 1,
+   "q": "At 6 am the temperature on a mountain was −7 °C. By noon it had risen by 12 degrees. By midnight it had fallen by 9 degrees from the noon temperature.<br>What was the temperature at midnight, in °C?",
+   "key": -4,
+   "ms": "−4 °C. −7 + 12 = 5, then 5 − 9 = −4."
+  },
+  {
+   "id": "4",
+   "type": "mc",
+   "marks": 1,
+   "q": "Work out (−1)<sup>99</sup> × (−2)<sup>2</sup>",
+   "options": [
+    "−4",
+    "4",
+    "−2",
+    "2"
+   ],
+   "key": 0,
+   "ms": "−4. An odd power of −1 is −1, and (−2)² = 4, so −1 × 4 = −4."
+  },
+  {
+   "id": "5a",
+   "type": "written",
+   "marks": 2,
+   "q": "Ben estimates 412 ÷ 0.79 and gets 50.<br>Explain why Ben's estimate must be wrong, and give a better estimate.",
+   "ms": "Dividing by a number less than 1 gives an answer bigger than 412, so 50 is far too small (1). Better estimate 400 ÷ 0.8 = 500 (1)."
+  },
+  {
+   "id": "5b",
+   "type": "num",
+   "marks": 1,
+   "q": "Use your calculator to work out 412 ÷ 0.79. Give your answer correct to 1 decimal place.",
+   "key": 521.5,
+   "ms": "521.5 (521.518…)."
+  },
+  {
+   "id": "6",
+   "type": "num",
+   "marks": 1,
+   "q": "The population of a city is 9 890 402.<br>Round this to 3 significant figures.",
+   "key": 9890000,
+   "ms": "9 890 000."
+  },
+  {
+   "id": "7",
+   "type": "factors",
+   "marks": 2,
+   "q": "Write 1176 as a product of its prime factors. Give your answer in index form.",
+   "key": {
+    "2": 3,
+    "3": 1,
+    "7": 2
+   },
+   "ms": "2³ × 3 × 7². M1 a correct factor tree or repeated division, A1 index form."
+  },
+  {
+   "id": "8",
+   "type": "work",
+   "marks": 2,
+   "q": "1176<i>k</i> is a square number.<br>Find the smallest whole number value of <i>k</i>.",
+   "key": {
+    "num": 6
+   },
+   "hint": "Use your answer to question 7",
+   "ms": "k = 6. M1 a square number needs every power even, so 2³ × 3 × 7² needs another 2 and another 3, A1 6 (1176 × 6 = 7056 = 84²)."
+  },
+  {
+   "id": "9",
+   "type": "work",
+   "marks": 3,
+   "q": "Paper cups are sold in packs of 18. Paper plates are sold in packs of 30.<br>Sara wants to buy exactly the same number of cups as plates.<br>What is the smallest number of packs of cups she can buy?",
+   "key": {
+    "num": 5
+   },
+   "ms": "5 packs of cups (90 cups, with 3 packs of plates). M1 multiples of 18 and 30 or 18 = 2 × 3², 30 = 2 × 3 × 5, M1 LCM = 90, A1 90 ÷ 18 = 5."
+  },
+  {
+   "id": "10a",
+   "type": "work",
+   "marks": 2,
+   "q": "168 = 2<sup>3</sup> × 3 × 7 and 252 = 2<sup>2</sup> × 3<sup>2</sup> × 7<br>Find the highest common factor (HCF) of 168 and 252.",
+   "key": {
+    "num": 84
+   },
+   "ms": "84. M1 common primes 2² × 3 × 7, A1 84."
+  },
+  {
+   "id": "10b",
+   "type": "work",
+   "marks": 2,
+   "q": "Find the lowest common multiple (LCM) of 168 and 252.",
+   "key": {
+    "num": 504
+   },
+   "ms": "504. M1 2³ × 3² × 7 (every prime, highest power), A1 504."
+  },
+  {
+   "id": "11",
+   "type": "work",
+   "marks": 2,
+   "q": "The mass of a proton is 1.67 × 10<sup>−27</sup> kg. The mass of an electron is 9.11 × 10<sup>−31</sup> kg.<br>How many times heavier is a proton than an electron? Give your answer correct to 3 significant figures.",
+   "key": {
+    "num": 1830
+   },
+   "ms": "1830. M1 (1.67 × 10⁻²⁷) ÷ (9.11 × 10⁻³¹) = 1833.1…, A1 1830."
+  },
+  {
+   "id": "12",
+   "type": "work",
+   "marks": 2,
+   "q": "The Sun is 1.5 × 10<sup>8</sup> km from the Earth. Light travels at 3 × 10<sup>5</sup> km per second.<br>How many seconds does light take to travel from the Sun to the Earth?",
+   "key": {
+    "num": 500
+   },
+   "ms": "500 seconds (8 min 20 s). M1 time = distance ÷ speed = (1.5 × 10⁸) ÷ (3 × 10⁵), A1 500 (5 × 10²)."
+  },
+  {
+   "id": "13",
+   "type": "text",
+   "marks": 2,
+   "q": "Work out (3.2 × 10<sup>4</sup>) × (4.5 × 10<sup>−7</sup>). Give your answer in standard form.",
+   "key": [
+    "1.44x10^-2"
+   ],
+   "hint": "Type it like 3.2 × 10^-5",
+   "ms": "1.44 × 10⁻². M1 14.4 × 10⁻³, A1 1.44 × 10⁻² (14.4 is not in standard form, so move the decimal point and change the power)."
+  },
+  {
+   "id": "14",
+   "type": "text",
+   "marks": 2,
+   "q": "Work out (6.3 × 10<sup>8</sup>) + (4.9 × 10<sup>7</sup>). Give your answer in standard form.",
+   "key": [
+    "6.79x10^8"
+   ],
+   "hint": "Type it like 3.2 × 10^-5",
+   "ms": "6.79 × 10⁸. M1 630 000 000 + 49 000 000 = 679 000 000 (or 6.3 × 10⁸ + 0.49 × 10⁸), A1 6.79 × 10⁸."
+  },
+  {
+   "id": "15",
+   "type": "mc",
+   "marks": 1,
+   "q": "Which of these is <b>not</b> written in standard form?",
+   "options": [
+    "3.5 × 10⁴",
+    "12 × 10³",
+    "1 × 10⁻⁶",
+    "9.99 × 10⁰"
+   ],
+   "key": 1,
+   "ms": "12 × 10³. The first number must be at least 1 and less than 10; it should be 1.2 × 10⁴."
+  },
+  {
+   "id": "16",
+   "type": "num",
+   "marks": 1,
+   "q": "Work out the value of 64<sup>−⅓</sup>",
+   "key": 0.25,
+   "ms": "¼ (0.25). ∛64 = 4, and the negative power gives the reciprocal: 1/4."
+  },
+  {
+   "id": "17",
+   "type": "text",
+   "marks": 2,
+   "q": "Simplify (<i>x</i><sup>3</sup>)<sup>4</sup> × <i>x</i><sup>−5</sup>",
+   "key": [
+    "x^7"
+   ],
+   "hint": "Type it like x^3",
+   "ms": "x⁷. M1 (x³)⁴ = x¹², A1 x¹² × x⁻⁵ = x⁷."
+  },
+  {
+   "id": "18",
+   "type": "work",
+   "marks": 3,
+   "q": "Solve 4<sup><i>x</i></sup> = 32",
+   "key": {
+    "num": 2.5
+   },
+   "ms": "x = 2.5 (or 5/2). M1 4 = 2² and 32 = 2⁵, M1 2x = 5, A1 2.5."
+  },
+  {
+   "id": "19",
+   "type": "mc",
+   "marks": 1,
+   "q": "Which of these numbers is a surd?",
+   "options": [
+    "√49",
+    "√0.25",
+    "√27",
+    "∛8"
+   ],
+   "key": 2,
+   "ms": "√27. It cannot be written as a whole number or fraction (√27 = 3√3). √49 = 7, √0.25 = 0.5, ∛8 = 2."
+  },
+  {
+   "id": "20",
+   "type": "work",
+   "marks": 2,
+   "q": "A triangle has base √32 cm and perpendicular height √18 cm.<br>Work out the area of the triangle.",
+   "key": {
+    "num": 12
+   },
+   "ms": "12 cm². M1 ½ × √32 × √18 = ½ × √576, A1 ½ × 24 = 12."
+  },
+  {
+   "id": "21",
+   "type": "work",
+   "marks": 2,
+   "q": "Show that √8 + √18 = 5√2",
+   "ms": "M1 √8 = 2√2 or √18 = 3√2, A1 2√2 + 3√2 = 5√2 with both shown."
+  }
+ ]
+}

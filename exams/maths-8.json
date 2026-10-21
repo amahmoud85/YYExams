@@ -1,0 +1,292 @@
+{
+ "id": "maths-8",
+ "year": 8,
+ "order": 11,
+ "subject": "Maths",
+ "title": "Maths Exam 8",
+ "short": "Exam 8",
+ "topic": "Number · Non-calculator · Higher",
+ "minutes": 50,
+ "intro": "Edexcel Higher style. No calculator. Show your working in the working box: method marks count even if the final answer slips.",
+ "questions": [
+  {
+   "id": "1",
+   "type": "mc",
+   "marks": 1,
+   "q": "Work out (−2)<sup>4</sup> × (−3)",
+   "options": [
+    "−48",
+    "48",
+    "−24",
+    "24"
+   ],
+   "key": 0,
+   "ms": "−48. (−2)⁴ = 16 (even power is positive), then 16 × (−3) = −48."
+  },
+  {
+   "id": "2",
+   "type": "num",
+   "marks": 1,
+   "q": "Work out −5 − (−3)<sup>2</sup>",
+   "key": -14,
+   "ms": "−14. (−3)² = 9, so −5 − 9 = −14. The minus outside the bracket is not squared."
+  },
+  {
+   "id": "3",
+   "type": "work",
+   "marks": 2,
+   "q": "Work out −36 ÷ (−4) − 2 × (−5)",
+   "key": {
+    "num": 19
+   },
+   "ms": "19. M1 −36 ÷ (−4) = 9 or 2 × (−5) = −10, A1 9 − (−10) = 19."
+  },
+  {
+   "id": "4",
+   "type": "text",
+   "marks": 1,
+   "q": "Round 0.06095 to 3 significant figures.",
+   "key": [
+    "0.0610"
+   ],
+   "ms": "0.0610. The first significant figure is the 6; the 9 rounds up, and the final 0 must stay to show 3 s.f."
+  },
+  {
+   "id": "5",
+   "type": "work",
+   "marks": 3,
+   "q": "Work out an estimate for the value of <span class=\"frac\"><span>6.12 × 19.8</span><span>0.48</span></span>",
+   "key": {
+    "num": 240
+   },
+   "ms": "240. M1 round each number to 1 s.f.: 6, 20, 0.5. M1 6 × 20 = 120. A1 120 ÷ 0.5 = 240."
+  },
+  {
+   "id": "6",
+   "type": "mc",
+   "marks": 1,
+   "q": "Without working them out, which of these has an answer greater than 35?",
+   "options": [
+    "35 × 0.8",
+    "35 ÷ 0.8",
+    "35 ÷ 8",
+    "35 × 0.08"
+   ],
+   "key": 1,
+   "ms": "35 ÷ 0.8. Dividing by a number less than 1 makes the answer bigger; multiplying by a number less than 1 makes it smaller."
+  },
+  {
+   "id": "7a",
+   "type": "num",
+   "marks": 1,
+   "q": "You are given that 236 × 52 = 12 272.<br>Work out 2.36 × 5.2",
+   "key": 12.272,
+   "ms": "12.272. 2.36 has 2 decimal places and 5.2 has 1, so the answer has 3: 12 272 ÷ 1000."
+  },
+  {
+   "id": "7b",
+   "type": "num",
+   "marks": 1,
+   "q": "Using 236 × 52 = 12 272, work out 12 272 ÷ 0.52",
+   "key": 23600,
+   "ms": "23 600. 12 272 ÷ 52 = 236, and dividing by 0.52 (100 times smaller) gives an answer 100 times bigger."
+  },
+  {
+   "id": "7c",
+   "type": "num",
+   "marks": 1,
+   "q": "Using 236 × 52 = 12 272, work out 1227.2 ÷ 23.6",
+   "key": 52,
+   "ms": "52. 1227.2 ÷ 23.6 = 12 272 ÷ 236 = 52 (both numbers are 10 times smaller)."
+  },
+  {
+   "id": "8",
+   "type": "factors",
+   "marks": 2,
+   "q": "Write 900 as a product of its prime factors. Give your answer in index form.",
+   "key": {
+    "2": 2,
+    "3": 2,
+    "5": 2
+   },
+   "ms": "2² × 3² × 5². M1 a correct factor tree or repeated division, A1 index form."
+  },
+  {
+   "id": "9",
+   "type": "written",
+   "marks": 1,
+   "q": "Use your answer to question 8 to explain why 900 is a square number.",
+   "ms": "B1 every power in 2² × 3² × 5² is even, so 900 = (2 × 3 × 5)² = 30²."
+  },
+  {
+   "id": "10",
+   "type": "factors",
+   "marks": 2,
+   "q": "Write 900<sup>3</sup> as a product of its prime factors in index form.",
+   "key": {
+    "2": 6,
+    "3": 6,
+    "5": 6
+   },
+   "hint": "Use your answer to question 8",
+   "ms": "2⁶ × 3⁶ × 5⁶. Cubing multiplies every power by 3: (2² × 3² × 5²)³. B1 for two powers correct."
+  },
+  {
+   "id": "11a",
+   "type": "work",
+   "marks": 2,
+   "q": "84 = 2<sup>2</sup> × 3 × 7 and 140 = 2<sup>2</sup> × 5 × 7<br>Find the highest common factor (HCF) of 84 and 140.",
+   "key": {
+    "num": 28
+   },
+   "ms": "28. M1 common primes 2² × 7, A1 28."
+  },
+  {
+   "id": "11b",
+   "type": "work",
+   "marks": 2,
+   "q": "Find the lowest common multiple (LCM) of 84 and 140.",
+   "key": {
+    "num": 420
+   },
+   "ms": "420. M1 2² × 3 × 5 × 7 (every prime, highest power), A1 420."
+  },
+  {
+   "id": "12",
+   "type": "work",
+   "marks": 3,
+   "q": "Amira has 60 red counters and 84 blue counters. She puts all of them into identical groups, with the same number of red counters and the same number of blue counters in each group, and none left over.<br>What is the greatest number of groups she can make?",
+   "key": {
+    "num": 12
+   },
+   "ms": "12 groups (5 red and 7 blue in each). M1 60 = 2² × 3 × 5 or lists factors, M1 84 = 2² × 3 × 7 or recognises HCF is needed, A1 12."
+  },
+  {
+   "id": "13",
+   "type": "text",
+   "marks": 1,
+   "q": "Write 0.000 082 in standard form.",
+   "key": [
+    "8.2x10^-5"
+   ],
+   "hint": "Type it like 3.2 × 10^-5",
+   "ms": "8.2 × 10⁻⁵."
+  },
+  {
+   "id": "14",
+   "type": "mc",
+   "marks": 1,
+   "q": "Which of these numbers is the smallest?",
+   "options": [
+    "7.1 × 10⁻³",
+    "0.07",
+    "6.9 × 10⁻²",
+    "0.0068"
+   ],
+   "key": 3,
+   "ms": "0.0068. The others are 0.0071, 0.07 and 0.069."
+  },
+  {
+   "id": "15",
+   "type": "text",
+   "marks": 2,
+   "q": "Work out (8 × 10<sup>6</sup>) ÷ (4 × 10<sup>−3</sup>). Give your answer in standard form.",
+   "key": [
+    "2x10^9",
+    "2.0x10^9"
+   ],
+   "hint": "Type it like 3.2 × 10^-5",
+   "ms": "2 × 10⁹. M1 8 ÷ 4 = 2 and 10⁶ ÷ 10⁻³ = 10⁶⁻⁽⁻³⁾ = 10⁹, A1 2 × 10⁹."
+  },
+  {
+   "id": "16",
+   "type": "text",
+   "marks": 2,
+   "q": "Work out (4.2 × 10<sup>5</sup>) − (3 × 10<sup>4</sup>). Give your answer in standard form.",
+   "key": [
+    "3.9x10^5"
+   ],
+   "hint": "Type it like 3.2 × 10^-5",
+   "ms": "3.9 × 10⁵. M1 420 000 − 30 000 = 390 000 (or 4.2 × 10⁵ − 0.3 × 10⁵), A1 3.9 × 10⁵."
+  },
+  {
+   "id": "17",
+   "type": "work",
+   "marks": 2,
+   "q": "Work out the value of 27<sup>⅔</sup>",
+   "key": {
+    "num": 9
+   },
+   "ms": "9. M1 27^⅓ = ∛27 = 3, A1 3² = 9."
+  },
+  {
+   "id": "18",
+   "type": "mc",
+   "marks": 1,
+   "q": "Work out the value of (¼)<sup>−2</sup>",
+   "options": [
+    "16",
+    "1/16",
+    "−16",
+    "−8"
+   ],
+   "key": 0,
+   "ms": "16. The negative power flips the fraction: (¼)⁻² = 4² = 16."
+  },
+  {
+   "id": "19",
+   "type": "text",
+   "marks": 2,
+   "q": "Write 8<sup>5</sup> as a power of 2.",
+   "key": [
+    "2^15"
+   ],
+   "hint": "Type it like 2^3",
+   "ms": "2¹⁵. M1 8 = 2³, A1 (2³)⁵ = 2¹⁵."
+  },
+  {
+   "id": "20",
+   "type": "work",
+   "marks": 3,
+   "q": "Find the value of <i>n</i> when 9<sup><i>n</i></sup> × 3 = 3<sup>7</sup>",
+   "key": {
+    "num": 3
+   },
+   "ms": "n = 3. M1 9 = 3² so 9ⁿ = 3²ⁿ, M1 2n + 1 = 7, A1 n = 3."
+  },
+  {
+   "id": "21",
+   "type": "text",
+   "marks": 2,
+   "q": "Simplify fully √48",
+   "key": [
+    "4√3"
+   ],
+   "hint": "Use the √ button",
+   "ms": "4√3. M1 √48 = √16 × √3, A1 4√3."
+  },
+  {
+   "id": "22a",
+   "type": "work",
+   "marks": 2,
+   "q": "A rectangle has length √45 cm and width √5 cm.<br>Show that the area of the rectangle is a whole number of cm², and give its value.",
+   "key": {
+    "num": 15
+   },
+   "ms": "15 cm². M1 √45 × √5 = √225, A1 15."
+  },
+  {
+   "id": "22b",
+   "type": "work",
+   "marks": 3,
+   "q": "Work out the perimeter of the rectangle. Give your answer in the form <i>a</i>√5",
+   "key": {
+    "text": [
+     "8√5"
+    ]
+   },
+   "hint": "Use the √ button",
+   "ms": "8√5 cm. M1 √45 = √9 × √5 = 3√5, M1 2 × (3√5 + √5), A1 8√5."
+  }
+ ]
+}
