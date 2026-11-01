@@ -1,0 +1,331 @@
+{
+  "id": "y9-science-8",
+  "year": 9,
+  "subject": "Science",
+  "title": "Year 9 Science Exam 8",
+  "short": "Exam 8",
+  "topic": "Electricity · Static charge, current, resistance and circuits · AQA Higher",
+  "minutes": 75,
+  "order": 8,
+  "intro": "You may use a calculator. For longer answers write in full sentences and use key words. Describe = say what happens; Explain = say what happens and why (use because and so). 6-mark questions are marked on how well your ideas link together: plan for a minute, then write about 6 linked points. Show your working for calculations and give units. Equations: charge flow Q = I × t; potential difference V = I × R; energy transferred E = Q × V. Relative atomic masses (Ar): O = 16, Mg = 24. Questions 16 and 17 go back over earlier units.",
+  "questions": [
+    {
+      "id": "1",
+      "type": "mc",
+      "marks": 1,
+      "q": "A polythene rod is rubbed with a cloth and becomes <strong>negatively</strong> charged. Why?",
+      "options": [
+        "Electrons moved from the cloth onto the rod",
+        "Protons moved from the rod onto the cloth",
+        "Electrons moved from the rod onto the cloth",
+        "The rubbing made new electrons on the rod"
+      ],
+      "key": 0,
+      "ms": "B1: electrons moved from the cloth onto the rod. Only electrons move; protons stay in the nucleus, and charge is never made or destroyed."
+    },
+    {
+      "id": "2",
+      "type": "mc",
+      "marks": 1,
+      "q": "Two balloons are both negatively charged. They are held close together. What happens?",
+      "options": [
+        "They attract",
+        "They repel",
+        "Nothing happens",
+        "They both become positive"
+      ],
+      "key": 1,
+      "ms": "B1: they repel. Like charges repel; opposite charges attract."
+    },
+    {
+      "id": "3",
+      "type": "mc",
+      "marks": 1,
+      "q": "How should a voltmeter be connected to measure the potential difference across a lamp?",
+      "options": [
+        "In series with the lamp",
+        "In parallel with the lamp",
+        "Next to the battery only",
+        "In series with the ammeter"
+      ],
+      "key": 1,
+      "ms": "B1: in parallel (across the lamp). Ammeters go in series."
+    },
+    {
+      "id": "4",
+      "type": "mc",
+      "marks": 1,
+      "q": "Which statement about a <strong>series</strong> circuit is correct?",
+      "options": [
+        "The current is the same at every point",
+        "The potential difference is the same across every component",
+        "The current splits between the components",
+        "The total resistance is less than the smallest resistance"
+      ],
+      "key": 0,
+      "ms": "B1: the current is the same everywhere in a series circuit. The potential difference of the supply is shared between the components."
+    },
+    {
+      "id": "5",
+      "type": "mc",
+      "marks": 1,
+      "q": "What does a diode do?",
+      "options": [
+        "Its resistance falls as the light gets brighter",
+        "It only lets current flow in one direction",
+        "Its resistance falls as it gets hotter",
+        "It stores charge"
+      ],
+      "key": 1,
+      "ms": "B1: it only lets current flow in one direction (very high resistance in the reverse direction). The other options describe an LDR and a thermistor."
+    },
+    {
+      "id": "6",
+      "type": "mc",
+      "marks": 1,
+      "q": "The temperature of a thermistor goes up. What happens to its resistance?",
+      "options": [
+        "It goes up",
+        "It goes down",
+        "It stays the same",
+        "It becomes zero"
+      ],
+      "key": 1,
+      "ms": "B1: it goes down. Hotter thermistor, lower resistance (used in thermostats and fire alarms)."
+    },
+    {
+      "id": "7a",
+      "type": "written",
+      "marks": 3,
+      "q": "Explain how rubbing a polythene rod with a cloth makes both the rod and the cloth charged.",
+      "ms": "B1: friction / rubbing moves electrons from one material to the other (from the cloth to the rod). B1: the object that gains electrons becomes negatively charged (the rod). B1: the object that loses electrons becomes positively charged (the cloth), with an equal amount of charge. Answers that say positive charges / protons move: max 1."
+    },
+    {
+      "id": "7b",
+      "type": "written",
+      "marks": 2,
+      "q": "A metal dome is charged. Describe what is meant by the electric field around the dome, and how its strength changes with distance.",
+      "ms": "B1: the region around a charged object where another charged object feels a (non-contact) force. B1: the field is strongest close to the dome and gets weaker further away."
+    },
+    {
+      "id": "7c",
+      "type": "written",
+      "marks": 6,
+      "q": "When an aeroplane is refuelled, fuel flows quickly through a rubber pipe from a tanker into the plane.<br>Explain how static charge can build up during refuelling, why this is dangerous, and how the danger is reduced.",
+      "ms": "6 marks, level-marked. Level 3 (5-6 marks): a detailed, logically linked answer covering most points. Level 2 (3-4 marks): several relevant points, some linked. Level 1 (1-2 marks): simple, separate statements. Indicative content: the fuel rubs against the inside of the pipe (friction); electrons are transferred between the fuel and the pipe; the plane / tanker becomes charged (one gains electrons, the other loses them); rubber is an insulator so the charge cannot flow away; the charge builds up and the potential difference between the plane and the ground (or the tanker) gets very large; a spark can jump across the gap; the spark can ignite the fuel vapour and cause a fire or explosion; the plane and tanker are connected by a metal earthing / bonding cable (or a conducting pipe is used); electrons flow through the cable to or from the earth, so the charge does not build up and no spark is made."
+    },
+    {
+      "id": "8a",
+      "type": "mc",
+      "marks": 1,
+      "q": "What is an electric current?",
+      "options": [
+        "The rate of flow of electric charge",
+        "The energy stored in a battery",
+        "The push that makes charge move",
+        "The opposition to the flow of charge"
+      ],
+      "key": 0,
+      "ms": "B1: the rate of flow of charge. The push is potential difference; the opposition is resistance."
+    },
+    {
+      "id": "8b",
+      "type": "work",
+      "marks": 3,
+      "q": "A current of 0.5 A flows through a lamp for 2 minutes.<br>Calculate the charge that flows through the lamp. (C)",
+      "key": {
+        "num": 60
+      },
+      "ms": "Answer: 60 C. B1 for converting 2 minutes = 120 s. M1 for Q = 0.5 × 120. A1 for 60 C. Using t = 2 (answer 1 C): B0 M1 A0."
+    },
+    {
+      "id": "9",
+      "type": "work",
+      "marks": 2,
+      "q": "Calculate the energy transferred when 60 C of charge passes through a component with a potential difference of 12 V across it. (J)",
+      "key": {
+        "num": 720
+      },
+      "ms": "Answer: 720 J. M1 for E = 60 × 12. A1 for 720 J."
+    },
+    {
+      "id": "10a",
+      "type": "work",
+      "marks": 2,
+      "q": "A current of 0.5 A flows through a 12 Ω resistor.<br>Calculate the potential difference across the resistor. (V)",
+      "key": {
+        "num": 6
+      },
+      "ms": "Answer: 6 V. M1 for V = 0.5 × 12. A1 for 6 V."
+    },
+    {
+      "id": "10b",
+      "type": "work",
+      "marks": 2,
+      "q": "A potential difference of 6 V across a resistor makes a current of 0.2 A flow.<br>Calculate the resistance of the resistor. (Ω)",
+      "key": {
+        "num": 30
+      },
+      "ms": "Answer: 30 Ω. M1 for R = V ÷ I = 6 ÷ 0.2 (rearranging V = IR). A1 for 30 Ω."
+    },
+    {
+      "id": "10c",
+      "type": "work",
+      "marks": 2,
+      "q": "A 45 Ω resistor has a potential difference of 9 V across it.<br>Calculate the current through it. (A)",
+      "key": {
+        "num": 0.2
+      },
+      "ms": "Answer: 0.2 A. M1 for I = V ÷ R = 9 ÷ 45. A1 for 0.2 A."
+    },
+    {
+      "id": "11a",
+      "type": "written",
+      "marks": 3,
+      "q": "A student measures the current through a component for different potential differences. The results are in the table.<br><table class=\"data\"><tr><th>Potential difference (V)</th><td>0</td><td>1.0</td><td>2.0</td><td>3.0</td><td>4.0</td><td>5.0</td><td>6.0</td></tr><tr><th>Current (A)</th><td>0</td><td>0.25</td><td>0.40</td><td>0.52</td><td>0.62</td><td>0.70</td><td>0.75</td></tr></table><br>Describe the pattern in the results. Use data from the table in your answer.",
+      "ms": "B1: as the potential difference goes up, the current goes up. B1: but not in proportion / the current goes up by less each time (the graph would curve). B1 for data, e.g. from 1 V to 2 V the current rises by 0.15 A, but from 5 V to 6 V it rises by only 0.05 A; or doubling 3 V to 6 V does not double the current (0.52 A to 0.75 A)."
+    },
+    {
+      "id": "11b",
+      "type": "work",
+      "marks": 2,
+      "q": "Use the table to calculate the resistance of the component when the potential difference is 2.0 V. (Ω)",
+      "key": {
+        "num": 5
+      },
+      "ms": "Answer: 5 Ω. M1 for R = 2.0 ÷ 0.40. A1 for 5 Ω."
+    },
+    {
+      "id": "11c",
+      "type": "num",
+      "marks": 1,
+      "q": "Calculate the resistance of the component when the potential difference is 6.0 V. (Ω)",
+      "key": 8,
+      "ms": "Answer: 8 Ω. B1 for 6.0 ÷ 0.75 = 8."
+    },
+    {
+      "id": "11d",
+      "type": "written",
+      "marks": 3,
+      "q": "Name the component, and explain why its resistance changes as the potential difference increases.",
+      "ms": "B1: filament lamp. B1: as the current increases, the filament gets hotter. B1: the ions (atoms) in the metal vibrate more, so the electrons collide with them more often, which increases the resistance."
+    },
+    {
+      "id": "12a",
+      "type": "num",
+      "marks": 1,
+      "q": "A 4 Ω resistor and an 8 Ω resistor are connected in <strong>series</strong> with a 12 V battery.<br>What is the total resistance of the circuit? (Ω)",
+      "key": 12,
+      "ms": "Answer: 12 Ω. B1. In series, add the resistances: 4 + 8 = 12."
+    },
+    {
+      "id": "12b",
+      "type": "work",
+      "marks": 2,
+      "q": "Calculate the current in the circuit. (A)",
+      "key": {
+        "num": 1
+      },
+      "ms": "Answer: 1 A. M1 for I = 12 ÷ 12. A1 for 1 A."
+    },
+    {
+      "id": "12c",
+      "type": "work",
+      "marks": 2,
+      "q": "Calculate the potential difference across the 8 Ω resistor. (V)",
+      "key": {
+        "num": 8
+      },
+      "ms": "Answer: 8 V. M1 for V = 1 × 8. A1 for 8 V. (The 4 Ω resistor gets the other 4 V; the two add up to the battery's 12 V.)"
+    },
+    {
+      "id": "12d",
+      "type": "written",
+      "marks": 2,
+      "q": "Explain why adding another resistor in series makes the current in the circuit smaller.",
+      "ms": "B1: the total resistance of the circuit increases (resistances in series add up). B1: the battery's potential difference stays the same, so by I = V ÷ R the current is smaller / the charge has to pass through both resistors."
+    },
+    {
+      "id": "13a",
+      "type": "work",
+      "marks": 2,
+      "q": "A 6 Ω resistor and a 3 Ω resistor are connected in <strong>parallel</strong> with a 6 V battery. Each resistor is on its own branch.<br>Calculate the current through the 6 Ω resistor. (A)",
+      "key": {
+        "num": 1
+      },
+      "ms": "Answer: 1 A. M1 for the potential difference across each branch = 6 V and I = 6 ÷ 6. A1 for 1 A."
+    },
+    {
+      "id": "13b",
+      "type": "num",
+      "marks": 1,
+      "q": "Calculate the current through the 3 Ω resistor. (A)",
+      "key": 2,
+      "ms": "Answer: 2 A. B1 for 6 ÷ 3 = 2."
+    },
+    {
+      "id": "13c",
+      "type": "num",
+      "marks": 1,
+      "q": "What is the total current from the battery? (A)",
+      "key": 3,
+      "ms": "Answer: 3 A. B1. In parallel, the branch currents add: 1 + 2 = 3."
+    },
+    {
+      "id": "13d",
+      "type": "written",
+      "marks": 2,
+      "q": "Explain why the total resistance of the two resistors in parallel is <strong>less</strong> than 3 Ω.",
+      "ms": "B1: adding a second branch gives the charge another path to flow through. B1: so the total current is bigger for the same potential difference, which means the total resistance is smaller (6 V ÷ 3 A = 2 Ω, less than either resistor)."
+    },
+    {
+      "id": "14",
+      "type": "written",
+      "marks": 6,
+      "q": "Describe a method to investigate how the length of a wire affects its resistance.<br>Include the equipment you would use, how you would make it a fair test, and how you would use your results.",
+      "ms": "6 marks, level-marked (AQA required practical). Level 3 (5-6 marks): a detailed, logically linked answer covering most points. Level 2 (3-4 marks): several relevant points, some linked. Level 1 (1-2 marks): simple, separate statements. Indicative content: connect the wire to a battery/power pack in series with an ammeter (and a switch); connect a voltmeter in parallel across the length of wire being tested; tape the wire to a metre ruler and use a crocodile clip to choose the length; start at e.g. 10 cm and increase in steps of 10 cm up to 100 cm; read the current and potential difference for each length; calculate resistance R = V ÷ I; repeat and take a mean; control variables: same wire material and thickness, same potential difference, same temperature; switch off between readings so the wire does not heat up (heating raises resistance / safety: wire can get hot); plot a graph of resistance against length; expect a straight line through the origin: resistance is directly proportional to length."
+    },
+    {
+      "id": "15",
+      "type": "written",
+      "marks": 3,
+      "q": "An LDR (light-dependent resistor) is used in a circuit that switches on a street lamp.<br>Explain how the resistance of the LDR and the current through it change when it gets dark.",
+      "ms": "B1: when it gets dark the light intensity falls, so the resistance of the LDR increases. B1: the current through the LDR decreases (for the same potential difference). B1: this change is used to switch the lamp on at night / the LDR takes a bigger share of the potential difference."
+    },
+    {
+      "id": "16a",
+      "type": "written",
+      "marks": 2,
+      "q": "Revisit (inheritance). In pea plants, the allele for tall plants (T) is dominant over the allele for short plants (t).<br>A Tt plant is crossed with a tt plant. Draw a Punnett square for this cross. Type the gametes of each parent and the genotypes of the four offspring.",
+      "ms": "B1: gametes T and t from the first parent, t and t from the second. B1: offspring Tt, Tt, tt, tt."
+    },
+    {
+      "id": "16b",
+      "type": "num",
+      "marks": 1,
+      "q": "What percentage of the offspring are expected to be short? (%)",
+      "key": 50,
+      "ms": "Answer: 50%. B1 (2 out of 4 offspring are tt)."
+    },
+    {
+      "id": "17a",
+      "type": "work",
+      "marks": 3,
+      "q": "Revisit (reacting masses). Magnesium burns in oxygen: 2Mg + O₂ → 2MgO<br>Calculate the maximum mass of magnesium oxide that can be made from 12 g of magnesium. (g)",
+      "key": {
+        "num": 20
+      },
+      "ms": "Answer: 20 g. M1 for Mr of MgO = 24 + 16 = 40. M1 for 12 ÷ 24 = 0.5 mol of Mg, which makes 0.5 mol of MgO (ratio 2 : 2), or 48 g Mg → 80 g MgO. A1 for 0.5 × 40 = 20 g."
+    },
+    {
+      "id": "17b",
+      "type": "work",
+      "marks": 2,
+      "q": "A student only collects 16 g of magnesium oxide. Calculate the percentage yield. (%)",
+      "key": {
+        "num": 80
+      },
+      "ms": "Answer: 80%. M1 for 16 ÷ 20 × 100. A1 for 80%. Follow through from their answer to 17a."
+    }
+  ]
+}
