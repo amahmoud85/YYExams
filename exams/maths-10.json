@@ -1,0 +1,288 @@
+{
+ "id": "maths-10",
+ "year": 8,
+ "order": 15,
+ "subject": "Maths",
+ "title": "Maths Exam 10",
+ "short": "Exam 10",
+ "topic": "Number · Non-calculator · Higher",
+ "minutes": 55,
+ "intro": "Edexcel Higher style. No calculator. Show your working in the working box: method marks count even if the final answer slips. Before you divide, ask yourself: is the number I'm dividing by bigger or smaller than 1?",
+ "questions": [
+  {
+   "id": "1",
+   "type": "mc",
+   "marks": 1,
+   "q": "Without working them out, which of these has the <b>biggest</b> answer?",
+   "options": [
+    "60 × 0.4",
+    "60 ÷ 0.4",
+    "60 ÷ 4",
+    "60 − 0.4"
+   ],
+   "key": 1,
+   "ms": "60 ÷ 0.4 = 150. Dividing by a number less than 1 makes the answer bigger. The others are 24, 15 and 59.6."
+  },
+  {
+   "id": "2",
+   "type": "num",
+   "marks": 1,
+   "q": "Work out 18 ÷ 0.3",
+   "key": 60,
+   "ms": "60. Multiply both numbers by 10: 180 ÷ 3 = 60. (How many 0.3s fit into 18? More than 18.)"
+  },
+  {
+   "id": "3",
+   "type": "work",
+   "marks": 3,
+   "q": "Work out an estimate for the value of <span class=\"frac\"><span>7.9 × 41.2</span><span>0.49</span></span>",
+   "key": {
+    "num": 640
+   },
+   "ms": "640. M1 round each number to 1 s.f.: 8, 40, 0.5. M1 8 × 40 = 320. A1 320 ÷ 0.5 = 640 (dividing by 0.5 doubles)."
+  },
+  {
+   "id": "4",
+   "type": "written",
+   "marks": 2,
+   "q": "Lina says: “48.7 ÷ 0.92 must be smaller than 48.7, because dividing always makes a number smaller.”<br>Explain why Lina is wrong, and give an estimate for 48.7 ÷ 0.92.",
+   "ms": "B1 0.92 is less than 1, so dividing by it makes the answer bigger than 48.7 (more than 48.7 lots of 0.92 fit in). B1 a sensible estimate, e.g. 50 ÷ 1 = 50 or 45 ÷ 0.9 = 50 (anything from 50 to 55 with a reason)."
+  },
+  {
+   "id": "5a",
+   "type": "num",
+   "marks": 1,
+   "q": "You are given that 47 × 32 = 1504.<br>Work out 4.7 × 3.2",
+   "key": 15.04,
+   "ms": "15.04. One decimal place in each number, so two in the answer: 1504 ÷ 100."
+  },
+  {
+   "id": "5b",
+   "type": "num",
+   "marks": 1,
+   "q": "Using 47 × 32 = 1504, work out 1504 ÷ 0.32",
+   "key": 4700,
+   "ms": "4700. 1504 ÷ 32 = 47, and 0.32 is 100 times smaller than 32, so the answer is 100 times bigger."
+  },
+  {
+   "id": "5c",
+   "type": "num",
+   "marks": 1,
+   "q": "Using 47 × 32 = 1504, work out 150.4 ÷ 4.7",
+   "key": 32,
+   "ms": "32. Both numbers are 10 times smaller than in 1504 ÷ 47, so the answer stays 32."
+  },
+  {
+   "id": "5d",
+   "type": "num",
+   "marks": 1,
+   "q": "Using 47 × 32 = 1504, work out 15.04 ÷ 0.047",
+   "key": 320,
+   "ms": "320. 15.04 is 100 times smaller than 1504, and 0.047 is 1000 times smaller than 47, so the answer is 32 × 1000 ÷ 100 = 320."
+  },
+  {
+   "id": "6",
+   "type": "num",
+   "marks": 1,
+   "q": "Work out −4 − (−2)<sup>3</sup>",
+   "key": 4,
+   "ms": "4. (−2)³ = −8 (odd power stays negative), so −4 − (−8) = −4 + 8 = 4."
+  },
+  {
+   "id": "7",
+   "type": "work",
+   "marks": 2,
+   "q": "Work out −10 − (−4)<sup>2</sup> ÷ 2",
+   "key": {
+    "num": -18
+   },
+   "ms": "−18. M1 (−4)² = 16 and 16 ÷ 2 = 8 (powers, then divide, then subtract), A1 −10 − 8 = −18. The minus in front of the bracket is not squared."
+  },
+  {
+   "id": "8",
+   "type": "text",
+   "marks": 1,
+   "q": "Round 0.049 97 to 3 significant figures.",
+   "key": [
+    "0.0500"
+   ],
+   "ms": "0.0500. The first significant figure is the 4; 0.04997 rounds up to 0.0500, and the two final zeros must stay to show 3 s.f."
+  },
+  {
+   "id": "9",
+   "type": "factors",
+   "marks": 2,
+   "q": "Write 360 as a product of its prime factors. Give your answer in index form.",
+   "key": {
+    "2": 3,
+    "3": 2,
+    "5": 1
+   },
+   "ms": "2³ × 3² × 5. M1 a correct factor tree or repeated division, A1 index form."
+  },
+  {
+   "id": "10",
+   "type": "factors",
+   "marks": 2,
+   "q": "Write 360<sup>2</sup> as a product of its prime factors in index form.",
+   "key": {
+    "2": 6,
+    "3": 4,
+    "5": 2
+   },
+   "hint": "Use your answer to question 9",
+   "ms": "2⁶ × 3⁴ × 5². Squaring multiplies every power by 2: (2³ × 3² × 5¹)². Don't forget 5 is 5¹, so it becomes 5². B1 for two powers correct."
+  },
+  {
+   "id": "11",
+   "type": "factors",
+   "marks": 2,
+   "q": "<i>A</i> = 2<sup>4</sup> × 3 × 5<sup>2</sup><br>Write <i>A</i><sup>3</sup> as a product of its prime factors in index form.",
+   "key": {
+    "2": 12,
+    "3": 3,
+    "5": 6
+   },
+   "ms": "2¹² × 3³ × 5⁶. Cubing multiplies every power by 3: 4 × 3 = 12, 1 × 3 = 3, 2 × 3 = 6. B1 for two powers correct."
+  },
+  {
+   "id": "12a",
+   "type": "written",
+   "marks": 1,
+   "q": "Use your answer to question 9 to explain why 360 is <b>not</b> a square number.",
+   "ms": "B1 in 2³ × 3² × 5 the powers of 2 and 5 (3 and 1) are odd; a square number has every power even."
+  },
+  {
+   "id": "12b",
+   "type": "work",
+   "marks": 2,
+   "q": "Find the smallest whole number you can multiply 360 by to make a square number.",
+   "key": {
+    "num": 10
+   },
+   "ms": "10. M1 need 2⁴ × 3² × 5², so multiply by 2 × 5, A1 10 (360 × 10 = 3600 = 60²)."
+  },
+  {
+   "id": "13a",
+   "type": "work",
+   "marks": 2,
+   "q": "72 = 2<sup>3</sup> × 3<sup>2</sup> and 120 = 2<sup>3</sup> × 3 × 5<br>Find the highest common factor (HCF) of 72 and 120.",
+   "key": {
+    "num": 24
+   },
+   "ms": "24. M1 common primes, lowest powers: 2³ × 3, A1 24."
+  },
+  {
+   "id": "13b",
+   "type": "work",
+   "marks": 3,
+   "q": "One lighthouse flashes every 72 seconds. Another flashes every 120 seconds. They flash together at exactly 9 pm.<br>How many seconds is it until they next flash together?",
+   "key": {
+    "num": 360
+   },
+   "ms": "360 seconds. M1 recognises the LCM is needed, M1 2³ × 3² × 5 (every prime, highest power), A1 360. Check the multiplication: 8 × 9 × 5 = 360."
+  },
+  {
+   "id": "14",
+   "type": "mc",
+   "marks": 1,
+   "q": "Which of these numbers is the smallest?",
+   "options": [
+    "3.2 × 10⁻³",
+    "0.0029",
+    "3.05 × 10⁻³",
+    "0.031"
+   ],
+   "key": 1,
+   "ms": "0.0029. Write them all as ordinary decimals: 0.0032, 0.0029, 0.00305, 0.031."
+  },
+  {
+   "id": "15",
+   "type": "text",
+   "marks": 2,
+   "q": "Work out (6 × 10<sup>4</sup>) × (5 × 10<sup>−7</sup>). Give your answer in standard form.",
+   "key": [
+    "3x10^-2",
+    "3.0x10^-2"
+   ],
+   "hint": "Type it like 3.2 × 10^-5",
+   "ms": "3 × 10⁻². M1 6 × 5 = 30 and 10⁴ × 10⁻⁷ = 10⁻³, so 30 × 10⁻³, A1 3 × 10⁻² (30 is not between 1 and 10, so adjust)."
+  },
+  {
+   "id": "16",
+   "type": "text",
+   "marks": 2,
+   "q": "Work out (3.6 × 10<sup>5</sup>) + (4 × 10<sup>4</sup>). Give your answer in standard form.",
+   "key": [
+    "4x10^5",
+    "4.0x10^5"
+   ],
+   "hint": "Type it like 3.2 × 10^-5",
+   "ms": "4 × 10⁵. M1 360 000 + 40 000 = 400 000 (or 3.6 × 10⁵ + 0.4 × 10⁵), A1 4 × 10⁵."
+  },
+  {
+   "id": "17a",
+   "type": "work",
+   "marks": 3,
+   "q": "Find the value of <i>x</i> when 4<sup><i>x</i></sup> × 2 = 2<sup>9</sup>",
+   "key": {
+    "num": 4
+   },
+   "ms": "x = 4. M1 4 = 2², so 4ˣ = 2²ˣ, M1 2x + 1 = 9, A1 x = 4. Give the value of x, not 2⁸."
+  },
+  {
+   "id": "17b",
+   "type": "work",
+   "marks": 3,
+   "q": "Solve 25<sup><i>n</i></sup> = 125",
+   "key": {
+    "num": 1.5
+   },
+   "ms": "n = 1.5 (or 3/2). M1 write both sides as powers of 5: 25 = 5², 125 = 5³, M1 5²ⁿ = 5³ so 2n = 3, A1 n = 1.5."
+  },
+  {
+   "id": "18",
+   "type": "work",
+   "marks": 2,
+   "q": "Work out the value of (<span class=\"frac\"><span>8</span><span>27</span></span>)<sup>−⅔</sup>. Give your answer as a fraction.",
+   "key": {
+    "num": 2.25
+   },
+   "ms": "9/4. M1 the negative power flips the fraction: (27/8)^⅔, and the cube root gives 3/2, A1 (3/2)² = 9/4."
+  },
+  {
+   "id": "19",
+   "type": "text",
+   "marks": 2,
+   "q": "Simplify fully √75 + √12",
+   "key": [
+    "7√3"
+   ],
+   "hint": "Use the √ button",
+   "ms": "7√3. M1 √75 = 5√3 and √12 = 2√3, A1 5√3 + 2√3 = 7√3. You can't add under the root: √75 + √12 is not √87."
+  },
+  {
+   "id": "20a",
+   "type": "work",
+   "marks": 2,
+   "q": "A rectangle has length √50 cm and width √8 cm.<br>Show that the area of the rectangle is a whole number of cm², and give its value.",
+   "key": {
+    "num": 20
+   },
+   "ms": "20 cm². M1 √50 × √8 = √400, A1 20."
+  },
+  {
+   "id": "20b",
+   "type": "work",
+   "marks": 3,
+   "q": "Work out the perimeter of the rectangle. Give your answer in the form <i>a</i>√2",
+   "key": {
+    "text": [
+     "14√2"
+    ]
+   },
+   "hint": "Use the √ button",
+   "ms": "14√2 cm. M1 √50 = √25 × √2 = 5√2 and √8 = √4 × √2 = 2√2, M1 2 × (5√2 + 2√2), A1 14√2."
+  }
+ ]
+}

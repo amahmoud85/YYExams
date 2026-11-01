@@ -1,0 +1,238 @@
+{
+ "id": "science-8",
+ "year": 8,
+ "order": 16,
+ "subject": "Science",
+ "title": "Science Exam 8",
+ "short": "Exam 8",
+ "topic": "Motion & Pressure · Health & Lifestyle · Periodic Table · Investigative skills",
+ "minutes": 60,
+ "intro": "AQA Higher style. You may use a calculator. For every calculation, write the equation first, then put the numbers in, and give the unit. For the longer answers write full sentences, give named examples, and check you have answered every part (“give two” means two).",
+ "questions": [
+  {
+   "id": "1",
+   "type": "mc",
+   "marks": 1,
+   "q": "A force of 200 N acts on an area of 4 m². What is the pressure?",
+   "options": [
+    "800 Pa",
+    "50 Pa",
+    "0.02 Pa",
+    "204 Pa"
+   ],
+   "key": 1,
+   "ms": "50 Pa. Pressure = force ÷ area = 200 ÷ 4. (800 Pa is force × area: wrong.)"
+  },
+  {
+   "id": "2",
+   "type": "work",
+   "marks": 3,
+   "q": "An elephant weighs 40 000 N. Each of its four feet has an area of 0.1 m² touching the ground.<br>Write down the equation that links pressure, force and area, then calculate the pressure the elephant exerts on the ground when standing on all four feet.",
+   "key": {
+    "num": 100000
+   },
+   "ms": "100 000 Pa (N/m²). B1 pressure = force ÷ area, M1 total area = 4 × 0.1 = 0.4 m² and 40 000 ÷ 0.4, A1 100 000 Pa."
+  },
+  {
+   "id": "3",
+   "type": "work",
+   "marks": 3,
+   "q": "A walker weighs 720 N. Snow can hold up a pressure of no more than 1200 Pa before you sink in.<br>Calculate the smallest total area of snowshoe needed so the walker does not sink. Give the unit.",
+   "key": {
+    "num": 0.6
+   },
+   "ms": "0.6 m². M1 pressure = force ÷ area, so area = force ÷ pressure, M1 720 ÷ 1200, A1 0.6 m²."
+  },
+  {
+   "id": "4",
+   "type": "written",
+   "marks": 4,
+   "q": "A drawing pin has a sharp point and a wide, flat head. You push it into a cork board with your thumb.<br>Explain why the pin goes into the board but does not hurt your thumb. Use the equation for pressure in your answer.",
+   "ms": "Pressure = force ÷ area (1); the same force acts at both ends of the pin (1); the point has a very small area, so the pressure on the board is very large and it goes in (1); the head has a large area, so the pressure on the thumb is small and it does not hurt (1)."
+  },
+  {
+   "id": "5",
+   "type": "written",
+   "marks": 2,
+   "q": "A student says: “Gas pressure is caused by gravity pulling the gas particles down onto the floor.”<br>Explain why the student is wrong.",
+   "ms": "Gas pressure acts in all directions, on the walls and the top of a container too, not just the floor (1); it is caused by gas particles colliding with the surfaces / walls and exerting a force (1)."
+  },
+  {
+   "id": "6",
+   "type": "written",
+   "marks": 4,
+   "q": "A sealed can of air is heated. The volume of the can does not change.<br>Explain, in terms of particles, why the pressure inside the can increases.",
+   "ms": "Particles gain energy and move faster (1); so they collide with the walls of the can more often / more collisions per second (1); and each collision is harder, with a bigger force (1); so a bigger total force on the same area, so a bigger pressure (1). (Gravity is not part of the answer.)"
+  },
+  {
+   "id": "7a",
+   "type": "mc",
+   "marks": 1,
+   "q": "The distance-time graph shows a cyclist's journey.<svg class=\"graph\" viewBox=\"0 0 310 220\" role=\"img\" aria-label=\"Distance-time graph\"><g class=\"grid\"><line x1=\"50\" y1=\"20\" x2=\"50\" y2=\"180\"/><line x1=\"90\" y1=\"20\" x2=\"90\" y2=\"180\"/><line x1=\"130\" y1=\"20\" x2=\"130\" y2=\"180\"/><line x1=\"170\" y1=\"20\" x2=\"170\" y2=\"180\"/><line x1=\"210\" y1=\"20\" x2=\"210\" y2=\"180\"/><line x1=\"250\" y1=\"20\" x2=\"250\" y2=\"180\"/><line x1=\"290\" y1=\"20\" x2=\"290\" y2=\"180\"/><line x1=\"50\" y1=\"20\" x2=\"290\" y2=\"20\"/><line x1=\"50\" y1=\"60\" x2=\"290\" y2=\"60\"/><line x1=\"50\" y1=\"100\" x2=\"290\" y2=\"100\"/><line x1=\"50\" y1=\"140\" x2=\"290\" y2=\"140\"/><line x1=\"50\" y1=\"180\" x2=\"290\" y2=\"180\"/></g><polyline class=\"plot\" points=\"50,180 130,140 210,140 290,20\"/><g class=\"lbl\"><text x=\"50\" y=\"196\" text-anchor=\"middle\">0</text><text x=\"90\" y=\"196\" text-anchor=\"middle\">10</text><text x=\"130\" y=\"196\" text-anchor=\"middle\">20</text><text x=\"170\" y=\"196\" text-anchor=\"middle\">30</text><text x=\"210\" y=\"196\" text-anchor=\"middle\">40</text><text x=\"250\" y=\"196\" text-anchor=\"middle\">50</text><text x=\"290\" y=\"196\" text-anchor=\"middle\">60</text><text x=\"42\" y=\"184\" text-anchor=\"end\">0</text><text x=\"42\" y=\"144\" text-anchor=\"end\">100</text><text x=\"42\" y=\"104\" text-anchor=\"end\">200</text><text x=\"42\" y=\"64\" text-anchor=\"end\">300</text><text x=\"42\" y=\"24\" text-anchor=\"end\">400</text><text class=\"sec\" x=\"84\" y=\"150\" text-anchor=\"middle\">A</text><text class=\"sec\" x=\"170\" y=\"132\" text-anchor=\"middle\">B</text><text class=\"sec\" x=\"238\" y=\"70\" text-anchor=\"middle\">C</text><text x=\"170\" y=\"214\" text-anchor=\"middle\">Time (s)</text><text x=\"12\" y=\"100\" text-anchor=\"middle\" transform=\"rotate(-90 12 100)\">Distance (m)</text></g></svg>What is the cyclist doing in section B?",
+   "options": [
+    "Moving at a steady speed",
+    "Speeding up",
+    "Stationary",
+    "Going back to the start"
+   ],
+   "key": 2,
+   "ms": "Stationary (stopped). The line is flat: the distance does not change while time goes on."
+  },
+  {
+   "id": "7b",
+   "type": "work",
+   "marks": 2,
+   "q": "Calculate the speed of the cyclist in section C.",
+   "key": {
+    "num": 15
+   },
+   "ms": "15 m/s. M1 gradient of C only = change in distance ÷ change in time = (400 − 100) ÷ (60 − 40) = 300 ÷ 20, A1 15 m/s. (Use the start and end of section C, not the origin.)"
+  },
+  {
+   "id": "7c",
+   "type": "work",
+   "marks": 2,
+   "q": "Calculate the cyclist's average speed for the whole 60 seconds. Give your answer to 1 decimal place.",
+   "key": {
+    "num": 6.7
+   },
+   "ms": "6.7 m/s. M1 total distance ÷ total time = 400 ÷ 60, A1 6.7 (6.66…). The stop in B counts as part of the time."
+  },
+  {
+   "id": "7d",
+   "type": "written",
+   "marks": 2,
+   "q": "Was the cyclist faster in section A or section C? Use the graph to explain how you can tell.",
+   "ms": "Section C (1): the line is steeper / speed in A = 100 ÷ 20 = 5 m/s compared with 15 m/s in C (1)."
+  },
+  {
+   "id": "8a",
+   "type": "mc",
+   "marks": 1,
+   "q": "Sam uses a spanner to undo a tight nut. Where should he push on the spanner to need the smallest force?",
+   "options": [
+    "Close to the nut",
+    "In the middle of the handle",
+    "At the end of the handle, furthest from the nut",
+    "It makes no difference where he pushes"
+   ],
+   "key": 2,
+   "ms": "At the end of the handle, furthest from the nut. The bigger the distance from the pivot, the bigger the moment for the same force."
+  },
+  {
+   "id": "8b",
+   "type": "work",
+   "marks": 2,
+   "q": "Sam pushes with a force of 40 N at a distance of 0.25 m from the nut.<br>Calculate the moment of the force.",
+   "key": {
+    "num": 10
+   },
+   "ms": "10 Nm. M1 moment = force × perpendicular distance from the pivot = 40 × 0.25, A1 10 Nm."
+  },
+  {
+   "id": "8c",
+   "type": "work",
+   "marks": 2,
+   "q": "Sam swaps to a longer spanner and pushes 0.4 m from the nut. The nut still needs a moment of 10 Nm to turn.<br>Calculate the force he now needs.",
+   "key": {
+    "num": 25
+   },
+   "ms": "25 N. M1 force = moment ÷ distance = 10 ÷ 0.4, A1 25 N. A longer distance means a smaller force is needed."
+  },
+  {
+   "id": "9",
+   "type": "written",
+   "marks": 6,
+   "q": "Yassin eats a cheese sandwich. The bread contains starch, and the cheese contains protein and fat.<br>Describe how these three nutrients are digested, starting in the mouth and ending with absorption in the small intestine. Name the enzymes and the products.",
+   "ms": "Level 3 (5-6): a clear organ-by-organ sequence from the mouth to absorption, naming enzymes and products for all three nutrients and the role of bile. Level 2 (3-4): most steps in order with some enzymes and products named. Level 1 (1-2): a few correct facts, e.g. food is broken down in the stomach. Points: mouth: teeth chew food (bigger surface area); salivary amylase starts breaking starch into sugars (maltose/glucose). Stomach: protease (pepsin) breaks protein into amino acids; hydrochloric acid kills bacteria and suits the enzyme. Small intestine: bile from the liver (stored in the gall bladder) breaks fat into small droplets (emulsifies), giving a bigger surface area; lipase breaks fat into fatty acids and glycerol; amylase and protease finish starch and protein. Small, soluble products are absorbed through the villi into the blood."
+  },
+  {
+   "id": "10",
+   "type": "written",
+   "marks": 2,
+   "q": "Explain how bile helps lipase to digest fat more quickly.",
+   "ms": "Bile breaks large fat drops into small droplets / emulsifies the fat (1); this gives a much bigger surface area for lipase to work on (1). (Bile also neutralises stomach acid. It is not an enzyme and does not make amino acids.)"
+  },
+  {
+   "id": "11a",
+   "type": "mc",
+   "marks": 1,
+   "q": "A sailor on a long voyage has bleeding gums and slow-healing cuts. Which deficiency disease does he have?",
+   "options": [
+    "Rickets",
+    "Scurvy",
+    "Anaemia",
+    "Goitre"
+   ],
+   "key": 1,
+   "ms": "Scurvy, caused by a lack of vitamin C (found in fresh fruit and vegetables)."
+  },
+  {
+   "id": "11b",
+   "type": "text",
+   "marks": 1,
+   "q": "A person is often tired and has pale skin. A blood test shows they are not getting enough iron.<br>Name the deficiency disease.",
+   "key": [
+    "anaemia",
+    "anemia"
+   ],
+   "ms": "Anaemia (lack of iron means fewer red blood cells / less haemoglobin to carry oxygen)."
+  },
+  {
+   "id": "12",
+   "type": "written",
+   "marks": 3,
+   "q": "Alcohol is a depressant.<br>State what a depressant does to the body, and give <b>two</b> different long-term effects of drinking large amounts of alcohol.",
+   "ms": "A depressant slows down the nervous system / brain, so reactions are slower (1). Any two (1 each): liver damage (cirrhosis); brain damage; addiction; heart disease / high blood pressure; damage to an unborn baby."
+  },
+  {
+   "id": "13",
+   "type": "written",
+   "marks": 3,
+   "q": "Cigarette smoke contains carbon monoxide.<br>Explain why a smoker gets out of breath sooner than a non-smoker when playing football.",
+   "ms": "Carbon monoxide joins onto haemoglobin in red blood cells (1); so the blood carries less oxygen to the muscles (1); so less respiration / less energy released in the muscles, so the smoker breathes faster to try to get more oxygen (1). (Answers must finish the chain to the muscles.)"
+  },
+  {
+   "id": "14",
+   "type": "written",
+   "marks": 3,
+   "q": "A small piece of lithium is added to a bowl of water.<br>Give <b>two</b> things you would see, and name the gas that is made.",
+   "ms": "Any two observations (1 each): it floats; it fizzes / bubbles; it moves around on the surface; it gets smaller and disappears. Gas: hydrogen (1). (Lithium reacts slowly compared with sodium and potassium; it does not melt or burn.)"
+  },
+  {
+   "id": "15a",
+   "type": "written",
+   "marks": 2,
+   "q": "A student investigates how the number of minutes of exercise affects her heart rate. She jogs for 1, 2, 3, 4 and 5 minutes and measures her heart rate after each.<br>Name the independent variable and the dependent variable.",
+   "ms": "Independent: the number of minutes of exercise (what she changes) (1). Dependent: heart rate (what she measures) (1)."
+  },
+  {
+   "id": "15b",
+   "type": "written",
+   "marks": 1,
+   "q": "Give <b>one</b> control variable in her investigation.",
+   "ms": "Any one (1): the same person; the same type / speed of exercise; the same rest time before each test; measure the heart rate at the same time after stopping."
+  },
+  {
+   "id": "15c",
+   "type": "mc",
+   "marks": 1,
+   "q": "Her friend compares heart rate after four different activities: walking, jogging, skipping and swimming. Which type of graph should he draw?",
+   "options": [
+    "Line graph",
+    "Scatter graph",
+    "Bar chart",
+    "Pie chart"
+   ],
+   "key": 2,
+   "ms": "Bar chart, because the type of activity is a categoric variable (words, not numbers)."
+  },
+  {
+   "id": "15d",
+   "type": "written",
+   "marks": 2,
+   "q": "The student counted her pulse for 10 seconds and multiplied by 6.<br>Suggest <b>one</b> improvement to the method and explain how it would help.",
+   "ms": "Improvement (1): count for a full 60 seconds / use a heart-rate monitor / repeat each test and take a mean. Explanation (1): a miscount is not multiplied by 6, so the result is more accurate / reduces the effect of random errors. (A reason alone, with no change to the method, scores 0.)"
+  }
+ ]
+}
