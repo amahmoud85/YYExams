@@ -188,6 +188,7 @@ function renderQuestion(exam, q, a, locked, onChange) {
     li.append(el("label", { className: "field" }, el("span", { textContent: q.type === "work" ? (q.conclusion ? "Conclusion" : "Final answer") : "Answer" }), inp));
     if (q.hint) li.append(el("div", { className: "hint", textContent: q.hint }));
     if (q.type === "factors") li.append(el("div", { className: "hint", textContent: "Type it like 2^3 × 5 (use ^ for powers)" }));
+    else if (/\b(give|include|state|with) (the |your )?units?\b/i.test(q.q)) li.append(el("div", { className: "hint", textContent: "Include the unit. Type powers with ^, e.g. m^2, cm^3, N/m^2" }));
     if (isMaths && !locked) {
       let last = inp;
       if (work) work.addEventListener("focus", () => last = work);
