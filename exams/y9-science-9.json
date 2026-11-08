@@ -1,0 +1,314 @@
+{
+  "id": "y9-science-9",
+  "year": 9,
+  "subject": "Science",
+  "title": "Year 9 Science Exam 9",
+  "short": "Exam 9",
+  "topic": "Electricity and magnetism · Mains electricity, power, magnets and electromagnets · AQA Higher",
+  "minutes": 75,
+  "order": 9,
+  "intro": "You may use a calculator. For longer answers write in full sentences and use key words. Describe = say what happens; Explain = say what happens and why (use because and so). 6-mark questions are marked on how well your ideas link together: plan for a minute, then write about 6 linked points. Show your working for calculations and give units. Equations: P = V × I; P = I² × R; E = P × t; Q = I × t; V = I × R; F = B × I × l. Relative atomic masses (Ar): C = 12, O = 16, Ca = 40. Questions 16 to 18 go back over earlier units.",
+  "questions": [
+    {
+      "id": "1",
+      "type": "mc",
+      "marks": 1,
+      "q": "What is the frequency of the UK mains electricity supply?",
+      "options": [
+        "50 Hz",
+        "230 Hz",
+        "60 Hz",
+        "13 Hz"
+      ],
+      "key": 0,
+      "ms": "B1: 50 Hz. UK mains is 230 V alternating current at 50 Hz."
+    },
+    {
+      "id": "2",
+      "type": "mc",
+      "marks": 1,
+      "q": "What colour is the insulation on the <strong>live</strong> wire in a three-core cable?",
+      "options": [
+        "Blue",
+        "Brown",
+        "Green and yellow stripes",
+        "Black"
+      ],
+      "key": 1,
+      "ms": "B1: brown. Neutral is blue; earth is green and yellow stripes."
+    },
+    {
+      "id": "3",
+      "type": "mc",
+      "marks": 1,
+      "q": "What is the difference between alternating current (ac) and direct current (dc)?",
+      "options": [
+        "ac only flows in metals",
+        "ac keeps changing direction; dc flows in one direction only",
+        "dc keeps changing direction; ac flows in one direction only",
+        "ac is always a smaller current than dc"
+      ],
+      "key": 1,
+      "ms": "B1: ac repeatedly changes direction; dc (from a cell or battery) flows one way only."
+    },
+    {
+      "id": "4",
+      "type": "mc",
+      "marks": 1,
+      "q": "Which of these is a magnetic material?",
+      "options": [
+        "Copper",
+        "Aluminium",
+        "Steel",
+        "Plastic"
+      ],
+      "key": 2,
+      "ms": "B1: steel. The magnetic materials are iron, steel, cobalt and nickel."
+    },
+    {
+      "id": "5",
+      "type": "mc",
+      "marks": 1,
+      "q": "A steel paperclip is placed near a bar magnet and becomes an induced magnet. What force is there between them?",
+      "options": [
+        "Always attraction",
+        "Always repulsion",
+        "Attraction or repulsion, depending on the pole",
+        "No force"
+      ],
+      "key": 0,
+      "ms": "B1: always attraction. An induced magnet always attracts the magnet that induced it."
+    },
+    {
+      "id": "6",
+      "type": "mc",
+      "marks": 1,
+      "q": "Which way do magnetic field lines point outside a bar magnet?",
+      "options": [
+        "From the south pole to the north pole",
+        "From the north pole to the south pole",
+        "Round in circles about the middle of the magnet",
+        "Straight out from both poles"
+      ],
+      "key": 1,
+      "ms": "B1: from north to south. A plotting compass points along the field lines, away from N and towards S."
+    },
+    {
+      "id": "7a",
+      "type": "written",
+      "marks": 2,
+      "q": "A lamp is switched off, but the live wire is still connected to the lamp holder.<br>Explain why a person who touches the live wire can still get an electric shock.",
+      "ms": "B1: the live wire is still at a high potential (about 230 V) even when the switch is open. B1: the person's body is at 0 V (earth), so there is a large potential difference across the body and a current flows through it to earth."
+    },
+    {
+      "id": "7b",
+      "type": "written",
+      "marks": 3,
+      "q": "A kettle has a metal case. A fault makes the live wire touch the case.<br>Explain how the earth wire and the fuse protect the user.",
+      "ms": "B1: the earth wire connects the case to earth / gives a low-resistance path, so the current flows through the earth wire (not the person). B1: a very large current flows. B1: the fuse melts / blows and breaks the circuit, so the case is no longer live (cuts off the live wire)."
+    },
+    {
+      "id": "8a",
+      "type": "work",
+      "marks": 2,
+      "q": "A kettle is connected to the 230 V mains. The current through it is 10 A.<br>Calculate the power of the kettle. (W)",
+      "key": {
+        "num": 2300
+      },
+      "ms": "Answer: 2300 W. M1 for P = 230 × 10. A1 for 2300 W (accept 2.3 kW)."
+    },
+    {
+      "id": "8b",
+      "type": "work",
+      "marks": 3,
+      "q": "The kettle is switched on for 3 minutes.<br>Calculate the energy transferred by the kettle. (J)",
+      "key": {
+        "num": 414000
+      },
+      "ms": "Answer: 414 000 J. B1 for 3 minutes = 180 s. M1 for E = 2300 × 180. A1 for 414 000 J. Follow through from 8a. Using t = 3 (6900 J): B0 M1 A0."
+    },
+    {
+      "id": "8c",
+      "type": "work",
+      "marks": 2,
+      "q": "A current of 3 A flows through a heater with a resistance of 20 Ω.<br>Calculate the power of the heater. (W)",
+      "key": {
+        "num": 180
+      },
+      "ms": "Answer: 180 W. M1 for P = 3² × 20 = 9 × 20. A1 for 180 W. Common mistake: 3 × 20 = 60 (forgot to square the current)."
+    },
+    {
+      "id": "9a",
+      "type": "mc",
+      "marks": 1,
+      "q": "In the National Grid, what does a step-up transformer do?",
+      "options": [
+        "Increases the potential difference and decreases the current",
+        "Increases both the potential difference and the current",
+        "Decreases the potential difference and increases the current",
+        "Changes ac into dc"
+      ],
+      "key": 0,
+      "ms": "B1: it increases the potential difference (to hundreds of thousands of volts) and decreases the current, so the power stays the same."
+    },
+    {
+      "id": "9b",
+      "type": "written",
+      "marks": 3,
+      "q": "Explain why electricity is sent through the National Grid cables at a very high potential difference.",
+      "ms": "B1: a high potential difference means a low current (for the same power, P = VI). B1: a lower current means less heating of the cables (P = I²R). B1: so less energy is wasted / lost to the surroundings, which makes the National Grid more efficient."
+    },
+    {
+      "id": "10",
+      "type": "written",
+      "marks": 4,
+      "q": "Describe how to use a plotting compass to show the shape of the magnetic field around a bar magnet, and describe the pattern you would see.",
+      "ms": "B1: put the magnet on paper and place the compass near one pole; mark the direction the needle points with dots at both ends. B1: move the compass so its tail is on the last dot, mark again, and repeat until you reach the other pole; join the dots to make a field line, then repeat from different starting points. B1: the lines go from the north pole round to the south pole (draw arrows N to S). B1: the lines are closest together at the poles, where the field is strongest."
+    },
+    {
+      "id": "11",
+      "type": "written",
+      "marks": 2,
+      "q": "Describe the difference between a permanent magnet and an induced magnet.",
+      "ms": "B1: a permanent magnet makes its own magnetic field all the time. B1: an induced magnet only becomes a magnet when it is in a magnetic field, and loses most or all of its magnetism when taken out of the field."
+    },
+    {
+      "id": "12a",
+      "type": "written",
+      "marks": 2,
+      "q": "A current flows through a long straight wire. Describe the magnetic field around the wire.",
+      "ms": "B1: the field lines are circles around the wire (concentric circles). B1: the field is strongest close to the wire / gets weaker further away; reversing the current reverses the direction of the field. (Any 2.)"
+    },
+    {
+      "id": "12b",
+      "type": "mc",
+      "marks": 1,
+      "q": "A student makes an electromagnet by winding a coil of wire around an iron nail. She counts how many paperclips it picks up for different numbers of turns.<br><table class=\"data\"><tr><th>Number of turns</th><td>Trial 1</td><td>Trial 2</td><td>Trial 3</td><td>Mean</td></tr><tr><th>10</th><td>3</td><td>4</td><td>2</td><td>3</td></tr><tr><th>20</th><td>6</td><td>7</td><td>5</td><td>6</td></tr><tr><th>30</th><td>9</td><td>10</td><td>8</td><td>9</td></tr><tr><th>40</th><td>12</td><td>4</td><td>12</td><td>X</td></tr><tr><th>50</th><td>15</td><td>16</td><td>14</td><td>15</td></tr></table><br>One result in the row for 40 turns is anomalous. Which one?",
+      "options": [
+        "Trial 1",
+        "Trial 2",
+        "Trial 3",
+        "There is no anomaly"
+      ],
+      "key": 1,
+      "ms": "Answer: trial 2. B1. 4 paperclips is far below the other two (12 and 12) and does not fit the pattern."
+    },
+    {
+      "id": "12c",
+      "type": "num",
+      "marks": 1,
+      "q": "Calculate the mean number of paperclips X for 40 turns, ignoring the anomaly.",
+      "key": 12,
+      "ms": "Answer: 12. B1 for (12 + 12) ÷ 2 = 12. Including the anomaly (9.3): 0."
+    },
+    {
+      "id": "12d",
+      "type": "written",
+      "marks": 2,
+      "q": "Describe the relationship between the number of turns and the number of paperclips picked up. Use data from the table.",
+      "ms": "B1: as the number of turns increases, the number of paperclips increases. B1: they are directly proportional / every extra 10 turns picks up 3 more paperclips, e.g. 10 turns picks up 3 and 20 turns picks up 6 (doubling the turns doubles the paperclips)."
+    },
+    {
+      "id": "12e",
+      "type": "written",
+      "marks": 2,
+      "q": "Give <strong>two</strong> control variables for this investigation.",
+      "ms": "B1 each, any two: the current / potential difference of the power supply; the same type and size of iron core (nail); the same size and type of paperclips; the same wire."
+    },
+    {
+      "id": "13",
+      "type": "written",
+      "marks": 6,
+      "q": "A scrapyard crane uses a large electromagnet to lift old cars and drop them into a crusher.<br>Explain how the electromagnet works, why an electromagnet is used instead of a permanent magnet, and how the electromagnet could be made stronger.",
+      "ms": "6 marks, level-marked. Level 3 (5-6 marks): a detailed, logically linked answer covering most points. Level 2 (3-4 marks): several relevant points, some linked. Level 1 (1-2 marks): simple, separate statements. Indicative content: a current flows through a coil of wire (solenoid); this makes a magnetic field around the coil; the coil is wound around an iron core; the iron core becomes an induced magnet and makes the field much stronger; car bodies are made of steel, which is a magnetic material, so they are attracted; an electromagnet can be switched off: when the current is switched off the field disappears (iron is magnetically soft / loses its magnetism) and the car is dropped over the crusher; a permanent magnet cannot be switched off, so it could not let go of the car; stronger: increase the current, increase the number of turns on the coil, use an iron core (or a larger one) / put the turns closer together."
+    },
+    {
+      "id": "14a",
+      "type": "work",
+      "marks": 2,
+      "q": "Higher. A wire carrying a current of 3 A is placed at right angles to a magnetic field of flux density 0.2 T. The length of wire in the field is 0.5 m.<br>Calculate the force on the wire. (N)",
+      "key": {
+        "num": 0.3
+      },
+      "ms": "Answer: 0.3 N. M1 for F = 0.2 × 3 × 0.5. A1 for 0.3 N."
+    },
+    {
+      "id": "14b",
+      "type": "mc",
+      "marks": 1,
+      "q": "In Fleming's left-hand rule, what does the <strong>first finger</strong> point in the direction of?",
+      "options": [
+        "The force (motion)",
+        "The current",
+        "The magnetic field",
+        "The electrons"
+      ],
+      "key": 2,
+      "ms": "B1: the magnetic field (First finger = Field, seCond finger = Current, thuMb = Motion)."
+    },
+    {
+      "id": "15",
+      "type": "written",
+      "marks": 6,
+      "q": "Describe how a student could investigate how the current through a coil affects the strength of an electromagnet.<br>Include the equipment, how to measure the strength, how to make it a fair test, and how to use the results.",
+      "ms": "6 marks, level-marked (investigative skills). Level 3 (5-6 marks): a detailed, logically linked answer covering most points. Level 2 (3-4 marks): several relevant points, some linked. Level 1 (1-2 marks): simple, separate statements. Indicative content: wind a coil of insulated wire around an iron nail / core; connect it in series with a power supply, a variable resistor (rheostat) and an ammeter; use the variable resistor to set the current, e.g. 0.5 A, 1.0 A, 1.5 A, 2.0 A, 2.5 A; measure strength by counting the paperclips picked up (or the distance at which a compass needle moves, or a mass on a balance); repeat each current three times and work out a mean, ignoring anomalies; control variables: same number of turns, same core, same size paperclips, same wire; switch off between readings because the wire gets hot (safety, and heating changes the resistance); plot a line graph of current (x-axis) against number of paperclips (y-axis) and describe the pattern: a bigger current makes a stronger electromagnet."
+    },
+    {
+      "id": "16a",
+      "type": "work",
+      "marks": 2,
+      "q": "Revisit (circuits). A 5 Ω resistor and a 15 Ω resistor are connected in <strong>series</strong> with a 6 V battery.<br>Calculate the current in the circuit. (A)",
+      "key": {
+        "num": 0.3
+      },
+      "ms": "Answer: 0.3 A. M1 for total resistance 5 + 15 = 20 Ω and I = 6 ÷ 20. A1 for 0.3 A."
+    },
+    {
+      "id": "16b",
+      "type": "work",
+      "marks": 2,
+      "q": "Calculate the potential difference across the 15 Ω resistor. (V)",
+      "key": {
+        "num": 4.5
+      },
+      "ms": "Answer: 4.5 V. M1 for V = 0.3 × 15. A1 for 4.5 V. (The 5 Ω resistor gets the other 1.5 V.)"
+    },
+    {
+      "id": "17",
+      "type": "work",
+      "marks": 3,
+      "q": "Revisit (charge). A current of 0.4 A flows through a motor for 5 minutes.<br>Calculate the charge that flows through the motor. (C)",
+      "key": {
+        "num": 120
+      },
+      "ms": "Answer: 120 C. B1 for 5 minutes = 300 s. M1 for Q = 0.4 × 300. A1 for 120 C. Using t = 5 (2 C): B0 M1 A0."
+    },
+    {
+      "id": "18a",
+      "type": "work",
+      "marks": 3,
+      "q": "Revisit (reacting masses). When calcium carbonate is heated it breaks down: CaCO₃ → CaO + CO₂<br>Calculate the maximum mass of calcium oxide (CaO) that can be made from 50 g of calcium carbonate. (g)",
+      "key": {
+        "num": 28
+      },
+      "ms": "Answer: 28 g. M1 for Mr of CaCO₃ = 40 + 12 + 3 × 16 = 100. M1 for Mr of CaO = 40 + 16 = 56 (ratio 1 : 1, so 100 g → 56 g). A1 for 50 × 56/100 = 28 g."
+    },
+    {
+      "id": "18b",
+      "type": "work",
+      "marks": 2,
+      "q": "A student only collects 21 g of calcium oxide. Calculate the percentage yield. (%)",
+      "key": {
+        "num": 75
+      },
+      "ms": "Answer: 75%. M1 for 21 ÷ 28 × 100. A1 for 75%. Follow through from 18a."
+    },
+    {
+      "id": "18c",
+      "type": "written",
+      "marks": 2,
+      "q": "Give <strong>two</strong> reasons why the actual yield is less than the maximum.",
+      "ms": "B1 each, any two: the reaction was not complete (not all of the calcium carbonate broke down); some product was lost, e.g. left in the container or spilt when transferring; the calcium carbonate was not pure; some of the product reacted in a different way / with something else."
+    }
+  ]
+}

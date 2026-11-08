@@ -1,0 +1,339 @@
+{
+  "id": "y9-maths-9",
+  "year": 9,
+  "subject": "Maths",
+  "title": "Year 9 Maths Exam 9",
+  "short": "Exam 9",
+  "topic": "Ratio and proportion · Algebra and number review · Calculator · Higher",
+  "minutes": 80,
+  "order": 9,
+  "intro": "You may use a calculator. Show your working in the working box: method marks are given even when the final answer is wrong. Give ratios in their simplest form. \"Show that\" means write every step to reach the given answer. \"Prove\" means use algebra, not just numbers. Read the last line of each question again before you answer, to check what it asks for. Questions 16 to 25 go back over topics from earlier exams.",
+  "questions": [
+    {
+      "id": "1",
+      "type": "mc",
+      "marks": 1,
+      "q": "Write the ratio 45 : 60 in its simplest form.",
+      "options": [
+        "9 : 12",
+        "3 : 4",
+        "4 : 3",
+        "15 : 20"
+      ],
+      "key": 1,
+      "ms": "B1: 3 : 4. Divide both numbers by their HCF, 15."
+    },
+    {
+      "id": "2",
+      "type": "mc",
+      "marks": 1,
+      "q": "In a club the ratio of boys to girls is 2 : 3. What fraction of the club are girls?",
+      "options": [
+        "2/3",
+        "3/5",
+        "2/5",
+        "3/2"
+      ],
+      "key": 1,
+      "ms": "B1: 3/5. There are 2 + 3 = 5 parts altogether, and 3 of them are girls."
+    },
+    {
+      "id": "3",
+      "type": "text",
+      "marks": 1,
+      "q": "Write 1.2 m : 45 cm as a ratio in its simplest form.",
+      "key": [
+        "8:3"
+      ],
+      "hint": "Type it like 2:5",
+      "ms": "Answer: 8 : 3. B1. Change to the same units first: 120 cm : 45 cm, then divide by 15."
+    },
+    {
+      "id": "4",
+      "type": "num",
+      "marks": 1,
+      "q": "Write the ratio 4 : 10 in the form 1 : <i>n</i>. What is the value of <i>n</i>?",
+      "key": 2.5,
+      "ms": "Answer: n = 2.5. B1. Divide both sides by 4: 1 : 2.5."
+    },
+    {
+      "id": "5",
+      "type": "work",
+      "marks": 2,
+      "q": "Amir, Bilal and Zara share AED 360 in the ratio 2 : 3 : 4.<br>How much does Zara get? (AED)",
+      "key": {
+        "num": 160
+      },
+      "ms": "Answer: AED 160. M1 for 360 ÷ 9 = 40 (one part). A1 for 4 × 40 = 160."
+    },
+    {
+      "id": "6",
+      "type": "work",
+      "marks": 3,
+      "q": "Ali and Ben share some sweets in the ratio 5 : 3. Ali gets 18 more sweets than Ben.<br>How many sweets are there altogether?",
+      "key": {
+        "num": 72
+      },
+      "ms": "Answer: 72. M1 for the difference = 5 − 3 = 2 parts. M1 for 2 parts = 18, so 1 part = 9. A1 for 8 × 9 = 72. Common mistake: sharing 18 in the ratio 5 : 3."
+    },
+    {
+      "id": "7",
+      "type": "work",
+      "marks": 2,
+      "q": "In a box of beads, the ratio of red beads to blue beads is 3 : 7. There are 21 red beads.<br>How many blue beads are there?",
+      "key": {
+        "num": 49
+      },
+      "ms": "Answer: 49. M1 for 21 ÷ 3 = 7 (one part). A1 for 7 × 7 = 49."
+    },
+    {
+      "id": "8",
+      "type": "work",
+      "marks": 3,
+      "q": "<i>a</i> : <i>b</i> = 2 : 3 and <i>b</i> : <i>c</i> = 4 : 5<br>Find <i>a</i> : <i>b</i> : <i>c</i> in its simplest form.",
+      "key": {
+        "text": [
+          "8:12:15"
+        ]
+      },
+      "hint": "Type it like 2:5:7",
+      "ms": "Answer: 8 : 12 : 15. M1 for making the b parts the same (LCM of 3 and 4 = 12). M1 for a : b = 8 : 12 and b : c = 12 : 15. A1 for 8 : 12 : 15."
+    },
+    {
+      "id": "9",
+      "type": "work",
+      "marks": 3,
+      "q": "A bag holds red and green counters in the ratio 3 : 5. Nadia adds 6 more red counters. The ratio of red to green is now 3 : 4.<br>How many green counters are in the bag?",
+      "key": {
+        "num": 40
+      },
+      "ms": "Answer: 40. M1 for red = 3k, green = 5k (or listing ratios 3:5, 6:10, ...). M1 for (3k + 6) : 5k = 3 : 4, so 4(3k + 6) = 15k, 12k + 24 = 15k. A1 for k = 8, so green = 5 × 8 = 40. (Check: red 24 + 6 = 30, and 30 : 40 = 3 : 4.)"
+    },
+    {
+      "id": "10",
+      "type": "work",
+      "marks": 3,
+      "q": "Orange juice is sold in two sizes.<br>Small: 750 ml for AED 8.25<br>Large: 1.2 litres for AED 12.60<br>Which size is the better value for money? You must show how you decide.",
+      "key": {
+        "text": [
+          "large",
+          "1.2litres",
+          "1.2litre",
+          "1.2l",
+          "1200ml"
+        ]
+      },
+      "hint": "Type small or large",
+      "ms": "Answer: Large (1.2 litres). M1 for a comparable value for one size, e.g. 8.25 ÷ 750 = 0.011 AED per ml or 1 litre costs AED 11. M1 for the other, e.g. 12.60 ÷ 1200 = 0.0105 AED per ml or 1 litre costs AED 10.50. A1 for 'large' with both values shown. No working: 0 marks."
+    },
+    {
+      "id": "11",
+      "type": "work",
+      "marks": 2,
+      "q": "A recipe for 6 people uses 450 g of flour.<br>How much flour is needed for 10 people? (g)",
+      "key": {
+        "num": 750
+      },
+      "ms": "Answer: 750 g. M1 for 450 ÷ 6 = 75 g per person (or 450 × 10/6). A1 for 750."
+    },
+    {
+      "id": "12a",
+      "type": "work",
+      "marks": 2,
+      "q": "The exchange rate is £1 = AED 4.80.<br>A hotel in London costs £85 a night. Sara stays for 3 nights.<br>Work out the total cost in AED.",
+      "key": {
+        "num": 1224
+      },
+      "ms": "Answer: AED 1224. M1 for 85 × 3 = 255 or 85 × 4.80 = 408. A1 for 255 × 4.80 = 1224."
+    },
+    {
+      "id": "12b",
+      "type": "work",
+      "marks": 2,
+      "q": "Sara changes AED 2000 into pounds at the same rate.<br>How many pounds does she get? Give your answer to the nearest penny. (£)",
+      "key": {
+        "num": 416.67
+      },
+      "ms": "Answer: £416.67. M1 for 2000 ÷ 4.80. A1 for 416.67 (416.66… seen with the wrong rounding: M1 A0). Multiplying by 4.80 (9600): 0."
+    },
+    {
+      "id": "13",
+      "type": "work",
+      "marks": 2,
+      "q": "A map has a scale of 1 : 25 000.<br>Two towers are 6 cm apart on the map. How far apart are they in real life? Give your answer in km. (km)",
+      "key": {
+        "num": 1.5
+      },
+      "ms": "Answer: 1.5 km. M1 for 6 × 25 000 = 150 000 cm. A1 for 1.5 km (150 000 cm = 1500 m = 1.5 km)."
+    },
+    {
+      "id": "14",
+      "type": "work",
+      "marks": 2,
+      "q": "Another map has a scale of 1 : 50 000.<br>A road is 4.2 km long. How long is the road on the map? (cm)",
+      "key": {
+        "num": 8.4
+      },
+      "ms": "Answer: 8.4 cm. M1 for 4.2 km = 420 000 cm. A1 for 420 000 ÷ 50 000 = 8.4 cm."
+    },
+    {
+      "id": "15",
+      "type": "work",
+      "marks": 2,
+      "q": "8 pens cost AED 14.40.<br>Work out the cost of 13 of these pens. (AED)",
+      "key": {
+        "num": 23.4
+      },
+      "ms": "Answer: AED 23.40. M1 for 14.40 ÷ 8 = 1.80 (cost of one pen). A1 for 13 × 1.80 = 23.40."
+    },
+    {
+      "id": "16",
+      "type": "work",
+      "marks": 3,
+      "q": "Revisit (compound interest). Karim invests AED 8000 in a bank account. It pays 3.5% <strong>compound</strong> interest per year.<br>Work out how much is in the account after 4 years. Give your answer to 2 decimal places. (AED)",
+      "key": {
+        "num": 9180.18
+      },
+      "ms": "Answer: AED 9180.18. M1 for the multiplier 1.035. M1 for 8000 × 1.035⁴ (or year by year: 8280, 8569.80, 8869.74, 9180.18). A1 for 9180.18. Simple interest (8000 + 4 × 280 = 9120): 0 marks."
+    },
+    {
+      "id": "17",
+      "type": "work",
+      "marks": 3,
+      "q": "Revisit (fractions of the remainder). 240 people are at a concert. <span class=\"frac\"><span>3</span><span>8</span></span> of them are adults. <span class=\"frac\"><span>2</span><span>5</span></span> of the <strong>rest</strong> are teenagers. All the others are children.<br>How many children are at the concert?",
+      "key": {
+        "num": 90
+      },
+      "ms": "Answer: 90. M1 for adults = 90, so the rest = 150. M1 for teenagers = 2/5 × 150 = 60. A1 for 150 − 60 = 90. Common mistake: taking 2/5 of 240 instead of 2/5 of the rest."
+    },
+    {
+      "id": "18",
+      "type": "work",
+      "marks": 2,
+      "q": "Revisit (mixed numbers). Work out 5<span class=\"frac\"><span>1</span><span>4</span></span> − 2<span class=\"frac\"><span>2</span><span>3</span></span><br>Show your working. Give your answer as a mixed number.",
+      "key": {
+        "text": [
+          "27/12",
+          "31/12"
+        ]
+      },
+      "hint": "Type a mixed number with a space, like 2 3/4 (or an improper fraction like 11/4)",
+      "ms": "Answer: 2 7/12. M1 for 21/4 − 8/3 written as 63/12 − 32/12 (or 3 + 1/4 − 2/3 = 3 − 5/12). A1 for 2 7/12 (accept 31/12). Check the sign: it is a minus."
+    },
+    {
+      "id": "19",
+      "type": "work",
+      "marks": 3,
+      "q": "Revisit (recurring decimals). Use algebra to show that the recurring decimal 0.2̇7̇ (which means 0.272727…) is equal to 3/11.",
+      "ms": "M1 for x = 0.2727… and 100x = 27.2727… M1 for subtracting: 99x = 27. A1 for x = 27/99 = 3/11 (simplifying step shown: divide by 9). Dividing 3 by 11 on a calculator: 0 marks, because the question asks for algebra."
+    },
+    {
+      "id": "20a",
+      "type": "work",
+      "marks": 1,
+      "q": "Revisit (quadratic graphs). The curve <i>y</i> = (<i>x</i> − 2)(<i>x</i> + 6) crosses the <i>x</i>-axis at two points.<br>Write down the two <i>x</i>-values where the curve crosses the <i>x</i>-axis.",
+      "key": {
+        "text": [
+          "2,-6",
+          "-6,2"
+        ]
+      },
+      "hint": "Type both answers separated by a comma, like 3,-2",
+      "ms": "Answer: x = 2 and x = −6. B1. Set each bracket equal to 0: x − 2 = 0 gives 2, x + 6 = 0 gives −6."
+    },
+    {
+      "id": "20b",
+      "type": "num",
+      "marks": 1,
+      "q": "The turning point is exactly halfway between these two <i>x</i>-values. Work out the <i>x</i>-coordinate of the turning point.",
+      "key": -2,
+      "ms": "Answer: x = −2. B1 for (2 + (−6)) ÷ 2 = −2."
+    },
+    {
+      "id": "20c",
+      "type": "work",
+      "marks": 2,
+      "q": "Find the coordinates of the turning point of the curve <i>y</i> = (<i>x</i> − 2)(<i>x</i> + 6).",
+      "key": {
+        "text": [
+          "(-2,-16)"
+        ]
+      },
+      "hint": "Type it like (2,-5)",
+      "ms": "Answer: (−2, −16). M1 for substituting x = −2: y = (−2 − 2)(−2 + 6) = (−4)(4). A1 for (−2, −16)."
+    },
+    {
+      "id": "21a",
+      "type": "work",
+      "marks": 2,
+      "q": "Revisit (area quadratics). A rectangle has length (2<i>x</i> + 1) cm and width (<i>x</i> − 2) cm. Its area is 75 cm<sup>2</sup>.<br>Show that 2<i>x</i><sup>2</sup> − 3<i>x</i> − 77 = 0",
+      "ms": "M1 for (2x + 1)(x − 2) = 75. A1 for 2x² − 4x + x − 2 = 75, then 2x² − 3x − 77 = 0 (every step shown)."
+    },
+    {
+      "id": "21b",
+      "type": "work",
+      "marks": 3,
+      "q": "Solve 2<i>x</i><sup>2</sup> − 3<i>x</i> − 77 = 0 by factorising, and use your answer to find the <strong>perimeter</strong> of the rectangle. (cm)",
+      "key": {
+        "num": 40
+      },
+      "ms": "Answer: 40 cm. M1 for (2x + 11)(x − 7) = 0 (or the quadratic formula used correctly). A1 for x = 7 (reject x = −5.5: the width would be negative). A1 for length 15 cm and width 5 cm, so perimeter 2 × (15 + 5) = 40 cm. Stopping at x = 7: max 2."
+    },
+    {
+      "id": "22",
+      "type": "expr",
+      "marks": 3,
+      "q": "Revisit (triple brackets). Expand and simplify (<i>x</i> − 1)(<i>x</i> + 3)(2<i>x</i> − 5)",
+      "key": {
+        "expr": "2x^3-x^2-16x+15",
+        "noParen": true
+      },
+      "hint": "Use ^ for powers, like 2x^3+x^2-5",
+      "ms": "Answer: 2x³ − x² − 16x + 15. M1 for (x − 1)(x + 3) = x² + 2x − 3. M1 for multiplying by (2x − 5) with at least 4 of the 6 terms correct (2x³ − 5x² + 4x² − 10x − 6x + 15). A1 cao. Collect the x² terms carefully: −5x² + 4x² = −x²."
+    },
+    {
+      "id": "23",
+      "type": "work",
+      "marks": 3,
+      "q": "Revisit (solving quadratics). Solve (<i>x</i> + 4)(2<i>x</i> − 1) = 5(<i>x</i> + 4)<br>Give <strong>all</strong> the solutions.",
+      "key": {
+        "text": [
+          "-4,3",
+          "3,-4"
+        ]
+      },
+      "hint": "Type both answers separated by a comma, like 3,-2",
+      "ms": "Answer: x = −4 or x = 3. M1 for expanding and rearranging: 2x² + 7x − 4 = 5x + 20, so 2x² + 2x − 24 = 0 (or taking out the common factor: (x + 4)(2x − 1 − 5) = 0). M1 for (x + 4)(x − 3) = 0 or (x + 4)(2x − 6) = 0. A1 for both answers. Dividing both sides by (x + 4) loses x = −4: max 1 mark. Watch the sign: 5(x + 4) = 5x + 20."
+    },
+    {
+      "id": "24",
+      "type": "work",
+      "marks": 3,
+      "q": "Revisit (inequalities). <i>x</i> is an integer. List all the values of <i>x</i> such that 3 &lt; 4<i>x</i> + 7 ≤ 27",
+      "key": {
+        "text": [
+          "0,1,2,3,4,5"
+        ]
+      },
+      "hint": "Type the values from smallest to largest, separated by commas, like -2,0,3",
+      "ms": "Answer: 0, 1, 2, 3, 4, 5. M1 for −4 < 4x ≤ 20. M1 for −1 < x ≤ 5. A1 for the full list (−1 is not included because of <; 5 is, because of ≤)."
+    },
+    {
+      "id": "25",
+      "type": "work",
+      "marks": 3,
+      "q": "Revisit (forming inequalities). A taxi charges AED 12 plus AED 2.50 for each kilometre. Rana has AED 50.<br>Write an inequality and solve it to find the greatest whole number of kilometres she can travel.",
+      "key": {
+        "num": 15
+      },
+      "ms": "Answer: 15 km. M1 for 12 + 2.5k ≤ 50. M1 for 2.5k ≤ 38, so k ≤ 15.2. A1 for 15 (16 km would cost 12 + 40 = 52)."
+    },
+    {
+      "id": "26",
+      "type": "work",
+      "marks": 3,
+      "q": "Revisit (proof). Prove that (<i>n</i> + 5)<sup>2</sup> − (<i>n</i> + 1)<sup>2</sup> is always a multiple of 8 for every integer <i>n</i>.",
+      "ms": "M1 for expanding one bracket correctly: n² + 10n + 25 or n² + 2n + 1. M1 for 8n + 24 (watch the minus sign in front of the second bracket). A1 for 8n + 24 = 8(n + 3) with a statement that this is a multiple of 8. Numerical examples only: 0 marks."
+    }
+  ]
+}
