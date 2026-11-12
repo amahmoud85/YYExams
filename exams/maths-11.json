@@ -1,0 +1,288 @@
+{
+ "id": "maths-11",
+ "year": 8,
+ "order": 17,
+ "subject": "Maths",
+ "title": "Maths Exam 11",
+ "short": "Exam 11",
+ "topic": "Number · Non-calculator · Higher",
+ "minutes": 55,
+ "intro": "Edexcel Higher style. No calculator. Show your working in the working box: method marks count even if the final answer slips. Before you divide, ask: is the number I'm dividing by bigger or smaller than 1? With prime factors, check what happens to every power.",
+ "questions": [
+  {
+   "id": "1",
+   "type": "mc",
+   "marks": 1,
+   "q": "Without working them out, which calculation gives an answer <b>bigger than 36</b>?",
+   "options": [
+    "36 × 0.8",
+    "36 ÷ 1.2",
+    "36 ÷ 0.8",
+    "36 × 0.95"
+   ],
+   "key": 2,
+   "ms": "36 ÷ 0.8 = 45. Dividing by a number less than 1 makes the answer bigger. The others are 28.8, 30 and 34.2, all smaller than 36."
+  },
+  {
+   "id": "2",
+   "type": "num",
+   "marks": 1,
+   "q": "Work out 2.4 ÷ 0.06",
+   "key": 40,
+   "ms": "40. Multiply both numbers by 100: 240 ÷ 6 = 40. (How many 0.06s fit into 2.4? Lots more than 2.4.)"
+  },
+  {
+   "id": "3",
+   "type": "work",
+   "marks": 3,
+   "q": "Work out an estimate for the value of <span class=\"frac\"><span>21.3 × 5.92</span><span>0.208</span></span>",
+   "key": {
+    "num": 600
+   },
+   "ms": "600. M1 round each number to 1 s.f.: 20, 6, 0.2. M1 20 × 6 = 120. A1 120 ÷ 0.2 = 600 (dividing by 0.2 is the same as multiplying by 5)."
+  },
+  {
+   "id": "4",
+   "type": "written",
+   "marks": 2,
+   "q": "Omar works out 63 ÷ 0.7 and gets the answer 9.<br>Explain why Omar's answer must be wrong, and work out the correct answer.",
+   "ms": "B1 0.7 is less than 1, so the answer must be bigger than 63 (Omar's answer is smaller). B1 90 (630 ÷ 7 = 90)."
+  },
+  {
+   "id": "5a",
+   "type": "num",
+   "marks": 1,
+   "q": "You are given that 238 × 56 = 13 328.<br>Work out 23.8 × 5.6",
+   "key": 133.28,
+   "ms": "133.28. One decimal place in each number, so two in the answer: 13 328 ÷ 100."
+  },
+  {
+   "id": "5b",
+   "type": "num",
+   "marks": 1,
+   "q": "Using 238 × 56 = 13 328, work out 13 328 ÷ 5.6",
+   "key": 2380,
+   "ms": "2380. 13 328 ÷ 56 = 238, and 5.6 is 10 times smaller than 56, so the answer is 10 times bigger."
+  },
+  {
+   "id": "5c",
+   "type": "num",
+   "marks": 1,
+   "q": "Using 238 × 56 = 13 328, work out 1332.8 ÷ 0.238",
+   "key": 5600,
+   "ms": "5600. 1332.8 is 10 times smaller than 13 328, and 0.238 is 1000 times smaller than 238, so the answer is 56 × 1000 ÷ 10 = 5600."
+  },
+  {
+   "id": "5d",
+   "type": "num",
+   "marks": 1,
+   "q": "Using 238 × 56 = 13 328, work out 133.28 ÷ 2.38",
+   "key": 56,
+   "ms": "56. Both numbers are 100 times smaller than in 13 328 ÷ 238, so the answer stays 56."
+  },
+  {
+   "id": "6",
+   "type": "num",
+   "marks": 1,
+   "q": "Work out (−3)<sup>2</sup> − 4 × (−2)<sup>3</sup>",
+   "key": 41,
+   "ms": "41. (−3)² = 9 and (−2)³ = −8, so 9 − 4 × (−8) = 9 − (−32) = 9 + 32 = 41."
+  },
+  {
+   "id": "7",
+   "type": "work",
+   "marks": 2,
+   "q": "Work out −3 − (−4)<sup>2</sup> ÷ 8",
+   "key": {
+    "num": -5
+   },
+   "ms": "−5. M1 (−4)² = 16 and 16 ÷ 8 = 2 (powers, then divide, then subtract), A1 −3 − 2 = −5. The minus in front of the bracket is not squared."
+  },
+  {
+   "id": "8",
+   "type": "text",
+   "marks": 1,
+   "q": "Round 0.003 0049 to 3 significant figures.",
+   "key": [
+    "0.00300"
+   ],
+   "ms": "0.00300. The first significant figure is the 3; the next two are 0 and 0, and the 4 after them means round down. The zeros must stay to show 3 s.f."
+  },
+  {
+   "id": "9",
+   "type": "factors",
+   "marks": 2,
+   "q": "Write 540 as a product of its prime factors. Give your answer in index form.",
+   "key": {
+    "2": 2,
+    "3": 3,
+    "5": 1
+   },
+   "ms": "2² × 3³ × 5. M1 a correct factor tree or repeated division, A1 index form."
+  },
+  {
+   "id": "10",
+   "type": "factors",
+   "marks": 2,
+   "q": "Write 540<sup>2</sup> as a product of its prime factors in index form.",
+   "key": {
+    "2": 4,
+    "3": 6,
+    "5": 2
+   },
+   "hint": "Use your answer to question 9",
+   "ms": "2⁴ × 3⁶ × 5². Squaring multiplies every power by 2: (2² × 3³ × 5¹)². 5 is 5¹, so it becomes 5². B1 for two powers correct."
+  },
+  {
+   "id": "11a",
+   "type": "factors",
+   "marks": 2,
+   "q": "<i>B</i> = 2<sup>3</sup> × 3<sup>2</sup> × 7<br>Write <i>B</i><sup>3</sup> as a product of its prime factors in index form.",
+   "key": {
+    "2": 9,
+    "3": 6,
+    "7": 3
+   },
+   "ms": "2⁹ × 3⁶ × 7³. Cubing multiplies every power by 3: 3 × 3 = 9, 2 × 3 = 6, 1 × 3 = 3. B1 for two powers correct."
+  },
+  {
+   "id": "11b",
+   "type": "factors",
+   "marks": 2,
+   "q": "<i>C</i> = 2<sup>6</sup> × 5<sup>4</sup><br>Write √<i>C</i> as a product of its prime factors in index form.",
+   "key": {
+    "2": 3,
+    "5": 2
+   },
+   "ms": "2³ × 5². A square root halves every power: 6 ÷ 2 = 3, 4 ÷ 2 = 2 (check: 2³ × 5² = 200 and 200² = 40 000 = C). B1 for one power correct."
+  },
+  {
+   "id": "12a",
+   "type": "written",
+   "marks": 1,
+   "q": "Use your answer to question 9 to explain why 540 is <b>not</b> a square number.",
+   "ms": "B1 in 2² × 3³ × 5 the powers of 3 and 5 (3 and 1) are odd; a square number has every power even."
+  },
+  {
+   "id": "12b",
+   "type": "work",
+   "marks": 2,
+   "q": "Find the smallest whole number you can multiply 540 by to make a square number.",
+   "key": {
+    "num": 15
+   },
+   "ms": "15. M1 need 2² × 3⁴ × 5², so multiply by 3 × 5, A1 15 (540 × 15 = 8100 = 90²)."
+  },
+  {
+   "id": "13a",
+   "type": "work",
+   "marks": 2,
+   "q": "84 = 2<sup>2</sup> × 3 × 7 and 90 = 2 × 3<sup>2</sup> × 5<br>Find the highest common factor (HCF) of 84 and 90.",
+   "key": {
+    "num": 6
+   },
+   "ms": "6. M1 primes in both, lowest powers: 2 × 3, A1 6."
+  },
+  {
+   "id": "13b",
+   "type": "work",
+   "marks": 3,
+   "q": "Yassin runs one lap of a track every 84 seconds. Sami runs one lap every 90 seconds. They start together at the start line.<br>After how many <b>minutes</b> will they next be at the start line together?",
+   "key": {
+    "num": 21
+   },
+   "ms": "21 minutes. M1 recognises the LCM is needed, M1 2² × 3² × 5 × 7 = 1260 seconds (every prime, highest power), A1 1260 ÷ 60 = 21 minutes. Check the multiplication: 4 × 9 = 36, 36 × 35 = 1260."
+  },
+  {
+   "id": "14",
+   "type": "mc",
+   "marks": 1,
+   "q": "Which of these numbers is the <b>largest</b>?",
+   "options": [
+    "0.0039",
+    "3.95 × 10<sup>−3</sup>",
+    "0.00405",
+    "4.1 × 10<sup>−3</sup>"
+   ],
+   "key": 3,
+   "ms": "4.1 × 10⁻³. Write them all as ordinary decimals: 0.0039, 0.00395, 0.00405, 0.0041."
+  },
+  {
+   "id": "15",
+   "type": "text",
+   "marks": 2,
+   "q": "Work out (8 × 10<sup>−3</sup>) × (4 × 10<sup>7</sup>). Give your answer in standard form.",
+   "key": [
+    "3.2x10^5"
+   ],
+   "hint": "Type it like 3.2 × 10^-5",
+   "ms": "3.2 × 10⁵. M1 8 × 4 = 32 and 10⁻³ × 10⁷ = 10⁴, so 32 × 10⁴, A1 3.2 × 10⁵ (32 is not between 1 and 10, so adjust)."
+  },
+  {
+   "id": "16",
+   "type": "text",
+   "marks": 2,
+   "q": "Work out (7.2 × 10<sup>6</sup>) ÷ (9 × 10<sup>−2</sup>). Give your answer in standard form.",
+   "key": [
+    "8x10^7",
+    "8.0x10^7"
+   ],
+   "hint": "Type it like 3.2 × 10^-5",
+   "ms": "8 × 10⁷. M1 7.2 ÷ 9 = 0.8 and 10⁶ ÷ 10⁻² = 10⁸, so 0.8 × 10⁸, A1 8 × 10⁷ (0.8 is less than 1, so adjust)."
+  },
+  {
+   "id": "17a",
+   "type": "work",
+   "marks": 3,
+   "q": "Find the value of <i>x</i> when 8<sup><i>x</i></sup> = 2<sup>10</sup> × 4",
+   "key": {
+    "num": 4
+   },
+   "ms": "x = 4. M1 8 = 2³ so 8ˣ = 2³ˣ, and 2¹⁰ × 4 = 2¹⁰ × 2² = 2¹², M1 3x = 12, A1 x = 4. Give the value of x, not 2¹²."
+  },
+  {
+   "id": "17b",
+   "type": "work",
+   "marks": 3,
+   "q": "Solve 27<sup><i>n</i></sup> ÷ 3 = 9<sup>4</sup>",
+   "key": {
+    "num": 3
+   },
+   "ms": "n = 3. M1 write everything as powers of 3: 27ⁿ = 3³ⁿ and 9⁴ = 3⁸, M1 3³ⁿ ÷ 3¹ = 3³ⁿ⁻¹ so 3n − 1 = 8, A1 n = 3."
+  },
+  {
+   "id": "18",
+   "type": "text",
+   "marks": 2,
+   "q": "Simplify fully √98 − √18",
+   "key": [
+    "4√2"
+   ],
+   "hint": "Use the √ button",
+   "ms": "4√2. M1 √98 = √49 × √2 = 7√2 and √18 = √9 × √2 = 3√2, A1 7√2 − 3√2 = 4√2. You can't subtract under the root: it is not √80."
+  },
+  {
+   "id": "19a",
+   "type": "work",
+   "marks": 2,
+   "q": "A rectangle has length √72 cm and width √18 cm.<br>Show that the area of the rectangle is a whole number of cm², and give the area.",
+   "key": {
+    "num": 36
+   },
+   "ms": "36 cm². M1 √72 × √18 = √1296 (or 6√2 × 3√2 = 18 × 2), A1 36."
+  },
+  {
+   "id": "19b",
+   "type": "work",
+   "marks": 3,
+   "q": "Work out the perimeter of the rectangle. Give your answer in the form <i>a</i>√2",
+   "key": {
+    "text": [
+     "18√2"
+    ]
+   },
+   "hint": "Use the √ button",
+   "ms": "18√2 cm. M1 √72 = √36 × √2 = 6√2 and √18 = √9 × √2 = 3√2, M1 2 × (6√2 + 3√2), A1 18√2. Simplify each surd first; don't add under the root."
+  }
+ ]
+}
