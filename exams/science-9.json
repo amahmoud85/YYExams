@@ -5,15 +5,15 @@
  "subject": "Science",
  "title": "Science Exam 9",
  "short": "Exam 9",
- "topic": "Motion & Pressure · Health & Lifestyle · Periodic Table · Investigative skills",
+ "topic": "Pure substances · Mixtures · Solutions · Motion & Pressure · Health · Periodic Table · Skills",
  "minutes": 60,
- "intro": "AQA Higher style. You may use a calculator. For every calculation, write the equation first, then put the numbers in, and always give the unit. For particle questions, say what the particles hit and how often. For the longer answers write full sentences, go step by step, and check you have answered every part (“give two” means two).",
+ "intro": "AQA Higher style. You may use a calculator. Part 4 is your new topic (pure substances, mixtures and solutions); the rest revisits last half term. For every calculation, write the equation first, then put the numbers in, and always give the unit. For particle questions, say what the particles do and what they hit. For the longer answers write full sentences, go step by step, and check you have answered every part (“give two” means two).",
  "questions": [
   {
    "id": "1",
    "type": "mc",
    "marks": 1,
-   "q": "Which equation links pressure, force and area?",
+   "q": "<b>Part 1: Motion and pressure</b><br>Which equation links pressure, force and area?",
    "options": [
     "pressure = force × area",
     "pressure = force ÷ area",
@@ -35,23 +35,13 @@
   },
   {
    "id": "3",
-   "type": "work",
-   "marks": 3,
-   "q": "A farmer's tractor weighs 80 000 N. On soft ground the pressure must be no more than 50 000 Pa, or the tractor sinks.<br>Calculate the smallest total area of tyre that must touch the ground. Give the unit.",
-   "key": {
-    "num": 1.6
-   },
-   "ms": "1.6 m². M1 pressure = force ÷ area, so area = force ÷ pressure, M1 80 000 ÷ 50 000, A1 1.6 m². (Multiplying the numbers gives a huge, wrong answer.)"
-  },
-  {
-   "id": "4",
    "type": "written",
    "marks": 4,
    "q": "Yassin pumps more air into his bike tyre. The tyre does not get any bigger.<br>Explain, in terms of particles, why the pressure inside the tyre increases.",
    "ms": "More air particles in the same volume (1); so the particles collide with the walls of the tyre more often / more collisions per second (1); each collision exerts a force on the wall (1); so a bigger total force on the same area, so a bigger pressure (1). (Collisions between particles, or gravity, do not score: it is collisions with the walls.)"
   },
   {
-   "id": "5a",
+   "id": "4a",
    "type": "mc",
    "marks": 1,
    "q": "The distance-time graph shows a runner's journey.<svg class=\"graph\" viewBox=\"0 0 310 220\" role=\"img\" aria-label=\"Distance-time graph of a runner\"><g class=\"grid\"><line x1=\"50\" y1=\"20\" x2=\"50\" y2=\"180\"/><line x1=\"90\" y1=\"20\" x2=\"90\" y2=\"180\"/><line x1=\"130\" y1=\"20\" x2=\"130\" y2=\"180\"/><line x1=\"170\" y1=\"20\" x2=\"170\" y2=\"180\"/><line x1=\"210\" y1=\"20\" x2=\"210\" y2=\"180\"/><line x1=\"250\" y1=\"20\" x2=\"250\" y2=\"180\"/><line x1=\"290\" y1=\"20\" x2=\"290\" y2=\"180\"/><line x1=\"50\" y1=\"20\" x2=\"290\" y2=\"20\"/><line x1=\"50\" y1=\"60\" x2=\"290\" y2=\"60\"/><line x1=\"50\" y1=\"100\" x2=\"290\" y2=\"100\"/><line x1=\"50\" y1=\"140\" x2=\"290\" y2=\"140\"/><line x1=\"50\" y1=\"180\" x2=\"290\" y2=\"180\"/></g><polyline class=\"plot\" points=\"50,180 130,140 210,60 290,60\"/><g class=\"lbl\"><text x=\"50\" y=\"196\" text-anchor=\"middle\">0</text><text x=\"90\" y=\"196\" text-anchor=\"middle\">10</text><text x=\"130\" y=\"196\" text-anchor=\"middle\">20</text><text x=\"170\" y=\"196\" text-anchor=\"middle\">30</text><text x=\"210\" y=\"196\" text-anchor=\"middle\">40</text><text x=\"250\" y=\"196\" text-anchor=\"middle\">50</text><text x=\"290\" y=\"196\" text-anchor=\"middle\">60</text><text x=\"42\" y=\"184\" text-anchor=\"end\">0</text><text x=\"42\" y=\"144\" text-anchor=\"end\">100</text><text x=\"42\" y=\"104\" text-anchor=\"end\">200</text><text x=\"42\" y=\"64\" text-anchor=\"end\">300</text><text x=\"42\" y=\"24\" text-anchor=\"end\">400</text><text class=\"sec\" x=\"94\" y=\"150\" text-anchor=\"middle\">A</text><text class=\"sec\" x=\"160\" y=\"92\" text-anchor=\"middle\">B</text><text class=\"sec\" x=\"250\" y=\"52\" text-anchor=\"middle\">C</text><text x=\"170\" y=\"214\" text-anchor=\"middle\">Time (s)</text><text x=\"12\" y=\"100\" text-anchor=\"middle\" transform=\"rotate(-90 12 100)\">Distance (m)</text></g></svg>In which section is the runner moving fastest?",
@@ -65,7 +55,7 @@
    "ms": "Section B. It has the steepest line: the biggest change in distance for each second."
   },
   {
-   "id": "5b",
+   "id": "4b",
    "type": "work",
    "marks": 2,
    "q": "Calculate the speed of the runner in section B. Give the unit.",
@@ -75,65 +65,7 @@
    "ms": "10 m/s. M1 speed = change in distance ÷ change in time = (300 − 100) ÷ (40 − 20) = 200 ÷ 20, A1 10 m/s. (Use the start and end of section B, not the origin.)"
   },
   {
-   "id": "5c",
-   "type": "work",
-   "marks": 2,
-   "q": "Calculate the runner's average speed for the whole 60 seconds.",
-   "key": {
-    "num": 5
-   },
-   "ms": "5 m/s. M1 average speed = total distance ÷ total time = 300 ÷ 60, A1 5 m/s. The rest in section C still counts as time."
-  },
-  {
-   "id": "6a",
-   "type": "work",
-   "marks": 2,
-   "q": "A car speeds up from 5 m/s to 25 m/s in 4 seconds.<br>Calculate its acceleration. Give the unit.",
-   "key": {
-    "num": 5
-   },
-   "ms": "5 m/s². M1 acceleration = change in speed ÷ time = (25 − 5) ÷ 4 = 20 ÷ 4, A1 5 m/s² (the speed goes up by 5 m/s every second)."
-  },
-  {
-   "id": "6b",
-   "type": "mc",
-   "marks": 1,
-   "q": "Two cars drive in the <b>same direction</b> on a motorway. Car A travels at 30 m/s and car B at 25 m/s.<br>What is the speed of car A relative to car B?",
-   "options": [
-    "5 m/s",
-    "55 m/s",
-    "30 m/s",
-    "0 m/s"
-   ],
-   "key": 0,
-   "ms": "5 m/s. Same direction, so take away: 30 − 25 = 5 m/s. (If they drove towards each other you would add: 55 m/s.)"
-  },
-  {
-   "id": "7a",
-   "type": "mc",
-   "marks": 1,
-   "q": "Why is the handle of a door put on the edge furthest from the hinge?",
-   "options": [
-    "So it is easier to reach",
-    "A bigger distance from the pivot gives a bigger moment for the same force",
-    "It makes the door lighter",
-    "A smaller distance from the pivot gives a bigger moment"
-   ],
-   "key": 1,
-   "ms": "A bigger distance from the pivot gives a bigger moment for the same force, so the door is easier to open."
-  },
-  {
-   "id": "7b",
-   "type": "work",
-   "marks": 2,
-   "q": "Yassin pushes a door with a force of 30 N, 0.8 m from the hinge.<br>Calculate the moment of his force. Give the unit.",
-   "key": {
-    "num": 24
-   },
-   "ms": "24 Nm. M1 moment = force × perpendicular distance from the pivot = 30 × 0.8, A1 24 Nm."
-  },
-  {
-   "id": "7c",
+   "id": "5",
    "type": "work",
    "marks": 3,
    "q": "Yassin weighs 450 N and sits 1.2 m from the pivot of a see-saw. His brother weighs 600 N and sits on the other side.<br>How far from the pivot must his brother sit to balance the see-saw?",
@@ -143,77 +75,145 @@
    "ms": "0.9 m. M1 balanced, so clockwise moment = anticlockwise moment; Yassin's moment = 450 × 1.2 = 540 Nm, M1 distance = moment ÷ force = 540 ÷ 600, A1 0.9 m. The heavier person sits closer to the pivot."
   },
   {
-   "id": "8",
+   "id": "6",
    "type": "written",
    "marks": 6,
-   "q": "Yassin eats a bowl of pasta with chicken and butter. The pasta contains starch, the chicken contains protein and the butter contains fat.<br>Describe how each of these is digested and absorbed. Start at the mouth and go organ by organ. Name the enzymes and the products.",
+   "q": "<b>Part 2: Health and lifestyle</b><br>Yassin eats a bowl of pasta with chicken and butter. The pasta contains starch, the chicken contains protein and the butter contains fat.<br>Describe how each of these is digested and absorbed. Start at the mouth and go organ by organ. Name the enzymes and the products.",
    "ms": "Level 3 (5-6): a clear organ-by-organ sequence from the mouth to absorption, naming enzymes and products for all three nutrients and the role of bile. Level 2 (3-4): most steps in order with some enzymes and products named. Level 1 (1-2): a few correct facts. Points: mouth: teeth chew food (bigger surface area); salivary amylase starts breaking starch into sugars. Stomach: protease breaks protein into amino acids; hydrochloric acid kills bacteria and suits the enzyme. Small intestine: bile (made in the liver, stored in the gall bladder) emulsifies fat into small droplets; lipase breaks fat into fatty acids and glycerol; amylase and protease finish starch and protein. Small, soluble molecules are absorbed through the villi into the blood. Large intestine: water is absorbed."
   },
   {
-   "id": "9",
-   "type": "written",
-   "marks": 2,
-   "q": "Bile is <b>not</b> an enzyme. Describe <b>two</b> ways bile helps digestion in the small intestine.",
-   "ms": "Any two (1 each): it breaks large fat drops into small droplets (emulsifies) (1), giving a bigger surface area for lipase to work on (1); it neutralises stomach acid / is alkaline, so the enzymes in the small intestine work best (1). Bile does not break bonds or make amino acids."
-  },
-  {
-   "id": "10",
-   "type": "mc",
-   "marks": 1,
-   "q": "Enzymes are biological catalysts. What does a catalyst do?",
-   "options": [
-    "Speeds up a reaction and is not used up",
-    "Speeds up a reaction and is used up",
-    "Slows down a reaction",
-    "Provides energy for the body"
-   ],
-   "key": 0,
-   "ms": "It speeds up a reaction and is not used up. (Curriculum key term.)"
-  },
-  {
-   "id": "11",
+   "id": "7",
    "type": "written",
    "marks": 3,
    "q": "Alcohol is a depressant.<br>State what a depressant does, and explain why drinking alcohol makes driving dangerous.",
    "ms": "A depressant slows down the nervous system / brain (1); so messages travel more slowly and reaction time is longer (1); so the driver takes longer to brake / react to a hazard, so is more likely to crash (1)."
   },
   {
-   "id": "12",
+   "id": "8",
    "type": "written",
    "marks": 3,
    "q": "Pregnant women who smoke are more likely to have babies with a low birth weight.<br>Explain how the carbon monoxide in cigarette smoke causes this.",
    "ms": "Carbon monoxide joins onto haemoglobin in red blood cells (1); so the mother's blood carries less oxygen, so less oxygen reaches the baby (through the placenta) (1); so the baby's cells get less oxygen for respiration, so less energy for growth (1). (Finish the chain at the baby's cells.)"
   },
   {
-   "id": "13a",
-   "type": "mc",
-   "marks": 1,
-   "q": "An element is shiny, conducts electricity and can be hammered into shape. Where is it most likely to be in the periodic table?",
-   "options": [
-    "On the left or in the middle (a metal)",
-    "On the far right, in Group 0",
-    "In Group 7",
-    "It is a non-metal, so on the right"
-   ],
-   "key": 0,
-   "ms": "On the left or in the middle: it has the properties of a metal (shiny, conductor, malleable). Non-metals are on the right."
-  },
-  {
-   "id": "13b",
+   "id": "9",
    "type": "written",
    "marks": 4,
-   "q": "A small piece of potassium is added to a bowl of water.<br>Give <b>two</b> things you would see, and name the <b>two</b> products of the reaction.",
+   "q": "<b>Part 3: The periodic table</b><br>A small piece of potassium is added to a bowl of water.<br>Give <b>two</b> things you would see, and name the <b>two</b> products of the reaction.",
    "ms": "Any two observations (1 each): it floats; it fizzes / bubbles; it moves quickly around on the surface; it melts into a ball; it burns with a lilac flame; it disappears. Products: potassium hydroxide (1) and hydrogen (1). Potassium is more reactive than sodium and lithium because it is lower down Group 1."
   },
   {
-   "id": "14a",
+   "id": "10",
+   "type": "mc",
+   "marks": 1,
+   "q": "<b>Part 4: Pure substances, mixtures and solutions</b><br>What does <b>pure</b> mean in science?",
+   "options": [
+    "Natural, with nothing added",
+    "One substance only, with all its particles the same",
+    "Any element or compound found in nature",
+    "A substance that has been cleaned"
+   ],
+   "key": 1,
+   "ms": "One substance only, with all its particles the same. (In everyday life 'pure' can mean natural or with nothing added: that is not the science meaning.)"
+  },
+  {
+   "id": "11a",
+   "type": "num",
+   "marks": 1,
+   "q": "Roshni heats a solid sample Z and records its temperature every minute.<table class=\"data\"><tr><th>Time (minutes)</th><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td></tr><tr><th>Temperature (°C)</th><td>20</td><td>25</td><td>30</td><td>30</td><td>30</td><td>35</td></tr></table>What is the melting point of sample Z?",
+   "key": 30,
+   "ms": "30 °C. The temperature stays the same while the solid melts."
+  },
+  {
+   "id": "11b",
    "type": "written",
    "marks": 2,
-   "q": "A student investigates how the height of a ramp affects the time it takes a toy car to roll 1 m. Here are her results.<table class=\"data\"><tr><th rowspan=\"2\">Height of ramp (cm)</th><th colspan=\"3\">Time to roll 1 m (s)</th></tr><tr><th>Trial 1</th><th>Trial 2</th><th>Trial 3</th></tr><tr><td>10</td><td>2.4</td><td>2.6</td><td>2.5</td></tr><tr><td>20</td><td>1.8</td><td>1.7</td><td>1.9</td></tr><tr><td>30</td><td>1.4</td><td>2.4</td><td>1.5</td></tr><tr><td>40</td><td>1.2</td><td>1.1</td><td>1.3</td></tr></table>Name the independent variable and the dependent variable.",
+   "q": "Is sample Z pure? Use the results to explain your answer.",
+   "ms": "Yes, it is pure (1); it melts at one fixed temperature: the temperature stays at 30 °C for minutes 2 to 4 / the graph has a flat section (1). An impure sample melts over a range of temperatures (a sloping line)."
+  },
+  {
+   "id": "12",
+   "type": "written",
+   "marks": 4,
+   "q": "Iron and sulfur can be mixed together, or heated to make the compound iron sulfide.<br>Compare the <b>mixture</b> of iron and sulfur with the <b>compound</b> iron sulfide. Include how you could get the iron back out of the mixture.",
+   "ms": "Any four (1 each): in the mixture the iron and sulfur are not chemically joined, in the compound they are chemically joined/bonded; the mixture keeps the properties of iron and sulfur (iron is still magnetic), the compound has different properties (iron sulfide is not magnetic); the amounts in a mixture can vary, a compound has fixed proportions; the mixture can be separated easily with a magnet, the compound can only be separated by a chemical reaction. Must include the magnet for full marks."
+  },
+  {
+   "id": "13a",
+   "type": "mc",
+   "marks": 1,
+   "q": "Salt dissolves in water to make salt water. Which is the <b>solvent</b>?",
+   "options": [
+    "Salt",
+    "Water",
+    "Salt water",
+    "The beaker"
+   ],
+   "key": 1,
+   "ms": "Water. The solvent is the liquid that does the dissolving; salt is the solute; salt water is the solution."
+  },
+  {
+   "id": "13b",
+   "type": "num",
+   "marks": 1,
+   "q": "12 g of salt is dissolved in 250 g of water. What is the mass of the salt solution?",
+   "key": 262,
+   "ms": "262 g. Mass of solution = mass of solute + mass of solvent = 12 + 250. The salt does not disappear."
+  },
+  {
+   "id": "14",
+   "type": "written",
+   "marks": 3,
+   "q": "Describe, in terms of particles, what happens when sugar dissolves in water. Explain why the sugar seems to disappear but the mass does not change.",
+   "ms": "Sugar particles separate from each other (1); water particles surround the sugar particles and they spread out / move randomly through the water, mixed evenly (1); the sugar particles are still there, so no mass is lost: mass of solution = mass of sugar + mass of water (1)."
+  },
+  {
+   "id": "15a",
+   "type": "written",
+   "marks": 1,
+   "q": "The table shows the solubility of sugar at different temperatures.<table class=\"data\"><tr><th>Temperature (°C)</th><th>Solubility of sugar (g per 100 g of water)</th></tr><tr><td>20</td><td>202</td></tr><tr><td>40</td><td>236</td></tr><tr><td>60</td><td>289</td></tr><tr><td>80</td><td>365</td></tr><tr><td>100</td><td>476</td></tr></table>What is meant by <b>solubility</b>?",
+   "ms": "The mass of a solute (in grams) that will dissolve in 100 g of water at a particular temperature (1)."
+  },
+  {
+   "id": "15b",
+   "type": "written",
+   "marks": 2,
+   "q": "Describe how the solubility of sugar changes with temperature. Use numbers from the table.",
+   "ms": "As temperature increases, solubility increases (1); it increases faster at higher temperatures, e.g. +34 g from 20 to 40 °C but +111 g from 80 to 100 °C / a curve, not a straight line (1)."
+  },
+  {
+   "id": "15c",
+   "type": "work",
+   "marks": 2,
+   "q": "Calculate the largest mass of sugar that will dissolve in <b>50 g</b> of water at 60 °C.",
+   "key": {
+    "num": 144.5
+   },
+   "ms": "144.5 g. M1 289 g dissolves in 100 g of water, and 50 g is half of that, so 289 ÷ 2, A1 144.5 g."
+  },
+  {
+   "id": "15d",
+   "type": "mc",
+   "marks": 1,
+   "q": "Yassin keeps adding sugar to water at 20 °C until no more will dissolve. What has he made?",
+   "options": [
+    "A pure substance",
+    "A compound",
+    "A saturated solution",
+    "An immiscible liquid"
+   ],
+   "key": 2,
+   "ms": "A saturated solution: no more solute can dissolve at that temperature."
+  },
+  {
+   "id": "16a",
+   "type": "written",
+   "marks": 2,
+   "q": "<b>Part 5: Investigative skills</b><br>A student investigates how the height of a ramp affects the time it takes a toy car to roll 1 m. Here are her results.<table class=\"data\"><tr><th rowspan=\"2\">Height of ramp (cm)</th><th colspan=\"3\">Time to roll 1 m (s)</th></tr><tr><th>Trial 1</th><th>Trial 2</th><th>Trial 3</th></tr><tr><td>10</td><td>2.4</td><td>2.6</td><td>2.5</td></tr><tr><td>20</td><td>1.8</td><td>1.7</td><td>1.9</td></tr><tr><td>30</td><td>1.4</td><td>2.4</td><td>1.5</td></tr><tr><td>40</td><td>1.2</td><td>1.1</td><td>1.3</td></tr></table>Name the independent variable and the dependent variable.",
    "ms": "Independent: the height of the ramp (what she changes) (1). Dependent: the time to roll 1 m (what she measures) (1)."
   },
   {
-   "id": "14b",
+   "id": "16b",
    "type": "mc",
    "marks": 1,
    "q": "Which result is anomalous?",
@@ -227,7 +227,7 @@
    "ms": "2.4 s at 30 cm. It does not fit the pattern: the other two results at 30 cm are 1.4 s and 1.5 s."
   },
   {
-   "id": "14c",
+   "id": "16c",
    "type": "work",
    "marks": 2,
    "q": "Calculate the mean time for the 30 cm ramp. Leave out the anomalous result.",
@@ -237,14 +237,7 @@
    "ms": "1.45 s. M1 (1.4 + 1.5) ÷ 2, A1 1.45 s. Including the anomaly gives 1.77 s, which is wrong."
   },
   {
-   "id": "14d",
-   "type": "written",
-   "marks": 2,
-   "q": "Describe the relationship between the height of the ramp and the time taken.",
-   "ms": "As the height increases, the time taken decreases (1). The time goes down by less each time / it is not proportional, e.g. it falls 0.7 s from 10 to 20 cm but only about 0.25 s from 30 to 40 cm (1)."
-  },
-  {
-   "id": "14e",
+   "id": "16d",
    "type": "mc",
    "marks": 1,
    "q": "Which type of graph should she draw to show her results?",
@@ -258,7 +251,7 @@
    "ms": "Line graph, because both variables are continuous (numbers that can take any value). Bar charts are for categoric variables (words)."
   },
   {
-   "id": "14f",
+   "id": "16e",
    "type": "written",
    "marks": 2,
    "q": "The student timed the car with a stopwatch.<br>Suggest <b>one</b> change to her method that would make the times more accurate, and explain why.",
