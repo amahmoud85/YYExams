@@ -1,0 +1,311 @@
+{
+  "id": "y9-maths-10",
+  "year": 9,
+  "subject": "Maths",
+  "title": "Year 9 Maths Exam 10",
+  "short": "Exam 10",
+  "topic": "Fractions, decimals, percentages and ratio · Algebra review · Non-calculator · Higher",
+  "minutes": 80,
+  "order": 10,
+  "intro": "You must NOT use a calculator. Show your working in the working box: method marks are given even when the final answer is wrong. Give fractions and ratios in their simplest form. \"Show that\" means write every step to reach the given answer. \"Prove\" means use algebra, not just numbers. Read the last line of each question again before you answer, to check what it asks for. Questions 22 to 25 go back over algebra from Term 1A.",
+  "questions": [
+    {
+      "id": "1",
+      "type": "mc",
+      "marks": 1,
+      "q": "Write 0.35 as a fraction in its simplest form.",
+      "options": [
+        "7/2",
+        "7/20",
+        "35/10",
+        "3/5"
+      ],
+      "key": 1,
+      "ms": "B1: 7/20. 0.35 = 35/100, then divide top and bottom by 5."
+    },
+    {
+      "id": "2",
+      "type": "mc",
+      "marks": 1,
+      "q": "Which of these is the largest?<br><span class=\"frac\"><span>3</span><span>8</span></span> &nbsp;&nbsp; 37% &nbsp;&nbsp; 0.4 &nbsp;&nbsp; 0.38",
+      "options": [
+        "3/8",
+        "37%",
+        "0.4",
+        "0.38"
+      ],
+      "key": 2,
+      "ms": "B1: 0.4. Change them all to decimals: 3/8 = 0.375, 37% = 0.37, 0.4 = 0.40, 0.38."
+    },
+    {
+      "id": "3",
+      "type": "num",
+      "marks": 1,
+      "q": "Work out 0.6 × 0.07",
+      "key": 0.042,
+      "ms": "Answer: 0.042. B1. 6 × 7 = 42, and there are 3 decimal places in the question, so 0.042."
+    },
+    {
+      "id": "4",
+      "type": "work",
+      "marks": 2,
+      "q": "Work out 3<span class=\"frac\"><span>2</span><span>5</span></span> × 1<span class=\"frac\"><span>1</span><span>4</span></span><br>Give your answer as a mixed number.",
+      "key": {
+        "text": [
+          "41/4",
+          "17/4"
+        ]
+      },
+      "hint": "Type a mixed number with a space, like 2 3/4 (or an improper fraction like 11/4)",
+      "ms": "Answer: 4 1/4. M1 for 17/5 × 5/4 (both written as improper fractions). A1 for 4 1/4 (accept 17/4 or 85/20 simplified)."
+    },
+    {
+      "id": "5",
+      "type": "work",
+      "marks": 2,
+      "q": "Work out 2<span class=\"frac\"><span>1</span><span>6</span></span> − 1<span class=\"frac\"><span>3</span><span>4</span></span>",
+      "key": {
+        "text": [
+          "5/12"
+        ]
+      },
+      "hint": "Type a fraction like 3/8",
+      "ms": "Answer: 5/12. M1 for 13/6 − 7/4 written as 26/12 − 21/12 (or 1 + 1/6 − 3/4 = 1 − 7/12). A1 for 5/12. Check the sign: it is a minus."
+    },
+    {
+      "id": "6",
+      "type": "work",
+      "marks": 2,
+      "q": "Work out 4<span class=\"frac\"><span>1</span><span>2</span></span> ÷ 1<span class=\"frac\"><span>1</span><span>8</span></span>",
+      "key": {
+        "num": 4
+      },
+      "ms": "Answer: 4. M1 for 9/2 × 8/9 (improper fractions, then flip the second and multiply). A1 for 4."
+    },
+    {
+      "id": "7",
+      "type": "num",
+      "marks": 1,
+      "q": "Write 1<span class=\"frac\"><span>3</span><span>8</span></span> as a percentage. (%)",
+      "key": 137.5,
+      "ms": "Answer: 137.5%. B1. 3/8 = 0.375, so 1 3/8 = 1.375 = 137.5%."
+    },
+    {
+      "id": "8",
+      "type": "work",
+      "marks": 3,
+      "q": "Use algebra to show that the recurring decimal 0.4̇5̇ (which means 0.454545…) is equal to 5/11.",
+      "ms": "M1 for x = 0.4545… and 100x = 45.4545… M1 for subtracting: 99x = 45. A1 for x = 45/99 = 5/11 (divide top and bottom by 9). Just writing 5 ÷ 11 = 0.4545…: 0 marks, because the question asks for algebra."
+    },
+    {
+      "id": "9",
+      "type": "work",
+      "marks": 3,
+      "q": "A farm has 360 animals. <span class=\"frac\"><span>1</span><span>3</span></span> of them are cows. <span class=\"frac\"><span>3</span><span>8</span></span> of the <strong>rest</strong> are sheep. All the others are goats.<br>How many goats are on the farm?",
+      "key": {
+        "num": 150
+      },
+      "ms": "Answer: 150. M1 for cows = 120, so the rest = 240. M1 for sheep = 3/8 × 240 = 90. A1 for 240 − 90 = 150. Common mistake: taking 3/8 of 360 instead of 3/8 of the rest."
+    },
+    {
+      "id": "10",
+      "type": "work",
+      "marks": 2,
+      "q": "Work out 35% of 260.",
+      "key": {
+        "num": 91
+      },
+      "ms": "Answer: 91. M1 for a correct build-up, e.g. 10% = 26, 30% = 78, 5% = 13. A1 for 78 + 13 = 91."
+    },
+    {
+      "id": "11",
+      "type": "work",
+      "marks": 3,
+      "q": "In a sale, all prices are reduced by 15%. A jacket costs AED 170 in the sale.<br>What was the price of the jacket before the sale? (AED)",
+      "key": {
+        "num": 200
+      },
+      "ms": "Answer: AED 200. M1 for 170 = 85% of the original. M1 for 170 ÷ 85 = 2 (1%) or 170 ÷ 0.85. A1 for 200. Common mistake: adding 15% of 170 (195.50): 0 marks."
+    },
+    {
+      "id": "12",
+      "type": "work",
+      "marks": 2,
+      "q": "The price of a cinema ticket goes up from AED 40 to AED 46.<br>Work out the percentage increase. (%)",
+      "key": {
+        "num": 15
+      },
+      "ms": "Answer: 15%. M1 for 6/40 (increase ÷ original) × 100. A1 for 15."
+    },
+    {
+      "id": "13",
+      "type": "work",
+      "marks": 3,
+      "q": "Laila invests AED 5000 in a bank account. It pays 10% <strong>compound</strong> interest per year.<br>How much is in the account after 3 years? (AED)",
+      "key": {
+        "num": 6655
+      },
+      "ms": "Answer: AED 6655. M1 for one year correct: 5000 + 500 = 5500. M1 for a second year: 5500 + 550 = 6050. A1 for 6050 + 605 = 6655. Simple interest (5000 + 3 × 500 = 6500): 0 marks."
+    },
+    {
+      "id": "14",
+      "type": "mc",
+      "marks": 1,
+      "q": "Which number do you multiply by to decrease an amount by 4%?",
+      "options": [
+        "0.96",
+        "0.04",
+        "1.04",
+        "0.6"
+      ],
+      "key": 0,
+      "ms": "B1: 0.96. A 4% decrease leaves 100% − 4% = 96% = 0.96."
+    },
+    {
+      "id": "15",
+      "type": "text",
+      "marks": 1,
+      "q": "Write 1.5 kg : 600 g as a ratio in its simplest form.",
+      "key": [
+        "5:2"
+      ],
+      "hint": "Type it like 2:5",
+      "ms": "Answer: 5 : 2. B1. Change to the same units first: 1500 g : 600 g, then divide by 300."
+    },
+    {
+      "id": "16",
+      "type": "work",
+      "marks": 2,
+      "q": "Amir, Bilal and Carla share AED 450 in the ratio 4 : 5 : 6.<br>How much more does Carla get than Amir? (AED)",
+      "key": {
+        "num": 60
+      },
+      "ms": "Answer: AED 60. M1 for 450 ÷ 15 = 30 (one part). A1 for 6 − 4 = 2 parts = 60 (or 180 − 120)."
+    },
+    {
+      "id": "17",
+      "type": "work",
+      "marks": 3,
+      "q": "A stationery order contains pens, exercise books and rulers.<br>The ratio of pens to exercise books is 2 : 5.<br>The ratio of pens to rulers is 4 : 1.<br>There are 60 rulers. Work out the number of exercise books.",
+      "key": {
+        "num": 600
+      },
+      "ms": "Answer: 600. M1 for making the pens the same: pens : books = 4 : 10, so pens : books : rulers = 4 : 10 : 1. M1 for 60 rulers = 1 part, so pens = 240. A1 for books = 10 × 60 = 600."
+    },
+    {
+      "id": "18",
+      "type": "work",
+      "marks": 3,
+      "q": "Omar and Bea share some money in the ratio 5 : 3. Omar gives Bea AED 20. Now they have the same amount of money.<br>How much money did Omar have at the start? (AED)",
+      "key": {
+        "num": 100
+      },
+      "ms": "Answer: AED 100. M1 for the total staying the same: 5 : 3 has 8 parts, and 1 : 1 means 4 parts each. M1 for Omar loses 1 part, so 1 part = AED 20. A1 for 5 × 20 = 100. (Check: 100 − 20 = 80 and 60 + 20 = 80.)"
+    },
+    {
+      "id": "19",
+      "type": "work",
+      "marks": 3,
+      "q": "In a class the ratio of boys to girls is 2 : 3. Five girls leave the class. The ratio of boys to girls is now 4 : 5.<br>How many students are in the class now?",
+      "key": {
+        "num": 45
+      },
+      "ms": "Answer: 45. M1 for boys = 2k, girls = 3k (or listing ratios). M1 for 2k : (3k − 5) = 4 : 5, so 10k = 12k − 20. A1 for k = 10: 20 boys and 25 girls now, so 45. (Started with 50.)"
+    },
+    {
+      "id": "20",
+      "type": "work",
+      "marks": 3,
+      "q": "Rice is sold in two bag sizes.<br>Small bag: 2 kg for AED 9<br>Large bag: 5 kg for AED 21<br>Which bag is the better value for money? You must show how you decide.",
+      "key": {
+        "text": [
+          "5kg",
+          "5",
+          "large",
+          "5kgbag",
+          "largebag"
+        ]
+      },
+      "hint": "Type 2kg or 5kg",
+      "ms": "Answer: the 5 kg bag. M1 for a comparable value for one bag, e.g. 9 ÷ 2 = AED 4.50 per kg (or 10 kg costs 45). M1 for the other, e.g. 21 ÷ 5 = AED 4.20 per kg (or 10 kg costs 42). A1 for '5 kg bag' with both values shown. No working: 0 marks."
+    },
+    {
+      "id": "21",
+      "type": "work",
+      "marks": 2,
+      "q": "5 notebooks cost AED 13.<br>Work out the cost of 8 of these notebooks. (AED)",
+      "key": {
+        "num": 20.8
+      },
+      "ms": "Answer: AED 20.80. M1 for 13 ÷ 5 = 2.60 (cost of one notebook). A1 for 8 × 2.60 = 20.80."
+    },
+    {
+      "id": "22a",
+      "type": "work",
+      "marks": 1,
+      "q": "Revisit (quadratic graphs). Solve <i>x</i><sup>2</sup> − 6<i>x</i> + 5 = 0",
+      "key": {
+        "text": [
+          "1,5",
+          "5,1"
+        ]
+      },
+      "hint": "Type both answers separated by a comma, like 3,-2",
+      "ms": "Answer: x = 1 or x = 5. B1. Factorise: (x − 1)(x − 5) = 0."
+    },
+    {
+      "id": "22b",
+      "type": "num",
+      "marks": 1,
+      "q": "The curve <i>y</i> = <i>x</i><sup>2</sup> − 6<i>x</i> + 5 crosses the <i>x</i>-axis at your answers to part (a). The turning point is exactly halfway between them. Work out the <i>x</i>-coordinate of the turning point.",
+      "key": 3,
+      "ms": "Answer: x = 3. B1 for (1 + 5) ÷ 2 = 3."
+    },
+    {
+      "id": "22c",
+      "type": "work",
+      "marks": 1,
+      "q": "Write down the coordinates of the turning point of <i>y</i> = <i>x</i><sup>2</sup> − 6<i>x</i> + 5.",
+      "key": {
+        "text": [
+          "(3,-4)"
+        ]
+      },
+      "hint": "Type it like (2,-5)",
+      "ms": "Answer: (3, −4). B1 for substituting x = 3: y = 9 − 18 + 5 = −4."
+    },
+    {
+      "id": "23",
+      "type": "work",
+      "marks": 3,
+      "q": "Revisit (proof). Prove that (2<i>n</i> + 3)<sup>2</sup> − (2<i>n</i> − 1)<sup>2</sup> is always a multiple of 8 for every integer <i>n</i>.",
+      "ms": "M1 for expanding one bracket correctly: 4n² + 12n + 9 or 4n² − 4n + 1. M1 for 16n + 8 (the minus sign changes every term of the second bracket). A1 for 16n + 8 = 8(2n + 1) with a statement that this is a multiple of 8. Numerical examples only: 0 marks."
+    },
+    {
+      "id": "24",
+      "type": "expr",
+      "marks": 3,
+      "q": "Revisit (triple brackets). Expand and simplify (<i>x</i> + 2)(<i>x</i> − 3)(3<i>x</i> + 1)",
+      "key": {
+        "expr": "3x^3-2x^2-19x-6",
+        "noParen": true
+      },
+      "hint": "Use ^ for powers, like 2x^3+x^2-5",
+      "ms": "Answer: 3x³ − 2x² − 19x − 6. M1 for (x + 2)(x − 3) = x² − x − 6. M1 for multiplying by (3x + 1) with at least 4 of the 6 terms correct (3x³ + x² − 3x² − x − 18x − 6). A1 cao. Collect the x² terms carefully: x² − 3x² = −2x²."
+    },
+    {
+      "id": "25",
+      "type": "work",
+      "marks": 3,
+      "q": "Revisit (solving quadratics). Solve (<i>x</i> − 3)(3<i>x</i> + 2) = 8(<i>x</i> − 3)<br>Give <strong>all</strong> the solutions.",
+      "key": {
+        "text": [
+          "3,2",
+          "2,3"
+        ]
+      },
+      "hint": "Type both answers separated by a comma, like 3,-2",
+      "ms": "Answer: x = 3 or x = 2. M1 for expanding and rearranging: 3x² − 7x − 6 = 8x − 24, so 3x² − 15x + 18 = 0 (or taking out the common factor: (x − 3)(3x + 2 − 8) = 0). M1 for (x − 3)(x − 2) = 0 or (x − 3)(3x − 6) = 0. A1 for both answers. Dividing both sides by (x − 3) loses x = 3: max 1 mark. Watch the sign: 8(x − 3) = 8x − 24."
+    }
+  ]
+}
