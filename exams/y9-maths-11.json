@@ -1,0 +1,299 @@
+{
+  "id": "y9-maths-11",
+  "year": 9,
+  "subject": "Maths",
+  "title": "Year 9 Maths Exam 11",
+  "short": "Exam 11",
+  "topic": "Fractions, decimals, percentages and ratio (Term 1B) · Calculator · Higher",
+  "minutes": 75,
+  "order": 11,
+  "intro": "You may use a calculator. Show your working in the working box: method marks are given even when the final answer is wrong, and on questions that say \"show your working\" an answer with no working gets 0 marks. Give fractions and ratios in their simplest form. Give money answers to 2 decimal places where needed. Read the last line of each question again before you answer, to check what it asks for.",
+  "questions": [
+    {
+      "id": "1",
+      "type": "mc",
+      "marks": 1,
+      "q": "Which of these is equal to 2.4?",
+      "options": [
+        "24%",
+        "2 2/5",
+        "12/50",
+        "240/10"
+      ],
+      "key": 1,
+      "ms": "B1: 2 2/5. 2.4 = 2 and 4/10 = 2 2/5. (24% = 0.24, 12/50 = 0.24, 240/10 = 24.)"
+    },
+    {
+      "id": "2",
+      "type": "mc",
+      "marks": 1,
+      "q": "Which list is in order from <strong>smallest</strong> to <strong>largest</strong>?",
+      "options": [
+        "0.62, 61%, 5/8, 2/3",
+        "61%, 0.62, 5/8, 2/3",
+        "61%, 5/8, 0.62, 2/3",
+        "2/3, 5/8, 0.62, 61%"
+      ],
+      "key": 1,
+      "ms": "B1: 61%, 0.62, 5/8, 2/3. As decimals: 0.61, 0.62, 0.625, 0.666…"
+    },
+    {
+      "id": "3",
+      "type": "num",
+      "marks": 1,
+      "q": "Write <span class=\"frac\"><span>3</span><span>40</span></span> as a percentage. (%)",
+      "key": 7.5,
+      "ms": "Answer: 7.5%. B1. 3 ÷ 40 = 0.075, × 100 = 7.5%."
+    },
+    {
+      "id": "4",
+      "type": "work",
+      "marks": 2,
+      "q": "Work out 4<span class=\"frac\"><span>1</span><span>6</span></span> − 1<span class=\"frac\"><span>11</span><span>12</span></span><br>Show your working. Give your answer as a mixed number in its simplest form.",
+      "key": {
+        "text": [
+          "21/4",
+          "9/4"
+        ]
+      },
+      "hint": "Type a mixed number with a space, like 2 3/4 (or an improper fraction like 11/4)",
+      "ms": "Answer: 2 1/4. M1 for 25/6 − 23/12 written as 50/12 − 23/12 (or 3 + 1/6 − 11/12). A1 for 2 1/4 (accept 9/4). 2 3/12 not simplified: M1 A0. Check the final fraction can't be simplified."
+    },
+    {
+      "id": "5",
+      "type": "work",
+      "marks": 2,
+      "q": "Work out 4<span class=\"frac\"><span>1</span><span>2</span></span> ÷ 1<span class=\"frac\"><span>4</span><span>5</span></span><br>Show your working. Give your answer as a mixed number.",
+      "key": {
+        "text": [
+          "21/2",
+          "5/2"
+        ]
+      },
+      "hint": "Type a mixed number with a space, like 2 3/4 (or an improper fraction like 11/4)",
+      "ms": "Answer: 2 1/2. M1 for 9/2 × 5/9 (improper fractions, flip the second, multiply). A1 for 2 1/2 (accept 5/2)."
+    },
+    {
+      "id": "6a",
+      "type": "num",
+      "marks": 1,
+      "q": "You are told that 23 × 47 = 1081.<br>Use this fact to write down the value of 2.3 × 0.47",
+      "key": 1.081,
+      "ms": "Answer: 1.081. B1. 2.3 × 0.47 has 1 + 2 = 3 decimal places, so 1081 → 1.081."
+    },
+    {
+      "id": "6b",
+      "type": "num",
+      "marks": 1,
+      "q": "Use 23 × 47 = 1081 to write down the value of 1081 ÷ 4.7",
+      "key": 230,
+      "ms": "Answer: 230. B1. 1081 ÷ 47 = 23, and 4.7 is 10 times smaller than 47, so the answer is 10 times bigger: 230."
+    },
+    {
+      "id": "7",
+      "type": "work",
+      "marks": 3,
+      "q": "Use algebra to show that the recurring decimal 0.3̇6̇ (which means 0.363636…) is equal to 4/11.<br>Follow these steps in the working box:<br>Step 1: Write <i>x</i> = 0.363636…<br>Step 2: Two digits repeat, so multiply by 100. Write down 100<i>x</i>.<br>Step 3: Subtract to get rid of the recurring part: 100<i>x</i> − <i>x</i> = …<br>Step 4: Solve for <i>x</i> and simplify the fraction.",
+      "ms": "M1 for x = 0.3636… and 100x = 36.3636… M1 for subtracting: 99x = 36. A1 for x = 36/99 = 4/11 (divide top and bottom by 9). Just writing 4 ÷ 11 = 0.3636… on a calculator: 0 marks, because the question asks for algebra."
+    },
+    {
+      "id": "8",
+      "type": "work",
+      "marks": 3,
+      "q": "A school has 840 students. <span class=\"frac\"><span>2</span><span>7</span></span> of them walk to school. <span class=\"frac\"><span>5</span><span>8</span></span> of the <strong>rest</strong> come by bus. All the others come by car.<br>How many students come by car?",
+      "key": {
+        "num": 225
+      },
+      "ms": "Answer: 225. M1 for walkers = 240, so the rest = 600. M1 for bus = 5/8 × 600 = 375. A1 for 600 − 375 = 225. Common mistake: taking 5/8 of 840 instead of 5/8 of the rest."
+    },
+    {
+      "id": "9a",
+      "type": "mc",
+      "marks": 1,
+      "q": "Which number do you multiply by to <strong>decrease</strong> an amount by 12%?",
+      "options": [
+        "0.12",
+        "1.12",
+        "0.88",
+        "0.8"
+      ],
+      "key": 2,
+      "ms": "B1: 0.88. A 12% decrease leaves 100% − 12% = 88% = 0.88."
+    },
+    {
+      "id": "9b",
+      "type": "work",
+      "marks": 3,
+      "q": "A car costs AED 80 000. Its value goes down by 10% every year (depreciation).<br>Work out the value of the car after 3 years. (AED)",
+      "key": {
+        "num": 58320
+      },
+      "ms": "Answer: AED 58 320. M1 for using 0.9 (or finding 10% and subtracting for one year: 72 000). M1 for 80 000 × 0.9³ or three correct years (72 000, 64 800). A1 for 58 320. 80 000 − 3 × 8000 = 56 000 (simple): M1 at most."
+    },
+    {
+      "id": "10",
+      "type": "work",
+      "marks": 4,
+      "q": "Sara has AED 6000 to invest for 4 years.<br>Bank A pays 3% <strong>compound</strong> interest per year.<br>Bank B pays 3.2% <strong>simple</strong> interest per year.<br>Which bank pays more interest, and by how much? Write the bank in your working and type the difference in AED in the answer box.",
+      "key": {
+        "num": 14.95
+      },
+      "ms": "Answer: Bank B, by AED 14.95. M1 for 6000 × 1.03⁴ (= 6753.05). M1 for Bank B interest 6000 × 0.032 × 4 = 768 (or total 6768). M1 for comparing like with like: interest 753.05 and 768 (or totals 6753.05 and 6768). A1 for Bank B and 14.95 (accept 14.94 to 14.95)."
+    },
+    {
+      "id": "11",
+      "type": "work",
+      "marks": 3,
+      "q": "The price of a phone goes up by 8%. The new price is AED 3240.<br>What was the price before the increase? (AED)",
+      "key": {
+        "num": 3000
+      },
+      "ms": "Answer: AED 3000. M1 for 3240 = 108% of the original. M1 for 3240 ÷ 1.08. A1 for 3000. Common mistake: taking 8% off 3240 (2980.80): 0 marks."
+    },
+    {
+      "id": "12",
+      "type": "work",
+      "marks": 2,
+      "q": "A shop buys a lamp for AED 64 and sells it for AED 88.<br>Work out the percentage profit. (%)",
+      "key": {
+        "num": 37.5
+      },
+      "ms": "Answer: 37.5%. M1 for 24 ÷ 64 (profit ÷ cost price) × 100. A1 for 37.5. Dividing by 88 (27.3%): 0 marks."
+    },
+    {
+      "id": "13a",
+      "type": "text",
+      "marks": 1,
+      "q": "Write 45 minutes : 2 hours as a ratio in its simplest form.",
+      "key": [
+        "3:8"
+      ],
+      "hint": "Type it like 2:5",
+      "ms": "Answer: 3 : 8. B1. Change to the same units first: 45 : 120, then divide by 15."
+    },
+    {
+      "id": "13b",
+      "type": "num",
+      "marks": 1,
+      "q": "Write the ratio 8 : 20 in the form 1 : <i>n</i>. Type the value of <i>n</i>.",
+      "key": 2.5,
+      "ms": "Answer: n = 2.5. B1. Divide both sides by 8: 1 : 2.5."
+    },
+    {
+      "id": "13c",
+      "type": "mc",
+      "marks": 1,
+      "q": "In a bag, the ratio of red counters to blue counters is 3 : 7.<br>What fraction of the counters are red?",
+      "options": [
+        "3/7",
+        "3/10",
+        "7/10",
+        "7/3"
+      ],
+      "key": 1,
+      "ms": "B1: 3/10. There are 3 + 7 = 10 parts altogether, and 3 of them are red."
+    },
+    {
+      "id": "14",
+      "type": "work",
+      "marks": 3,
+      "q": "Huda and Sami share some money in the ratio 7 : 4. Huda gets AED 36 more than Sami.<br>How much money did they share altogether? (AED)",
+      "key": {
+        "num": 132
+      },
+      "ms": "Answer: AED 132. M1 for the difference being 7 − 4 = 3 parts. M1 for 36 ÷ 3 = 12 (one part). A1 for 11 × 12 = 132."
+    },
+    {
+      "id": "15",
+      "type": "work",
+      "marks": 3,
+      "q": "<i>a</i> : <i>b</i> = 3 : 4 and <i>b</i> : <i>c</i> = 6 : 5<br>Write <i>a</i> : <i>b</i> : <i>c</i> in its simplest form.",
+      "key": {
+        "text": [
+          "9:12:10"
+        ]
+      },
+      "hint": "Type it like 2:5:7",
+      "ms": "Answer: 9 : 12 : 10. M1 for making b the same in both ratios: b = 12 (3 : 4 = 9 : 12 and 6 : 5 = 12 : 10). M1 for 9 : 12 : 10 or an equivalent like 18 : 24 : 20. A1 for 9 : 12 : 10."
+    },
+    {
+      "id": "16",
+      "type": "work",
+      "marks": 3,
+      "q": "A jar contains red sweets and green sweets in the ratio 5 : 2. Maya adds 18 green sweets to the jar. Now the ratio of red sweets to green sweets is 5 : 4.<br>How many red sweets are in the jar?",
+      "key": {
+        "num": 45
+      },
+      "ms": "Answer: 45. M1 for red = 5k, green = 2k (the red sweets don't change). M1 for 5k : (2k + 18) = 5 : 4, so 20k = 10k + 90 (or: red is 5 parts in both ratios, so the green goes from 2 parts to 4 parts, and 2 parts = 18). A1 for k = 9, red = 45. (Check: 45 : 36 = 5 : 4.)"
+    },
+    {
+      "id": "17",
+      "type": "work",
+      "marks": 2,
+      "q": "7 metres of fabric cost AED 59.50.<br>Work out the cost of 12 metres of the same fabric. (AED)",
+      "key": {
+        "num": 102
+      },
+      "ms": "Answer: AED 102. M1 for 59.50 ÷ 7 = 8.50 (cost of one metre). A1 for 12 × 8.50 = 102. Find the cost of 1 first, then multiply."
+    },
+    {
+      "id": "18",
+      "type": "work",
+      "marks": 3,
+      "q": "Orange juice is sold in three ways.<br>A: one 330 ml can for AED 2.75<br>B: one 1.5 litre bottle for AED 11.85<br>C: a pack of 6 cans of 330 ml for AED 14.40<br>Which is the best value for money? You must show how you decide.",
+      "key": {
+        "text": [
+          "c",
+          "pack",
+          "packc",
+          "c:pack",
+          "packof6",
+          "6cans",
+          "packof6cans"
+        ]
+      },
+      "hint": "Type A, B or C",
+      "ms": "Answer: C, the pack of 6 cans. M1 for a comparable value for at least two options, e.g. cost per 100 ml: A = 0.833, B = 0.79, C = 0.727 (or ml per AED: 120, 126.6, 137.5). Watch the units: 1.5 litres = 1500 ml and 6 × 330 = 1980 ml. M1 for all three correct. A1 for C with all three values shown. No working: 0 marks."
+    },
+    {
+      "id": "19a",
+      "type": "work",
+      "marks": 2,
+      "q": "Here is a recipe for 12 cupcakes:<br>150 g butter<br>225 g sugar<br>3 eggs<br>180 g flour<br>How much flour is needed to make 30 cupcakes? (g)",
+      "key": {
+        "num": 450
+      },
+      "ms": "Answer: 450 g. M1 for 180 ÷ 12 = 15 g per cupcake (or scale factor 30 ÷ 12 = 2.5). A1 for 450."
+    },
+    {
+      "id": "19b",
+      "type": "work",
+      "marks": 3,
+      "q": "Using the same recipe (12 cupcakes: 150 g butter, 225 g sugar, 3 eggs, 180 g flour).<br>Yahia has 400 g of butter, 500 g of sugar, 10 eggs and plenty of flour.<br>What is the greatest number of cupcakes he can make?",
+      "key": {
+        "num": 26
+      },
+      "ms": "Answer: 26. M1 for working out how far each ingredient goes, e.g. butter 400 ÷ 150 × 12 = 32, sugar 500 ÷ 225 × 12 = 26.6…, eggs 10 ÷ 3 × 12 = 40. M1 for picking sugar as the ingredient that runs out first. A1 for 26 (you can't make part of a cupcake, so round down, not up to 27)."
+    },
+    {
+      "id": "20a",
+      "type": "work",
+      "marks": 3,
+      "q": "The exchange rate is £1 = AED 4.62<br>A pair of trainers costs £85 in London. The same trainers cost AED 410 in Dubai.<br>In which city are the trainers cheaper, and by how much in AED? Write the city in your working and type the difference in AED in the answer box.",
+      "key": {
+        "num": 17.3
+      },
+      "ms": "Answer: London, by AED 17.30. M1 for 85 × 4.62 = 392.70 (or 410 ÷ 4.62 = £88.74). M1 for comparing: 410 − 392.70. A1 for London and AED 17.30. (Comparing in pounds: London cheaper by £3.74 gets M1 M1 A0, because it asks for AED.)"
+    },
+    {
+      "id": "20b",
+      "type": "work",
+      "marks": 2,
+      "q": "Yahia changes AED 1215 into euros. The exchange rate is €1 = AED 4.05<br>How many euros does he get? (€)",
+      "key": {
+        "num": 300
+      },
+      "ms": "Answer: €300. M1 for 1215 ÷ 4.05 (divide, because each euro costs 4.05 dirhams). A1 for 300. Multiplying (4920.75): 0 marks; check the answer makes sense, euros are worth more than dirhams so you get fewer of them."
+    }
+  ]
+}
