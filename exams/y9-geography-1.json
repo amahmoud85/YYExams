@@ -1,0 +1,246 @@
+{
+  "id": "y9-geography-1",
+  "year": 9,
+  "subject": "Geography",
+  "title": "Year 9 Geography Exam 1",
+  "short": "Exam 1",
+  "topic": "Megadisasters · Supervolcanoes, tsunamis, atmospheric circulation, weather and tropical storms",
+  "minutes": 55,
+  "order": 1,
+  "intro": "Section A is a quick quiz (Q1-14). Section B (Q15-20) asks you to describe and explain processes: write them as steps in the right order and use the key words (low pressure, condenses, Coriolis effect, caldera). Section C (Q21-22) needs your case studies from your book: use real places, dates and numbers, sort effects into immediate and long-term, and finish Q22 with a clear judgement. Spend about 20 minutes on Section C.",
+  "questions": [
+    {
+      "id": "1",
+      "type": "mc",
+      "marks": 1,
+      "q": "<strong>Section A: Quiz</strong><br>An event is a <strong>megadisaster</strong> if it causes at least one of four things. Which of these is one of them?",
+      "options": [
+        "Over 200 deaths",
+        "20,000 people made homeless",
+        "GDP of a country lowered by 1%",
+        "Over 2000 deaths"
+      ],
+      "key": 3,
+      "ms": "B1: Over 2000 deaths. (The others: 200,000 people homeless; GDP lowered by more than 5%; depending on aid from abroad for over 1 year.)"
+    },
+    {
+      "id": "2",
+      "type": "mc",
+      "marks": 1,
+      "q": "How is an <strong>oceanic plate</strong> different from a continental plate?",
+      "options": [
+        "It is thicker and less dense",
+        "It is thinner and more dense",
+        "It is thicker and more dense",
+        "It is thinner and less dense"
+      ],
+      "key": 1,
+      "ms": "B1: Oceanic plates are thinner and denser (heavier); continental plates are thicker and less dense."
+    },
+    {
+      "id": "3",
+      "type": "mc",
+      "marks": 1,
+      "q": "The <strong>Volcanic Explosivity Index (VEI)</strong> goes from 1 to 8. Each time you go up one step, the power of the eruption...",
+      "options": [
+        "doubles",
+        "increases by 5 times",
+        "increases by 10 times",
+        "increases by 100 times"
+      ],
+      "key": 2,
+      "ms": "B1: Increases by 10 times (x10)."
+    },
+    {
+      "id": "4",
+      "type": "num",
+      "marks": 1,
+      "q": "A supervolcano is a volcano that has had an eruption with a VEI of what number?",
+      "key": 8,
+      "hint": "Type a whole number",
+      "ms": "Answer: 8. B1. (It also erupts more than 1,000 km³ of material.)"
+    },
+    {
+      "id": "5",
+      "type": "text",
+      "marks": 1,
+      "q": "A supervolcano is wide and flat, with a large depression in the middle where the land collapsed into the empty magma chamber. What is this depression called?",
+      "key": [
+        "caldera",
+        "acaldera"
+      ],
+      "hint": "Type one word",
+      "ms": "Answer: a caldera. B1. Accept small spelling slips such as 'caldara' if marking by hand."
+    },
+    {
+      "id": "6",
+      "type": "mc",
+      "marks": 1,
+      "q": "Why do volcanoes in a hotspot island chain (like Hawaii) eventually go <strong>extinct</strong>?",
+      "options": [
+        "The magma plume runs out of magma",
+        "The ocean cools the magma chamber",
+        "The plate moves them away from the hotspot",
+        "They are hit by tsunamis"
+      ],
+      "key": 2,
+      "ms": "B1: The plate keeps moving, so each volcano is carried off the hotspot and has no more magma supply."
+    },
+    {
+      "id": "7",
+      "type": "mc",
+      "marks": 1,
+      "q": "Why is a tsunami hardly noticeable out in the open ocean?",
+      "options": [
+        "The ocean is deep enough to carry the energy, so the wave is low",
+        "It travels too slowly",
+        "It only forms near the coast",
+        "Strong winds flatten the wave"
+      ],
+      "key": 0,
+      "ms": "B1: The ocean is deep enough to carry the energy, so the wave height is small. It grows as the sea gets shallower."
+    },
+    {
+      "id": "8",
+      "type": "mc",
+      "marks": 1,
+      "q": "In the Hadley cell, air sinks at about 30°N and 30°S. What does this create?",
+      "options": [
+        "Low pressure, clouds and tropical rainforests",
+        "High pressure and heavy rain",
+        "Low pressure and tropical storms",
+        "High pressure, clear skies and deserts"
+      ],
+      "key": 3,
+      "ms": "B1: Sinking air gives high pressure, clear skies and deserts."
+    },
+    {
+      "id": "9",
+      "type": "num",
+      "marks": 1,
+      "q": "On a barometer, high pressure is a reading above how many millibars (mb)?",
+      "key": 1016,
+      "hint": "Type the number only, like 980",
+      "ms": "Answer: 1016 mb. B1."
+    },
+    {
+      "id": "10",
+      "type": "text",
+      "marks": 1,
+      "q": "Which instrument uses spinning cups to measure <strong>wind speed</strong>?",
+      "key": [
+        "anemometer",
+        "ananemometer"
+      ],
+      "hint": "Type one word",
+      "ms": "Answer: anemometer. B1. (A weather vane shows wind direction; a barometer measures air pressure.) Accept small spelling slips such as 'anenometer' if marking by hand."
+    },
+    {
+      "id": "11",
+      "type": "num",
+      "marks": 1,
+      "q": "Tropical storms need warm oceans. What is the minimum sea temperature needed, in °C?",
+      "key": 26.5,
+      "hint": "Type the number only, like 12.5",
+      "ms": "Answer: 26.5 °C. B1. (They also need water at least 50 m deep and the Coriolis effect.)"
+    },
+    {
+      "id": "12",
+      "type": "mc",
+      "marks": 1,
+      "q": "Where do tropical storms form?",
+      "options": [
+        "Between 5° and 30° north and south of the equator",
+        "Exactly on the equator",
+        "Between 30° and 60° north and south",
+        "Near the poles"
+      ],
+      "key": 0,
+      "ms": "B1: Between 5° and 30° N/S, near the equator but not on it (there is no Coriolis effect on the equator)."
+    },
+    {
+      "id": "13",
+      "type": "mc",
+      "marks": 1,
+      "q": "In a tropical storm, where is the strongest band of wind and rain?",
+      "options": [
+        "The eye",
+        "The outer rainbands",
+        "The eye wall",
+        "Far out at sea, ahead of the storm"
+      ],
+      "key": 2,
+      "ms": "B1: The eye wall, the first band around the calm eye."
+    },
+    {
+      "id": "14",
+      "type": "mc",
+      "marks": 1,
+      "q": "Warm air meets cold air. The cold air is denser, so it pushes the warm air upwards and rain clouds form along the boundary. Which type of rainfall is this?",
+      "options": [
+        "Frontal rainfall",
+        "Relief rainfall",
+        "Convectional rainfall",
+        "Acid rainfall"
+      ],
+      "key": 0,
+      "ms": "B1: Frontal rainfall (the boundary is called a front)."
+    },
+    {
+      "id": "15",
+      "type": "written",
+      "marks": 3,
+      "q": "<strong>Section B: Describe and explain</strong><br>Describe how a <strong>hotspot</strong> creates a chain of volcanic islands, such as Hawaii.",
+      "ms": "1 mark per point, max 3, in a sensible order. A plume of magma under the crust melts the plate above it [1]. Magma erupts onto the surface slowly and cools, building a shield volcano / island [1]. The plate moves over the hotspot but the plume stays still [1], so the plume does the same again and makes a new volcano [1], creating a chain of islands; the older ones have moved off the hotspot and are extinct [1]. 3 marks needs the idea that the plate moves and the hotspot does not."
+    },
+    {
+      "id": "16",
+      "type": "written",
+      "marks": 4,
+      "q": "Explain how a <strong>supervolcano</strong> forms. Use the word <em>caldera</em> in your answer.",
+      "ms": "1 mark per linked step, max 4. A magma chamber is fed with magma over a hotspot [1]. The chamber fills and is under too much pressure [1]. It erupts through many fissures (cracks) in the surface, causing a massive super eruption, VEI 8 / over 1,000 km³ of material [1]. The land collapses into the now empty magma chamber [1], creating a depression called a caldera [1]. 4 marks needs the caldera step explained (land collapses into the empty chamber), not just the word."
+    },
+    {
+      "id": "17",
+      "type": "written",
+      "marks": 4,
+      "q": "Explain how a <strong>tsunami</strong> forms and why it becomes so dangerous when it reaches the coast.",
+      "ms": "Levels. L2 (3-4): a linked sequence: an underwater disturbance, e.g. an underwater earthquake, displaces (moves) the water and gives energy to the wave; out at sea the wave is low because the deep ocean carries the energy; as it approaches land the sea becomes shallower so the wave height increases; friction with the ocean floor slows the base and makes the wave even taller until it hits the coastline. 4 marks needs both the trigger AND a reason the wave grows near the coast (shallower water or friction). L1 (1-2): one or two simple points, e.g. 'caused by an earthquake', 'the wave gets bigger'."
+    },
+    {
+      "id": "18",
+      "type": "written",
+      "marks": 4,
+      "q": "Use the <strong>Hadley cell</strong> to explain why there are tropical rainforests at the equator but deserts at about 30°N and 30°S.",
+      "ms": "2 marks for rainforests + 2 marks for deserts. Rainforests: air at the equator receives more intense radiation from the Sun, gets hotter and rises, creating low pressure [1]; it reaches the top of the atmosphere, cools and condenses into clouds, so it rains a lot [1]. Deserts: the air splits and travels to 30°N/S, where it cools slightly and sinks [1], creating high pressure with clear skies, so there is little rain [1]. Stating 'low pressure = rain, high pressure = dry' with no rising/sinking air: max 1 per half."
+    },
+    {
+      "id": "19",
+      "type": "written",
+      "marks": 6,
+      "q": "Explain how a <strong>tropical storm</strong> forms. You should refer to the three conditions needed.",
+      "ms": "Levels, 6 marks. L3 (5-6): a full, linked explanation in order. Conditions: ocean at least 26.5 °C, water at least 50 m deep, Coriolis effect (so between 5-30° N/S, not on the equator). Process: intense evaporation from deep, warm ocean water makes rising air and an area of low pressure; the Coriolis effect makes the rising air spin (anticlockwise in the northern hemisphere, clockwise in the southern); as the air rises and spins it cools and condenses into towering cumulonimbus clouds; some air at the top sinks in the middle to form the calm, clear eye, surrounded by the eye wall with the strongest wind and rain. L2 (3-4): most steps, but some links missing, or the conditions are only partly given. L1 (1-2): simple points, e.g. 'warm water evaporates and makes clouds'. Key words that lift an answer: evaporation, low pressure, Coriolis effect, condenses, cumulonimbus, eye, eye wall."
+    },
+    {
+      "id": "20",
+      "type": "written",
+      "marks": 3,
+      "q": "Explain how <strong>relief rainfall</strong> forms and why the land behind the mountain stays dry.",
+      "ms": "1 mark per point, max 3. Warm, moist air from the sea is forced to rise over mountains [1]. As it rises it cools and condenses, forming clouds, so it rains on that side of the mountain [1]. The air then descends on the other side and warms, so it has lost its moisture and there is little rain, creating a rain shadow [1]. 3 marks needs the term rain shadow or a clear description of it."
+    },
+    {
+      "id": "21",
+      "type": "written",
+      "marks": 6,
+      "q": "<strong>Section C: Case studies</strong><br>Yellowstone, in the USA, is a supervolcano. Describe the likely <strong>immediate</strong> and <strong>long-term</strong> effects if Yellowstone were to have a super eruption.",
+      "ms": "Levels, 6 marks (use your Week 2B work). L3 (5-6): several effects, clearly sorted into immediate and long-term, with detail and range (people, economy, environment; USA and the world), and some explanation of why each happens. L2 (3-4): a mix of immediate and long-term effects with some detail, but unbalanced or not explained. L1 (1-2): one or two general effects, e.g. 'lots of people die'. Indicative content. Immediate: pyroclastic flows and lava destroy everything close to the volcano and kill people nearby; thick ash falls across much of the USA, collapsing roofs and blocking roads; flights grounded across North America; ash contaminates water supplies and causes breathing problems; crops and livestock in the Midwest farming area are buried; millions must evacuate. Long-term: ash and gas in the atmosphere block sunlight, causing a 'volcanic winter' and colder global temperatures for years; crop failures cause global food shortages and rising food prices; the US economy is badly damaged, which hits the world economy; huge numbers of people are made homeless and migrate; the USA could depend on aid, making it a megadisaster on every criterion."
+    },
+    {
+      "id": "22",
+      "type": "written",
+      "marks": 9,
+      "q": "For a <strong>tsunami</strong> OR a <strong>tropical storm</strong> you have studied:<br>\"The long-term effects were more serious than the immediate effects.\"<br>How far do you agree? Use your case study to explain your answer.<br><br>Name your case study and the year at the start of your answer.",
+      "ms": "Levels, 9 marks (use Week 5A for the tsunami or Week 9A for the tropical storm). L3 (7-9): names a real case study with accurate, specific facts (place, date, numbers); explains both immediate and long-term effects; compares them (how many people affected, for how long, cost, whether the country recovered); reaches a clear, supported judgement on 'how far'. L2 (4-6): describes immediate and long-term effects with some case-study facts; some comparison or a judgement that is stated but not well supported. L1 (1-3): general effects of any disaster with few or no case-study facts; no real judgement. Max 4 if there is no named case study. Indicative content (credit the case study used in class). Japan, 11 March 2011: magnitude 9.0 underwater earthquake; waves up to about 40 m; around 18,000 dead or missing; hundreds of thousands evacuated or homeless; Fukushima nuclear power plant meltdown (immediate leak, long-term exclusion zone and clean-up lasting decades); about $235 billion cost, the most expensive disaster recorded; Japan, a rich country, rebuilt quickly. Indian Ocean, 26 December 2004: magnitude 9.1 earthquake off Sumatra; about 230,000 deaths in 14 countries, Aceh (Indonesia) worst hit; about 1.7 million homeless; long-term loss of fishing boats and tourism jobs, salt water ruined farmland, disease risk from dirty water, countries depended on foreign aid for years; it led to an Indian Ocean warning system. Typhoon Haiyan, Philippines, 8 November 2013: winds over 300 km/h, storm surge about 5 m, over 6,000 deaths, around 4 million people displaced, Tacloban destroyed; long-term homelessness, lost crops and fishing, years of rebuilding. Hurricane Katrina, USA, 2005: about 1,800 deaths, New Orleans levees failed and 80% of the city flooded, about $125 billion damage, many people never returned. Credit any well-argued judgement, e.g. 'immediate effects were worse in Japan because a rich country rebuilt quickly, but long-term effects were worse in Indonesia because poor fishing communities lost their livelihoods'."
+    }
+  ]
+}
