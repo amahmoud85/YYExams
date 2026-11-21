@@ -1,0 +1,232 @@
+{
+  "id": "y9-history-1",
+  "year": 9,
+  "subject": "History",
+  "title": "Year 9 History Exam 1",
+  "short": "Exam 1",
+  "topic": "Why was WWI significant? · Causes, warfare, the Home Front and the Treaty of Versailles",
+  "minutes": 50,
+  "order": 1,
+  "intro": "Section A is a quick quiz (Q1-13). Section B (Q14-19) asks you to describe and explain: use specific facts, dates and names from the knowledge organiser, and link each point back to the question. Section C (Q20) is an essay worth 12 marks: spend about 15 minutes on it, plan first, and finish with a clear judgement. Spelling of key words (Austria-Hungary, Versailles, reparations) matters.",
+  "questions": [
+    {
+      "id": "1",
+      "type": "mc",
+      "marks": 1,
+      "q": "<strong>Section A: Quiz</strong><br>Which countries made up the <strong>Triple Alliance</strong> before WWI?",
+      "options": [
+        "Britain, France and Russia",
+        "Germany, Austria-Hungary and Italy",
+        "Germany, Russia and Serbia",
+        "Britain, France and the USA"
+      ],
+      "key": 1,
+      "ms": "B1: Germany, Austria-Hungary and Italy. (Britain, France and Russia were the Triple Entente.)"
+    },
+    {
+      "id": "2",
+      "type": "mc",
+      "marks": 1,
+      "q": "Archduke Franz Ferdinand was shot and killed on 28th June 1914. Where did this happen, and who shot him?",
+      "options": [
+        "Vienna, by a German soldier",
+        "Belgrade, by a Russian spy",
+        "Sarajevo, by Gavrilo Princip",
+        "Paris, by a French nationalist"
+      ],
+      "key": 2,
+      "ms": "B1: Sarajevo (in Bosnia), by Gavrilo Princip, a Bosnian-Serb who believed in a greater Serbia."
+    },
+    {
+      "id": "3",
+      "type": "mc",
+      "marks": 1,
+      "q": "Why did <strong>Britain</strong> declare war on Germany in 1914?",
+      "options": [
+        "Germany attacked a British ship",
+        "Germany invaded Belgium, which Britain had sworn to protect",
+        "Britain had an alliance with Serbia",
+        "Germany declared war on Britain first"
+      ],
+      "key": 1,
+      "ms": "B1: Germany invaded France through Belgium, and Britain had sworn to protect Belgium."
+    },
+    {
+      "id": "4",
+      "type": "mc",
+      "marks": 1,
+      "q": "Which gas did Germany use at the <strong>Second Battle of Ypres</strong> in 1915?",
+      "options": [
+        "Mustard gas",
+        "Chlorine gas",
+        "Carbon dioxide",
+        "Nitrogen"
+      ],
+      "key": 1,
+      "ms": "B1: Chlorine. (Mustard gas came later and caused burns, blindness and breathing problems.)"
+    },
+    {
+      "id": "5",
+      "type": "mc",
+      "marks": 1,
+      "q": "At which battle did Britain first use <strong>tanks</strong>?",
+      "options": [
+        "Gallipoli, 1915",
+        "Ypres, 1915",
+        "The Somme, 1916",
+        "Sarajevo, 1914"
+      ],
+      "key": 2,
+      "ms": "B1: The Battle of the Somme, 1916."
+    },
+    {
+      "id": "6",
+      "type": "mc",
+      "marks": 1,
+      "q": "What were the \"Little Curies\"?",
+      "options": [
+        "Fighter planes",
+        "Mobile X-ray units",
+        "Field hospitals run by nurses",
+        "Gas masks"
+      ],
+      "key": 1,
+      "ms": "B1: Mobile X-ray units developed by Marie Curie, which helped doctors find bullets and shrapnel inside wounded soldiers."
+    },
+    {
+      "id": "7",
+      "type": "mc",
+      "marks": 1,
+      "q": "What did the <strong>Representation of the People Act</strong> of 1918 do?",
+      "options": [
+        "Gave all women the vote",
+        "Gave some women over the age of 30 the vote",
+        "Allowed women to join the army",
+        "Gave women equal pay"
+      ],
+      "key": 1,
+      "ms": "B1: Some women over the age of 30 gained the right to vote."
+    },
+    {
+      "id": "8",
+      "type": "mc",
+      "marks": 1,
+      "q": "What did <strong>Article 231</strong> of the Treaty of Versailles say?",
+      "options": [
+        "Germany's army was cut to 100,000 soldiers",
+        "Germany must give Alsace-Lorraine to France",
+        "Germany must accept all the blame for starting the war",
+        "Germany's air force was banned"
+      ],
+      "key": 2,
+      "ms": "B1: The 'war guilt' clause: Germany had to accept all blame for starting the war, which justified the other terms."
+    },
+    {
+      "id": "9",
+      "type": "text",
+      "marks": 1,
+      "q": "Which of the four MAIN long-term causes is described here?<br><em>\"The belief that a country should develop strong armed forces.\"</em>",
+      "key": [
+        "militarism"
+      ],
+      "hint": "Type one word",
+      "ms": "Answer: Militarism. B1. (By 1914 Germany had nearly 100 warships and 2 million soldiers.) Accept small spelling slips such as 'militerism' if marking by hand."
+    },
+    {
+      "id": "10",
+      "type": "num",
+      "marks": 1,
+      "q": "Under the Treaty of Versailles, Germany's army was cut to how many soldiers?",
+      "key": 100000,
+      "hint": "Type the number with no commas, like 2500",
+      "ms": "Answer: 100,000. B1."
+    },
+    {
+      "id": "11",
+      "type": "text",
+      "marks": 1,
+      "q": "Which area between France and Germany had to be <strong>demilitarised</strong> (no German troops allowed)?",
+      "key": [
+        "rhineland",
+        "therhineland"
+      ],
+      "hint": "Type one word",
+      "ms": "Answer: the Rhineland. B1."
+    },
+    {
+      "id": "12",
+      "type": "text",
+      "marks": 1,
+      "q": "The German people hated the Treaty of Versailles. What word did they use for it, meaning a \"dictated peace\"?",
+      "key": [
+        "diktat",
+        "adiktat",
+        "dictat"
+      ],
+      "hint": "Type one word",
+      "ms": "Answer: Diktat. B1. (Accept dictat.)"
+    },
+    {
+      "id": "13",
+      "type": "text",
+      "marks": 1,
+      "q": "Soldiers from Australia and New Zealand became famous during the war. What were they known as?",
+      "key": [
+        "anzacs",
+        "anzac",
+        "theanzacs"
+      ],
+      "hint": "Type one word",
+      "ms": "Answer: ANZACs. B1. (Australian and New Zealand Army Corps; they fought at Gallipoli.)"
+    },
+    {
+      "id": "14",
+      "type": "written",
+      "marks": 4,
+      "q": "<strong>Section B: Describe and explain</strong><br>Describe <strong>two</strong> features of the alliance system in Europe before 1914.",
+      "ms": "2 marks per feature (max 4): 1 mark for identifying a feature, 1 more for supporting detail. Features: Europe was split into two armed alliances (Triple Alliance: Germany, Austria-Hungary, Italy; Triple Entente: Britain, France, Russia) [1], so the great powers faced each other in two rival groups [1]. Countries promised to support their allies [1], so a quarrel between two countries could drag in many more, e.g. Russia backing Serbia, then Germany declaring war on Russia [1]. Britain had also sworn to protect Belgium [1], which brought Britain in when Germany invaded through Belgium [1]. Naming the alliances with no description: max 1 per feature."
+    },
+    {
+      "id": "15",
+      "type": "written",
+      "marks": 4,
+      "q": "Explain how the assassination of Franz Ferdinand led to a <strong>world</strong> war, not just a war between Austria-Hungary and Serbia.",
+      "ms": "Levels. L2 (3-4): explains the chain of events with links (because, so, which meant): Austria-Hungary declared war on Serbia; Russia, allied with Serbia, declared war on Austria-Hungary; Germany, allied with Austria-Hungary, declared war on Russia; France declared war in response to German aggression; Germany invaded France through Belgium; Britain, sworn to protect Belgium, declared war on Germany. 4 marks needs at least four correct steps AND the point that the alliances turned a local conflict into a world war. L1 (1-2): lists one or two events, or general statements about alliances with little detail. Tip: use the word 'because' to link each step to the next."
+    },
+    {
+      "id": "16",
+      "type": "written",
+      "marks": 4,
+      "q": "Explain <strong>two</strong> ways new technology changed how WWI was fought.",
+      "ms": "2 marks per way (max 4): 1 for the technology with a fact, 1 for explaining its effect on fighting. Machine guns fired about 600 rounds per minute [1], making cavalry charges almost impossible and increasing casualties dramatically [1]. Heavy artillery caused most deaths, e.g. 1.5 million shells before the Somme [1], so soldiers dug trenches for protection [1]. Gas (chlorine at Ypres 1915, later mustard gas) [1] caused burns, blindness and breathing problems and meant soldiers needed gas masks [1]. Tanks at the Somme 1916 [1] helped soldiers cross trenches and barbed wire, even though early tanks were slow and unreliable [1]. Aircraft went from reconnaissance to fighters and bombers [1], so the war was fought in the air too [1]. Naming technology with no effect: 1 mark each."
+    },
+    {
+      "id": "17",
+      "type": "written",
+      "marks": 4,
+      "q": "Explain why medical developments during WWI were significant.",
+      "ms": "Levels. L2 (3-4): two or more developments, each with how it saved lives, plus the long-term significance that advances continued to save lives in civilian hospitals after the war. Content: Little Curies (mobile X-rays) found bullets and shrapnel; better blood transfusions treated severe blood loss and raised survival rates; Harold Gillies pioneered plastic surgery to rebuild soldiers' faces; better surgery for fractures, removing shrapnel and preventing infection; faster evacuation to casualty clearing stations and hospitals. L1 (1-2): describes one or two developments without explaining why they mattered. 4 marks needs the 'after the war' significance point."
+    },
+    {
+      "id": "18",
+      "type": "written",
+      "marks": 4,
+      "q": "The 'Big Three' (Britain, France and the USA) did not agree on how to treat Germany at Versailles.<br>Explain why they disagreed.",
+      "ms": "Levels. L2 (3-4): explains each country's aim AND gives a reason for it. France wanted to punish Germany harshly because France had suffered great losses in the war (and wanted Germany kept weak). The USA wanted long-lasting peace, so Germany should not be treated harshly (a harsh treaty could cause another war). Britain was in between: it wanted to punish Germany but for Germany to remain strong. 4 marks needs all three countries with at least one reason. L1 (1-2): states what one or two countries wanted, with no reasons."
+    },
+    {
+      "id": "19",
+      "type": "written",
+      "marks": 3,
+      "q": "Explain why WWI is still remembered in Britain more than 100 years later. Use <strong>two</strong> examples.",
+      "ms": "1 mark per relevant example with detail (max 2), +1 for explaining why: almost every town and village lost men, so the loss touched the whole country and became part of national identity. Examples: local war memorials in almost every town; the Cenotaph in London (1920), focus of national remembrance; the Tomb of the Unknown Warrior in Westminster Abbey (1920) for those with no known grave; the poppy, from the poem In Flanders Fields; the two-minute silence every year on 11 November."
+    },
+    {
+      "id": "20",
+      "type": "written",
+      "marks": 12,
+      "q": "<strong>Section C: Essay</strong><br>\"The most significant result of WWI was the change in women's lives.\"<br>How far do you agree? Explain your answer.<br><br>You could write about:<br>• women's work and the vote<br>• the Treaty of Versailles<br>• medical developments or the British Empire<br>You must also use your own knowledge.",
+      "ms": "Levels-based, 12 marks. L4 (10-12): a balanced, well-organised answer. Explains the changes for women in detail AND at least two other results, uses precise facts, compares their significance (short and long term, who was affected, how long it lasted), and reaches a clear, supported judgement on 'how far'. L3 (7-9): explains the changes for women and at least one other result with accurate facts; some judgement, but it may be stated rather than fully argued. L2 (4-6): describes women's changes and/or other results with some facts; explanation is limited or one-sided; little or no judgement. L1 (1-3): simple, general points with few facts. Indicative content. For: around one million women took jobs previously done by men; over 700,000 worked in munitions factories; VAD nurses; bus conductors, postal workers, police patrols, farm labourers; 1918 Representation of the People Act gave some women over 30 the vote; challenged traditional attitudes and opened political and social change. Against: only some women over 30 got the vote; many women lost war jobs when men returned. The Treaty of Versailles (war guilt, £6.6 billion reparations, lost land and colonies, army 100,000, 'diktat') created resentment that contributed to the rise of Hitler and WWII, which affected the whole world. Medical advances (transfusions, X-rays, plastic surgery) kept saving civilian lives after the war. Empire troops (over 3 million, 1.3 million Indian soldiers, ANZACs) showed the Empire's global reach but encouraged demands for independence and its later decline. Technology shaped tactics for the rest of the twentieth century. Credit any well-argued judgement, e.g. 'Versailles was more significant because it led to another world war' or 'women's change was most significant for Britain because it changed democracy'."
+    }
+  ]
+}
